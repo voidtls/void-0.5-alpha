@@ -1,0 +1,50 @@
+{
+ "status": "PASS",
+ "rows": [
+  {
+   "пункт": "1. B1 → A (regroup --undo)",
+   "status": "PASS",
+   "detail": "18 JS-фрагментов = снимок фазы A: True; манифест = снимок: True; сборка = 1.5.35: True"
+  },
+  {
+   "пункт": "1б. B1 → A (snap8 restore P8.4)",
+   "status": "PASS",
+   "detail": "совпадает со снимком P8.4"
+  },
+  {
+   "пункт": "2. текущее дерево → монолит",
+   "status": "PASS",
+   "detail": "SHA b936a549366321b6"
+  },
+  {
+   "пункт": "3. монолит → 1.5.24 (archive/rollback6, без тестового комплекта)",
+   "status": "PASS",
+   "detail": "SHA 76753e3338ab36ee; путь D перенаправлен во временную раскладку: True"
+  },
+  {
+   "пункт": "3б. 1.5.24 → 1.5.35 (archive/stage6 apply 85…93)",
+   "status": "PASS",
+   "detail": "SHA b936a549366321b6"
+  },
+  {
+   "пункт": "4. искусственный патч и возврат",
+   "status": "PASS",
+   "detail": "правка js/ui/0380-hud.js: SHA 4711cbdb126bef09 (≠ 1.5.35: True), строк CHANGES 2→3; после возврата SHA b936a549366321b6, check код 0"
+  },
+  {
+   "пункт": "5. verify-html на испорченной копии",
+   "status": "PASS",
+   "detail": "испорчен байт 7049565 в части assets/audio/mz-menu_l1.b64; названа: ['assets/audio/mz-menu_l1.b64']"
+  },
+  {
+   "пункт": "5а. verify-html: испорчен байт в куске JS",
+   "status": "PASS",
+   "detail": "испорчен байт 291859 в js/bosses/0200-s3-4-boss-data.js; названа: ['js/bosses/0200-s3-4-boss-data.js']"
+  },
+  {
+   "пункт": "5б. verify-html на целой копии",
+   "status": "PASS",
+   "detail": "совпадает со сборкой побайтно (SHA b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034)"
+  }
+ ]
+}

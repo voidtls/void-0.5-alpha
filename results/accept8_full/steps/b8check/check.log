@@ -1,0 +1,19 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/void/tools8/build8.py", "check", "--json", "/home/claude/VOID_stage8/accept8_full/steps/b8check/check.json"], "cwd": "/home/claude/VOID_stage8/void", "env": {}, "start": "2026-11-17 14:41:56"}
+build8 check
+  PASS   schema    189 частей
+  PASS   files     187 файлов, лишних нет
+  PASS   encoding  UTF-8 без BOM и \r
+  PASS   assets    57 блоков: base64 декодируется, SHA = lock
+  PASS   build     SHA b936a549366321b6, 14099130 байт, две сборки равны
+  PASS   lock      части, манифест, инварианты и SHA = lock
+  PASS   dist      dist = сборка, PROVENANCE актуален
+  PASS   coverage  покрытие: 83 частей фазы A смежны от 0 до 14099130; 189 текущих частей укладываются в них; сборка = эталон 1.5.35
+  PASS   order     boot последний; страж неба обязателен, между CINE и BG; группы непрерывны, маркеры на краях
+  PASS   guards    стражи ×1 без групп; ключей void_* 17; Math.random 373; запрещённого нет
+  PASS   syntax    разбор acorn: полная и 3 вариантов
+  PASS   init      чтений лексических имён до объявления при загрузке: полная: 0, cine: 0, bg: 0, cine+bg: 0
+  KNOWN  dangle    cine: удалено имён 97, незащищённых ['c66Fail', 'c66Tick']; bg: удалено имён 57, незащищённых нет; зарегистрировано: cine → ['c66Fail', 'c66Tick'] (cut.cine.live)
+  PASS   index     index/ совпадает с перестроенным
+ИТОГ: PASS 13 · KNOWN 1 · FAIL 0 · ERROR 0  (KNOWN — зарегистрированное отклонение, не PASS)
+
+# код выхода 0, 70 с

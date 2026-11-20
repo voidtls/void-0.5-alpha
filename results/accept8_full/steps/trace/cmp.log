@@ -1,0 +1,11 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/trace86.py", "cmp", "/home/claude/VOID_stage8/accept8_full/steps/trace/tr_A.json", "/home/claude/VOID_stage8/accept8_full/steps/trace/tr_B.json", "/home/claude/VOID_stage8/accept8_full/steps/trace/tr_A2.json", "--json", "/home/claude/VOID_stage8/accept8_full/steps/trace/cmp.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:19:54"}
+trace86: вызовов 106, вложенных 67377; из них вызовов слитых функций 19
+  order    расхождений A/B   0 · A/A   0
+  args     расхождений A/B   0 · A/A   0
+  results  расхождений A/B   0 · A/A   0
+  effects  расхождений A/B   0 · A/A   0
+  state    расхождений A/B   0 · A/A   0
+  visual   расхождений A/B   0 · A/A   0  (видимые данные — не доказательство)
+ВЕРДИКТ: поведение слитых цепочек совпадает по всем полям; прочие расхождения — только те, что есть в A/A
+
+# код выхода 0, 0 с

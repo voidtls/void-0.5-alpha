@@ -1,0 +1,76 @@
+[
+ {
+  "check": "schema",
+  "status": "PASS",
+  "detail": "189 частей"
+ },
+ {
+  "check": "files",
+  "status": "PASS",
+  "detail": "187 файлов, лишних нет"
+ },
+ {
+  "check": "encoding",
+  "status": "PASS",
+  "detail": "UTF-8 без BOM и \\r"
+ },
+ {
+  "check": "assets",
+  "status": "PASS",
+  "detail": "57 блоков: base64 декодируется, SHA = lock"
+ },
+ {
+  "check": "build",
+  "status": "PASS",
+  "detail": "SHA b936a549366321b6, 14099130 байт, две сборки равны"
+ },
+ {
+  "check": "lock",
+  "status": "PASS",
+  "detail": "части, манифест, инварианты и SHA = lock"
+ },
+ {
+  "check": "dist",
+  "status": "PASS",
+  "detail": "dist = сборка, PROVENANCE актуален"
+ },
+ {
+  "check": "coverage",
+  "status": "PASS",
+  "detail": "покрытие: 83 частей фазы A смежны от 0 до 14099130; 189 текущих частей укладываются в них; сборка = эталон 1.5.35"
+ },
+ {
+  "check": "order",
+  "status": "PASS",
+  "detail": "boot последний; страж неба обязателен, между CINE и BG; группы непрерывны, маркеры на краях"
+ },
+ {
+  "check": "guards",
+  "status": "PASS",
+  "detail": "стражи ×1 без групп; ключей void_* 17; Math.random 373; запрещённого нет"
+ },
+ {
+  "check": "syntax",
+  "status": "PASS",
+  "detail": "разбор acorn: полная и 3 вариантов"
+ },
+ {
+  "check": "init",
+  "status": "PASS",
+  "detail": "чтений лексических имён до объявления при загрузке: полная: 0, cine: 0, bg: 0, cine+bg: 0"
+ },
+ {
+  "check": "dangle",
+  "status": "KNOWN",
+  "detail": [
+   "cine: удалено имён 97, незащищённых ['c66Fail', 'c66Tick']",
+   "bg: удалено имён 57, незащищённых нет",
+   "зарегистрировано: cine → ['c66Fail', 'c66Tick'] (cut.cine.live)"
+  ]
+ },
+ {
+  "check": "index",
+  "status": "PASS",
+  "detail": "index/ совпадает с перестроенным"
+ }
+]

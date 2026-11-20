@@ -1,0 +1,28 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/thrab6.py", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "/home/claude/VOID_stage8/accept8_full/steps/flaky/thrab.json", "2", "q130:Q06:8", "q220:U05:16", "q220:U07:16"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 16:24:16"}
+q130:Q06@x8 kit A 0 FAIL
+q130:Q06@x8 kit B 0 FAIL
+q130:Q06@x8 kit6 A 0 OK
+q130:Q06@x8 kit6 B 0 OK
+q220:U05@x16 kit A 0 FAIL
+q220:U05@x16 kit B 0 FAIL
+q220:U05@x16 kit6 A 0 OK
+q220:U05@x16 kit6 B 0 OK
+q220:U07@x16 kit A 0 FAIL
+q220:U07@x16 kit B 0 OK
+q220:U07@x16 kit6 A 0 OK
+q220:U07@x16 kit6 B 0 OK
+q130:Q06@x8 kit A 1 FAIL
+q130:Q06@x8 kit B 1 FAIL
+q130:Q06@x8 kit6 A 1 OK
+q130:Q06@x8 kit6 B 1 OK
+q220:U05@x16 kit A 1 OK
+q220:U05@x16 kit B 1 FAIL
+q220:U05@x16 kit6 A 1 OK
+q220:U05@x16 kit6 B 1 OK
+q220:U07@x16 kit A 1 OK
+q220:U07@x16 kit B 1 FAIL
+q220:U07@x16 kit6 A 1 OK
+q220:U07@x16 kit6 B 1 OK
+{"q130:Q06@x8": {"kit": {"A": {"OK": 0, "FAIL": 2, "NONE": 0}, "B": {"OK": 0, "FAIL": 2, "NONE": 0}}, "kit6": {"A": {"OK": 2, "FAIL": 0, "NONE": 0}, "B": {"OK": 2, "FAIL": 0, "NONE": 0}}}, "q220:U05@x16": {"kit": {"A": {"OK": 1, "FAIL": 1, "NONE": 0}, "B": {"OK": 0, "FAIL": 2, "NONE": 0}}, "kit6": {"A": {"OK": 2, "FAIL": 0, "NONE": 0}, "B": {"OK": 2, "FAIL": 0, "NONE": 0}}}, "q220:U07@x16": {"kit": {"A": {"OK": 1, "FAIL": 1, "NONE": 0}, "B": {"OK": 1, "FAIL": 1, "NONE": 0}}, "kit6": {"A": {"OK": 2, "FAIL": 0, "NONE": 0}, "B": {"OK": 2, "FAIL": 0, "NONE": 0}}}}
+
+# код выхода 0, 532 с

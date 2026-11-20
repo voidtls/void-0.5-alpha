@@ -1,0 +1,10 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/trace86.py", "run", "/home/claude/VOID_stage8/accept8_full/steps/build/b/b85.html", "/home/claude/VOID_stage8/accept8_full/steps/trace/tr_A2.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:19:24"}
+menu обёрнуто 2058 вызовов 6 вложенных 138 []
+menu-dev обёрнуто 2058 вызовов 6 вложенных 138 []
+play обёрнуто 2058 вызовов 20 вложенных 566 []
+play-dev обёрнуто 2058 вызовов 20 вложенных 566 []
+play-touch обёрнуто 2058 вызовов 20 вложенных 593 []
+world обёрнуто 2058 вызовов 17 вложенных 32688 []
+world-dev обёрнуто 2058 вызовов 17 вложенных 32688 []
+
+# код выхода 0, 30 с

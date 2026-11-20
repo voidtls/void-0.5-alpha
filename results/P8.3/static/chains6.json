@@ -1,0 +1,7886 @@
+{
+ "build": "void.html",
+ "note": "Порядок слоёв каждого имени — порядок установки; при физическом разделении исходников (этап 8) он должен сохраниться.",
+ "chains": {
+  "makeImpulse": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 102,
+     "where": "функция загрузки arch70Boot",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·70",
+     "ver": null,
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "выполняется после arch69Boot(): все обёртки уже установлены",
+     "section": "ARCH·70 · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА ▼▼▼ (1.5.10 α «Ровно» · этап 2: изоляция случайности и времени)",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": true,
+   "runtime": false
+  },
+  "musSched": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 102,
+     "where": "функция загрузки arch70Boot",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·70",
+     "ver": null,
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "выполняется после arch69Boot(): все обёртки уже установлены",
+     "section": "ARCH·70 · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА ▼▼▼ (1.5.10 α «Ровно» · этап 2: изоляция случайности и времени)",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": true,
+   "runtime": false
+  },
+  "v12Retune": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 102,
+     "where": "функция загрузки arch70Boot",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·70",
+     "ver": null,
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "выполняется после arch69Boot(): все обёртки уже установлены",
+     "section": "ARCH·70 · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА ▼▼▼ (1.5.10 α «Ровно» · этап 2: изоляция случайности и времени)",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": true,
+   "runtime": false
+  },
+  "zbMapStatic": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 104,
+     "where": "функция загрузки arch70Boot",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·70",
+     "ver": null,
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": "выполняется после arch69Boot(): все обёртки уже установлены",
+     "section": "ARCH·70 · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА ▼▼▼ (1.5.10 α «Ровно» · этап 2: изоляция случайности и времени)",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": true,
+   "runtime": false
+  },
+  "updateHUD": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 106,
+     "where": "функция загрузки arch70Boot",
+     "form": "фабрика",
+     "factory": "arch70Hud",
+     "shape": null,
+     "block": "ARCH·70",
+     "ver": null,
+     "cls": 2,
+     "why": "HUD-обёртка этапа 3 (ARCH·70)",
+     "comment": null,
+     "section": "ARCH·70 · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА ▼▼▼ (1.5.10 α «Ровно» · этап 2: изоляция случайности и времени)",
+     "feat": null
+    },
+    {
+     "i": 2,
+     "line": 13520,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 106 → 13520 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": true,
+   "runtime": false
+  },
+  "updateEndlessHUD": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 106,
+     "where": "функция загрузки arch70Boot",
+     "form": "фабрика",
+     "factory": "arch70Hud",
+     "shape": null,
+     "block": "ARCH·70",
+     "ver": null,
+     "cls": 2,
+     "why": "HUD-обёртка этапа 3 (ARCH·70)",
+     "comment": null,
+     "section": "ARCH·70 · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА ▼▼▼ (1.5.10 α «Ровно» · этап 2: изоляция случайности и времени)",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": true,
+   "runtime": false
+  },
+  "updateWorldHUD": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 106,
+     "where": "функция загрузки arch70Boot",
+     "form": "фабрика",
+     "factory": "arch70Hud",
+     "shape": null,
+     "block": "ARCH·70",
+     "ver": null,
+     "cls": 2,
+     "why": "HUD-обёртка этапа 3 (ARCH·70)",
+     "comment": null,
+     "section": "ARCH·70 · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА ▼▼▼ (1.5.10 α «Ровно» · этап 2: изоляция случайности и времени)",
+     "feat": null
+    },
+    {
+     "i": 2,
+     "line": 14630,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.2",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "на планшете карточка увеличена через zoom — пересчитываем в её единицы",
+     "section": "1.3.2 α «Проверка»: исправления по 5000 прогонам сектора I",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 106 → 14630 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": true,
+   "runtime": false
+  },
+  "glow": {
+   "depth": 1,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 5579,
+     "where": "во время игры wkBuild",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 2,
+     "why": "временная подмена на время построения (wkBuild), восстанавливается в finally",
+     "comment": null,
+     "section": "0.5.3: обломки — разбитые корпуса VØID и чужие корабли",
+     "feat": {
+      "callsPrev": 0,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 5579,
+     "where": "во время игры wkBuild",
+     "form": "другое имя",
+     "factory": "og",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 2,
+     "why": "фабрика og",
+     "comment": null,
+     "section": "0.5.3: обломки — разбитые корпуса VØID и чужие корабли",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 5579 → 5579 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": true
+  },
+  "flameTri": {
+   "depth": 1,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 5579,
+     "where": "во время игры wkBuild",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 2,
+     "why": "временная подмена на время построения (wkBuild), восстанавливается в finally",
+     "comment": null,
+     "section": "0.5.3: обломки — разбитые корпуса VØID и чужие корабли",
+     "feat": {
+      "callsPrev": 0,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 5579,
+     "where": "во время игры wkBuild",
+     "form": "другое имя",
+     "factory": "of",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 2,
+     "why": "фабрика of",
+     "comment": null,
+     "section": "0.5.3: обломки — разбитые корпуса VØID и чужие корабли",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 5579 → 5579 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": true
+  },
+  "fire": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 10251,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "0.9",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "0.9: мир IX–X, награды, модули, справочник, хроника",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 12,
+      "gW": 5,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "lastFire90",
+    "pb",
+    "shot90"
+   ],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "floater": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 10404,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условный вызов прежней",
+     "block": "ARCH·90",
+     "ver": "0.9.5",
+     "cls": 1,
+     "why": "условный вызов прежней",
+     "comment": "--- очередь плавающих надписей: не больше двух сразу, одинаковые склеиваются «×3», справка — не чаще раза в 4 с ---",
+     "section": "0.9.5: язык угроз, комфорт, общие системы секторов IX–X",
+     "feat": {
+      "callsPrev": 2,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 10,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 14136,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "fq95"
+   ],
+   "writesControlled": [],
+   "order": "слои 10404 → 14136 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "renderMenu": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12773,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.1.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "меню: в главной кнопке — что дальше (номер и название ближайшей непройденной миссии)",
+     "section": "1.1.1 α «Стекло»: оболочка — подтверждения, клавиатура, движение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "setS": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12775,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.1.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "тень потери: красный след за полосой корпуса догоняет её с задержкой",
+     "section": "1.1.1 α «Стекло»: оболочка — подтверждения, клавиатура, движение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "memoFlash": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12780,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.1.1",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "штамп поражения живёт внутри экрана поражения, а не поверх любых окон (V-02)",
+     "section": "1.1.1 α «Стекло»: оболочка — подтверждения, клавиатура, движение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "show": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12781,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.1.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.1.1 α «Стекло»: оболочка — подтверждения, клавиатура, движение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15654,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "дев-полоса: состояние чипами",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 12781 → 15654 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "toast": {
+   "depth": 5,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12783,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.1.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.1.1 α «Стекло»: оболочка — подтверждения, клавиатура, движение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13811,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "тост: свой таймер, пауза при наведении",
+     "section": "1.2.4 α: всплывающие сообщения закрываются нажатием или свайпом",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 3,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 14141,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "новичку текстовая справка о секторе больше не нужна — её показывает обучение",
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 4,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 4,
+     "line": 15352,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- журнал событий ----------",
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 12783 → 13811 → 14141 → 15352 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "applySettings": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12784,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.1.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.1.1 α «Стекло»: оболочка — подтверждения, клавиатура, движение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13778,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "настройки: строка «Интерфейс» на ПК; применяется сразу",
+     "section": "1.2.4 α: единый масштаб интерфейса UI (1080p = 1, 1440p = 1,35, 4K = 2) + сцена 21:9",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 3,
+     "line": 14580,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.3.1 α: меню, «Допуск пилота», прозрачность, музыка",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 12784 → 13778 → 14580 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "togHTML": {
+   "depth": 1,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12785,
+     "where": "верхний уровень",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": "1.1.1",
+     "cls": 5,
+     "why": "замещённое объявление: замена присваиванием без захвата прежней",
+     "comment": null,
+     "section": "1.1.1 α «Стекло»: оболочка — подтверждения, клавиатура, движение",
+     "feat": {
+      "callsPrev": 0,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "setupMission0": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12906,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- связки с игрой",
+     "section": "связки с игрой",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13515,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "брифинг без жанровой плашки: только место",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 16143,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "события из симуляции — только запись в свои поля, без побочных эффектов",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "c66r",
+    "post",
+    "s1"
+   ],
+   "writesControlled": [],
+   "order": "слои 12906 → 13515 → 16143 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "update": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12907,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- связки с игрой",
+     "section": "связки с игрой",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13517,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "брифинг без жанровой плашки: только место",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 15326,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "не вызывает прежнюю",
+     "comment": "скорость времени, пауза и шаг кадра; на телефоне при открытом листе мир стоит",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 0,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 12907 → 13517 → 15326 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tryPulse": {
+   "depth": 5,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12908,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- связки с игрой",
+     "section": "связки с игрой",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13519,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 14133,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 4,
+     "line": 15139,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "обёртки",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 12908 → 13519 → 14133 → 15139 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "hurt": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12909,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.2.0",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- связки с игрой",
+     "section": "связки с игрой",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 7,
+      "gW": 1,
+      "rng": 2,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13709,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "раненый охотник переключается на игрока",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 15316,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "с одного попадания — кроме боссов, их фазы должны идти честно",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "mc"
+   ],
+   "writesControlled": [],
+   "order": "слои 12909 → 13709 → 15316 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "kill": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12914,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.2.0",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "связки с игрой",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 16140,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "события из симуляции — только запись в свои поля, без побочных эффектов",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 12914 → 16140 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "mineBlast": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12915,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "связки с игрой",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 16141,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "события из симуляции — только запись в свои поля, без побочных эффектов",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 12915 → 16141 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "damagePlayer": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 12916,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "связки с игрой",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 5,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15312,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": null,
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 2,
+      "args": 2,
+      "this": 2,
+      "try": 1,
+      "finally": 1,
+      "gR": 7,
+      "gW": 5,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "dev",
+    "mc",
+    "taken"
+   ],
+   "writesControlled": [],
+   "order": "слои 12916 → 15312 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "w58POI": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13495,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 4,
+      "gW": 2,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [
+    "postNear",
+    "save"
+   ],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "renderCard": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13498,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условный вызов прежней",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условный вызов прежней",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "cardKey"
+   ],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "cardAct": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13501,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 14134,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13501 → 14134 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "secSeen": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13502,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "fogHint": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13503,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "w58MapAdd": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13504,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 13693,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13504 → 13693 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "w58MapIcon": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13505,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условный вызов прежней",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условный вызов прежней",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13694,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13505 → 13694 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "migrateSave": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13507,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 2,
+     "why": "миграция старых форматов сохранения",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13712,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 2,
+     "why": "миграция старых форматов сохранения",
+     "comment": "раненый охотник переключается на игрока",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 14108,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 2,
+     "why": "миграция старых форматов сохранения",
+     "comment": null,
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13507 → 13712 → 14108 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "briefK": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13512,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "сохранения до 1.2.0 с пройденной миссией 10: сектор III у них уже был открыт — доступ не отнимаем, сторожевик становится необязательным",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "openIntro": {
+   "depth": 6,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13514,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "брифинг без жанровой плашки: только место",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15337,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "сид: брифинг (раскладка, стартовый набор) — от сида, а с «В БОЙ» — от сида+1, так что время на брифинге повтор не сбивает",
+     "section": "сид",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 15687,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "сторожевик из сетки миссий (devStart) больше не запускается в режиме dev — только через песочницу",
+     "section": "мелочи",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 4,
+     "line": 16162,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "брифинг",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 4,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 5,
+     "line": 16496,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.5.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "сборка начинается заранее: на брифинге миссии и при подлёте к сектору",
+     "section": "ОБВЯЗКА",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13514 → 15337 → 15687 → 16162 → 16496 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "updateWaves": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13516,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "брифинг без жанровой плашки: только место",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "gameOver": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13518,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15357,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13518 → 15357 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "returnToWorld": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13524,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "выход из корабля — сразу в сектор III: проход открыт, курс на миссию 11, итоги — коротким сообщением",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 9,
+      "gW": 4,
+      "rng": 0,
+      "time": 2,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 15356,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 3,
+     "line": 16156,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "победа: L-cut в 04, склейка в мир, «до первой победы»",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "course",
+    "post",
+    "postMsg",
+    "postRes"
+   ],
+   "writesControlled": [],
+   "order": "слои 13524 → 15356 → 16156 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "toMenu": {
+   "depth": 5,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13528,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13711,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "раненый охотник переключается на игрока",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 14567,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "свежая версия: пометка «НОВОЕ» держится, пока игрок не уйдёт из меню",
+     "section": "1.3.1 α: меню, «Допуск пилота», прозрачность, музыка",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 4,
+     "line": 15358,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "post"
+   ],
+   "writesControlled": [],
+   "order": "слои 13528 → 13711 → 14567 → 15358 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "renderJournals": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13529,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 13714,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13529 → 13714 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "w58DrawSkin": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13533,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условный вызов прежней",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условный вызов прежней",
+     "comment": "скин за прохождение без единой заморозки",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "musTarget": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13538,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "музыка: внутри трек сектора II на минимуме (гул корабля звучит поверх, музыкальный канал приглушён)",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 2,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 1,
+      "gR": 4,
+      "gW": 2,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 16137,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "музыка: «пригиб» режиссёра поверх пригиба игры",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "m"
+   ],
+   "writesControlled": [],
+   "order": "слои 13538 → 16137 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "applyAudio": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13539,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "музыка: внутри трек сектора II на минимуме (гул корабля звучит поверх, музыкальный канал приглушён)",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 14532,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.8",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "громкость звуков: свой множитель поверх прежних 0,32",
+     "section": "1.2.8 α: музыка меню сразу, громкость звуков, кнопки меню на телефоне",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13539 → 14532 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "sfx": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13542,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "ваш рывок иногда звучит ещё раз — издалека, через секунду",
+     "section": "мир: огромный разбитый сторожевик поперёк прохода",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 2,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 2,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 2
+     }
+    },
+    {
+     "i": 2,
+     "line": 13966,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "взрывы на мгновение прижимают подложку",
+     "section": "1.2.5 α: «Пустота-12» — живая подложка открытого мира в секторах I–II",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 3,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13542 → 13966 → 15245 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "mini95": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13695,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "buildMapLegend": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13698,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "w58Screen": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13701,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "стрелка у края экрана к событию — оранжевая, со знаком «?» и расстоянием; курс игрока не меняется",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "worldUpdate": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13703,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "подключение к миру",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15329,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "не вызывает прежнюю",
+     "comment": "сквозь скалы: позиция после полёта сохраняется, выталкивание скалами отменяется",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 0,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 4,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13703 → 15329 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "updateEnemies": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13704,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "подключение к миру",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 3,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 1,
+      "gR": 6,
+      "gW": 2,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15317,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "с одного попадания — кроме боссов, их фазы должны идти честно",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "enemies"
+   ],
+   "writesControlled": [],
+   "order": "слои 13704 → 15317 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "nearestEnemy": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13707,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "пока патруль занят двойником, автонаведение его не выбирает: игрок решает сам, вмешиваться ли",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 2,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "enterNode": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13710,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "раненый охотник переключается на игрока",
+     "section": "3. «Погоня»: патруль сектора гонится за двойником VØID к Разлому",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15355,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13710 → 15355 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "cloudWinner": {
+   "depth": 1,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13723,
+     "where": "верхний уровень",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 5,
+     "why": "замещённое объявление: замена присваиванием без захвата прежней",
+     "comment": "ранг прогресса: цикл важнее числа пройденных миссий (новый цикл обнуляет пройденные)",
+     "section": "1.2.3 · исправление облака: пустой прогресс больше не затирает облачную копию",
+     "feat": {
+      "callsPrev": 0,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "cloudPush": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13730,
+     "where": "верхний уровень",
+     "form": "функция",
+     "factory": null,
+     "shape": "условный вызов прежней",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "условный вызов прежней",
+     "comment": "резервная копия: лучшая облачная копия хранится отдельно и не перезаписывается меньшим прогрессом",
+     "section": "1.2.3 · исправление облака: пустой прогресс больше не затирает облачную копию",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 2,
+      "finally": 1,
+      "gR": 2,
+      "gW": 0,
+      "rng": 1,
+      "time": 5,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "cloudMenuCheck": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13749,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.2.3 · исправление облака: пустой прогресс больше не затирает облачную копию",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "cloudInit": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13751,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "путь и база для резервной копии; облачная копия в момент входа тоже уходит в резерв",
+     "section": "1.2.3 · исправление облака: пустой прогресс больше не затирает облачную копию",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 3,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 3
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "resize": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13773,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.2.4 α: единый масштаб интерфейса UI (1080p = 1, 1440p = 1,35, 4K = 2) + сцена 21:9",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "lockArena": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13776,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "арена миссии на ПК шире 21:9 — 21:9 по центру, остальное — фон",
+     "section": "1.2.4 α: единый масштаб интерфейса UI (1080p = 1, 1440p = 1,35, 4K = 2) + сцена 21:9",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "arena"
+   ],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "edgeArrow": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13782,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "стрелка у края экрана (вызывается из погони и телефона): на ПК — в масштабе UI и в пределах сцены",
+     "section": "1.2.4 α: единый масштаб интерфейса UI (1080p = 1, 1440p = 1,35, 4K = 2) + сцена 21:9",
+     "feat": {
+      "callsPrev": 2,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 13854,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "подпись стрелки у края на телефоне не ложится на кнопки, мини-карту, радио и тосты",
+     "section": "1.2.4 α: телефон и планшет",
+     "feat": {
+      "callsPrev": 2,
+      "args": 1,
+      "this": 5,
+      "try": 1,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13782 → 13854 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "mobOverlay": {
+   "depth": 6,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13789,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "арена 21:9 на сверхшироком: за краями — приглушённый фон и тонкая рамка поля",
+     "section": "1.2.4 α: единый масштаб интерфейса UI (1080p = 1, 1440p = 1,35, 4K = 2) + сцена 21:9",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 6,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 14385,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "кадр: после мира и HUD-канвы",
+     "section": "отрисовка: мир (канва)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 14780,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "3. карта — после миссии 02; прожектор прыжка убран",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 2,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 4,
+     "line": 14877,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "новый проход стрелок: каждый кадр мира начинается с чистого листа; в миссиях — с кадра оверлея",
+     "section": "1.3.5 α «Один курс»: стрелки у края экрана",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 5,
+     "line": 15348,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": null,
+     "section": "сид",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13789 → 14385 → 14780 → 14877 → 15348 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "fragShow": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13813,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "тост: свой таймер, пауза при наведении",
+     "section": "1.2.4 α: всплывающие сообщения закрываются нажатием или свайпом",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "radioTick": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13815,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": null,
+     "section": "1.2.4 α: всплывающие сообщения закрываются нажатием или свайпом",
+     "feat": {
+      "callsPrev": 2,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 16151,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13815 → 16151 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "radioClear": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13816,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.2.4 α: всплывающие сообщения закрываются нажатием или свайпом",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "worldLabel": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13848,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "подписи мира не обрезаются краем экрана",
+     "section": "1.2.4 α: телефон и планшет",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "ffUpdate": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13869,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "планшеты до 1200 px по короткой стороне — планшетная раскладка (iPad Pro 12,9″ больше не получает смесь ПК и тач-кнопок)",
+     "section": "1.2.4 α: телефон и планшет",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [
+    "ff"
+   ],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "uiCalc": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13874,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условный вызов прежней",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "условный вызов прежней",
+     "comment": "планшет: HUD и тач-кнопки крупнее пропорционально экрану (768 → 1, 1024 → 1,3)",
+     "section": "1.2.4 α: телефон и планшет",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "uiApply": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13875,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "планшет: HUD и тач-кнопки крупнее пропорционально экрану (768 → 1, 1024 → 1,3)",
+     "section": "1.2.4 α: телефон и планшет",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "joyR": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13876,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "планшет: HUD и тач-кнопки крупнее пропорционально экрану (768 → 1, 1024 → 1,3)",
+     "section": "1.2.4 α: телефон и планшет",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "scapeLayers": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13959,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.2.5 α: «Пустота-12» — живая подложка открытого мира в секторах I–II",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "scapeRun": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13961,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "сетка секвенсора и колокольчики — по долям подложки",
+     "section": "1.2.5 α: «Пустота-12» — живая подложка открытого мира в секторах I–II",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "musicTick": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 13968,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "взрывы на мгновение прижимают подложку",
+     "section": "1.2.5 α: «Пустота-12» — живая подложка открытого мира в секторах I–II",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 14056,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.6",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "пауза: вся музыка плавно −90 % (≈ −20 дБ), обратно — быстрее",
+     "section": "1.2.6 α: записанная музыка меню, миссий 1–10 и боссов; общая пауза −90 %",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 13968 → 14056 → 15245 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "ambSting": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14051,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.2.6",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "стингеры и звук убийства — в тональности звучащего трека",
+     "section": "1.2.6 α: записанная музыка меню, миссий 1–10 и боссов; общая пауза −90 %",
+     "feat": {
+      "callsPrev": 2,
+      "args": 0,
+      "this": 0,
+      "try": 1,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "drawMap": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14092,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "цвет колец точек прыжка: белые, при запрете — тускло-красные (переход 300 мс)",
+     "section": "1. Запрет прыжка: причина, надпись по центру карты, красные точки",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 11,
+      "gW": 4,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 16498,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.5.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "карта: у Ядра — маленький холодный ореол, тот же Маяк, что на небе",
+     "section": "ОБВЯЗКА",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [
+    "mapBlk",
+    "mapBlkAt",
+    "mapBlkK",
+    "mapBlkLast"
+   ],
+   "writesControlled": [],
+   "order": "слои 14092 → 16498 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "openMap": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14096,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1. Запрет прыжка: причина, надпись по центру карты, красные точки",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 10,
+      "gW": 3,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 14797,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "подпись в карте: одно правило, без цели",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 2,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 2
+     }
+    }
+   ],
+   "writesG": [
+    "mapBlk",
+    "mapBlkAt",
+    "mapBlkK"
+   ],
+   "writesControlled": [],
+   "order": "слои 14096 → 14797 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "closeMap": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14098,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1. Запрет прыжка: причина, надпись по центру карты, красные точки",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 14799,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "подпись в карте: одно правило, без цели",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14098 → 14799 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "cloudApply": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14111,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "облако: пройденный где-то урок пройден везде",
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 2,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 2
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tryDash": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14131,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15137,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "обёртки",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14131 → 15137 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "banner": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14135,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15351,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- журнал событий ----------",
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 3,
+     "line": 16142,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "события из симуляции — только запись в свои поля, без побочных эффектов",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14135 → 15351 → 16142 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutTick": {
+   "depth": 1,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14143,
+     "where": "верхний уровень",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 5,
+     "why": "замещённое объявление: замена присваиванием без захвата прежней",
+     "comment": "старая подсказка 0.6.0 заменена",
+     "section": "2. Обучение",
+     "feat": {
+      "callsPrev": 0,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "enterWorldAt": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14389,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "при каждом входе в мир счётчик «спокойного полёта» начинается заново",
+     "section": "отрисовка: мир (канва)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "renderSetScreen": {
+   "depth": 5,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14392,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- настройки: переключатель и «пройти заново» ----------",
+     "section": "настройки: переключатель и «пройти заново»",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15207,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "ARCH·86 · объединённый слой renderSetScreen: 3 слоя (строки 1.5.25: 14438, 14489, 15095) в исходном порядке исполнения",
+     "section": "1.4.1 α «Пульт»: настройки и пауза",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 3,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 2
+     }
+    },
+    {
+     "i": 3,
+     "line": 16172,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- настройка «КИНО» во вкладке «ЭКРАН» ----------",
+     "section": "настройка «КИНО» во вкладке «ЭКРАН»",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 4,
+     "line": 16503,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.5.7",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- настройка «ЯРКОСТЬ НЕБА» во вкладке «ЭКРАН» ----------",
+     "section": "настройка «ЯРКОСТЬ НЕБА» во вкладке «ЭКРАН»",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14392 → 15207 → 16172 → 16503 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutDone": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14422,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.8",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "освоено = сделано руками: пропуск «✕» и три показа без успеха навык не засчитывают",
+     "section": "навыки пилота: что освоено руками",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutEnd": {
+   "depth": 6,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14423,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.8",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "освоено = сделано руками: пропуск «✕» и три показа без успеха навык не засчитывают",
+     "section": "навыки пилота: что освоено руками",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 14752,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "не навязываться: дорожку проигнорировали — больше не показываем, но и галочку не ставим",
+     "section": "2. «лом» и «склад» — сразу после миссии 01",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 3,
+     "line": 14861,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.3.4",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "в 1.3.3 игнор дорожки 45 с закрывал урок — теперь он держится до визита",
+     "section": "1. дом после миссии 01",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 4,
+     "line": 15354,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- журнал событий ----------",
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 5,
+     "line": 15426,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "«▶ показать сейчас»: урок держится минимум 5 с, даже если повода (враг, пуля, карта) нет — чтобы его можно было рассмотреть",
+     "section": "обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14423 → 14752 → 14861 → 15354 → 15426 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutWorldDraw": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14474,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.8",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- живые показы поверх уроков ----------",
+     "section": "живые показы поверх уроков",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutGhostDraw": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14514,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.2.8",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "призрак пальца — и для колец калибровки",
+     "section": "живые показы поверх уроков",
+     "feat": {
+      "callsPrev": 2,
+      "args": 2,
+      "this": 2,
+      "try": 1,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "pause": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14525,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.8",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "карточка «ДОПУСК ПИЛОТА» в паузе: управление под ваше устройство",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 14570,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "«Допуск пилота» в паузе: по умолчанию свёрнут; когда освоены все навыки — карточки нет",
+     "section": "1.3.1 α: меню, «Допуск пилота», прозрачность, музыка",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 3,
+     "line": 15237,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "пауза: сводка и быстрый звук",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14525 → 14570 → 15237 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "sbRank": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14553,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.2.9",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "боссы секторов и их части задают прочность сами — через sbRank()",
+     "section": "1.2.9 α: миссии 15–24 — враги прочнее и бьют больнее в 1,5 раза (скорость и темп атак без изменений)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "layoutTouch": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14579,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "прозрачность стика — отдельная настройка",
+     "section": "1.3.1 α: меню, «Допуск пилота», прозрачность, музыка",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 14667,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.2",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "подсказка плавающего стика («ДВИЖЕНИЕ») тоже не должна ложиться на кнопки",
+     "section": "1.3.2 α «Проверка»: исправления по 5000 прогонам сектора I",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14579 → 14667 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "renderSettings": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14588,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "ARCH·86 · объединённый слой renderSettings: 3 слоя (строки 1.5.25: 13689, 14439, 14490) в исходном порядке исполнения",
+     "section": "1.3.1 α: меню, «Допуск пилота», прозрачность, музыка",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 3,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 3
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutSkillPop": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14637,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.2",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.3.2 α «Проверка»: исправления по 5000 прогонам сектора I",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 2,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 2
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutBlockers": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14639,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.2",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "подсказки обучения обходят и всплывающий «Допуск пилота», и карточку объекта — раньше могли лечь под них",
+     "section": "1.3.2 α «Проверка»: исправления по 5000 прогонам сектора I",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 16165,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "обучение: титр и табличка — препятствия для подсказки",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14639 → 16165 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "joyFixed": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14664,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.2",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "стик на узких телефонах заходил на кнопки «КАРТА»/«ИМП» (и у правшей, и у левшей) — отодвигаем к краю, а если мало — выше",
+     "section": "1.3.2 α «Проверка»: исправления по 5000 прогонам сектора I",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutPlace": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14681,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.2",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "подсказка обучения: если все обычные места заняты (кнопки, панели), ищем ближайшее свободное по вертикали, а не ложимся поверх кнопки",
+     "section": "1.3.2 α «Проверка»: исправления по 5000 прогонам сектора I",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutClean": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14694,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- сохранение: прогресс калибровки и флаг подписи в карте переживают перезагрузку ----------",
+     "section": "сохранение: прогресс калибровки и флаг подписи в карте переживают перезагрузку",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutCalNew": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14703,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- 1. калибровка: повтор до успеха ----------",
+     "section": "1. калибровка: повтор до успеха",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutStart": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14728,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "перезапуски калибровки не съедают лимит «6 подсказок за 10 минут»",
+     "section": "1. калибровка: повтор до успеха",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15353,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "---------- журнал событий ----------",
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 3,
+     "line": 15428,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14728 → 15353 → 15428 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutCalDraw": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14730,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "призрак рывка показывает проход со стороны игрока: ворота проходятся в обе стороны",
+     "section": "1. калибровка: повтор до успеха",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 1,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "openShop": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14750,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "склад засчитан: долетел до мастерской, пока горит дорожка, или открыл её",
+     "section": "2. «лом» и «склад» — сразу после миссии 01",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutTick2": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14764,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "наблюдения: склад рядом, калибровка уступает окнам «после миссии»",
+     "section": "3. карта — после миссии 02; прожектор прыжка убран",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 3,
+      "finally": 1,
+      "gR": 7,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 2
+     }
+    },
+    {
+     "i": 2,
+     "line": 14848,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.4",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "«склад» — первый в очереди после боевых: карточка объекта у миссии 01 его не перебивает",
+     "section": "1. дом после миссии 01",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 6,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 3,
+     "line": 15427,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 14764 → 14848 → 15427 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "mapTab": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14800,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "подпись в карте: одно правило, без цели",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutEmit": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14803,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "ARCH·86 · объединённый слой tutEmit: 2 слоя (строки 1.5.25: 14365, 14697) в исходном порядке исполнения",
+     "section": "подпись в карте: одно правило, без цели",
+     "feat": {
+      "callsPrev": 1,
+      "args": 2,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 1,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutMapDraw": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14808,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.3",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "ARCH·86 · объединённый слой tutMapDraw: 2 слоя (строки 1.5.25: 14416, 14699) в исходном порядке исполнения",
+     "section": "подпись в карте: одно правило, без цели",
+     "feat": {
+      "callsPrev": 1,
+      "args": 2,
+      "this": 1,
+      "try": 2,
+      "finally": 0,
+      "gR": 11,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 2
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "renderWorld": {
+   "depth": 4,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 14876,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.3.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "новый проход стрелок: каждый кадр мира начинается с чистого листа; в миссиях — с кадра оверлея",
+     "section": "1.3.5 α «Один курс»: стрелки у края экрана",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 15348,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": null,
+     "section": "сид",
+     "feat": null
+    },
+    {
+     "i": 3,
+     "line": 16491,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.5.7",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": null,
+     "section": "ОБВЯЗКА",
+     "feat": {
+      "callsPrev": 3,
+      "args": 3,
+      "this": 3,
+      "try": 3,
+      "finally": 1,
+      "gR": 3,
+      "gW": 2,
+      "rng": 0,
+      "time": 2,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "decor"
+   ],
+   "writesControlled": [],
+   "order": "слои 14876 → 15348 → 16491 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "drawShip": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15118,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.4.0",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "---------- обёртки ----------",
+     "section": "обёртки",
+     "feat": {
+      "callsPrev": 2,
+      "args": 2,
+      "this": 2,
+      "try": 4,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 4
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "drawPlayer": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15128,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.4.0",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "финиш рывка на самом корпусе: короткое «оседание» — кольцо в цвет следа сжимается к корпусу",
+     "section": "обёртки",
+     "feat": {
+      "callsPrev": 2,
+      "args": 2,
+      "this": 2,
+      "try": 3,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 2
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "drawHangarPreviews": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15141,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.0",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "обёртки",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "closeSettings": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15238,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "пауза: сводка и быстрый звук",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "noiseBuf": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "scapeStep": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "radioSay": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "thump": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "snd85": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "snd90": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "step90": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "snd95": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "snd110": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "step110": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "snd120": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "postAudio": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "postSnd": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutChord": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutNote": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15245,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso63",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.1",
+     "cls": 2,
+     "why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком",
+     "comment": "все звуковые функции: шум, ноты, музыкальные шаги, радиопомехи",
+     "section": "пауза: сводка и быстрый звук",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "head63": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15256,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.2",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "1.4.2 α «Пульт»: одна кнопка «Готово», вкладки без прокрутки",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "zeroOpen110": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15281,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- 1. доступ: в песочнице открыто всё ----------",
+     "section": "1. доступ: в песочнице открыто всё",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "arsOpen": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15282,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- 1. доступ: в песочнице открыто всё ----------",
+     "section": "1. доступ: в песочнице открыто всё",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "postAvail": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15284,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "сторожевик в песочнице — на своём месте (раньше «всё открыто» прятало его, чтобы он не перегораживал III)",
+     "section": "1. доступ: в песочнице открыто всё",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "devStart": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15299,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- 2. сетка выбора миссий: сторожевик и босс 50 — через песочницу ----------",
+     "section": "2. сетка выбора миссий: сторожевик и босс 50 — через песочницу",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "openDev": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15300,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "2. сетка выбора миссий: сторожевик и босс 50 — через песочницу",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "lc95": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15306,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- 3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное ----------",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "riftKill": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15307,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- 3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное ----------",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "addIce": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15308,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- 3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное ----------",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "addWear": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15309,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- 3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное ----------",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "updateBullets": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15318,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "с одного попадания — кроме боссов, их фазы должны идти честно",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "postDK": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15331,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "сторожевик: холод и свет",
+     "section": "3. бессмертие: 0 — выкл, 1 — держать 1 HP, 2 — полное",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 4,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "startMission": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15338,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "сид: брифинг (раскладка, стартовый набор) — от сида, а с «В БОЙ» — от сида+1, так что время на брифинге повтор не сбивает",
+     "section": "сид",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 8,
+      "gW": 3,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    },
+    {
+     "i": 2,
+     "line": 16160,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "старт боя: режиссёр начинает в тот же кадр — интерфейс 01 не мигает до «загрузки систем»",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "calm",
+    "lastFire90",
+    "rdt90"
+   ],
+   "writesControlled": [],
+   "order": "слои 15338 → 16160 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "part": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15347,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": null,
+     "section": "сид",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "explode": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15347,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": null,
+     "section": "сид",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "render": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15348,
+     "where": "верхний уровень",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": null,
+     "section": "сид",
+     "feat": null
+    },
+    {
+     "i": 2,
+     "line": 16487,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "смешанный",
+     "block": "ARCH·90",
+     "ver": "1.5.7",
+     "cls": 1,
+     "why": "смешанный",
+     "comment": "---------- ОБВЯЗКА ----------",
+     "section": "ОБВЯЗКА",
+     "feat": {
+      "callsPrev": 3,
+      "args": 3,
+      "this": 3,
+      "try": 3,
+      "finally": 1,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 2,
+      "toString": 0,
+      "retPrev": 2,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "слои 15348 → 16487 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "zbAbort": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15359,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": null,
+     "section": "журнал событий",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutOn": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15420,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "---------- обучение ----------",
+     "section": "обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 4,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutCtxOk": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15424,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "«▶ показать сейчас»: урок держится минимум 5 с, даже если повода (враг, пуля, карта) нет — чтобы его можно было рассмотреть",
+     "section": "обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "tutCalm": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15425,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": "«▶ показать сейчас»: урок держится минимум 5 с, даже если повода (враг, пуля, карта) нет — чтобы его можно было рассмотреть",
+     "section": "обучение",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "toggleDevPanel": {
+   "depth": 1,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 15464,
+     "where": "верхний уровень",
+     "form": "функция",
+     "factory": null,
+     "shape": "не вызывает прежнюю",
+     "block": "ARCH·90",
+     "ver": "1.4.5",
+     "cls": 5,
+     "why": "замещённое объявление: замена присваиванием без захвата прежней",
+     "comment": null,
+     "section": "панель",
+     "feat": {
+      "callsPrev": 0,
+      "args": 0,
+      "this": 0,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "bg110": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 16130,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "слои отрисовки",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 2,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "s1DrawOver": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 16131,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "слои отрисовки",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 1,
+      "gW": 0,
+      "rng": 0,
+      "time": 2,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "drawDevOverlay": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 16132,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "слои отрисовки",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 0,
+      "rng": 0,
+      "time": 2,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "worldMissionDone": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 16153,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "безусловный хук",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "безусловный хук",
+     "comment": "победа: L-cut в 04, склейка в мир, «до первой победы»",
+     "section": "ОБВЯЗКА: обёртки (все сняты вместе с блоком)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 2,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 0,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "dvAct": {
+   "depth": 3,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 16200,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": null,
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "ВЕРСТАК: кино в панели разработчика (вкладка «БОЙ»)",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 1,
+      "finally": 0,
+      "gR": 3,
+      "gW": 1,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 1
+     }
+    },
+    {
+     "i": 2,
+     "line": 16516,
+     "where": "блок верхнего уровня",
+     "form": "функция",
+     "factory": null,
+     "shape": "условная замена + вызов",
+     "block": "ARCH·90",
+     "ver": "1.5.7",
+     "cls": 1,
+     "why": "условная замена + вызов",
+     "comment": null,
+     "section": "ВЕРСТАК: «НЕБО · 1.5.5» во вкладках «МИР» и «БОЙ»",
+     "feat": {
+      "callsPrev": 1,
+      "args": 1,
+      "this": 1,
+      "try": 0,
+      "finally": 0,
+      "gR": 0,
+      "gW": 0,
+      "rng": 0,
+      "time": 0,
+      "toString": 0,
+      "retPrev": 1,
+      "catchSwallow": 0
+     }
+    }
+   ],
+   "writesG": [
+    "dev"
+   ],
+   "writesControlled": [],
+   "order": "слои 16200 → 16516 должны устанавливаться в этом порядке после объявления",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "buildNebula": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 16208,
+     "where": "блок верхнего уровня",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.5.5",
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": null,
+     "section": "1.5.5: старое небо (туманность и звёзды) рисуется со своей случайностью",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  },
+  "buildStars": {
+   "depth": 2,
+   "decls": 1,
+   "layers": [
+    {
+     "i": 1,
+     "line": 16208,
+     "where": "блок верхнего уровня",
+     "form": "фабрика",
+     "factory": "iso65",
+     "shape": null,
+     "block": "ARCH·90",
+     "ver": "1.5.5",
+     "cls": 2,
+     "why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами",
+     "comment": null,
+     "section": "1.5.5: старое небо (туманность и звёзды) рисуется со своей случайностью",
+     "feat": null
+    }
+   ],
+   "writesG": [],
+   "writesControlled": [],
+   "order": "один слой",
+   "bootInstalled": false,
+   "runtime": false
+  }
+ },
+ "summary": {
+  "withComment": 148,
+  "sectionOnly": 81,
+  "noContext": 0,
+  "names": 149,
+  "layers": 229,
+  "byClass": {
+   "1": 187,
+   "2": 38,
+   "5": 4
+  },
+  "maxDepth": 6,
+  "writingControlled": []
+ },
+ "crossSeries": [
+  {
+   "name": "tryPulse",
+   "layers1525": [
+    14033,
+    15028
+   ],
+   "subsystems": [
+    [
+     "tut"
+    ],
+    [
+     "skin"
+    ]
+   ]
+  },
+  {
+   "name": "toMenu",
+   "layers1525": [
+    13422,
+    13605,
+    14470,
+    15243
+   ],
+   "subsystems": [
+    [
+     "post"
+    ],
+    [
+     "chase"
+    ],
+    [
+     "vn"
+    ],
+    [
+     "dev"
+    ]
+   ]
+  },
+  {
+   "name": "enterNode",
+   "layers1525": [
+    13604,
+    15240
+   ],
+   "subsystems": [
+    [
+     "chase"
+    ],
+    [
+     "dev"
+    ]
+   ]
+  },
+  {
+   "name": "mobOverlay",
+   "layers1525": [
+    14285,
+    14675,
+    14766
+   ],
+   "subsystems": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ],
+    [
+     "world61"
+    ]
+   ]
+  },
+  {
+   "name": "openMap",
+   "layers1525": [
+    13996,
+    14692
+   ],
+   "subsystems": [
+    [
+     "tut",
+     "mapdeny"
+    ],
+    [
+     "tut"
+    ]
+   ]
+  },
+  {
+   "name": "closeMap",
+   "layers1525": [
+    13998,
+    14694
+   ],
+   "subsystems": [
+    [
+     "tut",
+     "mapdeny"
+    ],
+    [
+     "tut"
+    ]
+   ]
+  },
+  {
+   "name": "tryDash",
+   "layers1525": [
+    14031,
+    15026
+   ],
+   "subsystems": [
+    [
+     "tut"
+    ],
+    [
+     "skin"
+    ]
+   ]
+  },
+  {
+   "name": "banner",
+   "layers1525": [
+    14035,
+    15236
+   ],
+   "subsystems": [
+    [
+     "tut"
+    ],
+    [
+     "dev"
+    ]
+   ]
+  },
+  {
+   "name": "pause",
+   "layers1525": [
+    14428,
+    14473,
+    15122
+   ],
+   "subsystems": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ],
+    [
+     "pausecard"
+    ]
+   ]
+  },
+  {
+   "name": "tutStart",
+   "layers1525": [
+    14623,
+    15238
+   ],
+   "subsystems": [
+    [
+     "tut"
+    ],
+    [
+     "dev",
+     "tut"
+    ]
+   ]
+  },
+  {
+   "name": "tutTick2",
+   "layers1525": [
+    14659,
+    14737,
+    15312
+   ],
+   "subsystems": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ],
+    [
+     "dev",
+     "tut"
+    ]
+   ]
+  }
+ ]
+}

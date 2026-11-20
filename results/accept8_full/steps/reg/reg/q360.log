@@ -1,0 +1,29 @@
+    1 DIFF ['.mid.k', '.mid.x', '.mid.y', '.mid.e', '.mid.rnd', '.end.k'] play k28 e8 []
+    2 DIFF ['.mid.x', '.mid.y', '.mid.e', '.mid.rnd', '.end.k', '.end.tk'] play k31 e0 []
+    6 DIFF ['.mid.tk', '.mid.x', '.mid.y', '.mid.hp', '.mid.e', '.mid.np'] play k14 e5 []
+    10 DIFF ['.mid.k', '.mid.x', '.mid.y', '.mid.e', '.mid.np', '.mid.ph'] play k17 e8 []
+    14 DIFF ['.mid.k', '.mid.tk', '.mid.x', '.mid.y', '.mid.hp', '.mid.e'] play k19 e2 []
+    18 DIFF ['.mid.k', '.mid.tk', '.mid.x', '.mid.y', '.mid.e', '.mid.np'] play k4 e5 []
+    22 DIFF ['.mid.k', '.mid.tk', '.mid.x', '.mid.y', '.mid.hp', '.mid.e'] play k2 e7 []
+    27 DIFF ['.mid.tk', '.mid.x', '.mid.y', '.mid.e', '.mid.np', '.mid.ph'] play k2 e4 []
+    31 DIFF ['.mid.k', '.mid.tk', '.mid.x', '.mid.y', '.mid.hp', '.mid.e'] play k6 e8 []
+    38 DIFF ['.mid.k', '.mid.tk', '.mid.x', '.mid.y', '.mid.e', '.mid.np'] play k4 e9 []
+    42 DIFF ['.mid.k', '.mid.tk', '.mid.x', '.mid.y', '.mid.e', '.mid.ph'] play k6 e10 []
+    46 DIFF ['.mid.k', '.mid.tk', '.mid.x', '.mid.y', '.mid.e', '.mid.np'] play k5 e8 []
+    50 = world k0 e18 []
+FAIL G01 золотой повтор: 12 миссий (01, 02, боссы 06–46; 50 из стенда не запускается) по 30 с с одним сидом — эталон 1.5.7, 1.5.8 «вкл» и «выкл» дают одно состояние до бита: враги, позиции, ХП, частицы, следующее случайное число · {"1": "DIFF ['.mid.k', '.mid.x', '.mid.y', '.mid.e', '.mid.rnd', '.end.k'] play k28 e8", "2": "DIFF ['.mid.x', '.mid.y', '.mid.e', '.mid.rnd', '.end.k', '.end.tk'] play k31 e0", "6": "DIFF ['.mid.tk', '.mid.x', '.mid.y', '.mid.hp', '.mid.e', '.mid.np'] play k14 e5", "10": "DIFF ['.mid.k', '.mid.x', '.mid.y', '.mid.e', '.mid.np', '.mid.ph'] play k17 e8", "14": "DIFF ['.mid.k', '.mid.tk', '.mid.x', 
+   ⏱ G01 270.2 s
+FAIL G02 массовый бой: 120 врагов, из них 45 щитоносцев и 15 командиров, 25 с — три сборки совпадают до бита (разведение, щиты, усиления) · {"same": false, "diff": [".mid.k", ".mid.tk", ".mid.x", ".mid.y", ".mid.e", ".mid.np"], "alive_mid": 91, "alive_end": 55, "np": 21, "errs": [[], [], []]}
+   ⏱ G02 50.0 s
+OK   G03 открытый мир: 40 с полёта с одним сидом — три сборки совпадают (позиция, туман, враги мира, текст HUD) · {"same": true, "diff": [], "on": {"st": "world", "x": 1249.8625, "y": 388.9355, "fog": 1}}
+   ⏱ G03 16.9 s
+FAIL G04 · "EXC strip75: место не найдено ровно один раз: <dl class=\"kv\"><dt>1.5.15 α</dt><dd>«Шаг IV». Мелкие визуальные эффекты — вспышки щитов, п"
+   ⏱ G04 0.9 s
+OK   G05 карта: «Разлом» и кадр карты (9 секторов пройдено, эрозия 40 %) совпадают попиксельно; время сборки «Разлома» — эталон / вкл / выкл · {"base": {"rift": [46, 86, 50, 39, 52, 42, 39, 39, 42, 44, 35, 44, 46, 42, 100, 80, 46, 57, 64, 42, 57, 68, 179, 253, 154, 46, 72, 109, 40, 43, 174, 137, 48, 42, 39, 56, 48, 46, 50, 39, 42, 80, 47, 49, 70, 49, 39, 45, 143, 100, 52, 43, 76, 114, 57, 80, 80, 67, 72, 39, 42, 43, 42, 49, 175, 61, 50, 48, 47, 43, 44, 39, 39, 44, 46, 106, 181, 76, 60, 165, 106, 54, 46, 43, 43, 85, 130, 52, 46, 46, 80, 9
+   ⏱ G05 8.8 s
+OK   G06 числа: fmt и fmtN дают тот же текст, что toLocaleString('ru-RU'), на 20 017 значениях (0, −0, NaN, ∞, половинки, 10¹⁵); с выключенным флагом — старый путь · {"n": 20017, "bad": 0, "bad2": 0, "fmtNstr": "abc", "lomH": "<span class=\"lom\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 1.4 13.7 4.7v6.6L8 14.6 2.3 11.3V4.7Z\" fill=\"#141c28\" stroke=\"#c9d2de\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><path d=\"M8 1.4 13.7 4.7 8 8Z\" fill=\"#ffb84d\" opacity=\".9\"/><circle cx=\"8\" cy=\"8\" r=\"2.3\" fill=\"#04060c\" stroke=\"#c9d2d
+   ⏱ G06 2.8 s
+FAIL G07 откат на лету: флаги O-2…O-6 переключаются каждые 97 кадров посреди массового боя — итог тот же, что без переключений (первый прогон на странице — прогрев, сравниваются 2-й…4-й) · {"same": false, "ctl": false, "ctl2": false, "a": 1376, "np": 1, "errs": []}
+   ⏱ G07 24.8 s
+FAIL G08 телефон 390×844: миссия 10, 20 с с одним сидом — три сборки совпадают · {"same": false, "diff": [".mid.k", ".mid.x", ".mid.y", ".mid.e", ".mid.np", ".mid.ph"]}
+   ⏱ G08 8.6 s

@@ -1,0 +1,43 @@
+{
+ "pairs": {
+  "renderSettings": {
+   "before": 3,
+   "after": 1,
+   "merged": 3,
+   "pre": 3,
+   "post": 3,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  },
+  "renderSetScreen": {
+   "before": 6,
+   "after": 4,
+   "merged": 3,
+   "pre": 0,
+   "post": 3,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  },
+  "tutEmit": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 0,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  },
+  "tutMapDraw": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 1,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  }
+ },
+ "ok": true,
+ "errs": [],
+ "otherBlocksChanged": 0
+}

@@ -1,0 +1,4 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/st6.py", "cmp", "/home/claude/VOID_stage8/accept8_full/steps/st6/trans_164.json", "/home/claude/VOID_stage8/accept8_full/steps/st6/trans_175.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:25:52"}
+st6: прогонов 5; пар переходов A 22, B 22; расхождений 0
+
+# код выхода 0, 0 с

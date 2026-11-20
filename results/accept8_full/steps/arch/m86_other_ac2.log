@@ -1,0 +1,4 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/archcheck6.py", "diff", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/arch_fp_v47v2.json", "/home/claude/VOID_stage8/accept8_full/steps/arch/mut/m86_other.html", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/arch_allow_70_74.json", "--exact", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit6/data/arch_exact86v2.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {"ARCHCHECK_V2": "1"}, "start": "2026-11-17 15:18:19"}
+{"violations": [["chain", "toMenu", 4, 4, "состав"]], "n": 1}
+
+# код выхода 1, 0 с

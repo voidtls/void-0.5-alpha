@@ -1,0 +1,26 @@
+{
+ "calls": 106,
+ "nested": 67377,
+ "A/B": {
+  "order": 0,
+  "args": 0,
+  "results": 0,
+  "effects": 0,
+  "state": 0,
+  "visual": 0
+ },
+ "A/A": {
+  "order": 0,
+  "args": 0,
+  "results": 0,
+  "effects": 0,
+  "state": 0,
+  "visual": 0
+ },
+ "merged_calls": 19,
+ "merged_diffs": [],
+ "unexplained": [],
+ "ab": [],
+ "aa": [],
+ "ok": true
+}

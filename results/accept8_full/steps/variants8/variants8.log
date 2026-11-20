@@ -1,0 +1,14 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/void/tools8/variants8.py", "--testkit", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "--out", "/home/claude/VOID_stage8/accept8_full/steps/variants8/variants8.json", "--k"], "cwd": "/home/claude/VOID_stage8/void", "env": {}, "start": "2026-11-17 14:51:21"}
+полная {"without": null, "стенд": {"skyRand": 0, "skyErr": null, "C66": "object", "BG67": "object", "state": "play", "bot": "play", "ver": "1.5.35 α", "ошибки": [], "ошибок": 0}, "аудио": {"блоков": 57, "совпало": 57, "расхождения": []}, "живой": {"state": "play", "simT": 4.02, "trips": 0, "c66s": true, "ошибок": 0, "ошибки": [], "чужих": [], "чужих_n": 0}}
+без cine {"without": "cine", "стенд": {"skyRand": 0, "skyErr": null, "C66": "undefined", "BG67": "object", "state": "play", "bot": "play", "ver": "1.5.35 α", "ошибки": [], "ошибок": 0}, "живой": {"state": "pause", "simT": 0.5, "trips": 1, "c66s": true, "ошибок": 30, "ошибки": ["CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_qekqgy40/v_cine.html:1917:47)\n    at frame74 (file:///tmp/var8_qekqgy40/v_cine.html:1924:119)\n    at frame (file:///tmp/var8_qekqgy40/v_cine.html:14293:
+без bg {"without": "bg", "стенд": {"skyRand": 0, "skyErr": null, "C66": "object", "BG67": "undefined", "state": "play", "bot": "play", "ver": "1.5.35 α", "ошибки": [], "ошибок": 0}, "живой": {"state": "play", "simT": 4.02, "trips": 0, "c66s": true, "ошибок": 0, "ошибки": [], "чужих": [], "чужих_n": 0}}
+без cine+bg {"without": "cine,bg", "стенд": {"skyRand": 0, "skyErr": null, "C66": "undefined", "BG67": "undefined", "state": "play", "bot": "play", "ver": "1.5.35 α", "ошибки": [], "ошибок": 0}, "живой": {"state": "pause", "simT": 0.5, "trips": 1, "c66s": true, "ошибок": 30, "ошибки": ["CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_qekqgy40/v_cine_bg.html:1913:47)\n    at frame74 (file:///tmp/var8_qekqgy40/v_cine_bg.html:1920:119)\n    at frame (file:///tmp/var8_qekqgy40/v_cine
+
+variants8:
+  PASS   полная                 живой цикл: 0 ошибок, 4.02 с симуляции
+  KNOWN  без cine               cut.cine.live: 30 ошибок «c66Fail/c66Tick is not defined» в step74, других нет; состояние pause, защита ARCH·69: 1
+  PASS   без bg                 живой цикл: 0 ошибок, 4.02 с симуляции
+  KNOWN  без cine+bg            cut.cine.live: 30 ошибок «c66Fail/c66Tick is not defined» в step74, других нет; состояние pause, защита ARCH·69: 1
+  PASS   K: без bg против полной K-подмножество 72 заданий: без bg = полной по отпечаткам, ГСЧ (341614 вызовов), снимкам; расхождений 0 []
+
+# код выхода 0, 960 с

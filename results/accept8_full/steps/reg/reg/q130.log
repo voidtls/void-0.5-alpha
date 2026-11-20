@@ -1,0 +1,18 @@
+OK   Q01 карточка узла пропускает касание к стику, кнопка карточки работает · {"pt": [261.203125, 306.5, true], "joy": true, "moved": 203, "btn": [293.7109375, 343, "enter"], "st": "intro", "errs": []}
+   ⏱ Q01 5.0 s
+OK   Q02 новая версия с чистым браузером получает прогресс из облака · {"msg": "Полёт загружен: пройдено миссий — 49.", "cloud": "ready", "pushes": 3, "bodyDone": 49, "lab": "ПРОДОЛЖИТЬ Миссия 50 · Нулевой мигENTER", "state": "world", "done": 49, "cleared": 10, "toast": "ПРОГРЕСС ВОССТАНОВЛЕНОблачная копия: пройдено миссий 49 из 5", "rec": "", "errs": []}
+   ⏱ Q02 9.4 s
+OK   Q03 код работает, даже если браузер запрещает запись · {"msg": "Полёт загружен: пройдено миссий — 49.", "lab": "ПРОДОЛЖИТЬ Миссия 50 · Нулевой мигENTER", "state": "world", "done": 49, "rec": "СОХРАНИТЕ КОД", "errs": []}
+   ⏱ Q03 2.5 s
+OK   Q04 код из чата загружается с кавычками, пробелами и текстом вокруг · {"quoted": true, "nbsp": true, "zwsp": true, "prefix": true, "newlines": true, "backticks": true, "urlsafe": true, "bad": "Код не распознан. Проверьте, что он скопирован цел", "errs": []}
+   ⏱ Q04 4.0 s
+OK   Q05 правила синхронизации: больший прогресс и явные действия побеждают · {"got": {"freshVsCloud49": "cloud", "newFlightVsCloud49": "local", "cloudResetNewer": "cloud", "localMore": "local", "sameNewerCloud": "cloud", "sameOlderCloud": "local", "emptyLocal": "cloud"}, "errs": []}
+   ⏱ Q05 2.9 s
+OK   Q06 новый полёт перекрывает облако — прогресс 49 не воскресает · {"restored": 49, "cloudDone": 0, "force": true, "done": 0, "lab": "ПРОДОЛЖИТЬ Миссия 1 · ПробуждениеENTER", "errs": [], "kit6_wait_ms": [151, 10, 615, 26]}
+   ⏱ Q06 14.4 s
+OK   Q07 туман войны: миссии по цепочке, стена держит и сверху, проход в III — после поста, прыжки и карта · {"chain0": "open,locked,locked,locked,locked", "topBypass": 551, "seen6": 10000, "gateStill": 1168, "passII": 6499, "wallIII": 9985, "postWall": 9984, "chainPost": "done,locked", "passIII": 11492, "wallIV": 13385, "jumpNoIV": true, "revealBeyond": false, "chain": "done,open,locked", "xii": "done,open,locked|false", "errs": []}
+   ⏱ Q07 4.6 s
+OK   Q08 сохранение альфы: ворота II открыты по прогрессу, корабль переносится из тумана · {"gate": true, "x": 440, "fx": 10000, "n31": "open", "n32": "locked", "n29": "done", "errs": []}
+   ⏱ Q08 2.4 s
+OK   Q09 закрытая миссия без карточки и под помехами, открытая — с карточкой · {"m2": {"card": "МИССИЯ 02Отзвук выстрелов\n\n      \n      ", "d": 60}, "m3": {"card": false, "d": 195}, "errs": []}
+   ⏱ Q09 3.5 s

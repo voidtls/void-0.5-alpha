@@ -1,0 +1,20 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/run6.py", "reg", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html", "/home/claude/VOID_stage8/accept8_full/steps/regbase/reg", "--overlay", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit6", "--suites", "q130,q170,q220,q310,q370,q380", "--base", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/out5/p84/reg24", "--aa", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/baseline/reg20_aa"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 16:36:11"}
+q130: OK (записей 9/9, 48 с)
+q170: OK (записей 13/13, 48 с)
+q310: OK (записей 13/13, 71 с)
+q220: OK (записей 11/11, 108 с)
+q370: OK (записей 12/12, 998 с)
+q380: OK (записей 11/11, 2255 с)
+нестабильные по A/A: ['q140 T01', 'q150 U12', 'q160 H23', 'q160 H29', 'q220 U07', 'q250 W07', 'q260 X07', 'q270 Y11', 'q280 Z06', 'q290 V04', 'q300 K08', 'q310 L11', 'q320 M06', 'q330 DV18', 'q340s C13', 'q350 B05', 'q350 B13', 'q90 R14', 'q96 S05']
+q130.log     проверок 9→9  падений 0→0
+q170.log     проверок 13→13  падений 0→0
+q220.log     проверок 11→11  падений 0→0
+q310.log     проверок 13→13  падений 1→1
+q370.log     проверок 12→12  падений 3→3
+q380.log     проверок 11→11  падений 1→1
+
+ИТОГ: эталонных падений 5 · в кандидате 5 · новых 0 · ушло 0 · изменены подробности 0 · изменён только номер версии 0 · изменены нестабильные (A/A) 0 · нет журналов 0
+
+STATUS COMPLETE 
+
+# код выхода 0, 2374 с

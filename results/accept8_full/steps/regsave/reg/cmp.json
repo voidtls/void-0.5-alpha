@@ -1,0 +1,28 @@
+{
+ "tot": {
+  "new": 0,
+  "gone": 0,
+  "det": 0,
+  "detver": 0,
+  "detaa": 0,
+  "miss": 0,
+  "base": 3,
+  "cand": 3
+ },
+ "rep": {
+  "q71save.log": {
+   "nA": 5,
+   "nB": 5,
+   "new": [],
+   "gone": [],
+   "det": []
+  },
+  "q73save.log": {
+   "nA": 6,
+   "nB": 6,
+   "new": [],
+   "gone": [],
+   "det": []
+  }
+ }
+}

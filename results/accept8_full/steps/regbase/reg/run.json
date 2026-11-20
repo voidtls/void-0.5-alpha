@@ -1,0 +1,71 @@
+{
+ "status": "COMPLETE",
+ "build": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html",
+ "buildSha": "76753e3338ab36eefe8e6e5f945428a341de27b8e0f29b4fd8235ef0ad897776",
+ "suites": {
+  "q130": {
+   "status": "OK",
+   "rc": 0,
+   "records": 9,
+   "expected": 9,
+   "sec": 48
+  },
+  "q170": {
+   "status": "OK",
+   "rc": 0,
+   "records": 13,
+   "expected": 13,
+   "sec": 48
+  },
+  "q310": {
+   "status": "OK",
+   "rc": 0,
+   "records": 13,
+   "expected": 13,
+   "sec": 71
+  },
+  "q220": {
+   "status": "OK",
+   "rc": 0,
+   "records": 11,
+   "expected": 11,
+   "sec": 108
+  },
+  "q370": {
+   "status": "OK",
+   "rc": 0,
+   "records": 12,
+   "expected": 12,
+   "sec": 998
+  },
+  "q380": {
+   "status": "OK",
+   "rc": 0,
+   "records": 11,
+   "expected": 11,
+   "sec": 2255
+  }
+ },
+ "source": {
+  "q170": "kit6/q170.py",
+  "q130": "kit6/q130.py",
+  "q220": "kit6/q220.py",
+  "q310": "kit6/q310.py",
+  "q380": "kit6/q380.py",
+  "q370": "kit6/q370.py"
+ },
+ "solo": [],
+ "overlay": "kit6",
+ "cmpExit": 0,
+ "nproc": 2,
+ "tools": {
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "tools5/cmpreg5.py": "dd034df5583d2b17",
+  "kit6/q130.py": "c4fb1d4f41668e1f",
+  "kit6/q170.py": "0ce2bd1a9cb159ff",
+  "kit6/q310.py": "d57c89e5ddf55249",
+  "kit6/q220.py": "0d9d171f3f34f34d",
+  "kit6/q370.py": "8d904f17c468a353",
+  "kit6/q380.py": "5660487af924ca4b"
+ }
+}

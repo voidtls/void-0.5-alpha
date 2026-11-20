@@ -1,0 +1,10 @@
+PASS  1. B1 → A (regroup --undo) — 18 JS-фрагментов = снимок фазы A: True; манифест = снимок: True; сборка = 1.5.35: True
+PASS  1б. B1 → A (snap8 restore P8.4) — совпадает со снимком P8.4
+PASS  2. текущее дерево → монолит — SHA b936a549366321b6
+PASS  3. монолит → 1.5.24 (archive/rollback6, без тестового комплекта) — SHA 76753e3338ab36ee; путь D перенаправлен во временную раскладку: True
+PASS  3б. 1.5.24 → 1.5.35 (archive/stage6 apply 85…93) — SHA b936a549366321b6
+PASS  4. искусственный патч и возврат — правка js/ui/0380-hud.js: SHA 4711cbdb126bef09 (≠ 1.5.35: True), строк CHANGES 2→3; после возврата SHA b936a549366321b6, check код 0
+PASS  5. verify-html на испорченной копии — испорчен байт 7049565 в части assets/audio/mz-menu_l1.b64; названа: ['assets/audio/mz-menu_l1.b64']
+PASS  5а. verify-html: испорчен байт в куске JS — испорчен байт 291859 в js/bosses/0200-s3-4-boss-data.js; названа: ['js/bosses/0200-s3-4-boss-data.js']
+PASS  5б. verify-html на целой копии — совпадает со сборкой побайтно (SHA b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034)
+rollback8: PASS

@@ -1,0 +1,24 @@
+{
+ "ПК": {
+  "beforeReplace": {
+   "togHTML": 0,
+   "cloudWinner": 0,
+   "tutTick": 0,
+   "toggleDevPanel": 0
+  },
+  "afterLoad": {},
+  "afterUse": {},
+  "errs": []
+ },
+ "тел": {
+  "beforeReplace": {
+   "togHTML": 0,
+   "cloudWinner": 0,
+   "tutTick": 0,
+   "toggleDevPanel": 0
+  },
+  "afterLoad": {},
+  "afterUse": {},
+  "errs": []
+ }
+}

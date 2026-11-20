@@ -1,0 +1,26 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/run6.py", "k", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html", "/home/claude/VOID_stage8/accept8_full/steps/arct/deep_jobs.json", "/home/claude/VOID_stage8/accept8_full/steps/arct/deep_164.jsonl", "--ref", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/t72/k80.jsonl"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 16:24:03"}
+совпало побитно 2 из 2; расхождений 0; в эталоне ещё 54 исторических /ref (1.5.11/13/16 — эталоны, а не задания); ЗАДАНИЙ ЭТАЛОНА НЕТ В КАНДИДАТЕ: 427
+  - z/k1/b22/gdirect: нет в кандидате
+  - z/k1/b22/gdirectn25: нет в кандидате
+  - z/k1/b22/hic: нет в кандидате
+  - z/k1/b22/jit: нет в кандидате
+  - z/k1/b22/jitn25: нет в кандидате
+  - z/k1/b22/p120: нет в кандидате
+  - z/k1/b22/p144: нет в кандидате
+  - z/k1/b22/p144n25: нет в кандидате
+  - z/k1/b22/p15: нет в кандидате
+  - z/k1/b22/p30: нет в кандидате
+  - z/k1/b22/p50: нет в кандидате
+  - z/k1/b22/p60: нет в кандидате
+  - z/k1/b22/p60n25: нет в кандидате
+  - z/k1/b46/gdirect: нет в кандидате
+  - z/k1/b46/gdirectn25: нет в кандидате
+  - z/k1/b46/hic: нет в кандидате
+  - z/k1/b46/jit: нет в кандидате
+  - z/k1/b46/jitn25: нет в кандидате
+  - z/k1/b46/p120: нет в кандидате
+  - z/k1/b46/p144: нет в кандидате
+
+STATUS COMPLETE (строк 2/2, ошибок 0)
+
+# код выхода 1, 6 с

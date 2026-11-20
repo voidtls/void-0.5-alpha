@@ -1,0 +1,14 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/stage6/s6.py", "chain", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html", "/home/claude/VOID_stage8/accept8_full/steps/build/b", "85", "86", "87", "88", "89", "89b", "90a", "90b", "91", "92", "93"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 14:41:48"}
+85 1ccfbc01e1716fbc 14077011
+86 5d240a4b3c25ed3a 14081098
+87 1322deff8c5e347a 14081293
+88 0a10696778185013 14082749
+89 52e33e418ef9bdd7 14085235
+89b 984ed836fc856f93 14087382
+90a 7f155537b54a43c5 14092586
+90b 26fddb1e33937ae3 14093509
+91 8317d6ebbbde5cf4 14095420
+92 f859dc1d40f847ed 14096931
+93 b936a549366321b6 14099130
+
+# код выхода 0, 7 с

@@ -1,0 +1,607 @@
+{
+ "schema": 1,
+ "reference": "archive/void_1.5.35_reference.html",
+ "reference_sha256": "b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034",
+ "reference_bytes": 14099130,
+ "parts": [
+  {
+   "key": "shell/head.html",
+   "kind": "shell",
+   "offset": 0,
+   "bytes": 27239,
+   "sha256": "52d35ffdaed8612927a84b08052f75b85f13d7922b30db2d23cf7f403e2ed3a9"
+  },
+  {
+   "key": "css/main.css",
+   "kind": "css",
+   "offset": 27239,
+   "bytes": 124112,
+   "sha256": "1ee55eb5e0525096d764f0f957340eb2cac3d62449419796f3b7b190042d96d7"
+  },
+  {
+   "key": "css/opt/cine.css",
+   "kind": "css",
+   "offset": 151351,
+   "bytes": 8696,
+   "sha256": "ca26de00bb5fdfbc5c5c13e8c5b1225a196f6368fad2e1ab877524d16b4c1557"
+  },
+  {
+   "key": "lit:3",
+   "kind": "sep",
+   "offset": 160047,
+   "bytes": 1,
+   "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+   "key": "css/opt/bg.css",
+   "kind": "css",
+   "offset": 160048,
+   "bytes": 472,
+   "sha256": "634ba18c6564ea4595917bab07bf1956a9c2a8f02ea2d9f283e8eb86c4b117b1"
+  },
+  {
+   "key": "css/tail.css",
+   "kind": "css",
+   "offset": 160520,
+   "bytes": 1,
+   "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+   "key": "shell/body.html",
+   "kind": "shell",
+   "offset": 160521,
+   "bytes": 20238,
+   "sha256": "e5bfe5335516f9f68562f82e4761b3b86a137f3c3ea401ab7c7ec77ac4ebbb67"
+  },
+  {
+   "key": "js/00-core.js",
+   "kind": "js",
+   "offset": 180759,
+   "bytes": 98460,
+   "sha256": "9a0f66bdd861bbdd8bd0a724298d9cc050ae1b7f2a3b5c377c6445aa38cda693",
+   "a": "00-core"
+  },
+  {
+   "key": "js/01-data-sectors.js",
+   "kind": "js",
+   "offset": 279219,
+   "bytes": 128567,
+   "sha256": "9ac7419ad6a3b0621b3bd9f2bde233e1804f4a4df95cd8b97830ccb5ae4a64d5",
+   "a": "01-data-sectors"
+  },
+  {
+   "key": "js/02-game.js",
+   "kind": "js",
+   "offset": 407786,
+   "bytes": 130161,
+   "sha256": "5aae55c5d82ebdc97ae9988f4cdde2f82a71a0b8eeef2c32ed970316428b5987",
+   "a": "02-game"
+  },
+  {
+   "key": "js/03-shell.js",
+   "kind": "js",
+   "offset": 537947,
+   "bytes": 289306,
+   "sha256": "c1f590206c2f15145f91d1f21a920e17ec6ae97f724585c3723dd95916dda9bd",
+   "a": "03-shell"
+  },
+  {
+   "key": "js/04-cloud.js",
+   "kind": "js",
+   "offset": 827253,
+   "bytes": 101753,
+   "sha256": "d0828415620117c0cc3f738737d9cb4c1f150a8e154160404e9a17134026afee",
+   "a": "04-cloud"
+  },
+  {
+   "key": "js/05-story.js",
+   "kind": "js",
+   "offset": 929006,
+   "bytes": 108938,
+   "sha256": "6d84d22b1cbe55cd3e4a61ca30566aabd7e4d4695fbd0cd30f6a536d037f7f36",
+   "a": "05-story"
+  },
+  {
+   "key": "js/06-devworld.js",
+   "kind": "js",
+   "offset": 1037944,
+   "bytes": 16192,
+   "sha256": "1e83ba9f7dbf0ca81761af54db0e3beb2f700c92c5414bb36803ec35334f5436",
+   "a": "06-devworld"
+  },
+  {
+   "key": "js/07-sectors-3-4.js",
+   "kind": "js",
+   "offset": 1054136,
+   "bytes": 137653,
+   "sha256": "60ac318eb891389c90f90d593a13e2ed1094b821b38f9d1585ce30e370292918",
+   "a": "07-sectors-3-4"
+  },
+  {
+   "key": "js/08-sectors-5-6.js",
+   "kind": "js",
+   "offset": 1191789,
+   "bytes": 121498,
+   "sha256": "4285b87d8d4af63f1fff0b1096e56b05a2347e462cfae1eea4792c0b94d95704",
+   "a": "08-sectors-5-6"
+  },
+  {
+   "key": "js/09-sectors-7-8.js",
+   "kind": "js",
+   "offset": 1313287,
+   "bytes": 211400,
+   "sha256": "5e36b3c21c8ae1e7813802dbe115ad0e669ef46c238aad0b072a3c61c23c971c",
+   "a": "09-sectors-7-8"
+  },
+  {
+   "key": "js/10-sectors-9-10.js",
+   "kind": "js",
+   "offset": 1524687,
+   "bytes": 363353,
+   "sha256": "a3b333562b66c5f10e70e9c4443c66b6df103ce3560087014eff7659ec04b594",
+   "a": "10-sectors-9-10"
+  },
+  {
+   "key": "js/11-sectors-11-12.js",
+   "kind": "js",
+   "offset": 1888040,
+   "bytes": 185599,
+   "sha256": "c72c6ecef5e2405ed91946cbbdfc2809956e6097ebdd9ae45d7be12fe2ef908c",
+   "a": "11-sectors-11-12"
+  },
+  {
+   "key": "js/12-mobile-start.js",
+   "kind": "js",
+   "offset": 2073639,
+   "bytes": 4509,
+   "sha256": "0437c5b10b511fe6758317fd1798e8b504c7232a785a34d4cd4db86067cea7a7",
+   "a": "12-mobile-start"
+  },
+  {
+   "key": "js/13-v1x.js",
+   "kind": "js",
+   "offset": 2078148,
+   "bytes": 459003,
+   "sha256": "edb7c445be30c3150a90777101e41974bdc9786a7e12ff84baf37a9691652837",
+   "a": "13-v1x"
+  },
+  {
+   "key": "js/14-cine-proto.js",
+   "kind": "js",
+   "offset": 2537151,
+   "bytes": 75364,
+   "sha256": "c3aca9f21df9b2754a97cdee1e197f2b13ba4d2d352ee42ea970e6a779fe82bb",
+   "a": "14-cine-proto"
+  },
+  {
+   "key": "js/14b-sky-rng-guard.js",
+   "kind": "js",
+   "offset": 2612515,
+   "bytes": 670,
+   "sha256": "789c1f755769260bc7e4f7ed005d41b71f15a6a97c603b2be15ebd88d7ded283",
+   "a": "14b-sky-rng-guard"
+  },
+  {
+   "key": "js/15-bg-proto.js",
+   "kind": "js",
+   "offset": 2613185,
+   "bytes": 52288,
+   "sha256": "f71b68d03fdfaddf2b09d97d265ab89ac65efd8385f7dc1d321152bbced80a56",
+   "a": "15-bg-proto"
+  },
+  {
+   "key": "js/16-boot.js",
+   "kind": "js",
+   "offset": 2665473,
+   "bytes": 85,
+   "sha256": "e104cf20141c18d93c1db9bbf46e1c74f6c117f0568d36b4301fb0666c0f96f0",
+   "a": "16-boot"
+  },
+  {
+   "key": "lit:25",
+   "kind": "sep",
+   "offset": 2665558,
+   "bytes": 10,
+   "sha256": "2f358f0371a6e732c4340332235199dcd91ebc46239a5ddcfe6f9a63e6ebecfe"
+  },
+  {
+   "key": "assets/audio/v12-intro0.b64",
+   "kind": "octet",
+   "offset": 2665568,
+   "bytes": 272474,
+   "sha256": "7e7197a73fb0c28512b71e838e4abbb095675b23ecb4329f4e344c209286954e"
+  },
+  {
+   "key": "assets/audio/v12-intro1.b64",
+   "kind": "octet",
+   "offset": 2938042,
+   "bytes": 269074,
+   "sha256": "f652cf4dec492b1a2024e6d41005654997265b3863dfbeaf761d75b8b7e16368"
+  },
+  {
+   "key": "assets/audio/v12-loop0.b64",
+   "kind": "octet",
+   "offset": 3207116,
+   "bytes": 268885,
+   "sha256": "652331208aec33104f0a1697cf4e6a989e7da0bae6a815d3600a88de5eb4c84e"
+  },
+  {
+   "key": "assets/audio/v12-loop1.b64",
+   "kind": "octet",
+   "offset": 3476001,
+   "bytes": 268877,
+   "sha256": "e77dba465ba9d3b0cff2fd7c24be229f487fdac30ebc965ccaf7bcb750bf8c47"
+  },
+  {
+   "key": "assets/audio/v12-loop2.b64",
+   "kind": "octet",
+   "offset": 3744878,
+   "bytes": 268913,
+   "sha256": "a6606cd2412be276a66836336fe1e194474ed3a1769d0ea60512b31317c5456e"
+  },
+  {
+   "key": "assets/audio/v12-loop3.b64",
+   "kind": "octet",
+   "offset": 4013791,
+   "bytes": 268833,
+   "sha256": "bb44038726085bcd4eb046450df2faa9bf7bed4c983dc870e027ae05e3ede590"
+  },
+  {
+   "key": "assets/audio/v12-loop4.b64",
+   "kind": "octet",
+   "offset": 4282624,
+   "bytes": 268829,
+   "sha256": "56487292260d5bf071a2b2a07b75dccbad0fc9b4d2e39bb3583ff6e27d1c3821"
+  },
+  {
+   "key": "assets/audio/v12-loop5.b64",
+   "kind": "octet",
+   "offset": 4551453,
+   "bytes": 268857,
+   "sha256": "cd96e3de8fde6c52ee804c1ded0778dda81fa030d115850b31c56504b8e95cf6"
+  },
+  {
+   "key": "assets/audio/v12-loop6.b64",
+   "kind": "octet",
+   "offset": 4820310,
+   "bytes": 268881,
+   "sha256": "932871a6c8cfb131ddec7fc6083e54cb25af651fb5928fe3c0c29ab62cda4d87"
+  },
+  {
+   "key": "assets/audio/v12-loop7.b64",
+   "kind": "octet",
+   "offset": 5089191,
+   "bytes": 269077,
+   "sha256": "5d24d8a8265d81a9eed19569f5746d32bae5a5e668c5e9cb4920ad012e8f2e7c"
+  },
+  {
+   "key": "assets/audio/v12-loop8.b64",
+   "kind": "octet",
+   "offset": 5358268,
+   "bytes": 268993,
+   "sha256": "aa11490101965281fae9e0ecd3049f60a8767d1d1661f4980f2e858167de4c92"
+  },
+  {
+   "key": "assets/audio/v12-loop9.b64",
+   "kind": "octet",
+   "offset": 5627261,
+   "bytes": 268965,
+   "sha256": "7e4d51cc63093503895188b908c08520a176acbc2e0992c47d5c502a695748bf"
+  },
+  {
+   "key": "assets/audio/mz-menu_i0.b64",
+   "kind": "octet",
+   "offset": 5896226,
+   "bytes": 165478,
+   "sha256": "e83b10b79386bcf5e46b4417cf1f2c02e6c93e958e38287819d33c26be8cad56"
+  },
+  {
+   "key": "assets/audio/mz-menu_i1.b64",
+   "kind": "octet",
+   "offset": 6061704,
+   "bytes": 164174,
+   "sha256": "ddbd10b584ea5bc53eddf67de738af492d02d5805370d49c3bfd5b077e4e356a"
+  },
+  {
+   "key": "assets/audio/mz-menu_i2.b64",
+   "kind": "octet",
+   "offset": 6225878,
+   "bytes": 164254,
+   "sha256": "d7f251a540ec6b8a3882b98631ec7a973227af85eede50ee13071f74a9c0d2dc"
+  },
+  {
+   "key": "assets/audio/mz-menu_i3.b64",
+   "kind": "octet",
+   "offset": 6390132,
+   "bytes": 164262,
+   "sha256": "c4d39833c97d0f636d9de811ad0fa003a62a85b8c34b7e6a9ce7a274f8be036a"
+  },
+  {
+   "key": "assets/audio/mz-menu_i4.b64",
+   "kind": "octet",
+   "offset": 6554394,
+   "bytes": 164314,
+   "sha256": "ce6a39f3d60ae56864eba500e582cb207e3d1a7c221c8fbb98f10b08760ee2a6"
+  },
+  {
+   "key": "assets/audio/mz-menu_l0.b64",
+   "kind": "octet",
+   "offset": 6718708,
+   "bytes": 194834,
+   "sha256": "6606b44e7aa435f75b4929fce9bcb7f84b686b2829f8e63015446f945fa60c95"
+  },
+  {
+   "key": "assets/audio/mz-menu_l1.b64",
+   "kind": "octet",
+   "offset": 6913542,
+   "bytes": 194866,
+   "sha256": "6992ee2f9785bce2eaf5e14cc2479e790cd6c455649619f5f3195b08a7e217b4"
+  },
+  {
+   "key": "assets/audio/mz-menu_l2.b64",
+   "kind": "octet",
+   "offset": 7108408,
+   "bytes": 194682,
+   "sha256": "72a5ee4e0b9fe9eadb2763ec5d5efdf29ecbff72d24cd2159f27a988ae4d0087"
+  },
+  {
+   "key": "assets/audio/mz-menu_l3.b64",
+   "kind": "octet",
+   "offset": 7303090,
+   "bytes": 194710,
+   "sha256": "5172b1f18f87e5b4f1b12431ea07122d9d008e01c72febcba18420e78ef169c9"
+  },
+  {
+   "key": "assets/audio/mz-menu_l4.b64",
+   "kind": "octet",
+   "offset": 7497800,
+   "bytes": 194922,
+   "sha256": "cbede45ffe29d9bca1eeace4123f4286462ed5d9b5785143855f44be0490e053"
+  },
+  {
+   "key": "assets/audio/mz-m10_i0.b64",
+   "kind": "octet",
+   "offset": 7692722,
+   "bytes": 187189,
+   "sha256": "1a69a5bed22fd50a408a0be3d9a48e8f0ba6d0d82ff8e111c6b54ba77f7eb7e3"
+  },
+  {
+   "key": "assets/audio/mz-m10_i1.b64",
+   "kind": "octet",
+   "offset": 7879911,
+   "bytes": 185413,
+   "sha256": "dcec51089508d6e67cd14735cfa9ce826640d9535f168ce17ef0103daf2dd35d"
+  },
+  {
+   "key": "assets/audio/mz-m10_i2.b64",
+   "kind": "octet",
+   "offset": 8065324,
+   "bytes": 186149,
+   "sha256": "2102ee841a8b35ed06c469054e42fbf9b4022c8c33c9028172acdfe496caf7b1"
+  },
+  {
+   "key": "assets/audio/mz-m10_i3.b64",
+   "kind": "octet",
+   "offset": 8251473,
+   "bytes": 185309,
+   "sha256": "b93c086627504b3ea1c723ab6b7c5c0c46780cf4ede87d370d2c9fd6384a79c7"
+  },
+  {
+   "key": "assets/audio/mz-m10_i4.b64",
+   "kind": "octet",
+   "offset": 8436782,
+   "bytes": 185537,
+   "sha256": "d67679b05e4231b492d284ce6225cffb7221c8bc57a0780132a0005d7b1dafb4"
+  },
+  {
+   "key": "assets/audio/mz-m10_l0.b64",
+   "kind": "octet",
+   "offset": 8622319,
+   "bytes": 180709,
+   "sha256": "bbe110409e78c66e1ac89d99e3c3d8d21a16a63913d6220c5f9b029eb74ccf6e"
+  },
+  {
+   "key": "assets/audio/mz-m10_l1.b64",
+   "kind": "octet",
+   "offset": 8803028,
+   "bytes": 180545,
+   "sha256": "716772004e24850c5392d4814d0a6b7d4408d96607ab6a2232644549f919afe3"
+  },
+  {
+   "key": "assets/audio/mz-m10_l2.b64",
+   "kind": "octet",
+   "offset": 8983573,
+   "bytes": 179905,
+   "sha256": "58aeea3fa345cccc2cd0fa6497882857c52b78297229a8f1fb40264771fe1e99"
+  },
+  {
+   "key": "assets/audio/mz-m10_l3.b64",
+   "kind": "octet",
+   "offset": 9163478,
+   "bytes": 179993,
+   "sha256": "dc665a4f1d5465613efc8d416982845eafb1ced77e3eeaa77d89a12c89bb4000"
+  },
+  {
+   "key": "assets/audio/mz-m10_l4.b64",
+   "kind": "octet",
+   "offset": 9343471,
+   "bytes": 180413,
+   "sha256": "123de392afd0948a3dc5080de2136934e098f3243a6919dbcba00b751d3ffade"
+  },
+  {
+   "key": "assets/audio/mz-m10_l5.b64",
+   "kind": "octet",
+   "offset": 9523884,
+   "bytes": 181065,
+   "sha256": "551f0609e5d5f76f6f2072c4af3c16b9c288535cce7ceed3756c9582f73350a2"
+  },
+  {
+   "key": "assets/audio/mz-m10_l6.b64",
+   "kind": "octet",
+   "offset": 9704949,
+   "bytes": 181601,
+   "sha256": "ccd696cdca2fce3847edc02b5bdbe3122dd6abe270d010ac04ceb1a5915e4b57"
+  },
+  {
+   "key": "assets/audio/mz-m10_l7.b64",
+   "kind": "octet",
+   "offset": 9886550,
+   "bytes": 180429,
+   "sha256": "04c6fab96f5953b06db080de1932f6b3486de722117d593fc050be93615a5f23"
+  },
+  {
+   "key": "assets/audio/mz-s0_i0.b64",
+   "kind": "octet",
+   "offset": 10066979,
+   "bytes": 176492,
+   "sha256": "9601399f396e718b5c80cee94ecc9aed5066424d74ecc883c76ddd4dbb73dece"
+  },
+  {
+   "key": "assets/audio/mz-s0_i1.b64",
+   "kind": "octet",
+   "offset": 10243471,
+   "bytes": 175460,
+   "sha256": "8c1b89ddf4bd1904059b50748285e47ba0a8c2122dc0180cded4dd3c3f1b2dcb"
+  },
+  {
+   "key": "assets/audio/mz-s0_i2.b64",
+   "kind": "octet",
+   "offset": 10418931,
+   "bytes": 174024,
+   "sha256": "dcb13d1883f18ef25825147be4dee9c475ff4e04ed60f2a53eca5da8a13bbf28"
+  },
+  {
+   "key": "assets/audio/mz-s0_i3.b64",
+   "kind": "octet",
+   "offset": 10592955,
+   "bytes": 174472,
+   "sha256": "c973f97022f048ec842e9bd41233fea3c2a27bd6908998930fced0ff462f4816"
+  },
+  {
+   "key": "assets/audio/mz-s0_i4.b64",
+   "kind": "octet",
+   "offset": 10767427,
+   "bytes": 174536,
+   "sha256": "6575ab2e1840987b0f78e3ab14363149bda383ce180374d83f92eb35238a6241"
+  },
+  {
+   "key": "assets/audio/mz-s0_l0.b64",
+   "kind": "octet",
+   "offset": 10941963,
+   "bytes": 196624,
+   "sha256": "b2fca977d0bd70e12508b01c2b3996ed8f6a09c698b88e0fbf02719c0c28d2fb"
+  },
+  {
+   "key": "assets/audio/mz-s0_l1.b64",
+   "kind": "octet",
+   "offset": 11138587,
+   "bytes": 195972,
+   "sha256": "b9a88396590e16459551a4962422af1928092f85285a2690a9c1e8a01a411bd6"
+  },
+  {
+   "key": "assets/audio/mz-s0_l2.b64",
+   "kind": "octet",
+   "offset": 11334559,
+   "bytes": 197004,
+   "sha256": "c710158f89b7c5b1f89991ce576454ac0d4dcad198484967a60f981084c511e1"
+  },
+  {
+   "key": "assets/audio/mz-s0_l3.b64",
+   "kind": "octet",
+   "offset": 11531563,
+   "bytes": 197400,
+   "sha256": "9a3365b29802b8a75ea234f2010a1b90055ed2a0fe0ffcad28d44d5fe80a2ea6"
+  },
+  {
+   "key": "assets/audio/mz-s0_l4.b64",
+   "kind": "octet",
+   "offset": 11728963,
+   "bytes": 197048,
+   "sha256": "a4e96d109becc48fe5949f461ddbc2e39f19c6bd06bad44f35f0ce95580fedbb"
+  },
+  {
+   "key": "assets/audio/mz-s0_l5.b64",
+   "kind": "octet",
+   "offset": 11926011,
+   "bytes": 196428,
+   "sha256": "c42649afa9c5c61c1b9247ebc8330bd402c80e759626b4d43c1d697f88f7f92e"
+  },
+  {
+   "key": "assets/audio/mz-s10_i0.b64",
+   "kind": "octet",
+   "offset": 12122439,
+   "bytes": 175909,
+   "sha256": "23aea73ed75d35faf32d4082cad06107847159ec6dc5e4f94ed5be35c79cb82f"
+  },
+  {
+   "key": "assets/audio/mz-s10_i1.b64",
+   "kind": "octet",
+   "offset": 12298348,
+   "bytes": 174693,
+   "sha256": "aa24af698be4756f7afe0141721db337ce002dc24223c5a43e8f506ac7f62556"
+  },
+  {
+   "key": "assets/audio/mz-s10_i2.b64",
+   "kind": "octet",
+   "offset": 12473041,
+   "bytes": 174793,
+   "sha256": "d8ca6cf205506b285ef49c004613e0b6be322630bdc62b4f03de4397e680e003"
+  },
+  {
+   "key": "assets/audio/mz-s10_i3.b64",
+   "kind": "octet",
+   "offset": 12647834,
+   "bytes": 174869,
+   "sha256": "2ed6b9cd5e9a09db035bee63d62f3b1bcb439105d717cc2e2a52e264f0c8a562"
+  },
+  {
+   "key": "assets/audio/mz-s10_l0.b64",
+   "kind": "octet",
+   "offset": 12822703,
+   "bytes": 182493,
+   "sha256": "06906a2c70933d60f572c87282c850d8dcfc46c38aa3fe26edee810f68a52107"
+  },
+  {
+   "key": "assets/audio/mz-s10_l1.b64",
+   "kind": "octet",
+   "offset": 13005196,
+   "bytes": 183181,
+   "sha256": "d16b763a7872315314bd8ac6f6d42147ff3de590297bbe177c00cd724cc3c9b4"
+  },
+  {
+   "key": "assets/audio/mz-s10_l2.b64",
+   "kind": "octet",
+   "offset": 13188377,
+   "bytes": 181921,
+   "sha256": "d8ba5bc657e19667c98fb9c98c7266f310b1d75c3c88aa21c5b62c277d0d405f"
+  },
+  {
+   "key": "assets/audio/mz-s10_l3.b64",
+   "kind": "octet",
+   "offset": 13370298,
+   "bytes": 182205,
+   "sha256": "f9e36f6938129aef8b8b293dab7dacc6dd394fe135f741e9f477affdd6c19ec4"
+  },
+  {
+   "key": "assets/audio/mz-s10_l4.b64",
+   "kind": "octet",
+   "offset": 13552503,
+   "bytes": 181821,
+   "sha256": "a092d11560f0a6608556ed39257c3e596693a53dca01adb6dbb14de88335223f"
+  },
+  {
+   "key": "assets/audio/mz-s10_l5.b64",
+   "kind": "octet",
+   "offset": 13734324,
+   "bytes": 181961,
+   "sha256": "baf77e92485a60be9c51252167e47e679d9daffdc48e8946697f88537f70c8de"
+  },
+  {
+   "key": "assets/audio/mz-s10_l6.b64",
+   "kind": "octet",
+   "offset": 13916285,
+   "bytes": 182845,
+   "sha256": "40850c80dd4847b13aa8a1f57b806336b4a4cd1eb9a53d09c682de727e10408f"
+  }
+ ]
+}

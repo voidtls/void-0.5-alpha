@@ -1,0 +1,4 @@
+# {"argv": ["node", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/w6.js", "/home/claude/VOID_stage8/results_work/P8.0_accept/steps/build/b/b93.html", "/home/claude/VOID_stage8/results_work/P8.0_accept/steps/static/w6.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 13:35:45"}
+w6: записей в имена функций 229 (загрузочных 225, во время игры 4); имён с переустановками 147; повторных имён 0, мёртвых объявлений 0; мёртвых слоёв 0; макс. глубина 6
+
+# код выхода 0, 27 с

@@ -1,0 +1,84 @@
+/* ▼▼▼ CINE·PROTO 1.5.1 α «Кадр» · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА (CSS) ▼▼▼ */
+#c66{position:fixed;inset:0;z-index:7;pointer-events:none;overflow:hidden}
+#c66[hidden]{display:none!important}
+#c66 .bar66{position:absolute;left:0;right:0;height:0;background:#000;will-change:height}
+#c66 .bar66.t{top:0;box-shadow:0 1px 0 rgba(143,233,255,.06)}
+#c66 .bar66.b{bottom:0;box-shadow:0 -1px 0 rgba(143,233,255,.06)}
+/* титр главы */
+#c66 .ttl66{--c66:#8fe9ff;position:absolute;left:max(7vw,calc(env(safe-area-inset-left,0px) + 20px));top:35%;display:grid;gap:8px;opacity:0;transform:translateX(-6px);transition:opacity .45s,transform .9s cubic-bezier(.2,.7,.2,1);padding-left:16px;border-left:2px solid var(--c66);max-width:min(560px,calc(100vw - 48px))}
+#c66 .ttl66.on{opacity:1;transform:none}
+#c66 .ttl66.out{opacity:0;transform:translateX(-10px);transition:opacity .8s,transform .8s}
+#c66 .ttl66 i{font:600 11px "JetBrains Mono",monospace;font-style:normal;letter-spacing:.42em;color:var(--c66);text-shadow:0 0 12px var(--c66)}
+#c66 .ttl66 b{font:800 clamp(26px,4.2vw,52px)/1.05 var(--f-display);letter-spacing:.05em;color:#eef6ff;text-shadow:0 0 22px rgba(143,233,255,.25),2px 0 rgba(255,79,110,.18),-2px 0 rgba(79,210,255,.18);min-height:1.05em;white-space:nowrap}
+#c66 .ttl66 span{font:500 10.5px "JetBrains Mono",monospace;letter-spacing:.26em;color:#8a9bb4;opacity:0;transition:opacity .6s}
+#c66 .ttl66.sub span{opacity:1}
+#c66 .ttl66.short{top:auto;bottom:calc(16% + env(safe-area-inset-bottom,0px));gap:4px}
+#c66 .ttl66.short b{font-size:clamp(18px,2.4vw,26px)}
+#c66 .ttl66.short span{display:none}
+/* табличка нового врага */
+#c66 .card66{--c66:#dfe8ff;position:absolute;display:grid;gap:3px;padding:10px 14px 11px;background:linear-gradient(90deg,rgba(4,8,16,.86),rgba(4,8,16,.55));border-left:2px solid var(--c66);opacity:0;clip-path:inset(0 100% 0 0);box-sizing:border-box}
+#c66 .card66.on{opacity:1;clip-path:inset(0 0 0 0);transition:clip-path .28s cubic-bezier(.2,.8,.2,1),opacity .1s}
+#c66 .card66.out{opacity:0;transition:opacity .5s}
+#c66 .card66::after{content:"";position:absolute;right:-1px;top:-1px;width:10px;height:10px;border-top:1px solid var(--c66);border-right:1px solid var(--c66);opacity:.7}
+#c66 .card66 i{font:600 9.5px "JetBrains Mono",monospace;font-style:normal;letter-spacing:.32em;color:#ff6b8a}
+#c66 .card66 b{font:800 20px/1.1 var(--f-display);letter-spacing:.06em;color:var(--c66);text-shadow:0 0 14px var(--c66)}
+#c66 .card66 span{font:500 11px/1.4 "JetBrains Mono",monospace;letter-spacing:.12em;color:#c9d6e8;text-wrap:balance}
+#c66 .card66{width:max-content;max-width:min(420px,calc(100vw - 32px))}
+/* подпись к приёму */
+#c66 .cap66{--c66:#ffd24d;position:absolute;transform:translateX(-50%);font:800 15px var(--f-display);letter-spacing:.12em;color:var(--c66);text-shadow:0 0 16px var(--c66),0 2px 0 #000;white-space:nowrap;opacity:0}
+#c66 .cap66.on{animation:cap66 1.8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes cap66{0%{opacity:0;transform:translateX(-50%) scale(1.35)}10%{opacity:1;transform:translateX(-50%) scale(1)}72%{opacity:1;transform:translateX(-50%) translateY(0)}100%{opacity:0;transform:translateX(-50%) translateY(-12px)}}
+/* загрузка систем (01) */
+#c66 .boot66{position:absolute;left:max(16px,env(safe-area-inset-left,0px));top:calc(96px + env(safe-area-inset-top,0px));display:grid;gap:3px;width:min(300px,calc(100vw - 32px))}
+#c66 .bl66{display:flex;align-items:baseline;gap:8px;font:600 10.5px "JetBrains Mono",monospace;letter-spacing:.18em;color:#8fe9ff;animation:bl66 .35s steps(6) both}
+#c66 .bl66 b{font-weight:700;white-space:nowrap}
+#c66 .bl66 i{flex:1;border-bottom:1px dotted rgba(143,233,255,.4);transform:translateY(-3px)}
+#c66 .bl66 span{color:#eef6ff;white-space:nowrap}
+#c66 .bl66.dim{color:#5b7088}#c66 .bl66.dim span{color:#8a9bb4}
+#c66 .bl66.out{opacity:0;transition:opacity .6s}
+@keyframes bl66{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+#hud.c66boot .c66off{opacity:0!important;transition:none!important}
+#hud .c66in{animation:c66in .7s steps(1) both}
+@keyframes c66in{0%{opacity:.0}12%{opacity:.8}20%{opacity:.1}34%{opacity:1}44%{opacity:.35}58%,100%{opacity:1}}
+/* бортовая строка — ненадёжный рассказчик */
+#c66 .bort66{position:absolute;left:16px;right:16px;top:61%;text-align:center;font:700 13px "JetBrains Mono",monospace;letter-spacing:.26em;color:#dfe8ff;text-shadow:2px 0 #ff4f6e,-2px 0 #4fd2ff;opacity:0}
+#c66 .bort66.on{animation:bort66 .5s steps(1) both}
+#c66 .bort66.out{opacity:0!important;transition:opacity .6s;animation:none}
+@keyframes bort66{0%{opacity:0}15%{opacity:1}30%{opacity:.2}45%,100%{opacity:1}}
+/* брифинг как титр */
+#sIntro.c66t .wrap>*{animation:in66 .55s cubic-bezier(.2,.8,.2,1) both}
+#sIntro.c66t .wrap>#inSector{animation-delay:.08s}#sIntro.c66t .wrap>#inName{animation-delay:.12s}
+#sIntro.c66t .wrap>#inThreat{animation-delay:.32s}#sIntro.c66t .wrap>#inHint{animation-delay:.42s}#sIntro.c66t .wrap>.brief-side{animation-delay:.5s}
+@keyframes in66{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+#inHint .note.n66{color:#8fe9ff!important;font:500 12.5px/1.6 "JetBrains Mono",monospace!important;letter-spacing:.04em;min-height:1.6em}
+#inHint .note.n66b{color:#7a8ea5;font-size:12px}
+/* L-cut на экране итога */
+#sDone .lcut66{display:grid;gap:3px;margin:4px 0 0;padding:7px 12px 8px;border-left:2px solid #ff6b8a;background:rgba(4,8,16,.6);max-width:520px}
+#sDone .lcut66 i{font:600 10px "JetBrains Mono",monospace;font-style:normal;letter-spacing:.24em;color:#ff6b8a}
+#sDone .lcut66 span{font:500 13px "JetBrains Mono",monospace;color:#dfe8ff;min-height:1.4em}
+.mob #c66 .ttl66{top:22%}
+.mob #c66 .boot66{top:calc(84px + env(safe-area-inset-top,0px))}
+@media (max-height:480px){#c66 .ttl66{top:16%;gap:4px}#c66 .ttl66 b{font-size:24px}#c66 .bort66{top:68%}}
+/* титр справа — когда слева корабль */
+#c66 .ttl66.r66{border-left:0;padding-left:0;border-right:2px solid var(--c66);padding-right:16px;text-align:right;justify-items:end;transform:translateX(6px)}
+#c66 .ttl66.r66.on{transform:none}
+#c66 .ttl66.r66.out{transform:translateX(10px)}
+@media (prefers-reduced-motion:reduce){#c66 .cap66.on{animation:none;opacity:1}#sIntro.c66t .wrap>*{animation:none}#hud .c66in{animation:none}}
+/* 1.5.1 — титр миссии: только название, без «ГЛАВА» и без печати. Из размытия, разрядка собирается, по буквам проходит блик, под ним растёт линия */
+#c66 .ttl66,#c66 .ttl66.r66{border:0;padding:0;gap:0}
+#c66 .ttl66 i,#c66 .ttl66 span{display:none}
+#c66 .ttl66 b{text-shadow:none;background:linear-gradient(100deg,#eef6ff 0%,#eef6ff 40%,#ffffff 47%,var(--c66) 50%,#ffffff 53%,#eef6ff 60%,#eef6ff 100%);background-size:320% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 16px rgba(143,233,255,.28))}
+#c66 .ttl66.on b{animation:tin66 1.3s cubic-bezier(.16,.8,.2,1) both,sheen66 1.6s .75s ease-in-out both}
+@keyframes tin66{from{opacity:0;filter:blur(14px) drop-shadow(0 0 0 transparent);letter-spacing:.3em;transform:scale(1.04)}to{opacity:1;filter:blur(0) drop-shadow(0 0 16px rgba(143,233,255,.28));letter-spacing:.05em;transform:none}}
+@keyframes sheen66{from{background-position:100% 0}to{background-position:0 0}}
+#c66 .ttl66::after{content:"";display:block;height:1px;margin-top:12px;background:linear-gradient(90deg,var(--c66),transparent 85%);box-shadow:0 0 10px var(--c66);transform-origin:left;transform:scaleX(0)}
+#c66 .ttl66.r66::after{background:linear-gradient(270deg,var(--c66),transparent 85%);transform-origin:right}
+#c66 .ttl66.on::after{animation:line66 1.2s .3s cubic-bezier(.2,.8,.2,1) both}
+@keyframes line66{to{transform:scaleX(1)}}
+#c66 .ttl66.out{opacity:0;filter:blur(6px);transition:opacity .9s,filter .9s}
+#c66 .ttl66.short::after{margin-top:8px}
+/* тень гиганта: интерфейс подрагивает, как от просадки питания */
+#hud.c66dim{animation:dim66 2.4s steps(1) infinite}
+@keyframes dim66{0%{opacity:.6}7%{opacity:.25}11%{opacity:.65}38%{opacity:.45}41%{opacity:.15}45%{opacity:.55}70%{opacity:.5}100%{opacity:.6}}
+@media (prefers-reduced-motion:reduce){#c66 .ttl66.on b{animation:none;opacity:1}#c66 .ttl66.on::after{animation:none;transform:none}#hud.c66dim{animation:none;opacity:.6}}
+/* ▲▲▲ CINE·PROTO 1.5.1 α «Кадр» · КОНЕЦ ВЫРЕЗАЕМОГО БЛОКА (CSS) ▲▲▲ */

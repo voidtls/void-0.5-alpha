@@ -1,0 +1,13 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/void/tools8/offline8.py", "--json", "/home/claude/VOID_stage8/accept8_full/steps/offline8/offline8.json"], "cwd": "/home/claude/VOID_stage8/void", "env": {}, "start": "2026-11-17 15:09:12"}
+file:// {"menu": "menu", "state": "play", "simT": 3.03, "ver": "1.5.35 α", "online": true, "trips": 0, "ошибок": 1, "ошибки": ["CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"], "запросы": ["file:void.html", "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=
+HTTP {"menu": "menu", "state": "play", "simT": 3.02, "ver": "1.5.35 α", "online": true, "trips": 0, "ошибок": 1, "ошибки": ["CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"], "запросы": ["http-local:void.html", "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&f
+без сети {"menu": "menu", "state": "play", "simT": 3, "ver": "1.5.35 α", "online": false, "trips": 0, "ошибок": 1, "ошибки": ["CON Failed to load resource: net::ERR_INTERNET_DISCONNECTED"], "запросы": ["file:void.html", "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2
+телефон {"menu": "menu", "state": "play", "simT": 3.02, "ver": "1.5.35 α", "online": true, "trips": 0, "ошибок": 1, "ошибки": ["CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"], "запросы": ["file:void.html", "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=
+
+offline8: PASS
+  PASS   file://   меню → бой, 3.03 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 
+  PASS   HTTP      меню → бой, 3.02 с симуляции; ошибок игры 0; запросы = 1.5.35: ['http-local:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загру
+  PASS   без сети  меню → бой, 3 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 
+  PASS   телефон   меню → бой, 3.02 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 
+
+# код выхода 0, 42 с

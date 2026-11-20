@@ -1,0 +1,138 @@
+[
+ {
+  "вариант": "полная",
+  "status": "PASS",
+  "detail": [
+   "живой цикл: 0 ошибок, 4.03 с симуляции"
+  ],
+  "raw": {
+   "without": null,
+   "стенд": {
+    "skyRand": 0,
+    "skyErr": null,
+    "C66": "object",
+    "BG67": "object",
+    "state": "play",
+    "bot": "play",
+    "ver": "1.5.35 α",
+    "ошибки": [],
+    "ошибок": 0
+   },
+   "аудио": {
+    "блоков": 57,
+    "совпало": 57,
+    "расхождения": []
+   },
+   "живой": {
+    "state": "play",
+    "simT": 4.03,
+    "trips": 0,
+    "c66s": true,
+    "ошибок": 0,
+    "ошибки": []
+   }
+  }
+ },
+ {
+  "вариант": "без cine",
+  "status": "KNOWN",
+  "detail": [
+   "cut.cine.live: 30 ошибок «c66Fail/c66Tick is not defined» в step74, других нет; состояние pause, защита ARCH·69: 1"
+  ],
+  "raw": {
+   "without": "cine",
+   "стенд": {
+    "skyRand": 0,
+    "skyErr": null,
+    "C66": "undefined",
+    "BG67": "object",
+    "state": "play",
+    "bot": "play",
+    "ver": "1.5.35 α",
+    "ошибки": [],
+    "ошибок": 0
+   },
+   "живой": {
+    "state": "pause",
+    "simT": 0.5,
+    "trips": 1,
+    "c66s": true,
+    "ошибок": 30,
+    "ошибки": [
+     "CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_yd7gg_9e/v_cine.html:1917:47)\n    at frame74 (file:///tmp/var8_yd7gg_9e/v_cine.html:1924:119)\n    at frame (file:///tmp/var8_yd7gg_9e/v_cine.html:14293:50)",
+     "CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_yd7gg_9e/v_cine.html:1917:47)\n    at frame74 (file:///tmp/var8_yd7gg_9e/v_cine.html:1924:119)\n    at frame (file:///tmp/var8_yd7gg_9e/v_cine.html:14293:50)",
+     "CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_yd7gg_9e/v_cine.html:1917:47)\n    at frame74 (file:///tmp/var8_yd7gg_9e/v_cine.html:1924:119)\n    at frame (file:///tmp/var8_yd7gg_9e/v_cine.html:14293:50)"
+    ]
+   }
+  }
+ },
+ {
+  "вариант": "без bg",
+  "status": "PASS",
+  "detail": [
+   "живой цикл: 0 ошибок, 4 с симуляции"
+  ],
+  "raw": {
+   "without": "bg",
+   "стенд": {
+    "skyRand": 0,
+    "skyErr": null,
+    "C66": "object",
+    "BG67": "undefined",
+    "state": "play",
+    "bot": "play",
+    "ver": "1.5.35 α",
+    "ошибки": [],
+    "ошибок": 0
+   },
+   "живой": {
+    "state": "play",
+    "simT": 4,
+    "trips": 0,
+    "c66s": true,
+    "ошибок": 0,
+    "ошибки": []
+   }
+  }
+ },
+ {
+  "вариант": "без cine+bg",
+  "status": "KNOWN",
+  "detail": [
+   "cut.cine.live: 30 ошибок «c66Fail/c66Tick is not defined» в step74, других нет; состояние pause, защита ARCH·69: 1"
+  ],
+  "raw": {
+   "without": "cine,bg",
+   "стенд": {
+    "skyRand": 0,
+    "skyErr": null,
+    "C66": "undefined",
+    "BG67": "undefined",
+    "state": "play",
+    "bot": "play",
+    "ver": "1.5.35 α",
+    "ошибки": [],
+    "ошибок": 0
+   },
+   "живой": {
+    "state": "pause",
+    "simT": 0.5,
+    "trips": 1,
+    "c66s": true,
+    "ошибок": 30,
+    "ошибки": [
+     "CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:1913:47)\n    at frame74 (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:1920:119)\n    at frame (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:14289:50)",
+     "CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:1913:47)\n    at frame74 (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:1920:119)\n    at frame (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:14289:50)",
+     "CON ReferenceError: c66Fail is not defined\n    at step74 (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:1913:47)\n    at frame74 (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:1920:119)\n    at frame (file:///tmp/var8_yd7gg_9e/v_cine_bg.html:14289:50)"
+    ]
+   }
+  }
+ },
+ {
+  "вариант": "K: без bg против полной",
+  "status": "PASS",
+  "detail": [
+   "K-подмножество 72 заданий: без bg = полной по отпечаткам, ГСЧ (341614 вызовов), снимкам; расхождений 0 []"
+  ]
+ }
+]

@@ -1,0 +1,154 @@
+{
+ "note": "План разреза фазы A (ТЗ этапа 8, разделы 6.1–6.2). html — строки HTML 1.5.35; script — строки основного скрипта (строка 1 — пустой остаток строки <script>). Якорь — начало строки, которая обязана встречаться в скрипте ровно один раз как целая строка.",
+ "version": "1.5.35 α",
+ "source_sha256": "b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034",
+ "html": [
+  {
+   "name": "shell/head.html",
+   "kind": "shell",
+   "from": 1,
+   "to": 15,
+   "expect_first": "<meta charset=\"utf-8\">"
+  },
+  {
+   "name": "css/main.css",
+   "kind": "css",
+   "from": 16,
+   "to": 1467
+  },
+  {
+   "name": "css/opt/cine.css",
+   "kind": "css",
+   "group": "cine",
+   "from": 1468,
+   "to": 1551,
+   "expect_first": "/* ▼▼▼ CINE·PROTO 1.5.1 α «Кадр» · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА"
+  },
+  {
+   "lit": "\n"
+  },
+  {
+   "name": "css/opt/bg.css",
+   "kind": "css",
+   "group": "bg",
+   "from": 1553,
+   "to": 1556,
+   "expect_first": "/* ▼▼▼ BG·PROTO 1.5.5 α «Небо» · НАЧАЛО ВЫРЕЗАЕМОГО БЛОКА"
+  },
+  {
+   "name": "css/tail.css",
+   "kind": "css",
+   "from": 1557,
+   "to": 1557
+  }
+ ],
+ "script": {
+  "body_from": 1558,
+  "open_line": 1850,
+  "fragments": [
+   {
+    "name": "00-core",
+    "start": 1,
+    "anchor": null
+   },
+   {
+    "name": "01-data-sectors",
+    "start": 716,
+    "anchor": "// ===== 0.5.5: сектора III–IV — данные (до генерации миссий)"
+   },
+   {
+    "name": "02-game",
+    "start": 1339,
+    "anchor": "const G={state:'menu',m:0,t:0,player:null,"
+   },
+   {
+    "name": "03-shell",
+    "start": 2628,
+    "anchor": "// ===== 0.6.2: полный экран — один модуль ====="
+   },
+   {
+    "name": "04-cloud",
+    "start": 4229,
+    "anchor": "// ===== 1.0.0 α: облачное сохранение — личная папка игрока"
+   },
+   {
+    "name": "05-story",
+    "start": 5072,
+    "anchor": "// ===================== 0.5 «Не дайте ему вспомнить»: сюжет"
+   },
+   {
+    "name": "06-devworld",
+    "start": 5755,
+    "anchor": "// ===== DEV-WORLD 0.5.4 ====="
+   },
+   {
+    "name": "07-sectors-3-4",
+    "start": 5908,
+    "anchor": "// ===== 0.5.5: сектора III–IV — механики (лёд, износ"
+   },
+   {
+    "name": "08-sectors-5-6",
+    "start": 6884,
+    "anchor": "// ===== 0.7.4: сектора V–VI — механики, враги"
+   },
+   {
+    "name": "09-sectors-7-8",
+    "start": 7598,
+    "anchor": "// ===== 0.8.0: сектора VII «Предел» и VIII «Исток» — поведение"
+   },
+   {
+    "name": "10-sectors-9-10",
+    "start": 8980,
+    "anchor": "// ===== 0.9 «Сердце Ковчега и Стёртые берега»: общий каркас"
+   },
+   {
+    "name": "11-sectors-11-12",
+    "start": 11361,
+    "anchor": "// ===== 0.9.7: сектор XI «Нулевая точка»"
+   },
+   {
+    "name": "12-mobile-start",
+    "start": 12503,
+    "anchor": "// ===== 0.6.0: адаптивное качество (только телефон"
+   },
+   {
+    "name": "13-v1x",
+    "start": 12548,
+    "anchor": "/* ===== 1.1.0 α · «Чистый интерфейс»"
+   },
+   {
+    "name": "14-cine-proto",
+    "start": 15689,
+    "group": "cine",
+    "anchor": "/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ CINE·PROTO 1.5.1 α «Кадр» · НАЧАЛО",
+    "last_line_starts": "/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ CINE·PROTO 1.5.1 α «Кадр» · КОНЕЦ"
+   },
+   {
+    "name": "14b-sky-rng-guard",
+    "start": 16204,
+    "expect_empty": true,
+    "role": "sky-rng-guard",
+    "contains": [
+     "if(typeof iso65==='function'){buildNebula=iso65(buildNebula);buildStars=iso65(buildStars);}"
+    ]
+   },
+   {
+    "name": "15-bg-proto",
+    "start": 16210,
+    "group": "bg",
+    "anchor": "/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ BG·PROTO 1.5.5 α «Небо» · НАЧАЛО",
+    "last_line_starts": "/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ BG·PROTO 1.5.5 α «Небо» · КОНЕЦ"
+   },
+   {
+    "name": "16-boot",
+    "start": 16520,
+    "expect_empty": true,
+    "role": "boot",
+    "contains": [
+     "/* ARCH·69 A-2 · A-3 */arch69Boot();",
+     "/* ARCH·70 A-5 A-6 A-8 A-12 */arch70Boot();"
+    ]
+   }
+  ]
+ }
+}

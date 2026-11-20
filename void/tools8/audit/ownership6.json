@@ -1,0 +1,166 @@
+{
+ "version": 6,
+ "note": "Этап 6+7 (1.5.25–1.5.35): границы владения полями G. Проверка — node tools6/own6.js <сборка>. Чтения полей не ограничены.",
+ "groups": [
+  {
+   "id": "screen",
+   "title": "переходы экранов (G.state)",
+   "fields": [
+    "state"
+   ],
+   "owners": [
+    "scr6"
+   ],
+   "from": "ARCH·88",
+   "exceptions": [
+    {
+     "unit": "enterWorldAt",
+     "kind": "bulk",
+     "why": "групповой сброс раунда входа в мир: state:'world' вместе с полями раунда"
+    }
+   ],
+   "bodies": {
+    "scr6": "function scr6(to){return G.state=to;}"
+   }
+  },
+  {
+   "id": "save",
+   "title": "идентичность объекта прогресса (G.save)",
+   "fields": [
+    "save"
+   ],
+   "owners": [
+    "saveSet6",
+    "saveWith6"
+   ],
+   "from": "ARCH·89",
+   "exceptions": [],
+   "bodies": {
+    "saveSet6": "function saveSet6(S,why){return G.save=S;}",
+    "saveWith6": "function saveWith6(S,fn){const k=G.save;G.save=S;try{return fn();}finally{G.save=k;}}"
+   },
+   "note": "Вложенные изменения G.save.* (прогресс внутри объекта) этим правилом не ограничены: оно касается только смены самого объекта."
+  },
+  {
+   "id": "runlvl",
+   "title": "прокачка забега",
+   "fields": [
+    "xp",
+    "lvl",
+    "need",
+    "lvlQ",
+    "bpQ",
+    "briefQ",
+    "briefN"
+   ],
+   "from": "ARCH·89b",
+   "owners": [
+    "runXp6",
+    "runLvlUp6",
+    "runLvlSeg6",
+    "runBrief6",
+    "runStart6",
+    "runZero6",
+    "runRestore6",
+    "runGrant6",
+    "runTake6",
+    "runQClear6"
+   ],
+   "exceptions": [
+    {
+     "unit": "setupMission0",
+     "kind": "bulk",
+     "fields": [
+      "bpQ"
+     ],
+     "why": "групповой сброс раунда миссии"
+    },
+    {
+     "unit": "enterWorldAt",
+     "kind": "bulk",
+     "fields": [
+      "bpQ"
+     ],
+     "why": "групповой сброс раунда входа в мир"
+    }
+   ],
+   "bodies": {
+    "runXp6": "function runXp6(v){G.xp+=v;}",
+    "runLvlUp6": "function runLvlUp6(p){while(G.xp>=G.need&&p.hp>0){G.xp-=G.need;G.lvl++;G.need=need(G.lvl);G.lvlQ++;}}",
+    "runLvlSeg6": "function runLvlSeg6(){G.lvlQ++;G.xp=0;G.lvl++;G.need=need(G.lvl);}",
+    "runBrief6": "function runBrief6(K){Object.assign(G,{lvl:1+K,xp:0,lvlQ:K,briefQ:K,briefN:K});G.need=need(G.lvl);}",
+    "runStart6": "function runStart6(lv){Object.assign(G,{xp:0,lvl:lv,lvlQ:0,bpQ:0});G.need=need(lv);}",
+    "runZero6": "function runZero6(bp){const n=need(1);G.lvl=1;G.xp=0;G.need=n;G.lvlQ=0;if(bp)G.bpQ=0;G.briefQ=0;}",
+    "runRestore6": "function runRestore6(r){G.xp=r.xp;G.lvl=r.lvl;G.need=r.need;G.lvlQ=0;G.bpQ=0;}",
+    "runGrant6": "function runGrant6(k){if(k==='bp')G.bpQ++;else G.lvlQ++;}",
+    "runTake6": "function runTake6(k){if(k==='bp')G.bpQ=Math.max(0,G.bpQ-1);else{G.lvlQ=Math.max(0,G.lvlQ-1);if(G.briefQ>0)G.briefQ--;}}",
+    "runQClear6": "function runQClear6(){G.lvlQ=0;G.briefQ=0;}"
+   }
+  },
+  {
+   "id": "targeting",
+   "title": "наведение (этап 5)",
+   "fields": [
+    "prio",
+    "aimLock",
+    "tg90",
+    "noTg75",
+    "aimWarn75"
+   ],
+   "owners": [
+    "aimLockable",
+    "aimManual",
+    "targetable",
+    "pickTarget",
+    "prioTap",
+    "aimFallback",
+    "aimPt",
+    "nearestEnemy",
+    "aimStep",
+    "autoFireWanted",
+    "prioSet",
+    "prioClear",
+    "aimLockClear"
+   ],
+   "from": "ARCH·81–84, ARCH·87",
+   "exceptions": [
+    {
+     "unit": "setupMission0",
+     "kind": "bulk",
+     "fields": [
+      "prio",
+      "aimLock"
+     ],
+     "why": "групповой сброс раунда миссии"
+    },
+    {
+     "unit": "startEndless",
+     "kind": "bulk",
+     "fields": [
+      "prio"
+     ],
+     "why": "групповой сброс бесконечного режима"
+    },
+    {
+     "unit": "enterWorldAt",
+     "kind": "bulk",
+     "fields": [
+      "prio",
+      "aimLock"
+     ],
+     "why": "групповой сброс раунда входа в мир"
+    }
+   ],
+   "ownerWrapped": [
+    "nearestEnemy"
+   ]
+  }
+ ],
+ "dyn": [
+  "ip76Post G[выражение]"
+ ],
+ "escapes": [
+  "ip76Post ForInStatement",
+  "(top) VariableDeclarator"
+ ]
+}

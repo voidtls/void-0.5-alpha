@@ -1,0 +1,15 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/void/tools8/navcheck8.py", "--n", "200", "--json", "/home/claude/VOID_stage8/accept8_full/steps/nav8/nav8.json"], "cwd": "/home/claude/VOID_stage8/void", "env": {}, "start": "2026-11-17 15:07:21"}
+{
+ "status": "PASS",
+ "проверено": {
+  "html": 518,
+  "script": 447,
+  "where": 205,
+  "layers": 229,
+  "17.5 (10 имён)": 10
+ },
+ "подсистем в TESTS.md": 26,
+ "нарушения": []
+}
+
+# код выхода 0, 56 с

@@ -1,0 +1,46 @@
+# {"argv": ["node", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/merge86.js", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html", "/home/claude/VOID_stage8/accept8_full/steps/arch/mut/m86_post.html"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:18:20"}
+{
+ "pairs": {
+  "renderSettings": {
+   "before": 3,
+   "after": 1,
+   "merged": 3,
+   "pre": 3,
+   "post": 3,
+   "suffixErr": []
+  },
+  "renderSetScreen": {
+   "before": 6,
+   "after": 4,
+   "merged": 3,
+   "pre": 0,
+   "post": 3,
+   "suffixErr": []
+  },
+  "tutEmit": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 0,
+   "suffixErr": []
+  },
+  "tutMapDraw": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 0,
+   "suffixErr": []
+  }
+ },
+ "ok": false,
+ "errs": [
+  "tutMapDraw: в pre объединённого 3 операторов, ожидалось 2",
+  "tutMapDraw: в post объединённого 0 операторов, ожидалось 1",
+  "tutMapDraw: post[0] отличается:\n  ожидалось try{if(JH133.on&&G.state==='map'&&G.mapTab==='map'&&G.mapPts){constcv=$('#mapC');if(cv){constg=cv.getContext('2d'),t=$P0/1000,q=(t*.9)%1,w=cv.clientWidth,h=cv.c\n  есть      undefined"
+ ],
+ "otherBlocksChanged": 0
+}
+
+# код выхода 1, 1 с

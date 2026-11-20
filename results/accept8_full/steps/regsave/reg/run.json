@@ -1,0 +1,35 @@
+{
+ "status": "COMPLETE",
+ "build": "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html",
+ "buildSha": "b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034",
+ "suites": {
+  "q71save": {
+   "status": "OK",
+   "rc": 0,
+   "records": 6,
+   "expected": 6,
+   "sec": 13
+  },
+  "q73save": {
+   "status": "OK",
+   "rc": 0,
+   "records": 10,
+   "expected": 10,
+   "sec": 17
+  }
+ },
+ "source": {
+  "q71save": "kit/q71save.py",
+  "q73save": "kit/q73save.py"
+ },
+ "solo": [],
+ "overlay": null,
+ "cmpExit": 0,
+ "nproc": 2,
+ "tools": {
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "tools5/cmpreg5.py": "dd034df5583d2b17",
+  "kit/q71save.py": "c3a790f773fcf1c0",
+  "kit/q73save.py": "394a252b6e362d19"
+ }
+}

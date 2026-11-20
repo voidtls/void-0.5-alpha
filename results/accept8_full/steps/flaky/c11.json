@@ -1,0 +1,246 @@
+{
+ "A": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html",
+ "B": "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html",
+ "reps": 8,
+ "rows": [
+  {
+   "tag": "A",
+   "rep": 0,
+   "status": "OK",
+   "ms": 0.13,
+   "tick": 0.033,
+   "lay": 0.097,
+   "avg": 6.592
+  },
+  {
+   "tag": "B",
+   "rep": 0,
+   "status": "OK",
+   "ms": 0.133,
+   "tick": 0.033,
+   "lay": 0.1,
+   "avg": 0.223
+  },
+  {
+   "tag": "A2",
+   "rep": 0,
+   "status": "OK",
+   "ms": 0.147,
+   "tick": 0.04,
+   "lay": 0.107,
+   "avg": 0.869
+  },
+  {
+   "tag": "A",
+   "rep": 1,
+   "status": "OK",
+   "ms": 0.147,
+   "tick": 0.027,
+   "lay": 0.12,
+   "avg": 8.007
+  },
+  {
+   "tag": "B",
+   "rep": 1,
+   "status": "OK",
+   "ms": 0.25,
+   "tick": 0.043,
+   "lay": 0.207,
+   "avg": 17.151
+  },
+  {
+   "tag": "A2",
+   "rep": 1,
+   "status": "OK",
+   "ms": 0.126,
+   "tick": 0.023,
+   "lay": 0.103,
+   "avg": 0.239
+  },
+  {
+   "tag": "A",
+   "rep": 2,
+   "status": "OK",
+   "ms": 0.22,
+   "tick": 0.027,
+   "lay": 0.193,
+   "avg": 0.156
+  },
+  {
+   "tag": "B",
+   "rep": 2,
+   "status": "OK",
+   "ms": 0.12,
+   "tick": 0.023,
+   "lay": 0.097,
+   "avg": 0.964
+  },
+  {
+   "tag": "A2",
+   "rep": 2,
+   "status": "OK",
+   "ms": 0.13,
+   "tick": 0.03,
+   "lay": 0.1,
+   "avg": 13.41
+  },
+  {
+   "tag": "A",
+   "rep": 3,
+   "status": "OK",
+   "ms": 0.206,
+   "tick": 0.033,
+   "lay": 0.173,
+   "avg": 0.255
+  },
+  {
+   "tag": "B",
+   "rep": 3,
+   "status": "OK",
+   "ms": 0.147,
+   "tick": 0.04,
+   "lay": 0.107,
+   "avg": 0.428
+  },
+  {
+   "tag": "A2",
+   "rep": 3,
+   "status": "OK",
+   "ms": 0.14,
+   "tick": 0.023,
+   "lay": 0.117,
+   "avg": 0.268
+  },
+  {
+   "tag": "A",
+   "rep": 4,
+   "status": "OK",
+   "ms": 0.167,
+   "tick": 0.03,
+   "lay": 0.137,
+   "avg": 14.059
+  },
+  {
+   "tag": "B",
+   "rep": 4,
+   "status": "OK",
+   "ms": 0.13,
+   "tick": 0.02,
+   "lay": 0.11,
+   "avg": 15.343
+  },
+  {
+   "tag": "A2",
+   "rep": 4,
+   "status": "OK",
+   "ms": 0.123,
+   "tick": 0.023,
+   "lay": 0.1,
+   "avg": 6.377
+  },
+  {
+   "tag": "A",
+   "rep": 5,
+   "status": "OK",
+   "ms": 0.13,
+   "tick": 0.023,
+   "lay": 0.107,
+   "avg": 5.667
+  },
+  {
+   "tag": "B",
+   "rep": 5,
+   "status": "OK",
+   "ms": 0.12,
+   "tick": 0.023,
+   "lay": 0.097,
+   "avg": 1.326
+  },
+  {
+   "tag": "A2",
+   "rep": 5,
+   "status": "OK",
+   "ms": 0.156,
+   "tick": 0.023,
+   "lay": 0.133,
+   "avg": 0.236
+  },
+  {
+   "tag": "A",
+   "rep": 6,
+   "status": "OK",
+   "ms": 0.137,
+   "tick": 0.027,
+   "lay": 0.11,
+   "avg": 4.028
+  },
+  {
+   "tag": "B",
+   "rep": 6,
+   "status": "OK",
+   "ms": 0.13,
+   "tick": 0.027,
+   "lay": 0.103,
+   "avg": 1.165
+  },
+  {
+   "tag": "A2",
+   "rep": 6,
+   "status": "OK",
+   "ms": 0.22,
+   "tick": 0.02,
+   "lay": 0.2,
+   "avg": 1.564
+  },
+  {
+   "tag": "A",
+   "rep": 7,
+   "status": "OK",
+   "ms": 0.143,
+   "tick": 0.023,
+   "lay": 0.12,
+   "avg": 0.208
+  },
+  {
+   "tag": "B",
+   "rep": 7,
+   "status": "OK",
+   "ms": 0.133,
+   "tick": 0.023,
+   "lay": 0.11,
+   "avg": 0.186
+  },
+  {
+   "tag": "A2",
+   "rep": 7,
+   "status": "OK",
+   "ms": 0.14,
+   "tick": 0.023,
+   "lay": 0.117,
+   "avg": 4.554
+  }
+ ],
+ "summary": {
+  "медиана мс": {
+   "A": 0.145,
+   "B": 0.1315,
+   "A2": 0.14
+  },
+  "B/A медиана": 0.927,
+  "B/A пары": [
+   0.545,
+   1.701
+  ],
+  "A′/A медиана": 0.918,
+  "A′/A пары": [
+   0.591,
+   1.606
+  ],
+  "FAIL": {
+   "A": 0,
+   "B": 0,
+   "A2": 0
+  }
+ },
+ "verdict": "нет регрессии"
+}

@@ -1,0 +1,115 @@
+{
+ "groups": {
+  "screen": {
+   "writes": {
+    "state": {
+     "scr6": 1,
+     "enterWorldAt": 1
+    }
+   },
+   "violations": []
+  },
+  "save": {
+   "writes": {
+    "save": {
+     "saveSet6": 1,
+     "saveWith6": 2
+    }
+   },
+   "violations": []
+  },
+  "runlvl": {
+   "writes": {
+    "xp": {
+     "runXp6": 1,
+     "runLvlUp6": 1,
+     "runLvlSeg6": 1,
+     "runZero6": 1,
+     "runRestore6": 1,
+     "runBrief6": 1,
+     "runStart6": 1
+    },
+    "lvl": {
+     "runLvlUp6": 1,
+     "runLvlSeg6": 1,
+     "runZero6": 1,
+     "runRestore6": 1,
+     "runBrief6": 1,
+     "runStart6": 1
+    },
+    "need": {
+     "runLvlUp6": 1,
+     "runLvlSeg6": 1,
+     "runBrief6": 1,
+     "runStart6": 1,
+     "runZero6": 1,
+     "runRestore6": 1
+    },
+    "lvlQ": {
+     "runLvlUp6": 1,
+     "runLvlSeg6": 1,
+     "runZero6": 1,
+     "runRestore6": 1,
+     "runGrant6": 1,
+     "runTake6": 1,
+     "runQClear6": 1,
+     "runBrief6": 1,
+     "runStart6": 1
+    },
+    "bpQ": {
+     "runZero6": 1,
+     "runRestore6": 1,
+     "runGrant6": 1,
+     "runTake6": 1,
+     "runStart6": 1,
+     "setupMission0": 1,
+     "enterWorldAt": 1
+    },
+    "briefQ": {
+     "runZero6": 1,
+     "runTake6": 1,
+     "runQClear6": 1,
+     "runBrief6": 1
+    },
+    "briefN": {
+     "runBrief6": 1
+    }
+   },
+   "violations": []
+  },
+  "targeting": {
+   "writes": {
+    "prio": {
+     "pickTarget": 1,
+     "prioTap": 3,
+     "prioSet": 1,
+     "prioClear": 1,
+     "setupMission0": 1,
+     "startEndless": 1,
+     "enterWorldAt": 1
+    },
+    "aimLock": {
+     "aimStep": 3,
+     "aimLockClear": 1,
+     "setupMission0": 1,
+     "enterWorldAt": 1
+    },
+    "tg90": {
+     "aimStep": 1
+    },
+    "noTg75": {
+     "aimFallback": 3,
+     "aimStep": 1
+    },
+    "aimWarn75": {
+     "aimFallback": 1
+    }
+   },
+   "violations": [],
+   "ownerWrapped": {
+    "nearestEnemy": "1/0"
+   }
+  }
+ },
+ "bad": []
+}

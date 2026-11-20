@@ -1,0 +1,17 @@
+{
+ "status": "COMPLETE",
+ "build": "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html",
+ "buildSha": "b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034",
+ "addFlags": [],
+ "jobs": 2,
+ "rows": 2,
+ "missing": [],
+ "errors": [],
+ "rc": 0,
+ "cmpExit": 1,
+ "tools": {
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "kit/t72/st74.py": "07b78132a5a576d6",
+  "tools5/cmpk5.py": "52b39b6808493965"
+ }
+}

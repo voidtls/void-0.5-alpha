@@ -1,0 +1,268 @@
+{
+ "lost": [],
+ "changed": [
+  {
+   "lit": "function",
+   "files": [
+    "q110.py"
+   ],
+   "was": 2501,
+   "now": 2493
+  },
+  {
+   "lit": "choice",
+   "files": [
+    "q120.py",
+    "qa1000.py"
+   ],
+   "was": 65,
+   "now": 63
+  },
+  {
+   "lit": "stroke",
+   "files": [
+    "q290.py"
+   ],
+   "was": 2430,
+   "now": 2410
+  },
+  {
+   "lit": "unborn",
+   "files": [
+    "q300.py",
+    "q74.py"
+   ],
+   "was": 53,
+   "now": 49
+  },
+  {
+   "lit": "argument",
+   "files": [
+    "q300.py"
+   ],
+   "was": 174,
+   "now": 170
+  },
+  {
+   "lit": "undefined",
+   "files": [
+    "q340.py",
+    "q340s.py",
+    "q350.py"
+   ],
+   "was": 324,
+   "now": 322
+  },
+  {
+   "lit": "const c=",
+   "files": [
+    "q360.py"
+   ],
+   "was": 189,
+   "now": 194
+  },
+  {
+   "lit": " шагов ",
+   "files": [
+    "q370.py"
+   ],
+   "was": 1,
+   "now": 2
+  },
+  {
+   "lit": "кадров",
+   "files": [
+    "q370.py"
+   ],
+   "was": 19,
+   "now": 27
+  },
+  {
+   "lit": "обучение",
+   "files": [
+    "q380.py"
+   ],
+   "was": 22,
+   "now": 23
+  },
+  {
+   "lit": "window.__archOff=",
+   "files": [
+    "q380.py"
+   ],
+   "was": 11,
+   "now": 13
+  },
+  {
+   "lit": "загрузка",
+   "files": [
+    "q380.py"
+   ],
+   "was": 5,
+   "now": 7
+  },
+  {
+   "lit": "новая игра",
+   "files": [
+    "q380.py"
+   ],
+   "was": 3,
+   "now": 4
+  },
+  {
+   "lit": "ошибки",
+   "files": [
+    "q380.py"
+   ],
+   "was": 6,
+   "now": 7
+  },
+  {
+   "lit": "телефон",
+   "files": [
+    "q380.py",
+    "q90.py",
+    "q95.py"
+   ],
+   "was": 88,
+   "now": 95
+  },
+  {
+   "lit": "chains",
+   "files": [
+    "q380.py"
+   ],
+   "was": 9,
+   "now": 10
+  },
+  {
+   "lit": "owners",
+   "files": [
+    "q380.py"
+   ],
+   "was": 2,
+   "now": 6
+  },
+  {
+   "lit": "bridge",
+   "files": [
+    "q74.py"
+   ],
+   "was": 15,
+   "now": 10
+  },
+  {
+   "lit": "engine",
+   "files": [
+    "q74.py",
+    "qa1000.py"
+   ],
+   "was": 18,
+   "now": 15
+  },
+  {
+   "lit": "мёртвых",
+   "files": [
+    "q74.py"
+   ],
+   "was": 8,
+   "now": 7
+  },
+  {
+   "lit": "midwife",
+   "files": [
+    "q74.py"
+   ],
+   "was": 8,
+   "now": 7
+  },
+  {
+   "lit": "funeral",
+   "files": [
+    "q74.py"
+   ],
+   "was": 10,
+   "now": 9
+  },
+  {
+   "lit": "пуповин",
+   "files": [
+    "q74.py"
+   ],
+   "was": 13,
+   "now": 12
+  },
+  {
+   "lit": "двигател",
+   "files": [
+    "q74.py"
+   ],
+   "was": 49,
+   "now": 47
+  },
+  {
+   "lit": "object",
+   "files": [
+    "q74.py"
+   ],
+   "was": 33,
+   "now": 34
+  },
+  {
+   "lit": "flagship",
+   "files": [
+    "q74.py"
+   ],
+   "was": 24,
+   "now": 21
+  },
+  {
+   "lit": "МИЛОСТЬ",
+   "files": [
+    "q74.py"
+   ],
+   "was": 6,
+   "now": 4
+  },
+  {
+   "lit": "КОРМИЛИЦА",
+   "files": [
+    "q74.py"
+   ],
+   "was": 18,
+   "now": 14
+  },
+  {
+   "lit": "settings",
+   "files": [
+    "qa1000.py"
+   ],
+   "was": 22,
+   "now": 23
+  },
+  {
+   "lit": "ownSkins",
+   "files": [
+    "qa1000.py"
+   ],
+   "was": 44,
+   "now": 40
+  },
+  {
+   "lit": "render",
+   "files": [
+    "qa1000.py"
+   ],
+   "was": 133,
+   "now": 134
+  },
+  {
+   "lit": "charge",
+   "files": [
+    "qa1000.py"
+   ],
+   "was": 142,
+   "now": 133
+  }
+ ]
+}

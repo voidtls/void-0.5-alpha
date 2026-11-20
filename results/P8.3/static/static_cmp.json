@@ -1,0 +1,9 @@
+{
+ "эталон": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/ref6/static175",
+ "равно эталону": {
+  "g6": true,
+  "w6": true,
+  "chains6": true,
+  "init6": true
+ }
+}

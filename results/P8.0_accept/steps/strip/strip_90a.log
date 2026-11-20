@@ -1,0 +1,4 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/stage6/s6.py", "strip", "/home/claude/VOID_stage8/results_work/P8.0_accept/steps/build/b/b90a.html", "/home/claude/VOID_stage8/results_work/P8.0_accept/steps/build/b/b89b.html", "90a"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 13:28:22"}
+равно эталону: True sha: 984ed836fc856f93 остатки: ['85', '86', '87', '88', '89', '89b']
+
+# код выхода 0, 1 с

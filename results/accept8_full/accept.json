@@ -1,0 +1,1930 @@
+{
+ "run": "/home/claude/VOID_stage8/accept8_full",
+ "full": true,
+ "code": 1,
+ "verdict": "ПРИЁМКА НЕ ПРОЙДЕНА: есть FAIL",
+ "counts": {
+  "PASS": 24,
+  "KNOWN": 8,
+  "FAIL": 1,
+  "ERROR": 0
+ },
+ "sec": 13308,
+ "started": "2026-11-17 14:41:42",
+ "tools": {
+  "tools6/a23v6.py": "339e9a2d5bb8e860",
+  "tools6/accept6.py": "b68440dead20f65f",
+  "tools6/archcheck6.py": "5dc79dd376daa47b",
+  "tools6/arct6.js": "6bf5dcf2c1da72fe",
+  "tools6/c11ab6.py": "275e2a44d6e4e1a2",
+  "tools6/c5probe.py": "64e129cc86f01267",
+  "tools6/chains6.js": "97088b567b2d3f12",
+  "tools6/flaky6.py": "83049cf226d45637",
+  "tools6/fps6.py": "8f5d4c00c5528b48",
+  "tools6/fpsx6.py": "09797ea26453d8f8",
+  "tools6/g6.js": "e53f3dc96e0c7c1b",
+  "tools6/gate27sim.py": "928097cf39db16fc",
+  "tools6/gkeys6.py": "c2e627498eb2d809",
+  "tools6/init6.js": "11238694c731ea12",
+  "tools6/m6.js": "d097fa66a5b84099",
+  "tools6/merge86.js": "c0db2819a0725695",
+  "tools6/mkkit6.py": "4bb970110d630906",
+  "tools6/mkpack6.py": "b1e867038880fbfe",
+  "tools6/mut86.py": "a7fc73f96f0e8160",
+  "tools6/own6.js": "024c5da3f2ceac1c",
+  "tools6/perf6.py": "32f4b27c04025752",
+  "tools6/rollback6.py": "474c49d369bb5c8e",
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "tools6/save6.py": "4cc1ddadca50a3a7",
+  "tools6/selftest6.py": "50cd39829a4532e3",
+  "tools6/shots6.py": "3829e4ecda21d2f3",
+  "tools6/st6.py": "5682c06ef6cc90bf",
+  "tools6/tdep6.py": "5f66e346fe079b87",
+  "tools6/thrab6.py": "80ff21eb2603adcd",
+  "tools6/trace7.py": "162b6aee3bc72d42",
+  "tools6/trace86.py": "3261107c8df905c0",
+  "tools6/w6.js": "16ff4a685d297259"
+ },
+ "python": "3.13.18",
+ "steps": [
+  {
+   "step": "env",
+   "group": "env",
+   "status": "PASS",
+   "sec": 1,
+   "detail": {
+    "python": "3.13.18",
+    "playwright": "1.63.0",
+    "node": "v22.23.4",
+    "acorn": "8.18.0",
+    "acorn-walk": "8.3.5",
+    "eslint-scope": "9.1.2",
+    "esrecurse": "4.3.0",
+    "estraverse": "5.3.0",
+    "chrome": "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome",
+    "chromium": "153.0.8010.12"
+   },
+   "logs": [
+    "steps/env/browser.log"
+   ]
+  },
+  {
+   "step": "kit",
+   "group": "kit",
+   "status": "PASS",
+   "sec": 6,
+   "detail": {
+    "файлов": 362,
+    "изменено_или_нет": [],
+    "лишние": [],
+    "mkkit6": 0
+   },
+   "logs": [
+    "steps/kit/mkkit6_check.log"
+   ]
+  },
+  {
+   "step": "build",
+   "group": "build",
+   "status": "PASS",
+   "sec": 7,
+   "detail": {
+    "шаги": {
+     "85": "1ccfbc01e1716fbc",
+     "86": "5d240a4b3c25ed3a",
+     "87": "1322deff8c5e347a",
+     "88": "0a10696778185013",
+     "89": "52e33e418ef9bdd7",
+     "89b": "984ed836fc856f93",
+     "90a": "7f155537b54a43c5",
+     "90b": "26fddb1e33937ae3",
+     "91": "8317d6ebbbde5cf4",
+     "92": "f859dc1d40f847ed",
+     "93": "b936a549366321b6"
+    },
+    "расхождения SHA": [],
+    "1.5.35 SHA": "b936a549366321b6",
+    "= builds6/void_b175.html побайтно": true,
+    "dist/void.html SHA": "b936a549366321b6",
+    "dist = итог цепочки 85–93 побайтно": true,
+    "проверяется": "dist/void.html (копия в папке прогона)"
+   },
+   "logs": [
+    "steps/build/chain.log"
+   ]
+  },
+  {
+   "step": "b8check",
+   "group": "stage8",
+   "status": "KNOWN",
+   "sec": 70,
+   "detail": {
+    "код": 0,
+    "статусы": {
+     "schema": "PASS",
+     "files": "PASS",
+     "encoding": "PASS",
+     "assets": "PASS",
+     "build": "PASS",
+     "lock": "PASS",
+     "dist": "PASS",
+     "coverage": "PASS",
+     "order": "PASS",
+     "guards": "PASS",
+     "syntax": "PASS",
+     "init": "PASS",
+     "dangle": "KNOWN",
+     "index": "PASS"
+    },
+    "dangle": "cine: удалено имён 97, незащищённых ['c66Fail', 'c66Tick']; bg: удалено имён 57, незащищённых нет; зарегистрировано: cine → ['c66Fail', 'c66Tick'] (cut.cine.live)",
+    "KNOWN": "cut.cine.live: точное совпадение с build/invariants.json"
+   },
+   "logs": [
+    "steps/b8check/check.log"
+   ]
+  },
+  {
+   "step": "b8self",
+   "group": "stage8",
+   "status": "PASS",
+   "sec": 495,
+   "detail": {
+    "код": 0,
+    "итог": [
+     "ИТОГ: 41 случаев, не поймано/сбой: 0"
+    ]
+   },
+   "logs": [
+    "steps/b8self/selftest.log"
+   ]
+  },
+  {
+   "step": "variants8",
+   "group": "stage8",
+   "status": "KNOWN",
+   "sec": 960,
+   "detail": {
+    "код": 0,
+    "варианты": {
+     "полная": "PASS",
+     "без cine": "KNOWN",
+     "без bg": "PASS",
+     "без cine+bg": "KNOWN",
+     "K: без bg против полной": "PASS"
+    },
+    "KNOWN": "cut.cine.live в вариантах без cine; остальные PASS"
+   },
+   "logs": [
+    "steps/variants8/variants8.log"
+   ]
+  },
+  {
+   "step": "nav8",
+   "group": "stage8",
+   "status": "PASS",
+   "sec": 56,
+   "detail": {
+    "код": 0,
+    "итог": {
+     "html": 518,
+     "script": 447,
+     "where": 205,
+     "layers": 229,
+     "17.5 (10 имён)": 10
+    }
+   },
+   "logs": [
+    "steps/nav8/nav8.log"
+   ]
+  },
+  {
+   "step": "rollback8",
+   "group": "stage8",
+   "status": "PASS",
+   "sec": 55,
+   "detail": {
+    "код": 0,
+    "итог": [
+     {
+      "пункт": "1. B1 → A (regroup --undo)",
+      "status": "PASS",
+      "detail": "18 JS-фрагментов = снимок фазы A: True; манифест = снимок: True; сборка = 1.5.35: True"
+     },
+     {
+      "пункт": "1б. B1 → A (snap8 restore P8.4)",
+      "status": "PASS",
+      "detail": "совпадает со снимком P8.4"
+     },
+     {
+      "пункт": "2. текущее дерево → монолит",
+      "status": "PASS",
+      "detail": "SHA b936a549366321b6"
+     },
+     {
+      "пункт": "3. монолит → 1.5.24 (archive/rollback6, без тестового комплекта)",
+      "status": "PASS",
+      "detail": "SHA 76753e3338ab36ee; путь D перенаправлен во временную раскладку: True"
+     },
+     {
+      "пункт": "3б. 1.5.24 → 1.5.35 (archive/stage6 apply 85…93)",
+      "status": "PASS",
+      "detail": "SHA b936a549366321b6"
+     },
+     {
+      "пункт": "4. искусственный патч и возврат",
+      "status": "PASS",
+      "detail": "правка js/ui/0380-hud.js: SHA 4711cbdb126bef09 (≠ 1.5.35: True), строк CHANGES 2→3; после возврата SHA b936a549366321b6, check код 0"
+     },
+     {
+      "пункт": "5. verify-html на испорченной копии",
+      "status": "PASS",
+      "detail": "испорчен байт 7049565 в части assets/audio/mz-menu_l1.b64; названа: ['assets/audio/mz-menu_l1.b64']"
+     },
+     {
+      "пункт": "5а. verify-html: испорчен байт в куске JS",
+      "status": "PASS",
+      "detail": "испорчен байт 291859 в js/bosses/0200-s3-4-boss-data.js; названа: ['js/bosses/0200-s3-4-boss-data.js']"
+     },
+     {
+      "пункт": "5б. verify-html на целой копии",
+      "status": "PASS",
+      "detail": "совпадает со сборкой побайтно (SHA b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034)"
+     }
+    ]
+   },
+   "logs": [
+    "steps/rollback8/rollback8.log"
+   ]
+  },
+  {
+   "step": "offline8",
+   "group": "stage8",
+   "status": "PASS",
+   "sec": 42,
+   "detail": {
+    "код": 0,
+    "итог": [
+     {
+      "режим": "file://",
+      "status": "PASS",
+      "detail": [
+       "меню → бой, 3.03 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+      ],
+      "raw": {
+       "сборка": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3.03,
+        "ver": "1.5.35 α",
+        "online": true,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        ],
+        "запросы": [
+         "file:void.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ],
+        "ошибки_игры": [],
+        "ошибок_сети": 1
+       },
+       "эталон 1.5.35": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3.02,
+        "ver": "1.5.35 α",
+        "online": true,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        ],
+        "запросы": [
+         "file:void_1.5.35_reference.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ]
+       }
+      }
+     },
+     {
+      "режим": "HTTP",
+      "status": "PASS",
+      "detail": [
+       "меню → бой, 3.02 с симуляции; ошибок игры 0; запросы = 1.5.35: ['http-local:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+      ],
+      "raw": {
+       "сборка": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3.02,
+        "ver": "1.5.35 α",
+        "online": true,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        ],
+        "запросы": [
+         "http-local:void.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ],
+        "ошибки_игры": [],
+        "ошибок_сети": 1
+       },
+       "эталон 1.5.35": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3.02,
+        "ver": "1.5.35 α",
+        "online": true,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        ],
+        "запросы": [
+         "http-local:void_1.5.35_reference.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ]
+       }
+      }
+     },
+     {
+      "режим": "без сети",
+      "status": "PASS",
+      "detail": [
+       "меню → бой, 3 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+      ],
+      "raw": {
+       "сборка": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3,
+        "ver": "1.5.35 α",
+        "online": false,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+        ],
+        "запросы": [
+         "file:void.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ],
+        "ошибки_игры": [],
+        "ошибок_сети": 1
+       },
+       "эталон 1.5.35": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3.02,
+        "ver": "1.5.35 α",
+        "online": false,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+        ],
+        "запросы": [
+         "file:void_1.5.35_reference.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ]
+       }
+      }
+     },
+     {
+      "режим": "телефон",
+      "status": "PASS",
+      "detail": [
+       "меню → бой, 3.02 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+      ],
+      "raw": {
+       "сборка": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3.02,
+        "ver": "1.5.35 α",
+        "online": true,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        ],
+        "запросы": [
+         "file:void.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ],
+        "ошибки_игры": [],
+        "ошибок_сети": 1
+       },
+       "эталон 1.5.35": {
+        "menu": "menu",
+        "state": "play",
+        "simT": 3.02,
+        "ver": "1.5.35 α",
+        "online": true,
+        "trips": 0,
+        "ошибок": 1,
+        "ошибки": [
+         "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        ],
+        "запросы": [
+         "file:void_1.5.35_reference.html",
+         "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+        ]
+       }
+      }
+     }
+    ]
+   },
+   "logs": [
+    "steps/offline8/offline8.log"
+   ]
+  },
+  {
+   "step": "strip",
+   "group": "build",
+   "status": "PASS",
+   "sec": 16,
+   "detail": {
+    "код выхода": {
+     "все 93…85 → 1.5.24": 0,
+     "85": 0,
+     "86": 0,
+     "87": 0,
+     "88": 0,
+     "89": 0,
+     "89b": 0,
+     "90a": 0,
+     "90b": 0,
+     "91": 0,
+     "92": 0,
+     "93": 0
+    }
+   },
+   "logs": [
+    "steps/strip/strip_all.log",
+    "steps/strip/strip_85.log",
+    "steps/strip/strip_86.log",
+    "steps/strip/strip_87.log",
+    "steps/strip/strip_88.log",
+    "steps/strip/strip_89.log",
+    "steps/strip/strip_89b.log",
+    "steps/strip/strip_90a.log",
+    "steps/strip/strip_90b.log",
+    "steps/strip/strip_91.log",
+    "steps/strip/strip_92.log",
+    "steps/strip/strip_93.log"
+   ]
+  },
+  {
+   "step": "rollback",
+   "group": "build",
+   "status": "PASS",
+   "sec": 6,
+   "detail": {
+    "rollback6": 0,
+    "= 1.5.24 побайтно": true
+   },
+   "logs": [
+    "steps/rollback/rollback.log"
+   ]
+  },
+  {
+   "step": "static",
+   "group": "static",
+   "status": "PASS",
+   "sec": 474,
+   "detail": {
+    "own6": 0,
+    "selftest6": 0,
+    "tdep6": 0,
+    "g6": "равно эталону",
+    "w6": "равно эталону",
+    "chains6": "равно эталону",
+    "init6": "равно эталону",
+    "нарушения": []
+   },
+   "logs": [
+    "steps/static/own6.log",
+    "steps/static/selftest6.log",
+    "steps/static/tdep6.log",
+    "steps/static/g6.log",
+    "steps/static/w6.log",
+    "steps/static/chains6.log",
+    "steps/static/init6.log"
+   ]
+  },
+  {
+   "step": "arch",
+   "group": "arch",
+   "status": "PASS",
+   "sec": 12,
+   "detail": {
+    "archcheck6 v1 1.5.24": 0,
+    "archcheck6 v2 1.5.24": 0,
+    "archcheck6 v1 1.5.35": 0,
+    "archcheck6 v2 1.5.35": 0,
+    "merge86 1.5.25→1.5.26→1.5.35": 0,
+    "merge86 1.5.24→1.5.35": 0,
+    "исторический archcheck видит": [
+     [
+      "chain",
+      "renderSetScreen",
+      6,
+      4,
+      "состав"
+     ],
+     [
+      "chain",
+      "renderSettings",
+      3,
+      1,
+      "состав"
+     ],
+     [
+      "chain",
+      "tutEmit",
+      2,
+      1,
+      "состав"
+     ],
+     [
+      "chain",
+      "tutMapDraw",
+      2,
+      1,
+      "состав"
+     ]
+    ],
+    "мутанты (1 = отвергнут)": {
+     "m86_merged": {
+      "archcheck6 v1": 1,
+      "v2": 1,
+      "merge86": 1
+     },
+     "m86_other": {
+      "archcheck6 v1": 1,
+      "v2": 1,
+      "merge86": 1
+     },
+     "m86_post": {
+      "archcheck6 v1": 0,
+      "v2": 0,
+      "merge86": 1
+     },
+     "m86_behav": {
+      "archcheck6 v1": 1,
+      "v2": 1,
+      "merge86": 1
+     }
+    },
+    "нарушения": []
+   },
+   "logs": [
+    "steps/arch/ac1_1.5.24.log",
+    "steps/arch/ac2_1.5.24.log",
+    "steps/arch/ac1_1.5.35.log",
+    "steps/arch/ac2_1.5.35.log",
+    "steps/arch/merge86_pair.log",
+    "steps/arch/merge86_full.log",
+    "steps/arch/archcheck_hist.log",
+    "steps/arch/mut86.log",
+    "steps/arch/m86_merged_ac1.log",
+    "steps/arch/m86_merged_ac2.log",
+    "steps/arch/m86_merged_merge86.log",
+    "steps/arch/m86_other_ac1.log",
+    "steps/arch/m86_other_ac2.log",
+    "steps/arch/m86_other_merge86.log",
+    "steps/arch/m86_post_ac1.log",
+    "steps/arch/m86_post_ac2.log",
+    "steps/arch/m86_post_merge86.log",
+    "steps/arch/m86_behav_ac1.log",
+    "steps/arch/m86_behav_ac2.log",
+    "steps/arch/m86_behav_merge86.log"
+   ]
+  },
+  {
+   "step": "trace",
+   "group": "arch",
+   "status": "PASS",
+   "sec": 122,
+   "detail": {
+    "вызовов": 106,
+    "вложенных": 67377,
+    "вызовов слитых": 19,
+    "A/B по полям": {
+     "order": 0,
+     "args": 0,
+     "results": 0,
+     "effects": 0,
+     "state": 0,
+     "visual": 0
+    },
+    "A/A по полям": {
+     "order": 0,
+     "args": 0,
+     "results": 0,
+     "effects": 0,
+     "state": 0,
+     "visual": 0
+    },
+    "мутант пойман в слитой функции": true,
+    "мутант: расхождения": [
+     [
+      "play",
+      "3:tutEmit-jump",
+      "order",
+      []
+     ],
+     [
+      "play",
+      "3:tutEmit-jump",
+      "args",
+      null
+     ],
+     [
+      "play",
+      "3:tutEmit-jump",
+      "results",
+      null
+     ],
+     [
+      "play-dev",
+      "3:tutEmit-jump",
+      "order",
+      []
+     ]
+    ]
+   },
+   "logs": [
+    "steps/trace/run_A.log",
+    "steps/trace/run_B.log",
+    "steps/trace/run_A2.log",
+    "steps/trace/cmp.log",
+    "steps/trace/mut86.log",
+    "steps/trace/run_mut.log",
+    "steps/trace/cmp_mut.log"
+   ]
+  },
+  {
+   "step": "stands",
+   "group": "stands",
+   "status": "KNOWN",
+   "sec": 78,
+   "detail": {
+    "trace": 0,
+    "aimman": 0,
+    "prio": 0,
+    "probes": 0,
+    "boot": {
+     "changed": 51,
+     "new": 21,
+     "gone": 0
+    },
+    "boot vs реестр": "точно как в реестре",
+    "известное": "stands.boot"
+   },
+   "logs": [
+    "steps/stands/stands.log"
+   ]
+  },
+  {
+   "step": "a24",
+   "group": "stands",
+   "status": "KNOWN",
+   "sec": 79,
+   "detail": {
+    "trace": 0,
+    "aimman": 0,
+    "prio": 0,
+    "probes": 0,
+    "boot": {
+     "changed": 51,
+     "new": 21,
+     "gone": 0
+    },
+    "boot vs реестр": "точно как в реестре",
+    "известное": "stands.boot"
+   },
+   "logs": [
+    "steps/a24/stands.log"
+   ]
+  },
+  {
+   "step": "gkeys",
+   "group": "state",
+   "status": "PASS",
+   "sec": 101,
+   "detail": {
+    "сравнения": {
+     "A0~B0": 0,
+     "A0~A1": 0,
+     "B0~B1": 0,
+     "A1~B1": 0
+    }
+   },
+   "logs": [
+    "steps/gkeys/gkeys6.log"
+   ]
+  },
+  {
+   "step": "st6",
+   "group": "state",
+   "status": "PASS",
+   "sec": 87,
+   "detail": {
+    "trans": 0,
+    "saveid": 0
+   },
+   "logs": [
+    "steps/st6/trans_164.log",
+    "steps/st6/trans_175.log",
+    "steps/st6/trans_cmp.log",
+    "steps/st6/saveid_164.log",
+    "steps/st6/saveid_175.log",
+    "steps/st6/saveid_cmp.log"
+   ]
+  },
+  {
+   "step": "c5",
+   "group": "state",
+   "status": "PASS",
+   "sec": 5,
+   "detail": {
+    "ПК": {
+     "beforeReplace": {
+      "togHTML": 0,
+      "cloudWinner": 0,
+      "tutTick": 0,
+      "toggleDevPanel": 0
+     },
+     "afterLoad": {},
+     "afterUse": {},
+     "errs": []
+    },
+    "тел": {
+     "beforeReplace": {
+      "togHTML": 0,
+      "cloudWinner": 0,
+      "tutTick": 0,
+      "toggleDevPanel": 0
+     },
+     "afterLoad": {},
+     "afterUse": {},
+     "errs": []
+    }
+   },
+   "logs": [
+    "steps/c5/c5probe.log"
+   ]
+  },
+  {
+   "step": "save",
+   "group": "state",
+   "status": "PASS",
+   "sec": 37,
+   "detail": {
+    "сценариев": 14,
+    "не прошли": []
+   },
+   "logs": [
+    "steps/save/save6.log"
+   ]
+  },
+  {
+   "step": "q390",
+   "group": "kit6",
+   "status": "PASS",
+   "sec": 44,
+   "detail": {
+    "тестов": 7,
+    "OK": 7,
+    "FAIL": []
+   },
+   "logs": [
+    "steps/q390/q390.log"
+   ]
+  },
+  {
+   "step": "shots",
+   "group": "visual",
+   "status": "PASS",
+   "sec": 36,
+   "detail": {
+    "снимков": 6,
+    "строка «КАДРЫ» не помещается": [],
+    "примечание": "снимки — эмуляция размеров в безголовом Chromium; глазами смотреть по инструкции ручной проверки"
+   },
+   "logs": [
+    "steps/shots/shots6.log"
+   ]
+  },
+  {
+   "step": "fps",
+   "group": "fps",
+   "status": "KNOWN",
+   "sec": 497,
+   "detail": {
+    "прогонов 1.5.35": 128,
+    "нарушения": [],
+    "известные": [
+     "ТЕЛ 30 Гц предел 60 ровно: снижение качества (q 1, lowFx 1)",
+     "ТЕЛ 30 Гц предел 0 ровно: снижение качества (q 1, lowFx 1)",
+     "ТЕЛ 48 Гц предел 60 ровно: снижение качества (q 1, lowFx 1)",
+     "ТЕЛ 48 Гц предел 0 ровно: снижение качества (q 1, lowFx 1)"
+    ],
+    "известное": "fps.false_drop_30hz"
+   },
+   "logs": [
+    "steps/fps/fps_164.log",
+    "steps/fps/fps_175.log",
+    "steps/fps/sum.log"
+   ]
+  },
+  {
+   "step": "fpsx",
+   "group": "fps",
+   "status": "KNOWN",
+   "sec": 102,
+   "detail": {
+    "сценариев": 21,
+    "нарушения": [],
+    "известные": [
+     "cap30 ТЕЛ 30 Гц предел 60: снижение качества",
+     "cap30 ТЕЛ 30 Гц предел 0: снижение качества"
+    ],
+    "циклы rAF (сведения)": {
+     "menu": {
+      "raf": 60,
+      "processed": 30,
+      "map": 0
+     },
+     "map": {
+      "raf": 60,
+      "processed": 30,
+      "map": 60,
+      "state": "map",
+      "tab": "map"
+     },
+     "world": {
+      "raf": 60,
+      "processed": 30,
+      "state": "world"
+     },
+     "errs": [],
+     "note": "настоящий rAF безголового Chromium; предел 30; телефон (эмуляция)"
+    }
+   },
+   "logs": [
+    "steps/fpsx/fpsx_175.log",
+    "steps/fpsx/fpsx_164.log",
+    "steps/fpsx/sum.log"
+   ]
+  },
+  {
+   "step": "a23v",
+   "group": "fps",
+   "status": "PASS",
+   "sec": 72,
+   "detail": {
+    "вариант": "предложение, в игру НЕ внесено",
+    "сравнение (было, вариант)": [
+     {
+      "устр": "ТЕЛ",
+      "Гц": 72,
+      "предел": 30,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.808,
+       0.0
+      ],
+      "к/с": [
+       29.98,
+       29.98
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 72,
+      "предел": 60,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       5.559,
+       0.0
+      ],
+      "к/с": [
+       59.98,
+       59.98
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 72,
+      "предел": 0,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.215,
+       0.0
+      ],
+      "к/с": [
+       72.0,
+       72.0
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 75,
+      "предел": 30,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.667,
+       0.0
+      ],
+      "к/с": [
+       30.02,
+       30.02
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 75,
+      "предел": 60,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       5.777,
+       0.0
+      ],
+      "к/с": [
+       59.98,
+       59.98
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 75,
+      "предел": 0,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.67,
+       0.0
+      ],
+      "к/с": [
+       75.0,
+       75.0
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 90,
+      "предел": 30,
+      "A-23 доля": [
+       1.0,
+       1.0
+      ],
+      "дрожание": [
+       0.0,
+       0.0
+      ],
+      "к/с": [
+       30.0,
+       30.0
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 90,
+      "предел": 60,
+      "A-23 доля": [
+       1.0,
+       1.0
+      ],
+      "дрожание": [
+       0.0,
+       0.0
+      ],
+      "к/с": [
+       59.97,
+       59.97
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ТЕЛ",
+      "Гц": 90,
+      "предел": 0,
+      "A-23 доля": [
+       1.0,
+       1.0
+      ],
+      "дрожание": [
+       0.0,
+       0.0
+      ],
+      "к/с": [
+       90.0,
+       90.0
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 72,
+      "предел": 30,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.808,
+       0.0
+      ],
+      "к/с": [
+       29.98,
+       29.98
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 72,
+      "предел": 60,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       5.559,
+       0.0
+      ],
+      "к/с": [
+       59.98,
+       59.98
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 72,
+      "предел": 0,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.215,
+       0.0
+      ],
+      "к/с": [
+       72.0,
+       72.0
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 75,
+      "предел": 30,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.667,
+       0.0
+      ],
+      "к/с": [
+       30.02,
+       30.02
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 75,
+      "предел": 60,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       5.777,
+       0.0
+      ],
+      "к/с": [
+       59.98,
+       59.98
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 75,
+      "предел": 0,
+      "A-23 доля": [
+       0.0,
+       1.0
+      ],
+      "дрожание": [
+       6.67,
+       0.0
+      ],
+      "к/с": [
+       75.0,
+       75.0
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 90,
+      "предел": 30,
+      "A-23 доля": [
+       1.0,
+       1.0
+      ],
+      "дрожание": [
+       0.0,
+       0.0
+      ],
+      "к/с": [
+       30.0,
+       30.0
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 90,
+      "предел": 60,
+      "A-23 доля": [
+       1.0,
+       1.0
+      ],
+      "дрожание": [
+       0.0,
+       0.0
+      ],
+      "к/с": [
+       59.97,
+       59.97
+      ],
+      "h600 равен": true
+     },
+     {
+      "устр": "ПК",
+      "Гц": 90,
+      "предел": 0,
+      "A-23 доля": [
+       1.0,
+       1.0
+      ],
+      "дрожание": [
+       0.0,
+       0.0
+      ],
+      "к/с": [
+       90.0,
+       90.0
+      ],
+      "h600 равен": true
+     }
+    ],
+    "симуляция не изменилась": true
+   },
+   "logs": [
+    "steps/a23v/a23v6.log",
+    "steps/a23v/base.log",
+    "steps/a23v/a23v.log"
+   ]
+  },
+  {
+   "step": "perf",
+   "group": "perf",
+   "status": "PASS",
+   "sec": 477,
+   "detail": {
+    "сводка": {
+     "60Гц м10": {
+      "msFrame": {
+       "A": 3.749,
+       "B": 3.785,
+       "A2": 3.859,
+       "B/A": 1.015,
+       "B/A пары": [
+        0.912,
+        1.064
+       ],
+       "A2/A": 1.022,
+       "A2/A пары": [
+        0.922,
+        1.078
+       ]
+      },
+      "p95": {
+       "A": 1.7,
+       "B": 2.0,
+       "A2": 1.7,
+       "B/A": 1.143,
+       "B/A пары": [
+        0.722,
+        1.643
+       ],
+       "A2/A": 1.031,
+       "A2/A пары": [
+        0.824,
+        1.214
+       ]
+      },
+      "p99": {
+       "A": 181.4,
+       "B": 179.4,
+       "A2": 182.9,
+       "B/A": 0.992,
+       "B/A пары": [
+        0.83,
+        1.068
+       ],
+       "A2/A": 1.011,
+       "A2/A пары": [
+        0.836,
+        1.045
+       ]
+      },
+      "max": {
+       "A": 195.95,
+       "B": 208.8,
+       "A2": 216.7,
+       "B/A": 1.043,
+       "B/A пары": [
+        0.904,
+        1.202
+       ],
+       "A2/A": 1.091,
+       "A2/A пары": [
+        0.974,
+        1.12
+       ]
+      },
+      "allocKB": {
+       "A": 0.29,
+       "B": 0.29,
+       "A2": 0.325,
+       "B/A": 0.95,
+       "B/A пары": [
+        0.793,
+        1.276
+       ],
+       "A2/A": 1.034,
+       "A2/A пары": [
+        0.862,
+        1.31
+       ]
+      },
+      "retainKB": {
+       "A": 938.75,
+       "B": 941.45,
+       "A2": 938.95,
+       "B/A": 1.004,
+       "B/A пары": [
+        0.996,
+        1.007
+       ],
+       "A2/A": 1.001,
+       "A2/A пары": [
+        0.995,
+        1.008
+       ]
+      }
+     },
+     "60Гц м46": {
+      "msFrame": {
+       "A": 7.78,
+       "B": 7.676,
+       "A2": 7.708,
+       "B/A": 0.985,
+       "B/A пары": [
+        0.942,
+        0.998
+       ],
+       "A2/A": 0.986,
+       "A2/A пары": [
+        0.963,
+        1.028
+       ]
+      },
+      "p95": {
+       "A": 3.9,
+       "B": 3.6,
+       "A2": 3.65,
+       "B/A": 0.963,
+       "B/A пары": [
+        0.744,
+        1.118
+       ],
+       "A2/A": 0.962,
+       "A2/A пары": [
+        0.814,
+        1.048
+       ]
+      },
+      "p99": {
+       "A": 250.15,
+       "B": 239.6,
+       "A2": 242.45,
+       "B/A": 0.974,
+       "B/A пары": [
+        0.957,
+        0.983
+       ],
+       "A2/A": 0.989,
+       "A2/A пары": [
+        0.949,
+        1.055
+       ]
+      },
+      "max": {
+       "A": 326.65,
+       "B": 319.1,
+       "A2": 322.0,
+       "B/A": 1.011,
+       "B/A пары": [
+        0.911,
+        1.069
+       ],
+       "A2/A": 1.004,
+       "A2/A пары": [
+        0.96,
+        1.017
+       ]
+      },
+      "allocKB": {
+       "A": 0.85,
+       "B": 0.865,
+       "A2": 0.85,
+       "B/A": 1.054,
+       "B/A пары": [
+        1.0,
+        1.118
+       ],
+       "A2/A": 1.062,
+       "A2/A пары": [
+        0.929,
+        1.292
+       ]
+      },
+      "retainKB": {
+       "A": 1990.4,
+       "B": 1991.95,
+       "A2": 1988.7,
+       "B/A": 1.0,
+       "B/A пары": [
+        0.993,
+        1.009
+       ],
+       "A2/A": 1.0,
+       "A2/A пары": [
+        0.989,
+        1.001
+       ]
+      }
+     },
+     "144Гц м10": {
+      "msFrame": {
+       "A": 4.171,
+       "B": 4.163,
+       "A2": 4.13,
+       "B/A": 1.007,
+       "B/A пары": [
+        0.967,
+        1.053
+       ],
+       "A2/A": 0.989,
+       "A2/A пары": [
+        0.951,
+        1.02
+       ]
+      },
+      "p95": {
+       "A": 1.6,
+       "B": 1.65,
+       "A2": 1.7,
+       "B/A": 1.0,
+       "B/A пары": [
+        0.95,
+        1.133
+       ],
+       "A2/A": 0.972,
+       "A2/A пары": [
+        0.85,
+        1.133
+       ]
+      },
+      "p99": {
+       "A": 185.5,
+       "B": 180.4,
+       "A2": 181.0,
+       "B/A": 0.996,
+       "B/A пары": [
+        0.952,
+        1.042
+       ],
+       "A2/A": 0.983,
+       "A2/A пары": [
+        0.963,
+        1.022
+       ]
+      },
+      "max": {
+       "A": 220.0,
+       "B": 238.5,
+       "A2": 218.45,
+       "B/A": 1.085,
+       "B/A пары": [
+        0.983,
+        1.141
+       ],
+       "A2/A": 1.004,
+       "A2/A пары": [
+        0.919,
+        1.105
+       ]
+      },
+      "allocKB": {
+       "A": 0.165,
+       "B": 0.17,
+       "A2": 0.17,
+       "B/A": 1.062,
+       "B/A пары": [
+        0.889,
+        1.417
+       ],
+       "A2/A": 1.096,
+       "A2/A пары": [
+        0.882,
+        1.417
+       ]
+      },
+      "retainKB": {
+       "A": 935.55,
+       "B": 940.9,
+       "A2": 935.5,
+       "B/A": 1.006,
+       "B/A пары": [
+        0.997,
+        1.011
+       ],
+       "A2/A": 0.996,
+       "A2/A пары": [
+        0.99,
+        1.012
+       ]
+      }
+     },
+     "144Гц м46": {
+      "msFrame": {
+       "A": 7.503,
+       "B": 7.399,
+       "A2": 7.438,
+       "B/A": 0.99,
+       "B/A пары": [
+        0.943,
+        1.026
+       ],
+       "A2/A": 0.994,
+       "A2/A пары": [
+        0.964,
+        1.035
+       ]
+      },
+      "p95": {
+       "A": 3.25,
+       "B": 3.2,
+       "A2": 3.35,
+       "B/A": 0.938,
+       "B/A пары": [
+        0.889,
+        1.067
+       ],
+       "A2/A": 0.984,
+       "A2/A пары": [
+        0.838,
+        1.097
+       ]
+      },
+      "p99": {
+       "A": 226.9,
+       "B": 227.25,
+       "A2": 229.1,
+       "B/A": 0.987,
+       "B/A пары": [
+        0.944,
+        1.039
+       ],
+       "A2/A": 1.02,
+       "A2/A пары": [
+        0.931,
+        1.069
+       ]
+      },
+      "max": {
+       "A": 336.75,
+       "B": 330.85,
+       "A2": 337.95,
+       "B/A": 0.982,
+       "B/A пары": [
+        0.827,
+        1.055
+       ],
+       "A2/A": 1.003,
+       "A2/A пары": [
+        0.832,
+        1.109
+       ]
+      },
+      "allocKB": {
+       "A": 0.435,
+       "B": 0.44,
+       "A2": 0.41,
+       "B/A": 0.966,
+       "B/A пары": [
+        0.918,
+        1.07
+       ],
+       "A2/A": 0.954,
+       "A2/A пары": [
+        0.816,
+        1.146
+       ]
+      },
+      "retainKB": {
+       "A": 2102.2,
+       "B": 2098.5,
+       "A2": 2097.15,
+       "B/A": 1.002,
+       "B/A пары": [
+        0.994,
+        1.009
+       ],
+       "A2/A": 1.0,
+       "A2/A пары": [
+        0.993,
+        1.01
+       ]
+      }
+     }
+    },
+    "нарушения": []
+   },
+   "logs": [
+    "steps/perf/perf6.log"
+   ]
+  },
+  {
+   "step": "k",
+   "group": "k",
+   "status": "KNOWN",
+   "sec": 2096,
+   "detail": {
+    "побитно": "427 из 429",
+    "расхождения": {
+     "z/mob/none/z50/m30": [
+      "deep"
+     ],
+     "z/mob/slow/z50/m30": [
+      "deep"
+     ]
+    },
+    "строк": "429",
+    "известное": "k"
+   },
+   "logs": [
+    "steps/k/k.log"
+   ]
+  },
+  {
+   "step": "e24",
+   "group": "k",
+   "status": "PASS",
+   "sec": 103,
+   "detail": {
+    "побитно": "35 из 35",
+    "расхождения": {},
+    "строк": "35"
+   },
+   "logs": [
+    "steps/e24/variant.log",
+    "steps/e24/e24.log"
+   ]
+  },
+  {
+   "step": "arct",
+   "group": "k",
+   "status": "KNOWN",
+   "sec": 16,
+   "detail": {
+    "arcT: функции": [
+     "zbFxTick"
+    ],
+    "ветка": [
+     "SET.fx&&!G.lowFx&&(Z.k==='fight'||Z.k==='race')&&zbPartOK()",
+     "e&&e.alive&&Z.stun>0",
+     "Z.arcT<=0"
+    ],
+    "вызовы ветки": {
+     "isMob": 1,
+     "zbCen": 1,
+     "vR4": 3,
+     "vrnd4": 7,
+     "zbRad": 1,
+     "Math.cos": 5,
+     "Math.sin": 5,
+     "inView": 1,
+     "part": 1,
+     "zbArc": 1
+    },
+    "читатели Z.fx": {
+     "zbFx": 2,
+     "zbFxTick": 2,
+     "zbFxDraw": 1
+    },
+    "читатели G.parts": {
+     "part": 2,
+     "updateFx": 2,
+     "render": 1,
+     "drawDevOverlay": 1,
+     "renderWorld": 1,
+     "storyWorldTick": 1,
+     "zbPartOK": 1,
+     "(верхний уровень)": 1
+    },
+    "статически как в 1.5.24": true,
+    "глубокий снимок: различающиеся пути": {
+     "z/mob/none/z50/m30": [
+      "zb.arcT"
+     ],
+     "z/mob/slow/z50/m30": [
+      "zb.arcT"
+     ]
+    },
+    "прочие поля равны": {
+     "z/mob/none/z50/m30": {
+      "fp": true,
+      "steps": true,
+      "rng": true,
+      "kills": true,
+      "taken": true,
+      "frames": true,
+      "zero": true,
+      "two": true,
+      "simT": true,
+      "st": true
+     },
+     "z/mob/slow/z50/m30": {
+      "fp": true,
+      "steps": true,
+      "rng": true,
+      "kills": true,
+      "taken": true,
+      "frames": true,
+      "zero": true,
+      "two": true,
+      "simT": true,
+      "st": true
+     }
+    },
+    "вердикт": "ожидаемое визуальное отличие (arcT только в zbFxTick за SET.fx&&!G.lowFx, визуальный ГСЧ; симуляция, урон, исход равны)",
+    "известное": "k"
+   },
+   "logs": [
+    "steps/arct/ast_164.log",
+    "steps/arct/ast_175.log",
+    "steps/arct/deep_164.log",
+    "steps/arct/deep_175.log"
+   ]
+  },
+  {
+   "step": "flaky",
+   "group": "flaky",
+   "status": "PASS",
+   "sec": 715,
+   "detail": {
+    "замедление ЦП": {
+     "q130:Q06@x8": {
+      "kit": {
+       "A": {
+        "OK": 0,
+        "FAIL": 2,
+        "NONE": 0
+       },
+       "B": {
+        "OK": 0,
+        "FAIL": 2,
+        "NONE": 0
+       }
+      },
+      "kit6": {
+       "A": {
+        "OK": 2,
+        "FAIL": 0,
+        "NONE": 0
+       },
+       "B": {
+        "OK": 2,
+        "FAIL": 0,
+        "NONE": 0
+       }
+      }
+     },
+     "q220:U05@x16": {
+      "kit": {
+       "A": {
+        "OK": 1,
+        "FAIL": 1,
+        "NONE": 0
+       },
+       "B": {
+        "OK": 0,
+        "FAIL": 2,
+        "NONE": 0
+       }
+      },
+      "kit6": {
+       "A": {
+        "OK": 2,
+        "FAIL": 0,
+        "NONE": 0
+       },
+       "B": {
+        "OK": 2,
+        "FAIL": 0,
+        "NONE": 0
+       }
+      }
+     },
+     "q220:U07@x16": {
+      "kit": {
+       "A": {
+        "OK": 1,
+        "FAIL": 1,
+        "NONE": 0
+       },
+       "B": {
+        "OK": 1,
+        "FAIL": 1,
+        "NONE": 0
+       }
+      },
+      "kit6": {
+       "A": {
+        "OK": 2,
+        "FAIL": 0,
+        "NONE": 0
+       },
+       "B": {
+        "OK": 2,
+        "FAIL": 0,
+        "NONE": 0
+       }
+      }
+     }
+    },
+    "C11": {
+     "медиана мс": {
+      "A": 0.145,
+      "B": 0.1315,
+      "A2": 0.14
+     },
+     "B/A медиана": 0.927,
+     "B/A пары": [
+      0.545,
+      1.701
+     ],
+     "A′/A медиана": 0.918,
+     "A′/A пары": [
+      0.591,
+      1.606
+     ],
+     "FAIL": {
+      "A": 0,
+      "B": 0,
+      "A2": 0
+     }
+    },
+    "нарушения": []
+   },
+   "logs": [
+    "steps/flaky/thrab6.log",
+    "steps/flaky/c11ab.log"
+   ]
+  },
+  {
+   "step": "regbase",
+   "group": "reg",
+   "status": "PASS",
+   "sec": 2374,
+   "detail": {
+    "cmpExit (kit6 на 1.5.24 против исторического kit на 1.5.24)": 0,
+    "источники": {
+     "q170": "kit6/q170.py",
+     "q130": "kit6/q130.py",
+     "q220": "kit6/q220.py",
+     "q310": "kit6/q310.py",
+     "q380": "kit6/q380.py",
+     "q370": "kit6/q370.py"
+    }
+   },
+   "logs": [
+    "steps/regbase/reg.log"
+   ]
+  },
+  {
+   "step": "reg",
+   "group": "reg",
+   "status": "FAIL",
+   "sec": 4047,
+   "detail": {
+    "наборов": 30,
+    "итог сравнения": {
+     "new": 1,
+     "gone": 2,
+     "det": 0,
+     "detver": 15,
+     "detaa": 0,
+     "miss": 0,
+     "base": 29,
+     "cand": 28
+    },
+    "новые падения": [
+     [
+      "q96",
+      "E05"
+     ]
+    ],
+    "ушедшие падения эталона": [
+     [
+      "q160",
+      "H29"
+     ],
+     [
+      "q350",
+      "B13"
+     ]
+    ],
+    "из kit6": [
+     "q220",
+     "q130",
+     "q370",
+     "q170",
+     "q310",
+     "q380"
+    ],
+    "одиночно": [
+     "q340s",
+     "q350"
+    ]
+   },
+   "logs": [
+    "steps/reg/reg.log"
+   ]
+  },
+  {
+   "step": "regsave",
+   "group": "reg",
+   "status": "PASS",
+   "sec": 17,
+   "detail": {
+    "cmpExit": 0
+   },
+   "logs": [
+    "steps/regsave/reg.log"
+   ]
+  }
+ ]
+}

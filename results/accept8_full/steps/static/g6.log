@@ -1,0 +1,4 @@
+# {"argv": ["node", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/g6.js", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "/home/claude/VOID_stage8/accept8_full/steps/static/g6.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:16:47"}
+g6: полей G 285 (в литерале 61); прямых записей 925, вложенных мутаций 378, групповых 191, псевдонимов полей 1116 (мутаций через них 1144), чтений 5053; псевдонимов G 0; вычисляемых 1; G как значение 2
+
+# код выхода 0, 1 с

@@ -1,0 +1,4 @@
+g6 rc=0
+init6 rc=0
+w6 rc=0
+chains6 rc=0

@@ -1,0 +1,13390 @@
+{
+"addIce": {
+"decl": {
+"file": "js/sectors/0660-s3-4-mechanics.js",
+"kind": "function",
+"line": 6,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+2,
+0,
+37
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+2,
+0,
+192
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+2,
+0,
+135
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+48
+],
+[
+"js/player/0280-player-fire.js",
+0,
+1,
+0,
+168
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 48,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"addWear": {
+"decl": {
+"file": "js/sectors/0660-s3-4-mechanics.js",
+"kind": "function",
+"line": 12,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/sectors/0660-s3-4-mechanics.js",
+0,
+3,
+0,
+62
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+3,
+0,
+100
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+49
+],
+[
+"js/mission/0330-pickups.js",
+0,
+1,
+0,
+27
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+1,
+0,
+68
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 49,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"ambSting": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 124,
+"subsystem": "audio",
+"used_by": [
+[
+"js/bosses/0300-warden.js",
+0,
+3,
+0,
+4
+],
+[
+"js/bosses/0320-jammer.js",
+0,
+3,
+0,
+3
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+3,
+0,
+28
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+111
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+2,
+0,
+29
+],
+[
+"js/audio/1090-void12-recorded-music.js",
+1,
+0,
+1,
+173
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+1,
+0,
+52
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+38
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+59
+],
+[
+"js/bosses/0710-s5-6-bosses.js",
+0,
+1,
+0,
+2
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+1,
+0,
+72
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+1,
+0,
+19
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+1,
+0,
+12
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 2,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/audio/1090-void12-recorded-music.js",
+"form": "функция",
+"line": 173,
+"subsystem": "audio",
+"ver": "1.2.6",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"applyAudio": {
+"decl": {
+"file": "js/audio/0160-audio-synth.js",
+"kind": "function",
+"line": 13,
+"subsystem": "audio",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+1,
+1,
+481
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+68
+],
+[
+"js/audio/1120-music-volume-128.js",
+1,
+0,
+1,
+5
+],
+[
+"js/settings/1190-console-141-142.js",
+0,
+2,
+0,
+73
+],
+[
+"js/audio/0160-audio-synth.js",
+0,
+1,
+0,
+10
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 607,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/audio/1120-music-volume-128.js",
+"form": "функция",
+"line": 5,
+"subsystem": "audio",
+"ver": "1.2.8",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"applySettings": {
+"decl": {
+"file": "js/screens/0390-screens-base.js",
+"kind": "function",
+"line": 44,
+"subsystem": "screens",
+"used_by": [
+[
+"js/screens/0390-screens-base.js",
+0,
+2,
+0,
+43
+],
+[
+"js/ui/1020-glass-111.js",
+1,
+0,
+1,
+66
+],
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+0,
+1,
+14
+],
+[
+"js/ui/1140-menu-131.js",
+1,
+0,
+1,
+26
+],
+[
+"js/loop/0120-arch90a-92-fps.js",
+0,
+1,
+0,
+26
+],
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+1,
+0,
+33
+],
+[
+"js/settings/1190-console-141-142.js",
+0,
+1,
+0,
+74
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1020-glass-111.js",
+"form": "функция",
+"line": 66,
+"subsystem": "ui",
+"ver": "1.1.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 14,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1140-menu-131.js",
+"form": "функция",
+"line": 26,
+"subsystem": "ui",
+"ver": "1.3.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"arsOpen": {
+"decl": {
+"file": "js/hangar/0480-arsenal-070.js",
+"kind": "function",
+"line": 12,
+"subsystem": "hangar",
+"used_by": [
+[
+"js/world/0610-map-rift-041.js",
+0,
+5,
+0,
+146
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+3,
+0,
+167
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+22
+],
+[
+"js/hangar/0460-hangar-arsenal-screens.js",
+0,
+1,
+0,
+4
+],
+[
+"js/ui/0520-sector-map.js",
+0,
+1,
+0,
+37
+],
+[
+"js/ui/0530-world-hud.js",
+0,
+1,
+0,
+33
+],
+[
+"js/render/0540-world-draw.js",
+0,
+1,
+0,
+53
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 22,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"banner": {
+"decl": {
+"file": "js/render/0340-effects.js",
+"kind": "function",
+"line": 12,
+"subsystem": "render",
+"used_by": [
+[
+"js/world/0500-world-enter-update.js",
+0,
+15,
+0,
+17
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+15,
+0,
+177
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+13,
+0,
+15
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+12,
+0,
+201
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+12,
+0,
+74
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+11,
+0,
+33
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+11,
+0,
+284
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+10,
+0,
+19
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+8,
+0,
+31
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+8,
+0,
+12
+],
+[
+"js/bosses/0320-jammer.js",
+0,
+7,
+0,
+8
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+7,
+0,
+30
+],
+[
+"js/world/0950-s9-10-open-world.js",
+0,
+6,
+0,
+46
+],
+[
+"js/bosses/0300-warden.js",
+0,
+5,
+0,
+7
+],
+[
+"js/mission/0590-abyss-echo-combo-charge.js",
+0,
+5,
+0,
+5
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+5,
+0,
+220
+],
+[
+"js/mission/0420-endless.js",
+0,
+4,
+0,
+23
+],
+[
+"js/mission/0570-difficulty-mission-scaling.js",
+0,
+4,
+0,
+45
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+4,
+0,
+32
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+4,
+0,
+93
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+4,
+0,
+145
+],
+[
+"js/bosses/0710-s5-6-bosses.js",
+0,
+3,
+0,
+4
+],
+[
+"js/enemies/0290-enemies-base.js",
+0,
+2,
+0,
+280
+],
+[
+"js/world/0720-s5-6-open-world.js",
+0,
+2,
+0,
+46
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+2,
+0,
+31
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+2,
+0,
+58
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+2,
+0,
+84
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+2,
+0,
+87
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+78
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+91
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+454
+],
+[
+"js/mission/0350-waves-progression.js",
+0,
+1,
+0,
+34
+],
+[
+"js/hangar/0460-hangar-arsenal-screens.js",
+0,
+1,
+0,
+55
+],
+[
+"js/story/0620-story-05.js",
+0,
+1,
+0,
+290
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+1,
+0,
+46
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+1,
+0,
+115
+],
+[
+"js/enemies/0920-s9-10-enemies-095.js",
+0,
+1,
+0,
+87
+],
+[
+"js/settings/1190-console-141-142.js",
+0,
+1,
+0,
+74
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 78,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 91,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 454,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"bg110": {
+"decl": {
+"file": "js/sectors/0970-s11-zero-point.js",
+"kind": "function",
+"line": 237,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+442
+],
+[
+"js/render/0370-render-base.js",
+0,
+1,
+0,
+15
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 2,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 442,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"briefK": {
+"decl": {
+"file": "js/mission/0570-difficulty-mission-scaling.js",
+"kind": "function",
+"line": 30,
+"subsystem": "mission",
+"used_by": [
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+101
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+580
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+1,
+0,
+134
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 580,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"buildMapLegend": {
+"decl": {
+"file": "js/world/0610-map-rift-041.js",
+"kind": "function",
+"line": 257,
+"subsystem": "world",
+"used_by": [
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+154
+],
+[
+"js/ui/0520-sector-map.js",
+0,
+1,
+0,
+2
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 154,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"buildNebula": {
+"decl": {
+"file": "js/render/0170-canvas-scale.js",
+"kind": "function",
+"line": 35,
+"subsystem": "render",
+"used_by": [
+[
+"js/rng/1220-sky-rng-guard-155.js",
+1,
+0,
+1,
+5
+],
+[
+"js/render/0170-canvas-scale.js",
+0,
+1,
+0,
+18
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/rng/1220-sky-rng-guard-155.js",
+"form": "фабрика",
+"line": 5,
+"subsystem": "rng",
+"ver": "1.5.5",
+"where": "блок верхнего уровня",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+}
+],
+"signature": "006190a2c8772bb2"
+},
+"buildStars": {
+"decl": {
+"file": "js/render/0170-canvas-scale.js",
+"kind": "function",
+"line": 43,
+"subsystem": "render",
+"used_by": [
+[
+"js/rng/1220-sky-rng-guard-155.js",
+1,
+0,
+1,
+5
+],
+[
+"js/render/0170-canvas-scale.js",
+0,
+1,
+0,
+18
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/rng/1220-sky-rng-guard-155.js",
+"form": "фабрика",
+"line": 5,
+"subsystem": "rng",
+"ver": "1.5.5",
+"where": "блок верхнего уровня",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+}
+],
+"signature": "006190a2c8772bb2"
+},
+"cardAct": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 199,
+"subsystem": "world",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+0,
+2,
+0,
+41
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+569
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+77
+],
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+1,
+0,
+9
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+210
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 569,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 77,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"closeMap": {
+"decl": {
+"file": "js/ui/0520-sector-map.js",
+"kind": "function",
+"line": 30,
+"subsystem": "ui",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+1,
+1,
+0,
+43
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+2,
+0,
+219
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+41
+],
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+113
+],
+[
+"js/dev/1200-workbench-145.js",
+0,
+2,
+0,
+108
+],
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+1,
+0,
+10
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 41,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 113,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"closeSettings": {
+"decl": {
+"file": "js/screens/0390-screens-base.js",
+"kind": "function",
+"line": 46,
+"subsystem": "screens",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+1,
+1,
+1,
+71
+],
+[
+"js/input/0410-input-touch.js",
+1,
+1,
+0,
+30
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/settings/1190-console-141-142.js",
+"form": "функция",
+"line": 96,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"cloudApply": {
+"decl": {
+"file": "js/saves/0560-cloud-save-100.js",
+"kind": "function",
+"line": 27,
+"subsystem": "saves",
+"used_by": [
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+2,
+0,
+44
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+54
+],
+[
+"js/saves/1060-cloud-fix-123.js",
+0,
+1,
+0,
+43
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 2,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 2
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 54,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"cloudInit": {
+"decl": {
+"file": "js/saves/0560-cloud-save-100.js",
+"kind": "function",
+"line": 35,
+"subsystem": "saves",
+"used_by": [
+[
+"js/saves/1060-cloud-fix-123.js",
+1,
+0,
+1,
+33
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+44
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 3,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 3
+},
+"file": "js/saves/1060-cloud-fix-123.js",
+"form": "функция",
+"line": 33,
+"subsystem": "saves",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"cloudMenuCheck": {
+"decl": {
+"file": "js/saves/0560-cloud-save-100.js",
+"kind": "function",
+"line": 48,
+"subsystem": "saves",
+"used_by": [
+[
+"js/saves/1060-cloud-fix-123.js",
+1,
+1,
+1,
+21
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+82
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/saves/1060-cloud-fix-123.js",
+"form": "функция",
+"line": 31,
+"subsystem": "saves",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"cloudPush": {
+"decl": {
+"file": "js/saves/0560-cloud-save-100.js",
+"kind": "function",
+"line": 16,
+"subsystem": "saves",
+"used_by": [
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+3,
+0,
+15
+],
+[
+"js/saves/1060-cloud-fix-123.js",
+0,
+1,
+1,
+12
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 1,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 1,
+"this": 0,
+"time": 5,
+"toString": 0,
+"try": 2
+},
+"file": "js/saves/1060-cloud-fix-123.js",
+"form": "функция",
+"line": 12,
+"subsystem": "saves",
+"ver": "1.2.3",
+"where": "верхний уровень",
+"why": "условный вызов прежней"
+}
+],
+"signature": "cbe1e88061fb8ef0"
+},
+"cloudWinner": {
+"decl": {
+"file": "js/saves/0560-cloud-save-100.js",
+"kind": "function",
+"line": 24,
+"subsystem": "saves",
+"used_by": [
+[
+"js/saves/1060-cloud-fix-123.js",
+0,
+1,
+1,
+5
+],
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+2,
+0,
+44
+]
+]
+},
+"depth": 1,
+"layers": [
+{
+"cls": 5,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/saves/1060-cloud-fix-123.js",
+"form": "функция",
+"line": 5,
+"subsystem": "saves",
+"ver": "1.2.3",
+"where": "верхний уровень",
+"why": "замещённое объявление: замена присваиванием без захвата прежней"
+}
+],
+"signature": "2171708e3a29d679"
+},
+"damagePlayer": {
+"decl": {
+"file": "js/player/0280-player-fire.js",
+"kind": "function",
+"line": 71,
+"subsystem": "player",
+"used_by": [
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+7,
+0,
+21
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+5,
+0,
+120
+],
+[
+"js/enemies/0290-enemies-base.js",
+0,
+4,
+0,
+105
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+4,
+0,
+120
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+3,
+0,
+377
+],
+[
+"js/player/0280-player-fire.js",
+0,
+2,
+0,
+66
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+2,
+0,
+135
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+2,
+0,
+68
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+2,
+0,
+355
+],
+[
+"js/targeting/0750-arch81-targeting.js",
+0,
+2,
+0,
+75
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+2,
+0,
+59
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+2,
+0,
+54
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+2,
+0,
+94
+],
+[
+"js/sectors/0910-s9-10-common-095.js",
+0,
+2,
+0,
+27
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+1,
+0,
+1,
+119
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+52
+],
+[
+"js/bosses/0300-warden.js",
+0,
+1,
+0,
+46
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+250
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+1,
+0,
+130
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+1,
+0,
+54
+],
+[
+"js/enemies/0840-s9-enemies.js",
+0,
+1,
+0,
+99
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+1,
+0,
+117
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+1,
+0,
+104
+],
+[
+"js/world/0950-s9-10-open-world.js",
+0,
+1,
+0,
+72
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+1,
+0,
+248
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 5,
+"gW": 1,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"form": "функция",
+"line": 119,
+"subsystem": "sectors",
+"ver": "1.2.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 2,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 7,
+"gW": 5,
+"retPrev": 2,
+"rng": 0,
+"this": 2,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 52,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"devStart": {
+"decl": {
+"file": "js/dev/0430-dev-mission-select.js",
+"kind": "function",
+"line": 31,
+"subsystem": "dev",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+39
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+49
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 39,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"drawDevOverlay": {
+"decl": {
+"file": "js/dev/0430-dev-mission-select.js",
+"kind": "function",
+"line": 95,
+"subsystem": "dev",
+"used_by": [
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+444
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+45
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+38
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 2,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 444,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"drawHangarPreviews": {
+"decl": {
+"file": "js/hangar/0460-hangar-arsenal-screens.js",
+"kind": "function",
+"line": 58,
+"subsystem": "hangar",
+"used_by": [
+[
+"js/hangar/1180-live-hulls-140.js",
+1,
+0,
+1,
+257
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+38
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+35
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/hangar/1180-live-hulls-140.js",
+"form": "функция",
+"line": 257,
+"subsystem": "hangar",
+"ver": "1.4.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"drawMap": {
+"decl": {
+"file": "js/world/0610-map-rift-041.js",
+"kind": "function",
+"line": 103,
+"subsystem": "world",
+"used_by": [
+[
+"js/opt/bg/1230-bg-proto-155.js",
+2,
+0,
+1,
+289
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+35
+],
+[
+"js/ui/0520-sector-map.js",
+0,
+1,
+0,
+9
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+1,
+0,
+211
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 11,
+"gW": 4,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 1,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 35,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/bg/1230-bg-proto-155.js",
+"form": "функция",
+"line": 289,
+"subsystem": "opt/bg",
+"ver": "1.5.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"drawPlayer": {
+"decl": {
+"file": "js/render/0370-render-base.js",
+"kind": "function",
+"line": 185,
+"subsystem": "render",
+"used_by": [
+[
+"js/hangar/1180-live-hulls-140.js",
+1,
+0,
+1,
+244
+],
+[
+"js/render/0370-render-base.js",
+0,
+1,
+0,
+96
+],
+[
+"js/render/0540-world-draw.js",
+0,
+1,
+0,
+73
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 2,
+"callsPrev": 2,
+"catchSwallow": 2,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 2,
+"rng": 0,
+"this": 2,
+"time": 0,
+"toString": 0,
+"try": 3
+},
+"file": "js/hangar/1180-live-hulls-140.js",
+"form": "функция",
+"line": 244,
+"subsystem": "hangar",
+"ver": "1.4.0",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"drawShip": {
+"decl": {
+"file": "js/hangar/0450-ship-skins-026.js",
+"kind": "function",
+"line": 21,
+"subsystem": "hangar",
+"used_by": [
+[
+"js/render/0370-render-base.js",
+0,
+3,
+0,
+194
+],
+[
+"js/bosses/0810-s7-8-boss-draw-sound.js",
+0,
+3,
+0,
+87
+],
+[
+"js/hangar/1180-live-hulls-140.js",
+1,
+0,
+1,
+234
+],
+[
+"js/hangar/0460-hangar-arsenal-screens.js",
+0,
+1,
+0,
+67
+],
+[
+"js/render/0540-world-draw.js",
+0,
+1,
+0,
+51
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+1,
+0,
+190
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+1,
+0,
+72
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+1,
+0,
+376
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+1,
+0,
+140
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 2,
+"callsPrev": 2,
+"catchSwallow": 4,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 2,
+"time": 0,
+"toString": 0,
+"try": 4
+},
+"file": "js/hangar/1180-live-hulls-140.js",
+"form": "функция",
+"line": 234,
+"subsystem": "hangar",
+"ver": "1.4.0",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"dvAct": {
+"decl": {
+"file": "js/dev/1200-workbench-145.js",
+"kind": "function",
+"line": 306,
+"subsystem": "dev",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+0,
+7,
+0,
+305
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+2,
+0,
+1,
+512
+],
+[
+"js/opt/bg/1230-bg-proto-155.js",
+2,
+0,
+1,
+307
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 3,
+"gW": 1,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 512,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/opt/bg/1230-bg-proto-155.js",
+"form": "функция",
+"line": 307,
+"subsystem": "opt/bg",
+"ver": "1.5.7",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"edgeArrow": {
+"decl": {
+"file": "js/input/0490-gamepad-touch-overlay.js",
+"kind": "function",
+"line": 26,
+"subsystem": "input",
+"used_by": [
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+3,
+0,
+40
+],
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+0,
+1,
+18
+],
+[
+"js/input/1080-phone-tablet-124.js",
+1,
+0,
+1,
+9
+],
+[
+"js/render/0540-world-draw.js",
+0,
+1,
+0,
+93
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+1,
+0,
+157
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 2,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 18,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 5,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/input/1080-phone-tablet-124.js",
+"form": "функция",
+"line": 9,
+"subsystem": "input",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"enterNode": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 34,
+"subsystem": "world",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+1,
+1,
+1,
+95
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+166
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+202
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 166,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 95,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"enterWorldAt": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 20,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/0500-world-enter-update.js",
+0,
+2,
+0,
+14
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+332
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+1,
+0,
+115
+],
+[
+"js/dev/1200-workbench-145.js",
+0,
+1,
+0,
+115
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 332,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"explode": {
+"decl": {
+"file": "js/render/0340-effects.js",
+"kind": "function",
+"line": 4,
+"subsystem": "render",
+"used_by": [
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+16,
+0,
+118
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+9,
+0,
+141
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+8,
+0,
+71
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+7,
+0,
+39
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+6,
+0,
+29
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+6,
+0,
+51
+],
+[
+"js/world/0720-s5-6-open-world.js",
+0,
+5,
+0,
+28
+],
+[
+"js/enemies/0290-enemies-base.js",
+0,
+4,
+0,
+219
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+4,
+0,
+15
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+4,
+0,
+102
+],
+[
+"js/dev/1200-workbench-145.js",
+2,
+0,
+1,
+87
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+3,
+0,
+173
+],
+[
+"js/enemies/0840-s9-enemies.js",
+0,
+3,
+0,
+38
+],
+[
+"js/player/0280-player-fire.js",
+0,
+2,
+0,
+78
+],
+[
+"js/bosses/0300-warden.js",
+0,
+2,
+0,
+30
+],
+[
+"js/bosses/0320-jammer.js",
+0,
+2,
+0,
+19
+],
+[
+"js/sectors/0660-s3-4-mechanics.js",
+0,
+2,
+0,
+20
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+2,
+0,
+77
+],
+[
+"js/targeting/0750-arch81-targeting.js",
+0,
+2,
+0,
+74
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+2,
+0,
+143
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+1,
+0,
+48
+],
+[
+"js/sectors/0740-s7-8-behavior.js",
+0,
+1,
+0,
+122
+],
+[
+"js/world/0760-s7-8-world-draw.js",
+0,
+1,
+0,
+58
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+1,
+0,
+129
+],
+[
+"js/world/0820-s7-8-world-rewards.js",
+0,
+1,
+0,
+63
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+1,
+0,
+172
+],
+[
+"js/enemies/0920-s9-10-enemies-095.js",
+0,
+1,
+0,
+71
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+1,
+0,
+56
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/dev/1200-workbench-145.js",
+"form": "фабрика",
+"line": 87,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "верхний уровень",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+}
+],
+"signature": "be2f43209566d920"
+},
+"ffUpdate": {
+"decl": {
+"file": "js/input/0410-input-touch.js",
+"kind": "function",
+"line": 11,
+"subsystem": "input",
+"used_by": [
+[
+"js/input/1080-phone-tablet-124.js",
+2,
+0,
+1,
+24
+],
+[
+"js/render/0170-canvas-scale.js",
+0,
+1,
+0,
+14
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+1,
+0,
+44
+],
+[
+"js/input/0410-input-touch.js",
+0,
+1,
+0,
+10
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 3,
+"gW": 1,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/input/1080-phone-tablet-124.js",
+"form": "функция",
+"line": 24,
+"subsystem": "input",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"fire": {
+"decl": {
+"file": "js/player/0280-player-fire.js",
+"kind": "function",
+"line": 95,
+"subsystem": "player",
+"used_by": [
+[
+"js/world/0900-s9-10-world-rewards.js",
+1,
+0,
+1,
+49
+],
+[
+"js/player/0280-player-fire.js",
+0,
+1,
+0,
+56
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 12,
+"gW": 5,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/0900-s9-10-world-rewards.js",
+"form": "функция",
+"line": 49,
+"subsystem": "world",
+"ver": "0.9",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"flameTri": {
+"decl": {
+"file": "js/hangar/0450-ship-skins-026.js",
+"kind": "function",
+"line": 19,
+"subsystem": "hangar",
+"used_by": [
+[
+"js/hangar/0450-ship-skins-026.js",
+0,
+6,
+0,
+27
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+1,
+2,
+190
+]
+]
+},
+"depth": 1,
+"layers": [
+{
+"cls": 2,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/story/0630-wrecks-053.js",
+"form": "функция",
+"line": 190,
+"subsystem": "story",
+"ver": null,
+"where": "во время игры wkBuild",
+"why": "временная подмена на время построения (wkBuild), восстанавливается в finally"
+},
+{
+"cls": 2,
+"factory": "of",
+"feat": null,
+"file": "js/story/0630-wrecks-053.js",
+"form": "другое имя",
+"line": 190,
+"subsystem": "story",
+"ver": null,
+"where": "во время игры wkBuild",
+"why": "фабрика of"
+}
+],
+"signature": "5cc7339c639d88bc"
+},
+"floater": {
+"decl": {
+"file": "js/render/0340-effects.js",
+"kind": "function",
+"line": 6,
+"subsystem": "render",
+"used_by": [
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+26,
+0,
+93
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+24,
+0,
+23
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+23,
+0,
+27
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+21,
+0,
+52
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+20,
+0,
+53
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+17,
+0,
+56
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+17,
+0,
+35
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+15,
+0,
+43
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+15,
+0,
+66
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+15,
+0,
+23
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+15,
+0,
+120
+],
+[
+"js/enemies/0840-s9-enemies.js",
+0,
+13,
+0,
+36
+],
+[
+"js/world/0950-s9-10-open-world.js",
+0,
+13,
+0,
+51
+],
+[
+"js/sectors/0740-s7-8-behavior.js",
+0,
+12,
+0,
+9
+],
+[
+"js/enemies/0290-enemies-base.js",
+0,
+11,
+0,
+61
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+9,
+0,
+8
+],
+[
+"js/enemies/0920-s9-10-enemies-095.js",
+0,
+9,
+0,
+14
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+0,
+9,
+0,
+23
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+8,
+0,
+56
+],
+[
+"js/sectors/0660-s3-4-mechanics.js",
+0,
+7,
+0,
+7
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+7,
+0,
+137
+],
+[
+"js/mission/0330-pickups.js",
+0,
+6,
+0,
+3
+],
+[
+"js/targeting/0750-arch81-targeting.js",
+0,
+6,
+0,
+36
+],
+[
+"js/world/0760-s7-8-world-draw.js",
+0,
+6,
+0,
+47
+],
+[
+"js/world/0720-s5-6-open-world.js",
+0,
+5,
+0,
+28
+],
+[
+"js/world/0900-s9-10-world-rewards.js",
+0,
+5,
+0,
+46
+],
+[
+"js/dev/1200-workbench-145.js",
+0,
+5,
+0,
+116
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+4,
+0,
+45
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+4,
+0,
+41
+],
+[
+"js/world/0820-s7-8-world-rewards.js",
+0,
+4,
+0,
+43
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+3,
+0,
+152
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+3,
+0,
+100
+],
+[
+"js/sectors/0910-s9-10-common-095.js",
+1,
+1,
+1,
+96
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+3,
+0,
+26
+],
+[
+"js/player/0280-player-fire.js",
+0,
+2,
+0,
+32
+],
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+2,
+0,
+19
+],
+[
+"js/story/0620-story-05.js",
+0,
+2,
+0,
+280
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+2,
+0,
+65
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+2,
+0,
+119
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+79
+],
+[
+"js/input/0410-input-touch.js",
+0,
+1,
+0,
+36
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+75
+],
+[
+"js/render/0540-world-draw.js",
+0,
+1,
+0,
+98
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+1,
+0,
+236
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 10,
+"gW": 1,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/sectors/0910-s9-10-common-095.js",
+"form": "функция",
+"line": 96,
+"subsystem": "sectors",
+"ver": "0.9.5",
+"where": "блок верхнего уровня",
+"why": "условный вызов прежней"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 79,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"fogHint": {
+"decl": {
+"file": "js/hangar/0480-arsenal-070.js",
+"kind": "function",
+"line": 42,
+"subsystem": "hangar",
+"used_by": [
+[
+"js/hangar/0480-arsenal-070.js",
+0,
+2,
+0,
+47
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+571
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+1,
+0,
+183
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 571,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"fragShow": {
+"decl": {
+"file": "js/story/0630-wrecks-053.js",
+"kind": "function",
+"line": 319,
+"subsystem": "story",
+"used_by": [
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+0,
+1,
+49
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+1,
+0,
+318
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 1,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 49,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"gameOver": {
+"decl": {
+"file": "js/ui/0400-fullscreen-choices-codex.js",
+"kind": "function",
+"line": 120,
+"subsystem": "ui",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+586
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+97
+],
+[
+"js/loop/0360-update-frame.js",
+0,
+1,
+0,
+6
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 586,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 97,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"glow": {
+"decl": {
+"file": "js/render/0170-canvas-scale.js",
+"kind": "function",
+"line": 53,
+"subsystem": "render",
+"used_by": [
+[
+"js/render/0370-render-base.js",
+0,
+25,
+0,
+25
+],
+[
+"js/hangar/1180-live-hulls-140.js",
+0,
+22,
+0,
+42
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+21,
+0,
+536
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+18,
+0,
+363
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+17,
+0,
+240
+],
+[
+"js/render/0540-world-draw.js",
+0,
+16,
+0,
+12
+],
+[
+"js/bosses/0810-s7-8-boss-draw-sound.js",
+0,
+15,
+0,
+28
+],
+[
+"js/hangar/0450-ship-skins-026.js",
+0,
+12,
+0,
+27
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+8,
+2,
+190
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+10,
+0,
+389
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+8,
+0,
+23
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+0,
+8,
+0,
+365
+],
+[
+"js/world/0720-s5-6-open-world.js",
+0,
+6,
+0,
+52
+],
+[
+"js/world/0900-s9-10-world-rewards.js",
+0,
+6,
+0,
+14
+],
+[
+"js/bosses/0940-s9-10-boss-art.js",
+0,
+6,
+0,
+49
+],
+[
+"js/world/0760-s7-8-world-draw.js",
+0,
+5,
+0,
+112
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+5,
+0,
+123
+],
+[
+"js/render/0880-s9-10-draw.js",
+0,
+4,
+0,
+86
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+0,
+4,
+0,
+75
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+3,
+0,
+140
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+3,
+0,
+256
+],
+[
+"js/world/0950-s9-10-open-world.js",
+0,
+3,
+0,
+126
+],
+[
+"js/mission/0590-abyss-echo-combo-charge.js",
+0,
+2,
+0,
+11
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+2,
+0,
+48
+],
+[
+"js/hangar/0460-hangar-arsenal-screens.js",
+0,
+1,
+0,
+66
+],
+[
+"js/world/0820-s7-8-world-rewards.js",
+0,
+1,
+0,
+54
+]
+]
+},
+"depth": 1,
+"layers": [
+{
+"cls": 2,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/story/0630-wrecks-053.js",
+"form": "функция",
+"line": 190,
+"subsystem": "story",
+"ver": null,
+"where": "во время игры wkBuild",
+"why": "временная подмена на время построения (wkBuild), восстанавливается в finally"
+},
+{
+"cls": 2,
+"factory": "og",
+"feat": null,
+"file": "js/story/0630-wrecks-053.js",
+"form": "другое имя",
+"line": 190,
+"subsystem": "story",
+"ver": null,
+"where": "во время игры wkBuild",
+"why": "фабрика og"
+}
+],
+"signature": "a509a253e3a962ac"
+},
+"head63": {
+"decl": {
+"file": "js/settings/1190-console-141-142.js",
+"kind": "function",
+"line": 26,
+"subsystem": "settings",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+1,
+1,
+1,
+29
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/settings/1190-console-141-142.js",
+"form": "функция",
+"line": 114,
+"subsystem": "settings",
+"ver": "1.4.2",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"hurt": {
+"decl": {
+"file": "js/enemies/0290-enemies-base.js",
+"kind": "function",
+"line": 229,
+"subsystem": "enemies",
+"used_by": [
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+5,
+0,
+116
+],
+[
+"js/player/0280-player-fire.js",
+0,
+4,
+0,
+33
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+4,
+0,
+92
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+3,
+0,
+44
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+1,
+1,
+1,
+69
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+2,
+0,
+23
+],
+[
+"js/sectors/0740-s7-8-behavior.js",
+0,
+2,
+0,
+129
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+2,
+0,
+107
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+2,
+0,
+81
+],
+[
+"js/enemies/0920-s9-10-enemies-095.js",
+0,
+2,
+0,
+72
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+165
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+56
+],
+[
+"js/enemies/0290-enemies-base.js",
+0,
+1,
+0,
+221
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+1,
+0,
+64
+],
+[
+"js/targeting/0750-arch81-targeting.js",
+0,
+1,
+0,
+75
+],
+[
+"js/sectors/0910-s9-10-common-095.js",
+0,
+1,
+0,
+28
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 7,
+"gW": 1,
+"retPrev": 0,
+"rng": 2,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"form": "функция",
+"line": 112,
+"subsystem": "sectors",
+"ver": "1.2.0",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 165,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 56,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"joyFixed": {
+"decl": {
+"file": "js/input/0410-input-touch.js",
+"kind": "function",
+"line": 75,
+"subsystem": "input",
+"used_by": [
+[
+"js/tutorial/1150-check-fixes-132.js",
+1,
+2,
+1,
+20
+],
+[
+"js/input/0410-input-touch.js",
+0,
+3,
+0,
+86
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+2,
+0,
+268
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1150-check-fixes-132.js",
+"form": "функция",
+"line": 58,
+"subsystem": "tutorial",
+"ver": "1.3.2",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"joyR": {
+"decl": {
+"file": "js/input/0410-input-touch.js",
+"kind": "function",
+"line": 74,
+"subsystem": "input",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+0,
+5,
+0,
+75
+],
+[
+"js/input/1080-phone-tablet-124.js",
+1,
+0,
+1,
+31
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+2,
+0,
+267
+],
+[
+"js/tutorial/1150-check-fixes-132.js",
+0,
+2,
+0,
+61
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/input/1080-phone-tablet-124.js",
+"form": "функция",
+"line": 31,
+"subsystem": "input",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"kill": {
+"decl": {
+"file": "js/enemies/0290-enemies-base.js",
+"kind": "function",
+"line": 249,
+"subsystem": "enemies",
+"used_by": [
+[
+"js/enemies/0290-enemies-base.js",
+0,
+5,
+0,
+117
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+5,
+0,
+29
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+4,
+0,
+106
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+4,
+0,
+17
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+3,
+0,
+70
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+3,
+0,
+70
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+3,
+0,
+51
+],
+[
+"js/player/0280-player-fire.js",
+0,
+2,
+0,
+63
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+2,
+0,
+26
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+2,
+0,
+93
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+2,
+0,
+63
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+2,
+0,
+155
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+2,
+0,
+55
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+2,
+0,
+143
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+1,
+0,
+1,
+117
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+452
+],
+[
+"js/bosses/0300-warden.js",
+0,
+1,
+0,
+25
+],
+[
+"js/bosses/0320-jammer.js",
+0,
+1,
+0,
+14
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+1,
+0,
+74
+],
+[
+"js/sectors/0740-s7-8-behavior.js",
+0,
+1,
+0,
+124
+],
+[
+"js/enemies/0840-s9-enemies.js",
+0,
+1,
+0,
+83
+],
+[
+"js/enemies/0920-s9-10-enemies-095.js",
+0,
+1,
+0,
+73
+],
+[
+"js/dev/1200-workbench-145.js",
+0,
+1,
+0,
+348
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"form": "функция",
+"line": 117,
+"subsystem": "sectors",
+"ver": "1.2.0",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 452,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"layoutTouch": {
+"decl": {
+"file": "js/input/0410-input-touch.js",
+"kind": "function",
+"line": 76,
+"subsystem": "input",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+0,
+3,
+0,
+10
+],
+[
+"js/render/0170-canvas-scale.js",
+0,
+2,
+0,
+23
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+2,
+0,
+11
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+32
+],
+[
+"js/ui/1140-menu-131.js",
+1,
+0,
+1,
+25
+],
+[
+"js/tutorial/1150-check-fixes-132.js",
+1,
+0,
+1,
+61
+],
+[
+"js/input/1080-phone-tablet-124.js",
+1,
+0,
+0,
+32
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1140-menu-131.js",
+"form": "функция",
+"line": 25,
+"subsystem": "ui",
+"ver": "1.3.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1150-check-fixes-132.js",
+"form": "функция",
+"line": 61,
+"subsystem": "tutorial",
+"ver": "1.3.2",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"lc95": {
+"decl": {
+"file": "js/sectors/0910-s9-10-common-095.js",
+"kind": "function",
+"line": 106,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+46
+],
+[
+"js/player/0280-player-fire.js",
+0,
+1,
+0,
+78
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 46,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"lockArena": {
+"decl": {
+"file": "js/render/0170-canvas-scale.js",
+"kind": "function",
+"line": 26,
+"subsystem": "render",
+"used_by": [
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+0,
+1,
+12
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+90
+],
+[
+"js/mission/0420-endless.js",
+0,
+1,
+0,
+15
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 1,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 12,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"makeImpulse": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 134,
+"subsystem": "audio",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+1,
+77
+],
+[
+"js/audio/0600-ambient-034.js",
+0,
+1,
+0,
+140
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/arch/0020-arch70-rng-hud-diag.js",
+"form": "фабрика",
+"line": 77,
+"subsystem": "arch",
+"ver": null,
+"where": "функция загрузки arch70Boot",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "bd8739bf909cf2ca"
+},
+"mapTab": {
+"decl": {
+"file": "js/ui/0520-sector-map.js",
+"kind": "function",
+"line": 10,
+"subsystem": "ui",
+"used_by": [
+[
+"js/ui/0520-sector-map.js",
+0,
+3,
+0,
+2
+],
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+114
+],
+[
+"js/input/0410-input-touch.js",
+0,
+1,
+0,
+43
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 114,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"memoFlash": {
+"decl": {
+"file": "js/story/0620-story-05.js",
+"kind": "function",
+"line": 270,
+"subsystem": "story",
+"used_by": [
+[
+"js/ui/1020-glass-111.js",
+1,
+0,
+1,
+62
+],
+[
+"js/story/0620-story-05.js",
+0,
+1,
+0,
+273
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1020-glass-111.js",
+"form": "функция",
+"line": 62,
+"subsystem": "ui",
+"ver": "1.1.1",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"migrateSave": {
+"decl": {
+"file": "js/saves/0580-sanitize-migrate.js",
+"kind": "function",
+"line": 31,
+"subsystem": "saves",
+"used_by": [
+[
+"js/dev/0650-devworld-054.js",
+0,
+4,
+0,
+40
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+2,
+0,
+74
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+2,
+0,
+5
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+575
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+168
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+51
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+1,
+0,
+0,
+42
+],
+[
+"js/arch/0010-arch69-crash-guard.js",
+0,
+1,
+0,
+24
+],
+[
+"js/saves/0550-save-code.js",
+0,
+1,
+0,
+22
+],
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+1,
+0,
+31
+],
+[
+"js/story/0640-chronicle-debug.js",
+0,
+1,
+0,
+40
+],
+[
+"js/dev/1200-workbench-145.js",
+0,
+1,
+0,
+138
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 2,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 575,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "миграция старых форматов сохранения"
+},
+{
+"cls": 2,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 168,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "миграция старых форматов сохранения"
+},
+{
+"cls": 2,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 51,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "миграция старых форматов сохранения"
+}
+],
+"signature": "fb9cd69e7b69b86d"
+},
+"mineBlast": {
+"decl": {
+"file": "js/enemies/0290-enemies-base.js",
+"kind": "function",
+"line": 218,
+"subsystem": "enemies",
+"used_by": [
+[
+"js/enemies/0290-enemies-base.js",
+0,
+2,
+0,
+90
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+1,
+0,
+1,
+118
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+453
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+1,
+0,
+290
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"form": "функция",
+"line": 118,
+"subsystem": "sectors",
+"ver": "1.2.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 453,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"mini95": {
+"decl": {
+"file": "js/world/0950-s9-10-open-world.js",
+"kind": "function",
+"line": 146,
+"subsystem": "world",
+"used_by": [
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+151
+],
+[
+"js/ui/0530-world-hud.js",
+0,
+1,
+0,
+45
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 151,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"mobOverlay": {
+"decl": {
+"file": "js/input/0490-gamepad-touch-overlay.js",
+"kind": "function",
+"line": 33,
+"subsystem": "input",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+2,
+0,
+1,
+88
+],
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+0,
+1,
+25
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+328
+],
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+94
+],
+[
+"js/ui/1170-edge-arrows-135.js",
+1,
+0,
+1,
+10
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+45
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+38
+]
+]
+},
+"depth": 6,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 6,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 25,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 328,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 2
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 94,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1170-edge-arrows-135.js",
+"form": "функция",
+"line": 10,
+"subsystem": "ui",
+"ver": "1.3.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/dev/1200-workbench-145.js",
+"form": "фабрика",
+"line": 88,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "верхний уровень",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+}
+],
+"signature": "17dd769d57bdf200"
+},
+"musSched": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 148,
+"subsystem": "audio",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+1,
+77
+],
+[
+"js/audio/0600-ambient-034.js",
+0,
+1,
+0,
+146
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/arch/0020-arch70-rng-hud-diag.js",
+"form": "фабрика",
+"line": 77,
+"subsystem": "arch",
+"ver": null,
+"where": "функция загрузки arch70Boot",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "bd8739bf909cf2ca"
+},
+"musTarget": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 166,
+"subsystem": "audio",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+606
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+449
+],
+[
+"js/audio/0600-ambient-034.js",
+0,
+1,
+0,
+190
+],
+[
+"js/audio/1090-void12-recorded-music.js",
+0,
+1,
+0,
+145
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 4,
+"gW": 2,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 606,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "смешанный"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 449,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"musicTick": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 189,
+"subsystem": "audio",
+"used_by": [
+[
+"js/audio/1090-void12-recorded-music.js",
+2,
+0,
+2,
+90
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+43
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+37
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/audio/1090-void12-recorded-music.js",
+"form": "функция",
+"line": 90,
+"subsystem": "audio",
+"ver": "1.2.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/audio/1090-void12-recorded-music.js",
+"form": "функция",
+"line": 178,
+"subsystem": "audio",
+"ver": "1.2.6",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "0006434d78e5ef32"
+},
+"nearestEnemy": {
+"decl": {
+"file": "js/sectors/0740-s7-8-behavior.js",
+"kind": "function",
+"line": 140,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/targeting/0750-arch81-targeting.js",
+0,
+2,
+0,
+33
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+163
+],
+[
+"js/player/0280-player-fire.js",
+0,
+1,
+0,
+59
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+1,
+0,
+35
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+1,
+0,
+230
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+1,
+0,
+17
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+1,
+0,
+57
+],
+[
+"js/world/0820-s7-8-world-rewards.js",
+0,
+1,
+0,
+60
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+1,
+0,
+33
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+1,
+0,
+178
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 2,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 163,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"noiseBuf": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 36,
+"subsystem": "audio",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/audio/0600-ambient-034.js",
+0,
+3,
+0,
+41
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"openDev": {
+"decl": {
+"file": "js/dev/0430-dev-mission-select.js",
+"kind": "function",
+"line": 18,
+"subsystem": "dev",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+1,
+4,
+0,
+165
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+1,
+1,
+40
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+1,
+0,
+53
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 40,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"openIntro": {
+"decl": {
+"file": "js/ui/0400-fullscreen-choices-codex.js",
+"kind": "function",
+"line": 85,
+"subsystem": "ui",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+2,
+0,
+2,
+77
+],
+[
+"js/input/0410-input-touch.js",
+0,
+3,
+0,
+172
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+1,
+1,
+562
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+474
+],
+[
+"js/opt/bg/1230-bg-proto-155.js",
+1,
+0,
+1,
+287
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+110
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+36
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+40
+]
+]
+},
+"depth": 6,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 582,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 77,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 427,
+"subsystem": "dev",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 4,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 474,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/bg/1230-bg-proto-155.js",
+"form": "функция",
+"line": 287,
+"subsystem": "opt/bg",
+"ver": "1.5.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "da7b9fab4df9831b"
+},
+"openMap": {
+"decl": {
+"file": "js/ui/0520-sector-map.js",
+"kind": "function",
+"line": 2,
+"subsystem": "ui",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+1,
+4,
+0,
+39
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+39
+],
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+111
+],
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+1,
+0,
+9
+],
+[
+"js/ui/0530-world-hud.js",
+0,
+1,
+0,
+22
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 10,
+"gW": 3,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 1,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 39,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 2,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 1,
+"toString": 0,
+"try": 2
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 111,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"openShop": {
+"decl": {
+"file": "js/hangar/0510-world-workshop.js",
+"kind": "function",
+"line": 2,
+"subsystem": "hangar",
+"used_by": [
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+64
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+203
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 64,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"part": {
+"decl": {
+"file": "js/render/0340-effects.js",
+"kind": "function",
+"line": 3,
+"subsystem": "render",
+"used_by": [
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+13,
+0,
+131
+],
+[
+"js/hangar/1180-live-hulls-140.js",
+0,
+10,
+0,
+47
+],
+[
+"js/player/0280-player-fire.js",
+0,
+8,
+0,
+25
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+7,
+0,
+94
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+7,
+0,
+36
+],
+[
+"js/bosses/0940-s9-10-boss-art.js",
+0,
+6,
+0,
+38
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+6,
+0,
+128
+],
+[
+"js/bosses/0810-s7-8-boss-draw-sound.js",
+0,
+5,
+0,
+25
+],
+[
+"js/sectors/0910-s9-10-common-095.js",
+0,
+5,
+0,
+34
+],
+[
+"js/enemies/0290-enemies-base.js",
+0,
+4,
+0,
+79
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+4,
+0,
+56
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+4,
+0,
+54
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+4,
+0,
+106
+],
+[
+"js/dev/1200-workbench-145.js",
+2,
+0,
+1,
+87
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+3,
+0,
+52
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+3,
+0,
+83
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+3,
+0,
+11
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+3,
+0,
+81
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+0,
+3,
+0,
+29
+],
+[
+"js/render/0370-render-base.js",
+0,
+2,
+0,
+30
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+2,
+0,
+119
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+2,
+0,
+289
+],
+[
+"js/sectors/0660-s3-4-mechanics.js",
+0,
+2,
+0,
+7
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+2,
+0,
+64
+],
+[
+"js/enemies/0920-s9-10-enemies-095.js",
+0,
+2,
+0,
+84
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+2,
+0,
+49
+],
+[
+"js/bosses/0300-warden.js",
+0,
+1,
+0,
+35
+],
+[
+"js/render/0340-effects.js",
+0,
+1,
+0,
+4
+],
+[
+"js/mission/0590-abyss-echo-combo-charge.js",
+0,
+1,
+0,
+60
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+1,
+0,
+303
+],
+[
+"js/story/0620-story-05.js",
+0,
+1,
+0,
+282
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+1,
+0,
+300
+],
+[
+"js/sectors/0740-s7-8-behavior.js",
+0,
+1,
+0,
+130
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+1,
+0,
+148
+],
+[
+"js/render/0880-s9-10-draw.js",
+0,
+1,
+0,
+53
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/dev/1200-workbench-145.js",
+"form": "фабрика",
+"line": 87,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "верхний уровень",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+}
+],
+"signature": "be2f43209566d920"
+},
+"pause": {
+"decl": {
+"file": "js/ui/0400-fullscreen-choices-codex.js",
+"kind": "function",
+"line": 134,
+"subsystem": "ui",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+1,
+4,
+0,
+42
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+1,
+0,
+1,
+123
+],
+[
+"js/ui/1140-menu-131.js",
+1,
+0,
+1,
+16
+],
+[
+"js/settings/1190-console-141-142.js",
+1,
+0,
+1,
+95
+],
+[
+"js/arch/0010-arch69-crash-guard.js",
+0,
+1,
+0,
+17
+],
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+1,
+0,
+29
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+31
+],
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+1,
+0,
+9
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1110-tutorial-128.js",
+"form": "функция",
+"line": 123,
+"subsystem": "tutorial",
+"ver": "1.2.8",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1140-menu-131.js",
+"form": "функция",
+"line": 16,
+"subsystem": "ui",
+"ver": "1.3.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/settings/1190-console-141-142.js",
+"form": "функция",
+"line": 95,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"postAudio": {
+"decl": {
+"file": "js/world/1040-post-izmoroz-121.js",
+"kind": "function",
+"line": 474,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+6,
+0,
+95
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"postAvail": {
+"decl": {
+"file": "js/world/1040-post-izmoroz-121.js",
+"kind": "function",
+"line": 51,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+3,
+0,
+515
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+24
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 24,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"postDK": {
+"decl": {
+"file": "js/world/1040-post-izmoroz-121.js",
+"kind": "function",
+"line": 47,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+5,
+0,
+91
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+71
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 4,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 71,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"postSnd": {
+"decl": {
+"file": "js/world/1040-post-izmoroz-121.js",
+"kind": "function",
+"line": 486,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+34,
+0,
+119
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+1,
+0,
+126
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"radioClear": {
+"decl": {
+"file": "js/story/0620-story-05.js",
+"kind": "function",
+"line": 204,
+"subsystem": "story",
+"used_by": [
+[
+"js/story/0620-story-05.js",
+0,
+3,
+0,
+226
+],
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+1,
+1,
+44
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+2,
+0,
+4
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+82
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+2,
+0,
+24
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+2,
+0,
+29
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+42
+],
+[
+"js/bosses/0320-jammer.js",
+0,
+1,
+0,
+3
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+1,
+0,
+52
+],
+[
+"js/bosses/0710-s5-6-bosses.js",
+0,
+1,
+0,
+2
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+1,
+0,
+175
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+1,
+0,
+19
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+1,
+0,
+12
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+36
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 1,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 52,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"radioSay": {
+"decl": {
+"file": "js/story/0620-story-05.js",
+"kind": "function",
+"line": 212,
+"subsystem": "story",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+8,
+0,
+114
+],
+[
+"js/story/0620-story-05.js",
+0,
+6,
+0,
+228
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/bosses/0320-jammer.js",
+0,
+1,
+0,
+3
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+53
+],
+[
+"js/story/0640-chronicle-debug.js",
+0,
+1,
+0,
+34
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+1,
+0,
+92
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+0,
+1,
+0,
+470
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"radioTick": {
+"decl": {
+"file": "js/story/0620-story-05.js",
+"kind": "function",
+"line": 221,
+"subsystem": "story",
+"used_by": [
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+0,
+1,
+51
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+463
+],
+[
+"js/loop/0360-update-frame.js",
+0,
+1,
+0,
+5
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+1,
+0,
+321
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 2,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 51,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 463,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"render": {
+"decl": {
+"file": "js/render/0370-render-base.js",
+"kind": "function",
+"line": 2,
+"subsystem": "render",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+2,
+0,
+1,
+88
+],
+[
+"js/opt/bg/1230-bg-proto-155.js",
+1,
+0,
+1,
+278
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+45
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+38
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/dev/1200-workbench-145.js",
+"form": "фабрика",
+"line": 88,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "верхний уровень",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 3,
+"callsPrev": 3,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 2,
+"rng": 0,
+"this": 3,
+"time": 2,
+"toString": 0,
+"try": 3
+},
+"file": "js/opt/bg/1230-bg-proto-155.js",
+"form": "функция",
+"line": 278,
+"subsystem": "opt/bg",
+"ver": "1.5.7",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "207d49ba00ddde5c"
+},
+"renderCard": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 179,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+566
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+177
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 1,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 566,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условный вызов прежней"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"renderJournals": {
+"decl": {
+"file": "js/ui/0520-sector-map.js",
+"kind": "function",
+"line": 16,
+"subsystem": "ui",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+597
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+170
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+212
+],
+[
+"js/ui/0520-sector-map.js",
+0,
+1,
+0,
+13
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 597,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 170,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"renderMenu": {
+"decl": {
+"file": "js/ui/0400-fullscreen-choices-codex.js",
+"kind": "function",
+"line": 71,
+"subsystem": "ui",
+"used_by": [
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+2,
+0,
+34
+],
+[
+"js/ui/1020-glass-111.js",
+1,
+0,
+1,
+55
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+1,
+0,
+0,
+43
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+82
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+8
+],
+[
+"js/saves/0550-save-code.js",
+0,
+1,
+0,
+23
+],
+[
+"js/mission/0570-difficulty-mission-scaling.js",
+0,
+1,
+0,
+122
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+1,
+0,
+147
+],
+[
+"js/saves/1060-cloud-fix-123.js",
+0,
+1,
+0,
+38
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1020-glass-111.js",
+"form": "функция",
+"line": 55,
+"subsystem": "ui",
+"ver": "1.1.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"renderSetScreen": {
+"decl": {
+"file": "js/screens/0390-screens-base.js",
+"kind": "function",
+"line": 33,
+"subsystem": "screens",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+1,
+3,
+1,
+65
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+3,
+0,
+24
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+1,
+1,
+335
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+1,
+1,
+484
+],
+[
+"js/opt/bg/1230-bg-proto-155.js",
+1,
+1,
+1,
+294
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+51
+],
+[
+"js/loop/0120-arch90a-92-fps.js",
+0,
+1,
+0,
+26
+]
+]
+},
+"depth": 5,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 335,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 2,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 3
+},
+"file": "js/settings/1190-console-141-142.js",
+"form": "функция",
+"line": 65,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 484,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/bg/1230-bg-proto-155.js",
+"form": "функция",
+"line": 294,
+"subsystem": "opt/bg",
+"ver": "1.5.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "e984a9ab47aad231"
+},
+"renderSettings": {
+"decl": {
+"file": "js/screens/0390-screens-base.js",
+"kind": "function",
+"line": 13,
+"subsystem": "screens",
+"used_by": [
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+4,
+0,
+60
+],
+[
+"js/mission/0570-difficulty-mission-scaling.js",
+0,
+4,
+0,
+122
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+2,
+0,
+43
+],
+[
+"js/ui/1140-menu-131.js",
+1,
+0,
+1,
+34
+],
+[
+"js/settings/1190-console-141-142.js",
+0,
+2,
+0,
+74
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+1,
+0,
+0,
+43
+],
+[
+"js/input/0410-input-touch.js",
+0,
+1,
+0,
+10
+],
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+1,
+0,
+33
+],
+[
+"js/saves/1060-cloud-fix-123.js",
+0,
+1,
+0,
+43
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 3,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 3
+},
+"file": "js/ui/1140-menu-131.js",
+"form": "функция",
+"line": 34,
+"subsystem": "ui",
+"ver": "1.3.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"renderWorld": {
+"decl": {
+"file": "js/render/0540-world-draw.js",
+"kind": "function",
+"line": 2,
+"subsystem": "render",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+2,
+0,
+1,
+88
+],
+[
+"js/ui/1170-edge-arrows-135.js",
+1,
+0,
+1,
+9
+],
+[
+"js/opt/bg/1230-bg-proto-155.js",
+1,
+0,
+1,
+282
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+45
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+38
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1170-edge-arrows-135.js",
+"form": "функция",
+"line": 9,
+"subsystem": "ui",
+"ver": "1.3.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/dev/1200-workbench-145.js",
+"form": "фабрика",
+"line": 88,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "верхний уровень",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 3,
+"callsPrev": 3,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 3,
+"gW": 2,
+"retPrev": 2,
+"rng": 0,
+"this": 3,
+"time": 2,
+"toString": 0,
+"try": 3
+},
+"file": "js/opt/bg/1230-bg-proto-155.js",
+"form": "функция",
+"line": 282,
+"subsystem": "opt/bg",
+"ver": "1.5.7",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "607072f52f77e7ab"
+},
+"resize": {
+"decl": {
+"file": "js/render/0170-canvas-scale.js",
+"kind": "function",
+"line": 13,
+"subsystem": "render",
+"used_by": [
+[
+"js/loop/1000-mobile-quality-frame.js",
+2,
+1,
+0,
+4
+],
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+1,
+1,
+9
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+1,
+0,
+44
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+32
+],
+[
+"js/input/1080-phone-tablet-124.js",
+1,
+0,
+0,
+26
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 9,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"returnToWorld": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 42,
+"subsystem": "world",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+0,
+4,
+0,
+168
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+1,
+1,
+267
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+1,
+1,
+96
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+2,
+0,
+85
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+468
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 9,
+"gW": 4,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 2,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 592,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 96,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 468,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"riftKill": {
+"decl": {
+"file": "js/world/0610-map-rift-041.js",
+"kind": "function",
+"line": 302,
+"subsystem": "world",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+47
+],
+[
+"js/player/0280-player-fire.js",
+0,
+1,
+0,
+160
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 47,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"s1DrawOver": {
+"decl": {
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"kind": "function",
+"line": 85,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+443
+],
+[
+"js/render/0370-render-base.js",
+0,
+1,
+0,
+87
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 2,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 443,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"sbRank": {
+"decl": {
+"file": "js/sectors/0670-s3-4-boss-data-balance.js",
+"kind": "function",
+"line": 7,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+4,
+0,
+117
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+3,
+0,
+30
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+3,
+0,
+5
+],
+[
+"js/mission/1130-hp-x15-129.js",
+1,
+0,
+1,
+7
+],
+[
+"js/bosses/0710-s5-6-bosses.js",
+0,
+1,
+0,
+8
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+1,
+0,
+34
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/mission/1130-hp-x15-129.js",
+"form": "функция",
+"line": 7,
+"subsystem": "mission",
+"ver": "1.2.9",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"scapeLayers": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 111,
+"subsystem": "audio",
+"used_by": [
+[
+"js/audio/1090-void12-recorded-music.js",
+1,
+0,
+1,
+81
+],
+[
+"js/audio/0600-ambient-034.js",
+0,
+1,
+0,
+195
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/audio/1090-void12-recorded-music.js",
+"form": "функция",
+"line": 81,
+"subsystem": "audio",
+"ver": "1.2.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"scapeRun": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 102,
+"subsystem": "audio",
+"used_by": [
+[
+"js/audio/1090-void12-recorded-music.js",
+1,
+0,
+1,
+83
+],
+[
+"js/audio/0600-ambient-034.js",
+0,
+1,
+0,
+151
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/audio/1090-void12-recorded-music.js",
+"form": "функция",
+"line": 83,
+"subsystem": "audio",
+"ver": "1.2.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"scapeStep": {
+"decl": {
+"file": "js/audio/0600-ambient-034.js",
+"kind": "function",
+"line": 71,
+"subsystem": "audio",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/audio/0600-ambient-034.js",
+0,
+1,
+0,
+107
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"secSeen": {
+"decl": {
+"file": "js/hangar/0480-arsenal-070.js",
+"kind": "function",
+"line": 30,
+"subsystem": "hangar",
+"used_by": [
+[
+"js/hangar/0480-arsenal-070.js",
+0,
+4,
+0,
+31
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+2,
+0,
+155
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+570
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 570,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"setS": {
+"decl": {
+"file": "js/ui/0380-hud.js",
+"kind": "function",
+"line": 5,
+"subsystem": "ui",
+"used_by": [
+[
+"js/ui/0380-hud.js",
+0,
+9,
+0,
+13
+],
+[
+"js/mission/0420-endless.js",
+0,
+4,
+0,
+68
+],
+[
+"js/ui/0530-world-hud.js",
+0,
+3,
+0,
+5
+],
+[
+"js/ui/1020-glass-111.js",
+1,
+0,
+1,
+57
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+1,
+0,
+590
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1020-glass-111.js",
+"form": "функция",
+"line": 57,
+"subsystem": "ui",
+"ver": "1.1.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"setupMission0": {
+"decl": {
+"file": "js/mission/0350-waves-progression.js",
+"kind": "function",
+"line": 3,
+"subsystem": "mission",
+"used_by": [
+[
+"js/sectors/1030-s1-mechanics-120.js",
+1,
+0,
+1,
+109
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+583
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+455
+],
+[
+"js/mission/0350-waves-progression.js",
+0,
+1,
+0,
+2
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 1,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"form": "функция",
+"line": 109,
+"subsystem": "sectors",
+"ver": "1.2.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 1,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 583,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 1,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 455,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"sfx": {
+"decl": {
+"file": "js/audio/0160-audio-synth.js",
+"kind": "function",
+"line": 16,
+"subsystem": "audio",
+"used_by": [
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+28,
+0,
+123
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+24,
+0,
+23
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+20,
+0,
+39
+],
+[
+"js/enemies/0290-enemies-base.js",
+0,
+14,
+0,
+89
+],
+[
+"js/player/0280-player-fire.js",
+0,
+11,
+0,
+22
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+9,
+1,
+137
+],
+[
+"js/mission/0310-beacon-director-level-events.js",
+0,
+10,
+0,
+13
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+10,
+0,
+55
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+10,
+0,
+9
+],
+[
+"js/sectors/0670-s3-4-boss-data-balance.js",
+0,
+9,
+0,
+32
+],
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+9,
+0,
+74
+],
+[
+"js/sectors/0740-s7-8-behavior.js",
+0,
+8,
+0,
+64
+],
+[
+"js/mission/0330-pickups.js",
+0,
+7,
+0,
+18
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+0,
+7,
+0,
+23
+],
+[
+"js/sectors/0660-s3-4-mechanics.js",
+0,
+6,
+0,
+6
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+6,
+0,
+60
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+5,
+0,
+216
+],
+[
+"js/bosses/0780-s7-8-boss-frame.js",
+0,
+5,
+0,
+44
+],
+[
+"js/bosses/0300-warden.js",
+0,
+4,
+0,
+7
+],
+[
+"js/bosses/0320-jammer.js",
+0,
+4,
+0,
+3
+],
+[
+"js/hangar/0460-hangar-arsenal-screens.js",
+0,
+4,
+0,
+20
+],
+[
+"js/world/0720-s5-6-open-world.js",
+0,
+4,
+0,
+41
+],
+[
+"js/world/0760-s7-8-world-draw.js",
+0,
+4,
+0,
+62
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/mission/0420-endless.js",
+0,
+3,
+0,
+36
+],
+[
+"js/mission/0570-difficulty-mission-scaling.js",
+0,
+3,
+0,
+45
+],
+[
+"js/targeting/0750-arch81-targeting.js",
+0,
+3,
+0,
+74
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+3,
+0,
+91
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+146
+],
+[
+"js/hangar/0510-world-workshop.js",
+0,
+2,
+0,
+21
+],
+[
+"js/mission/0590-abyss-echo-combo-charge.js",
+0,
+2,
+0,
+31
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+2,
+0,
+316
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+2,
+0,
+54
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+2,
+0,
+163
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+2,
+0,
+119
+],
+[
+"js/audio/1090-void12-recorded-music.js",
+1,
+0,
+1,
+88
+],
+[
+"js/bosses/0710-s5-6-bosses.js",
+0,
+1,
+0,
+17
+],
+[
+"js/bosses/0810-s7-8-boss-draw-sound.js",
+0,
+1,
+0,
+197
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+1,
+0,
+151
+],
+[
+"js/world/0900-s9-10-world-rewards.js",
+0,
+1,
+0,
+70
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+1,
+0,
+438
+],
+[
+"js/audio/1120-music-volume-128.js",
+0,
+1,
+0,
+12
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 2,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 2,
+"this": 1,
+"time": 1,
+"toString": 0,
+"try": 2
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 610,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/audio/1090-void12-recorded-music.js",
+"form": "функция",
+"line": 88,
+"subsystem": "audio",
+"ver": "1.2.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "0006434d78e5ef32"
+},
+"show": {
+"decl": {
+"file": "js/screens/0390-screens-base.js",
+"kind": "function",
+"line": 4,
+"subsystem": "screens",
+"used_by": [
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+11,
+0,
+82
+],
+[
+"js/hangar/0510-world-workshop.js",
+0,
+5,
+0,
+4
+],
+[
+"js/hangar/0460-hangar-arsenal-screens.js",
+0,
+4,
+0,
+2
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+4,
+0,
+442
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+2,
+1,
+105
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+2,
+0,
+45
+],
+[
+"js/mission/0420-endless.js",
+0,
+2,
+0,
+23
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+2,
+0,
+22
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+2,
+0,
+31
+],
+[
+"js/ui/0520-sector-map.js",
+0,
+2,
+0,
+2
+],
+[
+"js/ui/1020-glass-111.js",
+1,
+0,
+1,
+63
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+1,
+0,
+0,
+43
+],
+[
+"js/saves/0550-save-code.js",
+0,
+1,
+0,
+5
+],
+[
+"js/story/0620-story-05.js",
+0,
+1,
+0,
+308
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+1,
+0,
+256
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 1,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1020-glass-111.js",
+"form": "функция",
+"line": 63,
+"subsystem": "ui",
+"ver": "1.1.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 394,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"snd110": {
+"decl": {
+"file": "js/sectors/0970-s11-zero-point.js",
+"kind": "function",
+"line": 254,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+15,
+0,
+78
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"snd120": {
+"decl": {
+"file": "js/bosses/0980-s12-boss50-null.js",
+"kind": "function",
+"line": 749,
+"subsystem": "bosses",
+"used_by": [
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+61,
+0,
+52
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"snd85": {
+"decl": {
+"file": "js/bosses/0810-s7-8-boss-draw-sound.js",
+"kind": "function",
+"line": 202,
+"subsystem": "bosses",
+"used_by": [
+[
+"js/bosses/0790-s7-8-lekalo.js",
+0,
+15,
+0,
+28
+],
+[
+"js/bosses/0800-s7-8-first-signal.js",
+0,
+10,
+0,
+30
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"snd90": {
+"decl": {
+"file": "js/audio/0890-s9-10-sound-music.js",
+"kind": "function",
+"line": 4,
+"subsystem": "audio",
+"used_by": [
+[
+"js/bosses/0860-s9-heart.js",
+0,
+14,
+0,
+33
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+13,
+0,
+49
+],
+[
+"js/sectors/0830-s9-frame.js",
+0,
+12,
+0,
+58
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+7,
+0,
+69
+],
+[
+"js/enemies/0840-s9-enemies.js",
+0,
+6,
+0,
+47
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/world/0900-s9-10-world-rewards.js",
+0,
+2,
+0,
+70
+],
+[
+"js/world/0950-s9-10-open-world.js",
+0,
+2,
+0,
+68
+],
+[
+"js/render/0880-s9-10-draw.js",
+0,
+1,
+0,
+17
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+1,
+0,
+135
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+1,
+0,
+53
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"snd95": {
+"decl": {
+"file": "js/sectors/0910-s9-10-common-095.js",
+"kind": "function",
+"line": 181,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/enemies/0920-s9-10-enemies-095.js",
+0,
+29,
+0,
+21
+],
+[
+"js/bosses/0870-s10-shore.js",
+0,
+17,
+0,
+17
+],
+[
+"js/world/0950-s9-10-open-world.js",
+0,
+16,
+0,
+46
+],
+[
+"js/sectors/0850-s10-erased-shores.js",
+0,
+15,
+0,
+122
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+13,
+0,
+56
+],
+[
+"js/enemies/0840-s9-enemies.js",
+0,
+10,
+0,
+28
+],
+[
+"js/bosses/0860-s9-heart.js",
+0,
+9,
+0,
+25
+],
+[
+"js/sectors/0910-s9-10-common-095.js",
+0,
+6,
+0,
+12
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+1,
+0,
+89
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+1,
+0,
+258
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"startMission": {
+"decl": {
+"file": "js/ui/0400-fullscreen-choices-codex.js",
+"kind": "function",
+"line": 111,
+"subsystem": "ui",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+1,
+1,
+0,
+56
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+78
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+472
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 8,
+"gW": 3,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 78,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 472,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"step110": {
+"decl": {
+"file": "js/sectors/0970-s11-zero-point.js",
+"kind": "function",
+"line": 283,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/audio/0890-s9-10-sound-music.js",
+0,
+1,
+0,
+60
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"step90": {
+"decl": {
+"file": "js/audio/0890-s9-10-sound-music.js",
+"kind": "function",
+"line": 60,
+"subsystem": "audio",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/audio/0770-s7-8-music.js",
+0,
+1,
+0,
+9
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"thump": {
+"decl": {
+"file": "js/story/0620-story-05.js",
+"kind": "function",
+"line": 250,
+"subsystem": "story",
+"used_by": [
+[
+"js/story/0620-story-05.js",
+0,
+6,
+0,
+263
+],
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+2,
+0,
+318
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+0,
+2,
+0,
+84
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"toMenu": {
+"decl": {
+"file": "js/ui/0400-fullscreen-choices-codex.js",
+"kind": "function",
+"line": 82,
+"subsystem": "ui",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+2,
+2,
+0,
+48
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+596
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+167
+],
+[
+"js/ui/1140-menu-131.js",
+1,
+0,
+1,
+13
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+98
+],
+[
+"js/screens/0390-screens-base.js",
+0,
+1,
+0,
+46
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+189
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+54
+],
+[
+"js/saves/0550-save-code.js",
+0,
+1,
+0,
+24
+]
+]
+},
+"depth": 5,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 1,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 596,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 167,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/ui/1140-menu-131.js",
+"form": "функция",
+"line": 13,
+"subsystem": "ui",
+"ver": "1.3.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 98,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "e984a9ab47aad231"
+},
+"toast": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 212,
+"subsystem": "world",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+1,
+15,
+1,
+92
+],
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+5,
+0,
+30
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+5,
+0,
+15
+],
+[
+"js/dev/0650-devworld-054.js",
+0,
+5,
+0,
+45
+],
+[
+"js/world/0720-s5-6-open-world.js",
+0,
+5,
+0,
+39
+],
+[
+"js/saves/0560-cloud-save-100.js",
+0,
+4,
+0,
+21
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+4,
+0,
+176
+],
+[
+"js/saves/1060-cloud-fix-123.js",
+0,
+3,
+0,
+13
+],
+[
+"js/arch/0010-arch69-crash-guard.js",
+0,
+2,
+0,
+18
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+2,
+0,
+22
+],
+[
+"js/ui/1020-glass-111.js",
+1,
+0,
+1,
+65
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+2,
+0,
+163
+],
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+0,
+1,
+47
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+84
+],
+[
+"js/core/0140-base-flags-utils.js",
+0,
+1,
+0,
+29
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+8
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+1,
+0,
+316
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+1,
+0,
+180
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+1,
+0,
+212
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+1,
+0,
+106
+],
+[
+"js/world/0760-s7-8-world-draw.js",
+0,
+1,
+0,
+66
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+1,
+0,
+60
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+1,
+0,
+455
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+1,
+0,
+130
+]
+]
+},
+"depth": 5,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1020-glass-111.js",
+"form": "функция",
+"line": 65,
+"subsystem": "ui",
+"ver": "1.1.1",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 3,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"form": "функция",
+"line": 47,
+"subsystem": "ui",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 4,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 84,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 92,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "e984a9ab47aad231"
+},
+"togHTML": {
+"decl": {
+"file": "js/screens/0390-screens-base.js",
+"kind": "function",
+"line": 32,
+"subsystem": "screens",
+"used_by": [
+[
+"js/screens/0390-screens-base.js",
+0,
+9,
+0,
+35
+],
+[
+"js/ui/1020-glass-111.js",
+0,
+0,
+1,
+67
+]
+]
+},
+"depth": 1,
+"layers": [
+{
+"cls": 5,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/ui/1020-glass-111.js",
+"form": "функция",
+"line": 67,
+"subsystem": "ui",
+"ver": "1.1.1",
+"where": "верхний уровень",
+"why": "замещённое объявление: замена присваиванием без захвата прежней"
+}
+],
+"signature": "2171708e3a29d679"
+},
+"toggleDevPanel": {
+"decl": {
+"file": "js/dev/0430-dev-mission-select.js",
+"kind": "function",
+"line": 61,
+"subsystem": "dev",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+0,
+0,
+1,
+204
+],
+[
+"js/input/0410-input-touch.js",
+0,
+1,
+0,
+49
+],
+[
+"js/dev/0430-dev-mission-select.js",
+0,
+1,
+0,
+93
+]
+]
+},
+"depth": 1,
+"layers": [
+{
+"cls": 5,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 204,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "верхний уровень",
+"why": "замещённое объявление: замена присваиванием без захвата прежней"
+}
+],
+"signature": "2171708e3a29d679"
+},
+"tryDash": {
+"decl": {
+"file": "js/player/0280-player-fire.js",
+"kind": "function",
+"line": 18,
+"subsystem": "player",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+0,
+5,
+0,
+40
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+74
+],
+[
+"js/hangar/1180-live-hulls-140.js",
+1,
+0,
+1,
+253
+],
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+1,
+0,
+9
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 74,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/hangar/1180-live-hulls-140.js",
+"form": "функция",
+"line": 253,
+"subsystem": "hangar",
+"ver": "1.4.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"tryPulse": {
+"decl": {
+"file": "js/player/0280-player-fire.js",
+"kind": "function",
+"line": 27,
+"subsystem": "player",
+"used_by": [
+[
+"js/input/0410-input-touch.js",
+0,
+3,
+0,
+40
+],
+[
+"js/sectors/1030-s1-mechanics-120.js",
+1,
+0,
+1,
+111
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+587
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+1,
+0,
+1,
+76
+],
+[
+"js/hangar/1180-live-hulls-140.js",
+1,
+0,
+1,
+255
+],
+[
+"js/input/0490-gamepad-touch-overlay.js",
+0,
+1,
+0,
+9
+]
+]
+},
+"depth": 5,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"form": "функция",
+"line": 111,
+"subsystem": "sectors",
+"ver": "1.2.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 587,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 76,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/hangar/1180-live-hulls-140.js",
+"form": "функция",
+"line": 255,
+"subsystem": "hangar",
+"ver": "1.4.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "e984a9ab47aad231"
+},
+"tutBlockers": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 240,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1150-check-fixes-132.js",
+1,
+1,
+1,
+33
+],
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+477
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+1,
+0,
+242
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1150-check-fixes-132.js",
+"form": "функция",
+"line": 33,
+"subsystem": "tutorial",
+"ver": "1.3.2",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 477,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"tutCalDraw": {
+"decl": {
+"file": "js/tutorial/1110-tutorial-128.js",
+"kind": "function",
+"line": 84,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+1,
+1,
+44
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+1,
+0,
+82
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 44,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutCalNew": {
+"decl": {
+"file": "js/tutorial/1110-tutorial-128.js",
+"kind": "function",
+"line": 38,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+1,
+1,
+17
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+1,
+0,
+47
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 1,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 17,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutCalm": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 92,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+3,
+0,
+206
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+1,
+1,
+165
+],
+[
+"js/tutorial/1160-course-133-134.js",
+0,
+1,
+0,
+86
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 165,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutChord": {
+"decl": {
+"file": "js/tutorial/1110-tutorial-128.js",
+"kind": "function",
+"line": 31,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+1,
+0,
+30
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"tutClean": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 46,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+3,
+0,
+52
+],
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+8
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 8,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutCtxOk": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 171,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+4,
+0,
+205
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+2,
+1,
+164
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+1,
+0,
+73
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 164,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutDone": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 65,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+12,
+0,
+69
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+1,
+2,
+1,
+20
+],
+[
+"js/tutorial/1160-course-133-134.js",
+0,
+3,
+0,
+64
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1110-tutorial-128.js",
+"form": "функция",
+"line": 20,
+"subsystem": "tutorial",
+"ver": "1.2.8",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutEmit": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 68,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+10,
+0,
+40
+],
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+117
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 2,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 1,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 117,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutEnd": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 181,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+12,
+0,
+66
+],
+[
+"js/tutorial/1160-course-133-134.js",
+2,
+3,
+2,
+66
+],
+[
+"js/dev/1200-workbench-145.js",
+2,
+2,
+2,
+94
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+1,
+2,
+1,
+21
+]
+]
+},
+"depth": 6,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1110-tutorial-128.js",
+"form": "функция",
+"line": 21,
+"subsystem": "tutorial",
+"ver": "1.2.8",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 66,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 175,
+"subsystem": "tutorial",
+"ver": "1.3.4",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 94,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 166,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "da7b9fab4df9831b"
+},
+"tutGhostDraw": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 310,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1110-tutorial-128.js",
+1,
+0,
+1,
+112
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+1,
+0,
+329
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 2,
+"callsPrev": 2,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 2,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1110-tutorial-128.js",
+"form": "функция",
+"line": 112,
+"subsystem": "tutorial",
+"ver": "1.2.8",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutMapDraw": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 315,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+0,
+1,
+122
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+1,
+0,
+38
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 2,
+"callsPrev": 1,
+"catchSwallow": 2,
+"finally": 0,
+"gR": 11,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 2
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 122,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutNote": {
+"decl": {
+"file": "js/tutorial/1110-tutorial-128.js",
+"kind": "function",
+"line": 33,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/settings/1190-console-141-142.js",
+2,
+0,
+1,
+103
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+3,
+0,
+49
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/settings/1190-console-141-142.js",
+"form": "фабрика",
+"line": 103,
+"subsystem": "settings",
+"ver": "1.4.1",
+"where": "верхний уровень",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "641593de44337eff"
+},
+"tutOn": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 61,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1160-course-133-134.js",
+0,
+7,
+0,
+81
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+2,
+0,
+65
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+160
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+1,
+0,
+18
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 4,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 160,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutPlace": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 242,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1150-check-fixes-132.js",
+1,
+0,
+1,
+75
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+1,
+0,
+262
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1150-check-fixes-132.js",
+"form": "функция",
+"line": 75,
+"subsystem": "tutorial",
+"ver": "1.3.2",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutSkillPop": {
+"decl": {
+"file": "js/tutorial/1110-tutorial-128.js",
+"kind": "function",
+"line": 25,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1150-check-fixes-132.js",
+1,
+0,
+1,
+31
+],
+[
+"js/tutorial/1110-tutorial-128.js",
+0,
+1,
+0,
+18
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 2,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 1,
+"toString": 0,
+"try": 2
+},
+"file": "js/tutorial/1150-check-fixes-132.js",
+"form": "функция",
+"line": 31,
+"subsystem": "tutorial",
+"ver": "1.3.2",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"tutStart": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 179,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+2,
+1,
+2,
+93
+],
+[
+"js/tutorial/1160-course-133-134.js",
+1,
+1,
+1,
+42
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+2,
+0,
+208
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 42,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 93,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 168,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"tutTick": {
+"decl": {
+"file": "js/input/0490-gamepad-touch-overlay.js",
+"kind": "function",
+"line": 18,
+"subsystem": "input",
+"used_by": [
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+0,
+1,
+86
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+17
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+23
+]
+]
+},
+"depth": 1,
+"layers": [
+{
+"cls": 5,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/tutorial/1100-tutorial-127.js",
+"form": "функция",
+"line": 86,
+"subsystem": "tutorial",
+"ver": "1.2.7",
+"where": "верхний уровень",
+"why": "замещённое объявление: замена присваиванием без захвата прежней"
+}
+],
+"signature": "2171708e3a29d679"
+},
+"tutTick2": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 187,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1160-course-133-134.js",
+2,
+0,
+2,
+78
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+167
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+1,
+0,
+329
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 2,
+"finally": 1,
+"gR": 7,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 3
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 78,
+"subsystem": "tutorial",
+"ver": "1.3.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 6,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1160-course-133-134.js",
+"form": "функция",
+"line": 162,
+"subsystem": "tutorial",
+"ver": "1.3.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 167,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"tutWorldDraw": {
+"decl": {
+"file": "js/tutorial/1100-tutorial-127.js",
+"kind": "function",
+"line": 276,
+"subsystem": "tutorial",
+"used_by": [
+[
+"js/tutorial/1110-tutorial-128.js",
+1,
+0,
+1,
+72
+],
+[
+"js/tutorial/1100-tutorial-127.js",
+0,
+1,
+0,
+329
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1110-tutorial-128.js",
+"form": "функция",
+"line": 72,
+"subsystem": "tutorial",
+"ver": "1.2.8",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"uiApply": {
+"decl": {
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"kind": "function",
+"line": 7,
+"subsystem": "ui",
+"used_by": [
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+1,
+3,
+0,
+9
+],
+[
+"js/input/1080-phone-tablet-124.js",
+2,
+0,
+1,
+30
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/input/1080-phone-tablet-124.js",
+"form": "функция",
+"line": 30,
+"subsystem": "input",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"uiCalc": {
+"decl": {
+"file": "js/ui/1070-ui-scale-toasts-124.js",
+"kind": "function",
+"line": 5,
+"subsystem": "ui",
+"used_by": [
+[
+"js/input/1080-phone-tablet-124.js",
+1,
+0,
+1,
+29
+],
+[
+"js/ui/1070-ui-scale-toasts-124.js",
+0,
+1,
+0,
+7
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/input/1080-phone-tablet-124.js",
+"form": "функция",
+"line": 29,
+"subsystem": "input",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "условный вызов прежней"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"update": {
+"decl": {
+"file": "js/loop/0360-update-frame.js",
+"kind": "function",
+"line": 2,
+"subsystem": "loop",
+"used_by": [
+[
+"js/sectors/1030-s1-mechanics-120.js",
+1,
+0,
+1,
+110
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+585
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+66
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+26
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+33
+]
+]
+},
+"depth": 4,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/sectors/1030-s1-mechanics-120.js",
+"form": "функция",
+"line": 110,
+"subsystem": "sectors",
+"ver": "1.2.0",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 585,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 66,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "не вызывает прежнюю"
+}
+],
+"signature": "94f6190dd2365e06"
+},
+"updateBullets": {
+"decl": {
+"file": "js/player/0280-player-fire.js",
+"kind": "function",
+"line": 118,
+"subsystem": "player",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+58
+],
+[
+"js/loop/0360-update-frame.js",
+0,
+1,
+0,
+13
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+132
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 58,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"updateEndlessHUD": {
+"decl": {
+"file": "js/mission/0420-endless.js",
+"kind": "function",
+"line": 66,
+"subsystem": "mission",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+1,
+81
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+36
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+33
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "arch70Hud",
+"feat": null,
+"file": "js/arch/0020-arch70-rng-hud-diag.js",
+"form": "фабрика",
+"line": 81,
+"subsystem": "arch",
+"ver": null,
+"where": "функция загрузки arch70Boot",
+"why": "HUD-обёртка этапа 3 (ARCH·70)"
+}
+],
+"signature": "382909d66b35b5ef"
+},
+"updateEnemies": {
+"decl": {
+"file": "js/enemies/0290-enemies-base.js",
+"kind": "function",
+"line": 48,
+"subsystem": "enemies",
+"used_by": [
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+160
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+57
+],
+[
+"js/loop/0360-update-frame.js",
+0,
+1,
+0,
+10
+],
+[
+"js/world/0500-world-enter-update.js",
+0,
+1,
+0,
+130
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 3,
+"catchSwallow": 0,
+"finally": 1,
+"gR": 6,
+"gW": 2,
+"retPrev": 2,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 160,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "смешанный"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 57,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"updateHUD": {
+"decl": {
+"file": "js/ui/0380-hud.js",
+"kind": "function",
+"line": 11,
+"subsystem": "ui",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+1,
+81
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+588
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+36
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+112
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+33
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 2,
+"factory": "arch70Hud",
+"feat": null,
+"file": "js/arch/0020-arch70-rng-hud-diag.js",
+"form": "фабрика",
+"line": 81,
+"subsystem": "arch",
+"ver": null,
+"where": "функция загрузки arch70Boot",
+"why": "HUD-обёртка этапа 3 (ARCH·70)"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 588,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "7b3a52431f41a343"
+},
+"updateWaves": {
+"decl": {
+"file": "js/mission/0350-waves-progression.js",
+"kind": "function",
+"line": 22,
+"subsystem": "mission",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+584
+],
+[
+"js/loop/0360-update-frame.js",
+0,
+1,
+0,
+14
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 584,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"updateWorldHUD": {
+"decl": {
+"file": "js/ui/0530-world-hud.js",
+"kind": "function",
+"line": 3,
+"subsystem": "ui",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+1,
+81
+],
+[
+"js/tutorial/1150-check-fixes-132.js",
+1,
+0,
+1,
+24
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+37
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+34
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 2,
+"factory": "arch70Hud",
+"feat": null,
+"file": "js/arch/0020-arch70-rng-hud-diag.js",
+"form": "фабрика",
+"line": 81,
+"subsystem": "arch",
+"ver": null,
+"where": "функция загрузки arch70Boot",
+"why": "HUD-обёртка этапа 3 (ARCH·70)"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 1,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/tutorial/1150-check-fixes-132.js",
+"form": "функция",
+"line": 24,
+"subsystem": "tutorial",
+"ver": "1.3.2",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "7b3a52431f41a343"
+},
+"v12Retune": {
+"decl": {
+"file": "js/audio/1090-void12-recorded-music.js",
+"kind": "function",
+"line": 77,
+"subsystem": "audio",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+1,
+77
+],
+[
+"js/audio/1090-void12-recorded-music.js",
+0,
+3,
+0,
+12
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso63",
+"feat": null,
+"file": "js/arch/0020-arch70-rng-hud-diag.js",
+"form": "фабрика",
+"line": 77,
+"subsystem": "arch",
+"ver": null,
+"where": "функция загрузки arch70Boot",
+"why": "изоляция RNG звука (Math.random → SFXR63): игровой RNG не расходуется звуком"
+}
+],
+"signature": "bd8739bf909cf2ca"
+},
+"w58DrawSkin": {
+"decl": {
+"file": "js/world/0690-s3-4-open-world.js",
+"kind": "function",
+"line": 534,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+601
+],
+[
+"js/hangar/0450-ship-skins-026.js",
+0,
+1,
+0,
+24
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 601,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условный вызов прежней"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"w58MapAdd": {
+"decl": {
+"file": "js/world/0690-s3-4-open-world.js",
+"kind": "function",
+"line": 503,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+572
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+149
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+1,
+0,
+141
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 572,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 149,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"w58MapIcon": {
+"decl": {
+"file": "js/world/0690-s3-4-open-world.js",
+"kind": "function",
+"line": 511,
+"subsystem": "world",
+"used_by": [
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+573
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+150
+],
+[
+"js/world/0610-map-rift-041.js",
+0,
+1,
+0,
+63
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 573,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "условный вызов прежней"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 150,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"w58POI": {
+"decl": {
+"file": "js/world/0690-s3-4-open-world.js",
+"kind": "function",
+"line": 520,
+"subsystem": "world",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+0,
+11
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+1,
+0,
+1,
+563
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 4,
+"gW": 2,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/world/1040-post-izmoroz-121.js",
+"form": "функция",
+"line": 563,
+"subsystem": "world",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"w58Screen": {
+"decl": {
+"file": "js/world/0690-s3-4-open-world.js",
+"kind": "function",
+"line": 477,
+"subsystem": "world",
+"used_by": [
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+157
+],
+[
+"js/render/0540-world-draw.js",
+0,
+1,
+0,
+90
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 3,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 157,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"worldLabel": {
+"decl": {
+"file": "js/render/0540-world-draw.js",
+"kind": "function",
+"line": 113,
+"subsystem": "render",
+"used_by": [
+[
+"js/bosses/0810-s7-8-boss-draw-sound.js",
+0,
+17,
+0,
+19
+],
+[
+"js/world/0690-s3-4-open-world.js",
+0,
+16,
+0,
+389
+],
+[
+"js/world/0760-s7-8-world-draw.js",
+0,
+12,
+0,
+115
+],
+[
+"js/render/0540-world-draw.js",
+0,
+10,
+0,
+15
+],
+[
+"js/render/0880-s9-10-draw.js",
+0,
+10,
+0,
+61
+],
+[
+"js/bosses/0730-s5-6-nurse-lastword-075.js",
+0,
+9,
+0,
+229
+],
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+9,
+0,
+25
+],
+[
+"js/bosses/0680-s3-4-inventory-rim.js",
+0,
+7,
+0,
+140
+],
+[
+"js/bosses/0940-s9-10-boss-art.js",
+0,
+7,
+0,
+34
+],
+[
+"js/world/0950-s9-10-open-world.js",
+0,
+6,
+0,
+125
+],
+[
+"js/sectors/0700-s5-6-mechanics.js",
+0,
+5,
+0,
+263
+],
+[
+"js/world/0720-s5-6-open-world.js",
+0,
+5,
+0,
+52
+],
+[
+"js/world/0820-s7-8-world-rewards.js",
+0,
+3,
+0,
+53
+],
+[
+"js/mission/1050-chase-123.js",
+0,
+3,
+0,
+59
+],
+[
+"js/hangar/0480-arsenal-070.js",
+0,
+2,
+0,
+61
+],
+[
+"js/mission/0590-abyss-echo-combo-charge.js",
+0,
+2,
+0,
+22
+],
+[
+"js/story/0630-wrecks-053.js",
+0,
+2,
+0,
+290
+],
+[
+"js/world/0900-s9-10-world-rewards.js",
+0,
+2,
+0,
+83
+],
+[
+"js/sectors/0910-s9-10-common-095.js",
+0,
+2,
+0,
+87
+],
+[
+"js/mission/0930-levels-39-46.js",
+0,
+2,
+0,
+164
+],
+[
+"js/sectors/0960-s9-10-glue-polish.js",
+0,
+2,
+0,
+42
+],
+[
+"js/input/1080-phone-tablet-124.js",
+1,
+0,
+1,
+3
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+1,
+0,
+236
+],
+[
+"js/world/1040-post-izmoroz-121.js",
+0,
+1,
+0,
+559
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/input/1080-phone-tablet-124.js",
+"form": "функция",
+"line": 3,
+"subsystem": "input",
+"ver": "1.2.4",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"worldMissionDone": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 59,
+"subsystem": "world",
+"used_by": [
+[
+"js/opt/cine/1210-cine-proto-151.js",
+1,
+0,
+1,
+465
+],
+[
+"js/ui/0400-fullscreen-choices-codex.js",
+0,
+1,
+0,
+117
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/opt/cine/1210-cine-proto-151.js",
+"form": "функция",
+"line": 465,
+"subsystem": "opt/cine",
+"ver": null,
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"worldUpdate": {
+"decl": {
+"file": "js/world/0500-world-enter-update.js",
+"kind": "function",
+"line": 108,
+"subsystem": "world",
+"used_by": [
+[
+"js/dev/1200-workbench-145.js",
+1,
+1,
+1,
+69
+],
+[
+"js/mission/1050-chase-123.js",
+1,
+0,
+1,
+159
+],
+[
+"js/loop/0040-arch72-76-clock-step-interp.js",
+0,
+1,
+0,
+27
+],
+[
+"js/loop/1000-mobile-quality-frame.js",
+0,
+1,
+0,
+34
+]
+]
+},
+"depth": 3,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 0,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 0,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/mission/1050-chase-123.js",
+"form": "функция",
+"line": 159,
+"subsystem": "mission",
+"ver": "1.2.3",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+},
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 0,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 4,
+"gW": 0,
+"retPrev": 0,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 69,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "не вызывает прежнюю"
+}
+],
+"signature": "f50235e74429f2b4"
+},
+"zbAbort": {
+"decl": {
+"file": "js/bosses/0980-s12-boss50-null.js",
+"kind": "function",
+"line": 462,
+"subsystem": "bosses",
+"used_by": [
+[
+"js/world/0500-world-enter-update.js",
+0,
+2,
+0,
+97
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+99
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 1,
+"finally": 0,
+"gR": 2,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 1
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 99,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "безусловный хук"
+}
+],
+"signature": "d01abdf7ce4a008f"
+},
+"zbMapStatic": {
+"decl": {
+"file": "js/bosses/0980-s12-boss50-null.js",
+"kind": "function",
+"line": 727,
+"subsystem": "bosses",
+"used_by": [
+[
+"js/arch/0020-arch70-rng-hud-diag.js",
+0,
+2,
+1,
+79
+],
+[
+"js/bosses/0980-s12-boss50-null.js",
+0,
+2,
+0,
+736
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 2,
+"factory": "iso65",
+"feat": null,
+"file": "js/arch/0020-arch70-rng-hud-diag.js",
+"form": "фабрика",
+"line": 79,
+"subsystem": "arch",
+"ver": null,
+"where": "функция загрузки arch70Boot",
+"why": "изоляция RNG визуала (Math.random → VFXR65): игровой RNG не расходуется эффектами"
+}
+],
+"signature": "78d1a865ed4d39e2"
+},
+"zeroOpen110": {
+"decl": {
+"file": "js/sectors/0970-s11-zero-point.js",
+"kind": "function",
+"line": 13,
+"subsystem": "sectors",
+"used_by": [
+[
+"js/sectors/0970-s11-zero-point.js",
+0,
+3,
+0,
+16
+],
+[
+"js/dev/1200-workbench-145.js",
+1,
+0,
+1,
+21
+],
+[
+"js/hangar/0480-arsenal-070.js",
+0,
+1,
+0,
+30
+],
+[
+"js/world/0900-s9-10-world-rewards.js",
+0,
+1,
+0,
+89
+]
+]
+},
+"depth": 2,
+"layers": [
+{
+"cls": 1,
+"factory": null,
+"feat": {
+"args": 1,
+"callsPrev": 1,
+"catchSwallow": 0,
+"finally": 0,
+"gR": 0,
+"gW": 0,
+"retPrev": 1,
+"rng": 0,
+"this": 1,
+"time": 0,
+"toString": 0,
+"try": 0
+},
+"file": "js/dev/1200-workbench-145.js",
+"form": "функция",
+"line": 21,
+"subsystem": "dev",
+"ver": "1.4.5",
+"where": "блок верхнего уровня",
+"why": "условная замена + вызов"
+}
+],
+"signature": "d01abdf7ce4a008f"
+}
+}

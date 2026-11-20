@@ -1,0 +1,35 @@
+    1 DIFF шагов 2586 · убито 48 · done
+    2 DIFF шагов 3449 · убито 67 · done
+    10 DIFF шагов 3600 · убито 33 · play
+    6 DIFF шагов 3600 · убито 16 · play
+    14 DIFF шагов 3600 · убито 35 · play
+    18 DIFF шагов 3600 · убито 9 · play
+    22 DIFF шагов 3600 · убито 4 · play
+    27 DIFF шагов 3600 · убито 9 · play
+    31 DIFF шагов 3600 · убито 10 · play
+    38 DIFF шагов 3600 · убито 8 · play
+    42 DIFF шагов 3600 · убито 12 · play
+    46 DIFF шагов 3600 · убито 10 · play
+    50 DIFF шагов 10800 · стадии silence0 walls0 expand0 pick0 spawn0 fight1 seg1 fight2 seg2 fight3 seg3 fight4 race4 fight4 race4 fight4 race4 choice4 
+FAIL A01 золотые повторы: миссии 01, 02, 10 и боссы 06, 14, 18, 22, 27, 31, 38, 42, 46 по 60 с + босс 50 (бой в мире, 180 с, все стадии) — 1.5.8, «вкл» и «выкл» совпадают до бита; мутант с лишним случайным числом пойман · {"1": "DIFF шагов 2586 · убито 48 · done", "2": "DIFF шагов 3449 · убито 67 · done", "10": "DIFF шагов 3600 · убито 33 · play", "6": "DIFF шагов 3600 · убито 16 · play", "14": "DIFF шагов 3600 · убито 35 · play", "18": "DIFF шагов 3600 · убито 9 · play", "22": "DIFF шагов 3600 · убито 4 · play", "27": "DIFF шагов 3600 · убито 9 · play", "31": "DIFF шагов 3600 · убито 10 · play", "38": "DIFF шагов 
+   ⏱ A01 718.7 s
+OK   A02 (kit6) отпечаток цепочек и владельцев G: изменены только 4 цепочки ARCH·86 и ровно доказанным слиянием (archcheck6 + merge86 против 1.5.24); мутанты слияния и посторонней цепочки отвергнуты · {"archcheck6": 0, "нарушения": "{\"violations\": [], \"n\": 0}", "merge86": 0, "merge86_err": "", "мутанты": {"m86_merged": {"archcheck6": 1, "merge86": 1}, "m86_other": {"archcheck6": 1, "merge86": 1}, "m86_post": {"archcheck6": 0, "merge86": 1}, "m86_behav": {"archcheck6": 1, "merge86": 1}}, "мутанты_ok": true}
+   ⏱ A02 10.8 s
+OK   A03 перепись игрового Math.random в реальном цикле (мир, миссии 02 и 46, босс 50): вне симуляции его берут только известные потребители звука (звук: musSched/scapeRun/v12Retune/makeImpulse; статика миникарты босса 50 zbMapStatic — всё в этап 2); мутант с таймером, берущим случайность, пойман · {"вне_симуляции_разрешённые": {}, "новые": {}, "мутант": ["<anonymous>"]}
+   ⏱ A03 73.9 s
+OK   A04 фикстуры сохранений (v1, раннее, середина, перед финалом, после финала, обрезанное, невалидное, мусор): полная миграция совпадает с 1.5.8 во всех трёх сборках и идемпотентна; мутант миграции пойман · {"fixtures": {"early": {"migrate_same": true, "idempotent": true, "errs": []}, "mid": {"migrate_same": true, "idempotent": true, "errs": []}, "prefinal": {"migrate_same": true, "idempotent": true, "errs": []}, "postfinal": {"migrate_same": true, "idempotent": true, "errs": []}, "v1": {"migrate_same": true, "idempotent": true, "errs": []}, "trunc": {"migrate_same": true, "idempotent": true, "errs":
+OK   A11 порядок миграций (A-3): сохранение на загрузке уже прошло всю цепочку миграций — как на входе в мир (1.5.8: нет → 1.5.9: да) · {"1.5.8": false, "1.5.9": true, "по фикстурам": {"early": {"boot=full 1.5.8": true, "boot=full 1.5.9": true, "резерв 1.5.8": null, "резерв 1.5.9": null}, "mid": {"boot=full 1.5.8": true, "boot=full 1.5.9": true, "резерв 1.5.8": null, "резерв 1.5.9": null}, "prefinal": {"boot=full 1.5.8": true, "boot=full 1.5.9": true, "резерв 1.5.8": null, "резерв 1.5.9": null}, "postfinal": {"boot=full 1.5.8": tr
+OK   A12 резерв нечитаемого сохранения (A-2): обрезанное, невалидное и мусорное сохранение копируются в void_world_bad до того, как новая игра их перезапишет (1.5.8: нет → 1.5.9: да) · {"1.5.8": false, "1.5.9": true}
+   ⏱ A04 36.2 s
+FAIL A05 детерминированный пиксельный стенд (время, кадры, простой, ГСЧ загрузки и сеть зафиксированы): мир, миссии 02/18/46, босс 50, карта — 1.5.8, «вкл», «выкл» совпадают бит в бит, эталон сам с собой тоже; порча в 1 пиксель поймана · {"world": {"same": true, "base=base": true, "кадров": 2}, "m02": {"same": false, "base=base": true, "кадров": 2}, "m18": {"same": false, "base=base": true, "кадров": 2}, "m46": {"same": false, "base=base": true, "кадров": 2}, "zb50": {"same": false, "base=base": true, "кадров": 5}, "map": {"same": true, "base=base": true, "кадров": 1}, "мутант 1 пиксель": "пойман"}
+   ⏱ A05 55.1 s
+OK   A06 запуск из file:// без сети в чистом профиле: меню → мир → миссия 01 без ошибок в консоли; мутант с ошибкой при загрузке пойман · {"states": ["menu", "world", "play"], "errs": [], "mutant": ["PAGE Cannot read properties of null (reading 'x')"]}
+   ⏱ A06 10.2 s
+OK   A13 карта (A-1): повторные нажатия вкладки «Карта» не запускают второй цикл отрисовки (1.5.8 и «выкл»: в ~3 раза чаще) · {"base": {"once": 16, "after4": 59, "afterSwitch": 19, "afterClose": 0, "perTickOnce": 1, "perTickAfter4": 5, "syncDraws": 4}, "on": {"once": 15, "after4": 22, "afterSwitch": 17, "afterClose": 0, "perTickOnce": 1, "perTickAfter4": 1, "syncDraws": 4}, "off": {"once": 15, "after4": 54, "afterSwitch": 13, "afterClose": 0, "perTickOnce": 1, "perTickAfter4": 5, "syncDraws": 4}}
+   ⏱ A13 23.0 s
+OK   A14 предохранитель симуляции (A-4): 30 кадров подряд с ошибкой → пауза, сообщение игроку и запись в void_diag вместо «замёрзшего» боя (1.5.8 и «выкл»: бой стоит, ошибки идут бесконечно) · {"base": {"state": "play", "pausedAfterMs": null, "errors": 184, "toast": "", "diag": null}, "on": {"state": "pause", "pausedAfterMs": 621, "errors": 30, "toast": "СБОЙ В ИГРЕЧасть систем перестала отвечать, поэтому игра вст", "diag": {"ver": "1.5.35 α", "at": 1794937625489, "stage": "sim", "state": "play", "m": 2, "frames": 30, "trips": 1, "msg": "проба: сбой buffs90", "stack": "Error: проба: сбо
+   ⏱ A14 19.0 s
+OK   A15 предохранитель: одиночная ошибка в мире не ставит игру на паузу (счётчик сбрасывается на первом удачном кадре) · {"state": "world", "diag": null}
+   ⏱ A15 5.0 s
+FAIL A16 · "EXC strip75: место не найдено ровно один раз: <dl class=\"kv\"><dt>1.5.15 α</dt><dd>«Шаг IV». Мелкие визуальные эффекты — вспышки щитов, п"
+   ⏱ A16 0.8 s

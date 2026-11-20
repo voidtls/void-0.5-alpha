@@ -1,0 +1,584 @@
+{
+ "sections": 270,
+ "topLevel": 3297,
+ "functionsDecl": 2079,
+ "loadStatements": 1218,
+ "loadKinds": {
+  "ExpressionStatement": 496,
+  "var": 8,
+  "TryStatement": 15,
+  "const": 373,
+  "let": 49,
+  "IfStatement": 39,
+  "BlockStatement": 227,
+  "ForInStatement": 4,
+  "ForStatement": 3,
+  "ForOfStatement": 4
+ },
+ "loadRefsTotal": 1285,
+ "loadRefsCrossSection": 677,
+ "globals": 2605,
+ "interfaces": [
+  {
+   "n": "G",
+   "kind": "const",
+   "line": 1339,
+   "secs": 188,
+   "loadRefs": 10
+  },
+  {
+   "n": "SET",
+   "kind": "const",
+   "line": 560,
+   "secs": 96,
+   "loadRefs": 33
+  },
+  {
+   "n": "clamp",
+   "kind": "const",
+   "line": 544,
+   "secs": 94,
+   "loadRefs": 4
+  },
+  {
+   "n": "TAU",
+   "kind": "const",
+   "line": 542,
+   "secs": 75,
+   "loadRefs": 1
+  },
+  {
+   "n": "W",
+   "kind": "let",
+   "line": 617,
+   "secs": 70,
+   "loadRefs": 1
+  },
+  {
+   "n": "H",
+   "kind": "let",
+   "line": 617,
+   "secs": 66,
+   "loadRefs": 1
+  },
+  {
+   "n": "rnd",
+   "kind": "const",
+   "line": 543,
+   "secs": 59,
+   "loadRefs": 1
+  },
+  {
+   "n": "ctx",
+   "kind": "let",
+   "line": 616,
+   "secs": 58,
+   "loadRefs": 1
+  },
+  {
+   "n": "floater",
+   "kind": "function",
+   "line": 2124,
+   "secs": 53,
+   "loadRefs": 4
+  },
+  {
+   "n": "EDEF",
+   "kind": "const",
+   "line": 671,
+   "secs": 52,
+   "loadRefs": 45
+  },
+  {
+   "n": "isMob",
+   "kind": "function",
+   "line": 2906,
+   "secs": 51,
+   "loadRefs": 0
+  },
+  {
+   "n": "$",
+   "kind": "const",
+   "line": 541,
+   "secs": 45,
+   "loadRefs": 78
+  },
+  {
+   "n": "sfx",
+   "kind": "function",
+   "line": 588,
+   "secs": 43,
+   "loadRefs": 7
+  },
+  {
+   "n": "banner",
+   "kind": "function",
+   "line": 2130,
+   "secs": 41,
+   "loadRefs": 6
+  },
+  {
+   "n": "part",
+   "kind": "function",
+   "line": 2121,
+   "secs": 40,
+   "loadRefs": 3
+  },
+  {
+   "n": "inMission",
+   "kind": "function",
+   "line": 4305,
+   "secs": 40,
+   "loadRefs": 0
+  },
+  {
+   "n": "WORLD",
+   "kind": "const",
+   "line": 3469,
+   "secs": 35,
+   "loadRefs": 7
+  },
+  {
+   "n": "CX",
+   "kind": "let",
+   "line": 618,
+   "secs": 34,
+   "loadRefs": 1
+  },
+  {
+   "n": "spawnEnemy",
+   "kind": "function",
+   "line": 1524,
+   "secs": 34,
+   "loadRefs": 0
+  },
+  {
+   "n": "STATIC",
+   "kind": "const",
+   "line": 714,
+   "secs": 32,
+   "loadRefs": 2
+  },
+  {
+   "n": "CY",
+   "kind": "let",
+   "line": 618,
+   "secs": 31,
+   "loadRefs": 1
+  },
+  {
+   "n": "glow",
+   "kind": "function",
+   "line": 667,
+   "secs": 31,
+   "loadRefs": 0
+  },
+  {
+   "n": "explode",
+   "kind": "function",
+   "line": 2122,
+   "secs": 31,
+   "loadRefs": 3
+  },
+  {
+   "n": "worldLabel",
+   "kind": "function",
+   "line": 4180,
+   "secs": 29,
+   "loadRefs": 2
+  },
+  {
+   "n": "MISSIONS",
+   "kind": "const",
+   "line": 952,
+   "secs": 28,
+   "loadRefs": 7
+  },
+  {
+   "n": "storyFlag",
+   "kind": "function",
+   "line": 6036,
+   "secs": 28,
+   "loadRefs": 0
+  },
+  {
+   "n": "angDiff",
+   "kind": "const",
+   "line": 545,
+   "secs": 27,
+   "loadRefs": 1
+  },
+  {
+   "n": "segDist",
+   "kind": "function",
+   "line": 546,
+   "secs": 27,
+   "loadRefs": 0
+  },
+  {
+   "n": "DPR",
+   "kind": "let",
+   "line": 617,
+   "secs": 27,
+   "loadRefs": 1
+  },
+  {
+   "n": "buzz",
+   "kind": "function",
+   "line": 3032,
+   "secs": 27,
+   "loadRefs": 0
+  },
+  {
+   "n": "SC",
+   "kind": "let",
+   "line": 617,
+   "secs": 26,
+   "loadRefs": 1
+  },
+  {
+   "n": "cv",
+   "kind": "const",
+   "line": 616,
+   "secs": 25,
+   "loadRefs": 4
+  },
+  {
+   "n": "damagePlayer",
+   "kind": "function",
+   "line": 1422,
+   "secs": 25,
+   "loadRefs": 4
+  },
+  {
+   "n": "toast",
+   "kind": "function",
+   "line": 3890,
+   "secs": 25,
+   "loadRefs": 8
+  },
+  {
+   "n": "radioLine",
+   "kind": "function",
+   "line": 6038,
+   "secs": 25,
+   "loadRefs": 0
+  },
+  {
+   "n": "AU",
+   "kind": "const",
+   "line": 574,
+   "secs": 24,
+   "loadRefs": 1
+  },
+  {
+   "n": "shake",
+   "kind": "function",
+   "line": 1431,
+   "secs": 24,
+   "loadRefs": 0
+  },
+  {
+   "n": "touchMode",
+   "kind": "let",
+   "line": 2892,
+   "secs": 24,
+   "loadRefs": 2
+  },
+  {
+   "n": "saveWorld",
+   "kind": "function",
+   "line": 3551,
+   "secs": 24,
+   "loadRefs": 0
+  },
+  {
+   "n": "ARCH",
+   "kind": "var",
+   "line": 8,
+   "secs": 22,
+   "loadRefs": 37
+  },
+  {
+   "n": "CW",
+   "kind": "let",
+   "line": 617,
+   "secs": 22,
+   "loadRefs": 1
+  },
+  {
+   "n": "kill",
+   "kind": "function",
+   "line": 1771,
+   "secs": 22,
+   "loadRefs": 4
+  },
+  {
+   "n": "CH",
+   "kind": "let",
+   "line": 617,
+   "secs": 21,
+   "loadRefs": 1
+  },
+  {
+   "n": "shootE",
+   "kind": "function",
+   "line": 1456,
+   "secs": 21,
+   "loadRefs": 0
+  },
+  {
+   "n": "TUT",
+   "kind": "const",
+   "line": 14102,
+   "secs": 21,
+   "loadRefs": 1
+  },
+  {
+   "n": "C90",
+   "kind": "const",
+   "line": 1142,
+   "secs": 20,
+   "loadRefs": 1
+  },
+  {
+   "n": "sectorIdx",
+   "kind": "function",
+   "line": 3529,
+   "secs": 20,
+   "loadRefs": 0
+  },
+  {
+   "n": "C66",
+   "kind": "const",
+   "line": 15704,
+   "secs": 20,
+   "loadRefs": 3
+  },
+  {
+   "n": "VW",
+   "kind": "let",
+   "line": 618,
+   "secs": 19,
+   "loadRefs": 1
+  },
+  {
+   "n": "mulberry",
+   "kind": "function",
+   "line": 3547,
+   "secs": 18,
+   "loadRefs": 2
+  },
+  {
+   "n": "vrnd3",
+   "kind": "function",
+   "line": 119,
+   "secs": 17,
+   "loadRefs": 0
+  },
+  {
+   "n": "store",
+   "kind": "function",
+   "line": 554,
+   "secs": 17,
+   "loadRefs": 6
+  },
+  {
+   "n": "inView",
+   "kind": "const",
+   "line": 3603,
+   "secs": 17,
+   "loadRefs": 1
+  },
+  {
+   "n": "VH",
+   "kind": "let",
+   "line": 618,
+   "secs": 16,
+   "loadRefs": 1
+  },
+  {
+   "n": "steer",
+   "kind": "function",
+   "line": 1556,
+   "secs": 16,
+   "loadRefs": 0
+  },
+  {
+   "n": "hurt",
+   "kind": "function",
+   "line": 1751,
+   "secs": 16,
+   "loadRefs": 6
+  },
+  {
+   "n": "conEvent",
+   "kind": "function",
+   "line": 4388,
+   "secs": 16,
+   "loadRefs": 0
+  },
+  {
+   "n": "trauma90",
+   "kind": "function",
+   "line": 9961,
+   "secs": 16,
+   "loadRefs": 0
+  },
+  {
+   "n": "tutT",
+   "kind": "function",
+   "line": 14116,
+   "secs": 16,
+   "loadRefs": 0
+  },
+  {
+   "n": "pad2",
+   "kind": "const",
+   "line": 550,
+   "secs": 15,
+   "loadRefs": 1
+  },
+  {
+   "n": "hintOnce",
+   "kind": "function",
+   "line": 2087,
+   "secs": 15,
+   "loadRefs": 0
+  },
+  {
+   "n": "devAny",
+   "kind": "function",
+   "line": 3208,
+   "secs": 15,
+   "loadRefs": 0
+  },
+  {
+   "n": "SKINS",
+   "kind": "const",
+   "line": 3265,
+   "secs": 15,
+   "loadRefs": 12
+  },
+  {
+   "n": "curDiff",
+   "kind": "function",
+   "line": 4300,
+   "secs": 15,
+   "loadRefs": 0
+  },
+  {
+   "n": "radioClear",
+   "kind": "function",
+   "line": 5275,
+   "secs": 15,
+   "loadRefs": 2
+  },
+  {
+   "n": "CORE",
+   "kind": "const",
+   "line": 1019,
+   "secs": 14,
+   "loadRefs": 1
+  },
+  {
+   "n": "roman",
+   "kind": "const",
+   "line": 4299,
+   "secs": 14,
+   "loadRefs": 1
+  },
+  {
+   "n": "rgba90",
+   "kind": "function",
+   "line": 9954,
+   "secs": 14,
+   "loadRefs": 0
+  },
+  {
+   "n": "hs90",
+   "kind": "function",
+   "line": 9956,
+   "secs": 14,
+   "loadRefs": 0
+  },
+  {
+   "n": "BW",
+   "kind": "let",
+   "line": 618,
+   "secs": 13,
+   "loadRefs": 1
+  },
+  {
+   "n": "BH",
+   "kind": "let",
+   "line": 618,
+   "secs": 13,
+   "loadRefs": 1
+  },
+  {
+   "n": "inSectors",
+   "kind": "function",
+   "line": 3532,
+   "secs": 13,
+   "loadRefs": 0
+  },
+  {
+   "n": "LS",
+   "kind": "const",
+   "line": 518,
+   "secs": 12,
+   "loadRefs": 2
+  },
+  {
+   "n": "HEAVY",
+   "kind": "const",
+   "line": 715,
+   "secs": 12,
+   "loadRefs": 3
+  },
+  {
+   "n": "computeStats",
+   "kind": "function",
+   "line": 1343,
+   "secs": 12,
+   "loadRefs": 0
+  },
+  {
+   "n": "onScreen",
+   "kind": "const",
+   "line": 1557,
+   "secs": 12,
+   "loadRefs": 1
+  },
+  {
+   "n": "SAFE",
+   "kind": "let",
+   "line": 2961,
+   "secs": 12,
+   "loadRefs": 1
+  },
+  {
+   "n": "ambSting",
+   "kind": "function",
+   "line": 4671,
+   "secs": 12,
+   "loadRefs": 2
+  },
+  {
+   "n": "targetable",
+   "kind": "function",
+   "line": 7770,
+   "secs": 12,
+   "loadRefs": 0
+  },
+  {
+   "n": "dvOn",
+   "kind": "function",
+   "line": 15268,
+   "secs": 12,
+   "loadRefs": 0
+  }
+ ],
+ "interfacesCount": 124
+}

@@ -1,0 +1,46 @@
+# {"argv": ["node", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/merge86.js", "/home/claude/VOID_stage8/accept8_full/steps/build/b/b85.html", "/home/claude/VOID_stage8/accept8_full/steps/build/b/b86.html", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "--json", "/home/claude/VOID_stage8/accept8_full/steps/arch/merge86_pair.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:18:12"}
+{
+ "pairs": {
+  "renderSettings": {
+   "before": 3,
+   "after": 1,
+   "merged": 3,
+   "pre": 3,
+   "post": 3,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  },
+  "renderSetScreen": {
+   "before": 6,
+   "after": 4,
+   "merged": 3,
+   "pre": 0,
+   "post": 3,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  },
+  "tutEmit": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 0,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  },
+  "tutMapDraw": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 1,
+   "suffixErr": [],
+   "final": "побайтно как в «после»"
+  }
+ },
+ "ok": true,
+ "errs": [],
+ "otherBlocksChanged": 0
+}
+
+# код выхода 0, 3 с

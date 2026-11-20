@@ -1,0 +1,3 @@
+разделов 270 · операторов верхнего уровня 3297 · объявлений функций 2079 · исполняемых при загрузке 1218 {"ExpressionStatement":496,"var":8,"TryStatement":15,"const":373,"let":49,"IfStatement":39,"BlockStatement":227,"ForInStatement":4,"ForStatement":3,"ForOfStatement":4}
+ссылок при загрузке на привязки верхнего уровня 1285 · из них на привязки другого раздела 677
+привязок, на которые ссылаются функции из ≥ 8 разделов: 124 · первые: G(188) SET(96) clamp(94) TAU(75) W(70) H(66) rnd(59) ctx(58) floater(53) EDEF(52) isMob(51) $(45) sfx(43) banner(41) part(40) inMission(40) WORLD(35) CX(34) spawnEnemy(34) STATIC(32) CY(31) glow(31) explode(31) worldLabel(29) MISSIONS(28) storyFlag(28) angDiff(27) segDist(27) DPR(27) buzz(27)

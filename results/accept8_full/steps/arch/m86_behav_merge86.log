@@ -1,0 +1,44 @@
+# {"argv": ["node", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/merge86.js", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html", "/home/claude/VOID_stage8/accept8_full/steps/arch/mut/m86_behav.html"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:18:22"}
+{
+ "pairs": {
+  "renderSettings": {
+   "before": 3,
+   "after": 1,
+   "merged": 3,
+   "pre": 3,
+   "post": 3,
+   "suffixErr": []
+  },
+  "renderSetScreen": {
+   "before": 6,
+   "after": 4,
+   "merged": 3,
+   "pre": 0,
+   "post": 3,
+   "suffixErr": []
+  },
+  "tutEmit": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 0,
+   "suffixErr": []
+  },
+  "tutMapDraw": {
+   "before": 2,
+   "after": 1,
+   "merged": 2,
+   "pre": 2,
+   "post": 1,
+   "suffixErr": []
+  }
+ },
+ "ok": false,
+ "errs": [
+  "tutEmit: pre[0] отличается:\n  ожидалось if($P0==='jump'){try{constT=tutT();if(T&&!T.jh){T.jh=1;tutSave();}if(JH133.on)jh133Hide(true);}catch(e){}}\n  есть      if($P0==='jump_'){try{constT=tutT();if(T&&!T.jh){T.jh=1;tutSave();}if(JH133.on)jh133Hide(true);}catch(e){}}"
+ ],
+ "otherBlocksChanged": 0
+}
+
+# код выхода 1, 1 с

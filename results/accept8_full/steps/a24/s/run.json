@@ -1,0 +1,79 @@
+{
+ "status": "COMPLETE",
+ "build": "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html",
+ "buildSha": "b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034",
+ "a24env": true,
+ "pageFlags": {
+  "off": [],
+  "a24": true,
+  "a25": true,
+  "a26": null
+ },
+ "stands": {
+  "boot": {
+   "rc": 0,
+   "ok": true,
+   "pageFlags": {
+    "off": [],
+    "a24": true,
+    "a25": true,
+    "a26": null
+   },
+   "cmp": 1,
+   "cmpOut": "  - изменилась функция updatePlayer\n  - изменилась функция zbChoose\n  - изменилась функция zbLeave\n  - изменилась функция zbOpenChoice\n  - изменилась функция zbResetMods\n  - изменилась функция zbSegDone\n  - изменилась функция zbTick\n  - новая функция fpsCap27\n  - новая функция fpsCur27\n  - новая функция fpsLowT27\n  - новая функция fpsPick27\n  - новая функция gate27\n  - новая функция ip27fast\n  - новая функция qDn27\n  - новая функция qUp27\n  - новая функция runBrief6\n  - новая функция runGrant6\n  - новая функция runLvlSeg6\n  - новая функция runLvlUp6\n  - новая функция runQClear6\n  - новая функция runRestore6\n  - новая функция runStart6\n  - новая функция runTake6\n  - новая функция runXp6\n  - новая функция runZero6\n  - новая функция saveSet6\n  - новая функция saveWith6\n  - новая функция scr6\n"
+  },
+  "trace": {
+   "rc": 0,
+   "ok": true,
+   "pageFlags": {
+    "off": [],
+    "a24": true,
+    "a25": true,
+    "a26": null
+   },
+   "cmp": 0,
+   "cmpOut": "флаги страницы: эталон {'off': [], 'a24': True, 'a25': True, 'a26': True} · кандидат {'off': [], 'a24': True, 'a25': True, 'a26': None}\nm10: шагов 1200/1200, совпадает побитно\nworld: шагов 1200/1200, совпадает побитно\npost: шагов 1200/1200, совпадает побитно\nm10s: шагов 900/900, совпадает побитно\nИТОГ: OK\n"
+  },
+  "aimman": {
+   "rc": 0,
+   "ok": true,
+   "pageFlags": {
+    "off": [],
+    "a24": true,
+    "a25": true,
+    "a26": null
+   },
+   "cmp": 0,
+   "cmpOut": "флаги страницы: эталон {'off': [], 'a24': True, 'a25': True, 'a26': True} · кандидат {'off': [], 'a24': True, 'a25': True, 'a26': None}\nm10: шагов 1500/1500, совпадает побитно\nИТОГ: OK\n"
+  },
+  "prio": {
+   "rc": 0,
+   "ok": true,
+   "pageFlags": {
+    "off": [],
+    "a24": true,
+    "a25": true,
+    "a26": null
+   },
+   "cmp": 0,
+   "cmpOut": "флаги страницы: эталон {'off': [], 'a24': True, 'a25': True, 'a26': True} · кандидат {'off': [], 'a24': True, 'a25': True, 'a26': None}\nm10: шагов 1800/1800, совпадает побитно\nm10-touch: шагов 1800/1800, совпадает побитно\nИТОГ: OK\n"
+  },
+  "probes": {
+   "rc": 0,
+   "ok": true,
+   "pageFlags": {
+    "off": [],
+    "a24": true,
+    "a25": true,
+    "a26": null
+   },
+   "cmp": 0,
+   "cmpOut": "флаги страницы: эталон {'off': [], 'a24': True, 'a25': True, 'a26': True} · кандидат {'off': [], 'a24': True, 'a25': True, 'a26': None}\nm10: шагов 15/15, совпадает побитно\nИТОГ: OK\n"
+  }
+ },
+ "tools": {
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "tools5/st5.py": "e89e9cd220b3b5ba",
+  "tools5/compare5.py": "2e67b84e491b83c7"
+ }
+}

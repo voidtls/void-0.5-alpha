@@ -1,0 +1,12 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/run6.py", "reg", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "/home/claude/VOID_stage8/accept8_full/steps/regsave/reg", "--suites", "q71save,q73save", "--base", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/out5/p84/reg24_save", "--aa", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/baseline/reg20_save"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 18:23:12"}
+q71save: OK (записей 6/6, 13 с)
+q73save: OK (записей 10/10, 17 с)
+нестабильные по A/A: []
+q71save.log  проверок 5→5  падений 0→0
+q73save.log  проверок 6→6  падений 3→3
+
+ИТОГ: эталонных падений 3 · в кандидате 3 · новых 0 · ушло 0 · изменены подробности 0 · изменён только номер версии 0 · изменены нестабильные (A/A) 0 · нет журналов 0
+
+STATUS COMPLETE 
+
+# код выхода 0, 17 с

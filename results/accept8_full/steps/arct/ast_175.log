@@ -1,0 +1,160 @@
+# {"argv": ["node", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/arct6.js", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "--json", "/home/claude/VOID_stage8/accept8_full/steps/arct/ast_175.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 16:24:02"}
+{
+ "arcT": [
+  {
+   "fn": "zbFxTick",
+   "line": 12006,
+   "kind": "запись",
+   "obj": "Z"
+  },
+  {
+   "fn": "zbFxTick",
+   "line": 12006,
+   "kind": "чтение",
+   "obj": "Z"
+  },
+  {
+   "fn": "zbFxTick",
+   "line": 12006,
+   "kind": "чтение",
+   "obj": "Z"
+  },
+  {
+   "fn": "zbFxTick",
+   "line": 12006,
+   "kind": "запись",
+   "obj": "Z"
+  }
+ ],
+ "branch": [
+  "SET.fx&&!G.lowFx&&(Z.k==='fight'||Z.k==='race')&&zbPartOK()",
+  "e&&e.alive&&Z.stun>0",
+  "Z.arcT<=0"
+ ],
+ "branchCalls": {
+  "isMob": 1,
+  "zbCen": 1,
+  "vR4": 3,
+  "vrnd4": 7,
+  "zbRad": 1,
+  "Math.cos": 5,
+  "Math.sin": 5,
+  "inView": 1,
+  "part": 1,
+  "zbArc": 1
+ },
+ "fxReaders": {
+  "zbFx": 2,
+  "zbFxTick": 2,
+  "zbFxDraw": 1
+ },
+ "partsReaders": {
+  "part": 2,
+  "updateFx": 2,
+  "render": 1,
+  "drawDevOverlay": 1,
+  "renderWorld": 1,
+  "storyWorldTick": 1,
+  "zbPartOK": 1,
+  "(верхний уровень)": 1
+ },
+ "lowFxReaders": {
+  "frame74": {
+   "r": 1,
+   "w": 1
+  },
+  "glow": {
+   "r": 1,
+   "w": 0
+  },
+  "part": {
+   "r": 1,
+   "w": 0
+  },
+  "toMenu": {
+   "r": 0,
+   "w": 1
+  },
+  "startWorld": {
+   "r": 0,
+   "w": 1
+  },
+  "wellUnder": {
+   "r": 1,
+   "w": 0
+  },
+  "drawE85": {
+   "r": 1,
+   "w": 0
+  },
+  "erDraw100": {
+   "r": 1,
+   "w": 0
+  },
+  "top90": {
+   "r": 1,
+   "w": 0
+  },
+  "fxN95": {
+   "r": 1,
+   "w": 0
+  },
+  "shoreUnder": {
+   "r": 1,
+   "w": 0
+  },
+  "wbg95": {
+   "r": 1,
+   "w": 0
+  },
+  "w95Draw": {
+   "r": 1,
+   "w": 0
+  },
+  "under49": {
+   "r": 1,
+   "w": 0
+  },
+  "zbFxTick": {
+   "r": 1,
+   "w": 0
+  },
+  "zbUnder": {
+   "r": 4,
+   "w": 0
+  },
+  "zbDrawBoss": {
+   "r": 1,
+   "w": 0
+  },
+  "qApply": {
+   "r": 0,
+   "w": 1
+  },
+  "qTick": {
+   "r": 1,
+   "w": 1
+  },
+  "frame": {
+   "r": 1,
+   "w": 1
+  },
+  "fx62": {
+   "r": 1,
+   "w": 0
+  },
+  "(верхний уровень)": {
+   "r": 2,
+   "w": 0
+  },
+  "bg67Lvl": {
+   "r": 1,
+   "w": 0
+  }
+ },
+ "arcTfns": [
+  "zbFxTick"
+ ]
+}
+
+# код выхода 0, 1 с

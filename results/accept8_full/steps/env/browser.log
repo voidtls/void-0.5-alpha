@@ -1,0 +1,4 @@
+# {"argv": ["/usr/local/bin/python3", "-c", "import sys,asyncio\nfrom playwright.async_api import async_playwright\nasync def m():\n async with async_playwright() as p:\n  b=await p.chromium.launch(executable_path=sys.argv[1],args=['--no-sandbox']);pg=await b.new_page();print('2+2=',await pg.evaluate('2+2'),b.version);await b.close()\nasyncio.run(m())", "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 14:41:42"}
+2+2= 4 153.0.8010.12
+
+# код выхода 0, 1 с

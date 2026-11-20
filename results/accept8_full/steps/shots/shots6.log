@@ -1,0 +1,9 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/shots6.py", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "/home/claude/VOID_stage8/accept8_full/steps/shots/shots"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:27:37"}
+320 568 {"seg": true, "w": 254, "right": 287, "vw": 320, "bs": [{"t": "30", "w": 124, "h": 44, "over": false}, {"t": "60", "w": 124, "h": 44, "over": false}, {"t": "БЕЗ ОГРАНИЧЕНИЯ", "w": 254, "h": 44, "over": false}], "inView": true}
+390 844 {"seg": true, "w": 324, "right": 357, "vw": 390, "bs": [{"t": "30", "w": 65, "h": 44, "over": false}, {"t": "60", "w": 65, "h": 44, "over": false}, {"t": "БЕЗ ОГРАНИЧЕНИЯ", "w": 182, "h": 44, "over": false}], "inView": true}
+844 390 {"seg": true, "w": 686, "right": 765, "vw": 844, "bs": [{"t": "30", "w": 186, "h": 44, "over": false}, {"t": "60", "w": 186, "h": 44, "over": false}, {"t": "БЕЗ ОГРАНИЧЕНИЯ", "w": 302, "h": 44, "over": false}], "inView": true}
+768 1024 {"seg": true, "w": 686, "right": 727, "vw": 768, "bs": [{"t": "30", "w": 186, "h": 44, "over": false}, {"t": "60", "w": 186, "h": 44, "over": false}, {"t": "БЕЗ ОГРАНИЧЕНИЯ", "w": 302, "h": 44, "over": false}], "inView": true}
+1280 760 {"seg": true, "w": 938, "right": 1065, "vw": 1280, "bs": [{"t": "30", "w": 48, "h": 40, "over": false}, {"t": "60", "w": 48, "h": 40, "over": false}, {"t": "БЕЗ ОГРАНИЧЕНИЯ", "w": 167, "h": 40, "over": false}], "inView": true}
+1920 1080 {"seg": true, "w": 938, "right": 1095, "vw": 1920, "bs": [{"t": "30", "w": 48, "h": 40, "over": false}, {"t": "60", "w": 48, "h": 40, "over": false}, {"t": "БЕЗ ОГРАНИЧЕНИЯ", "w": 167, "h": 40, "over": false}], "inView": true}
+
+# код выхода 0, 36 с

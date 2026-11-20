@@ -1,0 +1,290 @@
+{
+ "status": "COMPLETE",
+ "build": "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html",
+ "buildSha": "b936a549366321b63b8f0c6ac5a8c34013150cffac9ea584b71d3c09c7f4c034",
+ "suites": {
+  "q210": {
+   "status": "OK",
+   "rc": 0,
+   "records": 16,
+   "expected": 16,
+   "sec": 187
+  },
+  "q200": {
+   "status": "OK",
+   "rc": 0,
+   "records": 10,
+   "expected": 10,
+   "sec": 187
+  },
+  "q180": {
+   "status": "OK",
+   "rc": 0,
+   "records": 15,
+   "expected": 15,
+   "sec": 130
+  },
+  "q160": {
+   "status": "OK",
+   "rc": 0,
+   "records": 37,
+   "expected": 37,
+   "sec": 156
+  },
+  "q220": {
+   "status": "OK",
+   "rc": 0,
+   "records": 11,
+   "expected": 11,
+   "sec": 118
+  },
+  "q190": {
+   "status": "OK",
+   "rc": 0,
+   "records": 10,
+   "expected": 10,
+   "sec": 152
+  },
+  "q330": {
+   "status": "OK",
+   "rc": 0,
+   "records": 18,
+   "expected": 18,
+   "sec": 121
+  },
+  "q120": {
+   "status": "OK",
+   "rc": 0,
+   "records": 51,
+   "expected": 51,
+   "sec": 70
+  },
+  "q270": {
+   "status": "OK",
+   "rc": 0,
+   "records": 11,
+   "expected": 11,
+   "sec": 185
+  },
+  "q95": {
+   "status": "OK",
+   "rc": 0,
+   "records": 127,
+   "expected": 127,
+   "sec": 90
+  },
+  "q130": {
+   "status": "OK",
+   "rc": 0,
+   "records": 9,
+   "expected": 9,
+   "sec": 50
+  },
+  "q90": {
+   "status": "OK",
+   "rc": 0,
+   "records": 122,
+   "expected": 122,
+   "sec": 45
+  },
+  "q150": {
+   "status": "OK",
+   "rc": 0,
+   "records": 12,
+   "expected": 12,
+   "sec": 72
+  },
+  "q280": {
+   "status": "OK",
+   "rc": 0,
+   "records": 6,
+   "expected": 6,
+   "sec": 70
+  },
+  "q110": {
+   "status": "OK",
+   "rc": 0,
+   "records": 54,
+   "expected": 54,
+   "sec": 41
+  },
+  "q96": {
+   "status": "OK",
+   "rc": 0,
+   "records": 38,
+   "expected": 38,
+   "sec": 33
+  },
+  "q250": {
+   "status": "OK",
+   "rc": 0,
+   "records": 7,
+   "expected": 7,
+   "sec": 66
+  },
+  "q290": {
+   "status": "OK",
+   "rc": 0,
+   "records": 4,
+   "expected": 4,
+   "sec": 35
+  },
+  "q240": {
+   "status": "OK",
+   "rc": 0,
+   "records": 7,
+   "expected": 7,
+   "sec": 32
+  },
+  "q260": {
+   "status": "OK",
+   "rc": 0,
+   "records": 9,
+   "expected": 9,
+   "sec": 81
+  },
+  "q170": {
+   "status": "OK",
+   "rc": 0,
+   "records": 13,
+   "expected": 13,
+   "sec": 42
+  },
+  "q140": {
+   "status": "OK",
+   "rc": 0,
+   "records": 8,
+   "expected": 8,
+   "sec": 22
+  },
+  "q310": {
+   "status": "OK",
+   "rc": 0,
+   "records": 13,
+   "expected": 13,
+   "sec": 64
+  },
+  "q360": {
+   "status": "OK",
+   "rc": 0,
+   "records": 8,
+   "expected": 8,
+   "sec": 384
+  },
+  "q370": {
+   "status": "OK",
+   "rc": 0,
+   "records": 12,
+   "expected": 12,
+   "sec": 953
+  },
+  "q300": {
+   "status": "OK",
+   "rc": 0,
+   "records": 8,
+   "expected": 8,
+   "sec": 81
+  },
+  "q320": {
+   "status": "OK",
+   "rc": 0,
+   "records": 6,
+   "expected": 6,
+   "sec": 44
+  },
+  "q380": {
+   "status": "OK",
+   "rc": 0,
+   "records": 11,
+   "expected": 11,
+   "sec": 1966
+  },
+  "q340s": {
+   "status": "OK",
+   "rc": 0,
+   "records": 17,
+   "expected": 17,
+   "sec": 305
+  },
+  "q350": {
+   "status": "OK",
+   "rc": 0,
+   "records": 28,
+   "expected": 28,
+   "sec": 285
+  }
+ },
+ "source": {
+  "q200": "kit/q200.py",
+  "q210": "kit/q210.py",
+  "q160": "kit/q160.py",
+  "q180": "kit/q180.py",
+  "q220": "kit6/q220.py",
+  "q190": "kit/q190.py",
+  "q330": "kit/q330.py",
+  "q270": "kit/q270.py",
+  "q120": "kit/q120.py",
+  "q95": "kit/q95.py",
+  "q130": "kit6/q130.py",
+  "q90": "kit/q90.py",
+  "q150": "kit/q150.py",
+  "q280": "kit/q280.py",
+  "q110": "kit/q110.py",
+  "q250": "kit/q250.py",
+  "q96": "kit/q96.py",
+  "q290": "kit/q290.py",
+  "q260": "kit/q260.py",
+  "q240": "kit/q240.py",
+  "q370": "kit6/q370.py",
+  "q170": "kit6/q170.py",
+  "q140": "kit/q140.py",
+  "q310": "kit6/q310.py",
+  "q360": "kit/q360.py",
+  "q380": "kit6/q380.py",
+  "q300": "kit/q300.py",
+  "q320": "kit/q320.py",
+  "q340s": "kit/q340s.py",
+  "q350": "kit/q350.py"
+ },
+ "solo": [
+  "q340s",
+  "q350"
+ ],
+ "overlay": "kit6",
+ "cmpExit": 1,
+ "nproc": 2,
+ "tools": {
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "tools5/cmpreg5.py": "dd034df5583d2b17",
+  "kit/q210.py": "9c0bde8347f76884",
+  "kit/q200.py": "05cd755da90b1ead",
+  "kit/q180.py": "1ae82e53b5533ad5",
+  "kit/q160.py": "a0c2bd1d44d4a0db",
+  "kit6/q220.py": "0d9d171f3f34f34d",
+  "kit/q190.py": "3d0046e3ede1b326",
+  "kit/q330.py": "f88d3e2b6dd59078",
+  "kit/q120.py": "a3866a2f735bcbfd",
+  "kit/q270.py": "1ad5060927079892",
+  "kit/q95.py": "04be6ae84bc9230a",
+  "kit6/q130.py": "c4fb1d4f41668e1f",
+  "kit/q90.py": "54d3484f1c5d7e1d",
+  "kit/q150.py": "f756c9281667153f",
+  "kit/q280.py": "08a44dad7a183ab0",
+  "kit/q110.py": "d0561dc1a439d2a4",
+  "kit/q96.py": "35a3918c12317d55",
+  "kit/q250.py": "ee75c252e2119d33",
+  "kit/q290.py": "78950557689b54ee",
+  "kit/q240.py": "cc5fe853d0518ca9",
+  "kit/q260.py": "00f49b00d10a48a7",
+  "kit6/q170.py": "0ce2bd1a9cb159ff",
+  "kit/q140.py": "cb24ab227a084f07",
+  "kit6/q310.py": "d57c89e5ddf55249",
+  "kit/q360.py": "6a0cee85ac3d45f3",
+  "kit6/q370.py": "8d904f17c468a353",
+  "kit/q300.py": "47815b6e00797b62",
+  "kit/q320.py": "1715381d3463b909",
+  "kit6/q380.py": "5660487af924ca4b",
+  "kit/q340s.py": "cbb2542c7b561d9e",
+  "kit/q350.py": "3dce6d1d14ace134"
+ }
+}

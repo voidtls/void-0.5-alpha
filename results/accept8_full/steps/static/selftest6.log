@@ -1,0 +1,15 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/selftest6.py", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:10:47"}
+OK   S0 чистая сборка · выход 0 · нарушений нет
+OK   S1 прямая запись G.state вне scr6 · выход 1 · screen: state: запись (w) в __s1
+OK   S2 смена G.save вне saveSet6 · выход 1 · save: save: запись (w) в __s2
+OK   S3 запись поля прокачки вне блока · выход 1 · runlvl: lvl: запись (w) в __s3
+OK   S4 групповая запись поля прокачки · выход 1 · runlvl: xp: запись (bulk) в __s4
+OK   S5 изменённое тело API · выход 1 · runXp6: текст функции-владельца отличается
+OK   S6 обёртка над владельцем · выход 1 · scr6~w1
+OK   S7 вычисляемый ключ G · выход 1 · незарегистрированная вычисляемая
+OK   S8 псевдоним G · выход 1 · псевдонимы G
+OK   S9 запись поля наведения вне подсистемы · выход 1 · targeting: prio: запись (w) в __s9
+OK   S10 исключение перестало писать · выход 1 · исключение enterWorldAt больше не пишет
+selftest6: все случаи пойманы
+
+# код выхода 0, 302 с

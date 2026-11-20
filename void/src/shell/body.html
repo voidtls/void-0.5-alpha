@@ -1,0 +1,293 @@
+</style>
+
+<canvas id="cv"></canvas>
+
+<div id="safeProbe"></div>
+<div id="fsCurtain"></div>
+<section class="screen dim" id="fsCard" hidden role="dialog" aria-modal="true" aria-label="Полный экран"><div class="wrap panel"><div class="eyebrow">ПОЛНЫЙ ЭКРАН</div><p id="fsCardText"></p><div class="btns"><button class="btn primary" id="bFsCardOk">ПОНЯТНО</button></div></div></section>
+<div id="radio" hidden><span class="rtag"></span><span class="rtxt"></span></div>
+<div id="wake" hidden><div class="lid t"></div><div class="lid b"></div><div class="wtxt"></div><div class="wmsg"></div><div class="wbot"></div></div>
+<div id="memo"></div><div id="fragTxt"></div>
+<div id="hud" hidden>
+  <div class="hud-tl">
+    <div class="bar-l hpl"><span></span><b id="hpT">100/100</b></div>
+    <div class="bar hp"><i class="gh" id="hpG"></i><i id="hpB"></i></div>
+    <div class="bar-l enl"><span></span><b id="enT"></b></div>
+    <div class="bar en" id="enBar"><i id="enB"></i></div>
+  </div>
+  <div class="hud-tc">
+    <div class="bar-l"><span id="misT"></span><b id="sigT"></b></div>
+    <div class="bar sig" id="sigBar"><i id="sigB"></i></div>
+    <div class="bar boss" id="bossBar" hidden><i id="bossB"></i><span class="tick" style="left:33.3%"></span><span class="tick" style="left:66.6%"></span></div>
+    <div id="bcBox" hidden style="display:grid;gap:5px">
+      <div class="bar bc" id="bcBar"><i id="bcB"></i><span class="tick" style="left:25%"></span><span class="tick" style="left:50%"></span><span class="tick" style="left:75%"></span></div>
+      <div class="bar-l"><span>КОРПУС МАЯКА</span><b id="biT"></b></div>
+      <div class="bar bi" id="biBar"><i id="biB"></i></div>
+      <div class="bar boss" id="jamBar" hidden><i id="jamB"></i><span class="tick" style="left:33.3%"></span><span class="tick" style="left:66.6%"></span></div>
+    </div>
+  </div>
+  <div class="hud-e"><div id="eTime">0:00</div><div class="bar step"><i id="eB"></i></div><div id="eStep">СТУПЕНЬ 1</div><div id="eRec"></div></div>
+  <div class="hud-w"><div class="bar-l"><span id="wSec"></span><b id="wLom"></b></div><div class="wsub" id="wSub"></div></div>
+  <div class="hud-tr">
+    <div id="score">0<small id="scoreL">ОЧКИ</small></div>
+    <button id="btnMap" aria-label="Карта">КАРТА [M]</button>
+    <button id="btnPause" aria-label="Пауза"><span></span></button>
+  </div>
+  <canvas id="mini" width="264" height="264" aria-label="Миникарта"></canvas>
+  <div class="hud-b">
+    <div class="chips"><div class="chip" id="dashC">РЫВОК</div><div class="chip en" id="pulseC">ИМПУЛЬС</div><div class="chip" id="chgC" hidden>ЗАРЯД</div><div class="chip" id="wpnC" hidden style="color:#9fe3ff;border-color:#2a4a66">РАЗРЫВ</div><div class="chip combo" id="comboC" hidden></div><div class="chip" id="aimC" hidden>ПРИЦЕЛ</div><div class="chip cargo" id="cargoC" hidden>ГРУЗ 0/1</div><div class="chip" id="lvC" hidden>ЩИТ</div></div>
+    <div class="bar xp"><i id="xpB"></i></div>
+  </div>
+</div>
+
+<div id="touch" hidden><div id="joyLock" aria-hidden="true">КУРС ЗАФИКСИРОВАН · КОСНИТЕСЬ СТИКА</div><div id="joyIdle" aria-hidden="true"><span>ДВИЖЕНИЕ</span></div><div id="joy"><i></i><b class="jl">КУРС</b></div><button class="tbtn" id="tPulse" aria-label="Импульс"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true"><circle class="rb" cx="50" cy="50" r="46"/><circle class="rf" cx="50" cy="50" r="46" pathLength="100"/></svg><span class="lb">ИМП</span><span class="cdn"></span></button><button class="tbtn" id="tCharge" hidden aria-label="Заряженный выстрел"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true"><circle class="rb" cx="50" cy="50" r="46"/><circle class="rf" cx="50" cy="50" r="46" pathLength="100"/></svg><span class="lb">ЗАРЯД</span><span class="cdn"></span></button><button class="tbtn" id="tDash" aria-label="Рывок"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true"><circle class="rb" cx="50" cy="50" r="46"/><circle class="rf" cx="50" cy="50" r="46" pathLength="100"/></svg><span class="lb">РЫВОК</span><span class="cdn"></span></button><button class="tbtn" id="tAct" hidden aria-label="Действие"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true"><circle class="rb" cx="50" cy="50" r="46"/><circle class="rf" cx="50" cy="50" r="46" pathLength="100"/></svg><span class="lb">КАРТА</span><span class="cdn"></span></button></div>
+<div id="banner"><b id="banB"></b><span id="banS"></span></div>
+<div id="wcard" hidden></div>
+<div id="devBar" hidden>РАЗРАБОТКА · НЕ СОХРАНЯЕТСЯ · ` ПАНЕЛЬ</div>
+<button id="devBtn" hidden>DEV</button>
+<div id="devPanel" hidden>
+  <div style="color:#00ff88;letter-spacing:.16em">БЫСТРЫЕ ДЕЙСТВИЯ</div>
+  <button data-dv="kill">УНИЧТОЖИТЬ ВСЕХ</button>
+  <button data-dv="wave" id="dvWave">ПРОПУСТИТЬ ВОЛНУ</button>
+  <button data-dv="boss" id="dvBoss">ПЕРЕЙТИ К БОССУ</button>
+  <button data-dv="charge" id="dvCharge">МАЯК +25% ЗАРЯДА</button>
+  <button data-dv="step" id="dvStep">СЛЕДУЮЩАЯ СТУПЕНЬ</button>
+  <button data-dv="lvl">ВЫДАТЬ УРОВЕНЬ МОДУЛЕЙ</button>
+  <select id="devSpawn" aria-label="Тип врага"></select>
+  <button data-dv="spawn">СОЗДАТЬ ВРАГА У КРАЯ</button>
+  <button data-dv="plvl">+УРОВЕНЬ ПИЛОТА</button>
+  <button data-dv="lom">+500 ЛОМА В ПЕСОЧНИЦУ</button>
+</div>
+<div id="toast" hidden><div class="eyebrow" id="toastT"></div><p id="toastP"></p></div>
+
+<!-- Главное меню -->
+<section class="screen" id="sMenu">
+  <div class="hero" aria-hidden="true"><svg viewBox="0 0 600 600">
+  <defs><radialGradient id="heroG" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8fe9ff" stop-opacity=".18"/><stop offset=".55" stop-color="#8fe9ff" stop-opacity=".04"/><stop offset="1" stop-color="#8fe9ff" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="300" cy="300" r="300" fill="url(#heroG)"/>
+  <g fill="none" stroke="#8fe9ff">
+    <circle cx="300" cy="300" r="78" stroke-opacity=".32"/>
+    <circle cx="300" cy="300" r="150" stroke-opacity=".16" stroke-dasharray="2 7"/>
+    <circle cx="300" cy="300" r="222" stroke-opacity=".11"/>
+    <circle cx="300" cy="300" r="290" stroke-opacity=".06" stroke-dasharray="1 9"/>
+    <circle class="pr" cx="300" cy="300" r="60" stroke-opacity=".55"/>
+    <circle class="pr p2" cx="300" cy="300" r="60" stroke-opacity=".55"/>
+    <path d="M300 4v28M300 568v28M4 300h28M568 300h28" stroke-opacity=".3"/>
+  </g>
+  <g class="orb"><circle cx="450" cy="300" r="14" fill="none" stroke="#8fe9ff" stroke-opacity=".25"/><path d="M462 300 445 292.5 449 300 445 307.5Z" fill="#e8f1fa"/></g>
+  <g class="orb2"><circle cx="300" cy="78" r="3" fill="#ffb84d"/><circle cx="300" cy="78" r="9" fill="none" stroke="#ffb84d" stroke-opacity=".35"/></g>
+  <circle cx="300" cy="300" r="22" fill="#8fe9ff" fill-opacity=".08"/><circle cx="300" cy="300" r="5" fill="#8fe9ff"/>
+</svg></div>
+  <button id="bFs" class="mobonly" hidden aria-label="Во весь экран" title="Во весь экран">⛶</button>
+  <div class="wrap">
+    <div style="display:grid;gap:12px">
+      <h1 class="logo">V<span class="o">Ø</span>ID</h1>
+      <p class="sub">ПОСЛЕДНИЙ СИГНАЛ</p>
+    </div>
+    <div class="log">Двенадцать секторов. Пятьдесят сигналов.<br>Летите на свет — и вспомните, кто вы.</div>
+    <div class="btns">
+      <button class="btn primary" id="bWorld">НАЧАТЬ <kbd>ENTER</kbd></button>
+      <button class="btn" id="bWorldNew" hidden>НОВЫЙ ПОЛЁТ</button>
+      <button class="btn act2" id="bEndless">БЕСКОНЕЧНОСТЬ <kbd id="bEndBest">—</kbd></button>
+      <button class="btn" id="bCodex">СПРАВОЧНИК <kbd>C</kbd></button>
+      <button class="btn" id="bFsPc" hidden>ПОЛНЫЙ ЭКРАН <kbd>F11</kbd></button>
+      <button class="btn" id="bSave">КОД СОХРАНЕНИЯ</button>
+      <button class="btn" id="bSettings">НАСТРОЙКИ</button>
+      <button class="btn mobonly" id="bMore">ЕЩЁ</button>
+      <button class="btn" id="bDev" hidden style="border-color:#00ff8844;color:#7fe0b0">ВЫБОР МИССИЙ</button>
+    </div>
+    <div class="rec" id="recLine"></div>
+    <div class="ver" id="verTag">1.5.35 α</div>
+    <p class="note mobonly" id="wvNote" hidden>Игра открыта во встроенном браузере приложения: прогресс может не сохраниться. Откройте ссылку в Safari или Chrome.</p>
+  </div>
+</section>
+
+<!-- Справочник -->
+<section class="screen" id="sCodex" hidden>
+  <div class="codex">
+    <div class="eyebrow">СПРАВОЧНИК</div>
+    <div class="tabs" id="cxTabs"></div>
+    <div class="cx" id="cxBody"></div>
+    <div class="btns"><button class="btn" id="bCodexBack">НАЗАД <kbd>ESC</kbd></button></div>
+  </div>
+</section>
+
+<!-- Вводная миссии -->
+<section class="screen" id="sIntro" hidden>
+  <div class="wrap">
+    <div class="eyebrow" id="inSector"></div>
+    <h2 id="inName"></h2>
+    <div class="newthreat" id="inThreat"></div>
+    <div class="hint" id="inHint"></div>
+    <div class="brief-side"><div class="diffbox" id="inDiffBox" hidden><div class="eyebrow">СЛОЖНОСТЬ</div><div class="seg" id="inDiff"></div><p class="note" id="inDiffNote"></p><div id="inWpnBox" hidden><div class="eyebrow" style="margin-top:6px">ОРУЖИЕ</div><div class="seg" id="inWpn"></div></div></div>
+    <div class="btns"><button class="btn primary" id="bGo">НАЧАТЬ МИССИЮ <kbd>ENTER</kbd></button><button class="btn" id="bIntroBack" hidden>НАЗАД В СЕКТОР</button></div></div>
+  </div>
+</section>
+
+<!-- Выбор модуля -->
+<section class="screen dim" id="sLevel" hidden>
+  <div class="lvwrap">
+    <div class="eyebrow" id="lvEyebrow">НОВЫЙ МОДУЛЬ · ВЫБЕРИТЕ ОДИН</div>
+    <div class="cards" id="cards"></div>
+    <div class="btns" id="lvAuto" hidden style="max-width:none"><button class="btn" id="bAuto">АВТОВЫБОР <kbd>A</kbd></button></div>
+  </div>
+</section>
+
+<!-- Итоги миссии -->
+<section class="screen" id="sDone" hidden>
+  <div class="wrap">
+    <div class="eyebrow" id="dnEyebrow">МИССИЯ ВЫПОЛНЕНА</div>
+    <h2 id="dnName"></h2>
+    <div class="stats" id="dnStats"></div>
+    <p class="note" id="dnNote"></p>
+    <div class="btns"><button class="btn primary" id="bNext">СЛЕДУЮЩАЯ МИССИЯ <kbd>ENTER</kbd></button><button class="btn" id="bDoneMenu">В МЕНЮ</button></div>
+  </div>
+</section>
+
+<!-- Пауза -->
+<section class="screen dim" id="sPause" hidden role="dialog" aria-modal="true" aria-label="Пауза">
+  <div class="wrap panel" style="width:min(420px,100%)">
+    <div class="eyebrow">ПАУЗА</div>
+    <div class="pstat mobonly" id="pauseStat"></div>
+    <div class="btns" style="max-width:none">
+      <button class="btn primary" id="bFsResume" hidden>ПРОДОЛЖИТЬ · ПОЛНЫЙ ЭКРАН</button>
+      <button class="btn primary" id="bResume">ПРОДОЛЖИТЬ <kbd>ESC</kbd></button>
+      <button class="btn" id="bRestart">ПЕРЕЗАПУСК МИССИИ</button>
+      <button class="btn" id="bPauseMap" hidden>КАРТА</button>
+      <button class="btn" id="bAbandon" hidden>ПОКИНУТЬ МИССИЮ</button>
+      <button class="btn" id="bPauseCodex">СПРАВОЧНИК</button>
+      <button class="btn" id="bPauseFs" hidden>ПОЛНЫЙ ЭКРАН</button>
+      <button class="btn" id="bPauseSet">НАСТРОЙКИ</button>
+      <button class="btn" id="bQuit">В МЕНЮ</button>
+    </div>
+  </div>
+</section>
+
+<!-- Конец -->
+<section class="screen" id="sOver" hidden>
+  <div class="wrap">
+    <div class="eyebrow" id="ovEyebrow">СИГНАЛ ПОТЕРЯН</div>
+    <h2 id="ovName">Корабль уничтожен</h2>
+    <div class="stats" id="ovStats"></div>
+    <p class="note" id="ovNote"></p>
+    <div class="btns"><button class="btn primary" id="bRetry">ПОВТОРИТЬ МИССИЮ <kbd>ENTER</kbd></button><button class="btn" id="bToWorld" hidden>В СЕКТОР</button><button class="btn" id="bOverMenu">В МЕНЮ</button></div>
+  </div>
+</section>
+
+<!-- Карта сектора -->
+<section class="screen dim" id="sMap" hidden>
+  <div class="mapwrap">
+    <div class="maptabs" id="mapTabs"><button data-mt="map" class="on">КАРТА <kbd>M</kbd></button><button data-mt="jr" id="mtJr">ЖУРНАЛЫ <kbd>J</kbd></button></div>
+    <div id="mapJr" hidden></div>
+    <div id="mapPane" style="display:grid;gap:12px">
+    <div class="bar-l eyebrow"><span>КАРТА</span><span id="mapStat"></span></div>
+    <div id="alphaJump" class="alphaJump" hidden></div><!-- ВРЕМЕННО (альфа 0.5.9): быстрый прыжок к уровню -->
+    <div class="mapbox"><canvas id="mapC" style="touch-action:none;cursor:grab"></canvas>
+      <div class="mapctl"><button id="mapZin" title="Приблизить" aria-label="Приблизить">＋</button><button id="mapZout" title="Отдалить" aria-label="Отдалить">−</button><button id="mapZme" title="К кораблю" aria-label="К кораблю">⌖</button><button id="mapZall" title="Весь мир" aria-label="Весь мир">◎</button></div>
+      <div id="mapTip" hidden></div></div>
+    <details class="mapleg" id="mapLeg"><summary>? ЛЕГЕНДА</summary><div class="legi"></div>
+      <p class="note">Колесо или щипок — масштаб, перетаскивание — прокрутка. Белое кольцо — точка прыжка: нажмите, чтобы перенестись. Рядом с врагами и во время патруля кольца краснеют — прыжок недоступен.</p></details>
+    </div>
+    <div class="btns"><button class="btn" id="bMapClose">В ПОЛЁТ <kbd>ESC</kbd></button></div>
+  </div>
+</section>
+
+<!-- Мастерская -->
+<section class="screen" id="sShop" hidden>
+  <div class="wrap shop">
+    <div class="eyebrow" id="shopName">МАСТЕРСКАЯ</div><p id="shopBot"></p>
+    <h2>Мастерская</h2>
+    <div class="rec" id="shopLom"></div>
+    <div class="seg mobonly" id="shopTabs"><button data-st="perks" class="on">ПЕРКИ</button><button data-st="con">КОНТРАКТЫ</button><button data-st="cyc" id="shopTabCyc">ЦИКЛ</button><span id="shopTabsLom"></span></div>
+    <div id="shopPerks"></div>
+    <div class="cx-h2" id="shopConH">КОНТРАКТЫ</div>
+    <div id="shopCon"></div>
+    <div id="shopCycle"></div>
+    <p class="note">Перки остаются навсегда.</p>
+    <div class="btns"><button class="btn primary" id="bShopClose">В ПОЛЁТ <kbd>ESC</kbd></button></div>
+  </div>
+</section>
+
+<!-- Ангар «Зеркало» -->
+<section class="screen" id="sHangar" hidden>
+  <div class="wrap" style="width:min(1000px,100%)">
+    <div class="eyebrow">ХРАНИЛИЩЕ КОРПУСОВ</div>
+    <h2>Выбор скина</h2>
+    <div class="skingrid" id="skinGrid"></div>
+    <p class="note" id="hangarNote"></p>
+    <div class="btns"><button class="btn primary" id="bHangarClose">В ПОЛЁТ <kbd>ESC</kbd></button></div>
+  </div>
+</section>
+
+<!-- 0.7.0: Арсенал «Иней» -->
+<section class="screen" id="sArsenal" hidden>
+  <div class="wrap ars">
+    <div class="ars-head"><div><div class="eyebrow">АРСЕНАЛ «ИНЕЙ»</div><h2>Оружейный стенд</h2></div><div class="ars-lom" id="arsLom"></div></div>
+    <div class="ars-cards" id="arsCards"></div>
+    <div class="ars-msg" id="arsMsg"></div><p class="note" id="arsNote">Покупка — двойным нажатием. Оружие меняется здесь или на брифинге.</p>
+    <div class="btns"><button class="btn primary" id="bArsClose">В ПОЛЁТ <kbd>ESC</kbd></button></div>
+  </div>
+</section>
+
+<!-- Новый цикл -->
+<section class="screen" id="sReport" hidden>
+  <div class="wrap" style="width:min(640px,100%)">
+    <div class="eyebrow" id="repEyebrow">ОТЧЁТ ЭКСПЕДИЦИИ</div>
+    <h2>Цикл завершён</h2>
+    <div id="repBody"></div>
+    <div class="btns"><button class="btn primary" id="bRepGo">ПРОДОЛЖИТЬ</button></div>
+  </div>
+</section>
+<section class="screen" id="sCycle" hidden>
+  <div class="wrap" style="width:min(760px,100%)">
+    <div class="eyebrow" id="cycEyebrow">НОВЫЙ ЦИКЛ</div>
+    <h2 id="cycName">Новый цикл</h2>
+    <div class="cyclist" id="cycList"></div>
+    <p class="note" id="cycNote"></p>
+    <div class="btns"><button class="btn primary" id="bCycGo">НАЧАТЬ НОВЫЙ ЦИКЛ</button><button class="btn" id="bCycBack">НАЗАД <kbd>ESC</kbd></button></div>
+  </div>
+</section>
+
+<!-- Настройки (0.6.0, телефон и планшет) -->
+<section class="screen" id="sSet" hidden role="dialog" aria-modal="true" aria-label="Настройки">
+  <div class="wrap">
+    <h2>Настройки</h2>
+    <div class="setbody" id="setBody"></div>
+    <div class="btns"><button class="btn primary" id="bSetBack">ГОТОВО</button></div>
+  </div>
+</section>
+<!-- Выбор миссий (разработка) -->
+<section class="screen" id="sDev" hidden>
+  <div class="wrap" style="width:min(820px,100%)">
+    <div class="eyebrow" style="color:#00ff88">ВЫБОР МИССИЙ · РАЗРАБОТКА · ПРОГРЕСС НЕ СОХРАНЯЕТСЯ</div>
+    <h2>Тестовый запуск</h2>
+    <div class="devgrid" id="devGrid"></div>
+    <div class="eyebrow">СБОРКА КОРАБЛЯ</div>
+    <div class="seg" id="devBuild"><button data-b="base">БАЗОВАЯ</button><button data-b="typ">ТИПИЧНАЯ ДЛЯ МИССИИ</button><button data-b="max">МАКСИМУМ</button></div>
+    <div class="eyebrow">СЛОЖНОСТЬ И ЦИКЛ ДЛЯ МИССИЙ</div>
+    <div class="seg" id="devDiff"><button data-df="easy">ЛЁГКАЯ</button><button data-df="mid">СРЕДНЯЯ</button><button data-df="hard">ХАРДКОР</button><span style="margin-left:12px">ЦИКЛ</span><button id="devCycM">−</button><span id="devCyc">I</span><button id="devCycP">+</button></div>
+    <div class="eyebrow">ПЕРЕКЛЮЧАТЕЛИ</div>
+    <div class="settings" id="devToggles" style="max-width:none"></div>
+    <div class="eyebrow">БЕСКОНЕЧНОСТЬ · СТАРТОВАЯ СТУПЕНЬ</div>
+    <div class="seg"><button id="devStepM">−</button><span id="devStep">1</span><button id="devStepP">+</button></div>
+    <p class="note">Во время теста: клавиша ` (ё) или кнопка DEV — панель быстрых действий.</p>
+    <div class="btns"><button class="btn" id="bDevBack">В МЕНЮ <kbd>ESC</kbd></button></div>
+  </div>
+</section>
+
+<!-- Код сохранения -->
+<section class="screen" id="sSave" hidden>
+  <div class="wrap">
+    <div class="eyebrow">КОД СОХРАНЕНИЯ</div>
+    <h2>Перенос прогресса</h2>
+    <p class="note">Код — копия вашего полёта. С ним можно продолжить на другом устройстве.</p>
+    <textarea id="saveOut" readonly></textarea>
+    <div class="btns"><button class="btn primary" id="bSaveCopy">СКОПИРОВАТЬ КОД</button><button class="btn mobonly" id="bSaveShare" hidden>ПОДЕЛИТЬСЯ КОДОМ</button></div>
+    <textarea id="saveIn" placeholder="Вставьте код сохранения сюда"></textarea>
+    <div class="btns mobonly" id="savePasteRow" hidden><button class="btn" id="bSavePaste">ВСТАВИТЬ ИЗ БУФЕРА</button></div>
+    <div class="btns"><button class="btn" id="bSaveLoad">ЗАГРУЗИТЬ КОД</button><button class="btn" id="bSaveBack">НАЗАД <kbd>ESC</kbd></button></div>
+    <p class="note" id="saveMsg"></p>
+  </div>
+</section>
+
+<script>

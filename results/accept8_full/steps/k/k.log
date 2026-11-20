@@ -1,0 +1,8 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/run6.py", "k", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/t72/jobs_k80.json", "/home/claude/VOID_stage8/accept8_full/steps/k/k.jsonl", "--ref", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/t72/k80.jsonl"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:47:21"}
+совпало побитно 427 из 429; расхождений 2; в эталоне ещё 54 исторических /ref (1.5.11/13/16 — эталоны, а не задания)
+  - z/mob/none/z50/m30: различаются ['deep']
+  - z/mob/slow/z50/m30: различаются ['deep']
+
+STATUS COMPLETE (строк 429/429, ошибок 0)
+
+# код выхода 1, 2096 с

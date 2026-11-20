@@ -1,0 +1,179 @@
+{
+ "S01 чистый профиль: оба предела «без ограничения», при загрузке ничего не записано": {
+  "чистый профиль": {
+   "cap": 0,
+   "capD": 0,
+   "fps": 60,
+   "raw": null
+  },
+  "ok": true,
+  "errs": []
+ },
+ "S02 телефон, 1.5.24 с «60» → новая: без ограничения (как и было), запись при загрузке не делается": {
+  "cap": 0,
+  "fps": 60,
+  "stored": false,
+  "ok": true,
+  "errs": []
+ },
+ "S03 телефон, 1.5.24 с «30» → новая: предел 30": {
+  "cap": 30,
+  "fps": 30,
+  "gate": 30,
+  "ok": true,
+  "errs": []
+ },
+ "S04 откат: новая (30) → 1.5.24 (работает её «30», ключ fpsCap не теряется при её записи) → новая (30)": {
+  "в 1.5.24": 30,
+  "ключ сохранён после записи 1.5.24": true,
+  "снова новая": {
+   "cap": 30,
+   "fps": 30
+  },
+  "ok": true,
+  "errs": []
+ },
+ "S05 откат: «без ограничения» → 1.5.24 видит «60» (у неё это и есть без ограничения) → обратно без ограничения": {
+  "1.5.24": 60,
+  "новая": 0,
+  "ok": true,
+  "errs": []
+ },
+ "S06 ПК: выбор 60 меняет только предел ПК; ключ телефона и старый ключ fps не тронуты": {
+  "capD": 60,
+  "cap": 0,
+  "fps": 60,
+  "ok": true,
+  "errs": []
+ },
+ "S07 повреждённые настройки: игра загружается, недопустимые значения пределов → без ограничения": {
+  "варианты": {
+   "{не json": {
+    "cap": 0,
+    "capD": 0,
+    "ok": true
+   },
+   "[1,2]": {
+    "cap": 0,
+    "capD": 0,
+    "ok": true
+   },
+   "{\"fpsCap\":\"x\",\"fpsCapD\":45,\"fps\":30}": {
+    "cap": 0,
+    "capD": 0,
+    "ok": true
+   },
+   "null": {
+    "cap": 0,
+    "capD": 0,
+    "ok": true
+   }
+  },
+  "ok": true,
+  "errs": []
+ },
+ "S08 прогресс 1.5.24: новая версия загружает его и не переписывает при загрузке": {
+  "void_world не изменён загрузкой новой версии": true,
+  "прогресс загружен": true,
+  "длина": 6071,
+  "ok": true,
+  "errs": []
+ },
+ "S09 void_world_bad сохраняется как есть": {
+  "bad": "{\"x\":1}",
+  "state": "menu",
+  "ok": true,
+  "errs": []
+ },
+ "S10 настройки 0.6.x (autoFs) загружаются; «30» → предел 30": {
+  "fsMode": "auto",
+  "cap": 30,
+  "state": "menu",
+  "ok": true,
+  "errs": []
+ },
+ "S11 телефон выбрал 30 → настройки через облако на ПК: предел ПК не меняется": {
+  "cap": 30,
+  "capD": 0,
+  "gate": 0,
+  "ok": true,
+  "errs": []
+ },
+ "S13 новая (60) → 1.5.24, игрок выбрал там «30» → новая: действует 30 и на экране выбрано 30 (последний выбор игрока)": {
+  "cap": 60,
+  "fps": 30,
+  "gate": 30,
+  "seg": [],
+  "on": "30",
+  "ok": true,
+  "errs": []
+ },
+ "S14 новая (30) → 1.5.24, игрок выбрал там «60» → новая: без ограничения (как «60» в 1.5.24); новый выбор снова действует": {
+  "cap": 30,
+  "fps": 60,
+  "gate": 0,
+  "после_выбора_60": {
+   "cap": 60,
+   "fps": 60,
+   "gate": 60
+  },
+  "ok": true,
+  "errs": []
+ },
+ "S12 песочница разработчика: копия прогресса, снимок (копия, не ссылка), загрузка снимка, выход; временная подмена G.save с исключением; настоящее сохранение не тронуто": {
+  "новая": {
+   "real0": true,
+   "swapException": "проба",
+   "swapRestoredAfterException": true,
+   "swapRestored": true,
+   "swapCount": 3,
+   "devOn": true,
+   "realIntactAfterCopy": true,
+   "sandboxLom": 777,
+   "sandboxIsOtherObject": true,
+   "snapLom": 111,
+   "snapVer": true,
+   "snapIndependentOfLive": true,
+   "loadedLom": 111,
+   "loadedIsNewObject": true,
+   "devOnAfterLoad": true,
+   "realIntactAfterLoad": true,
+   "devOnAfterExit": false,
+   "realLomAfterExit": 777,
+   "realIntactAfterExit": true,
+   "realLsLom": 777,
+   "errs": []
+  },
+  "1.5.24": {
+   "real0": true,
+   "swapException": "проба",
+   "swapRestoredAfterException": false,
+   "swapRestored": true,
+   "swapCount": 3,
+   "devOn": true,
+   "realIntactAfterCopy": true,
+   "sandboxLom": 777,
+   "sandboxIsOtherObject": true,
+   "snapLom": 111,
+   "snapVer": true,
+   "snapIndependentOfLive": true,
+   "loadedLom": 111,
+   "loadedIsNewObject": true,
+   "devOnAfterLoad": true,
+   "realIntactAfterLoad": true,
+   "devOnAfterExit": false,
+   "realLomAfterExit": 777,
+   "realIntactAfterExit": true,
+   "realLsLom": 777,
+   "errs": []
+  },
+  "отличия 1.5.24 → новая": {
+   "swapRestoredAfterException": [
+    false,
+    true
+   ]
+  },
+  "ожидаемое отличие": "swapRestoredAfterException: 1.5.24 при исключении внутри временной подмены (doneCountS) оставляла G.save подменённым; ARCH·89 (saveWith6, finally) восстанавливает",
+  "ok": true
+ }
+}

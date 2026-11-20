@@ -1,0 +1,437 @@
+{
+ "series": [
+  {
+   "name": "tryPulse",
+   "layers": [
+    14033,
+    15028
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut | skin",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "skin"
+    ]
+   ]
+  },
+  {
+   "name": "toMenu",
+   "layers": [
+    13422,
+    13605,
+    14470,
+    15243
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: post | chase | vn | dev",
+   "subs": [
+    [
+     "post"
+    ],
+    [
+     "chase"
+    ],
+    [
+     "vn"
+    ],
+    [
+     "dev"
+    ]
+   ]
+  },
+  {
+   "name": "enterNode",
+   "layers": [
+    13604,
+    15240
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: chase | dev",
+   "subs": [
+    [
+     "chase"
+    ],
+    [
+     "dev"
+    ]
+   ]
+  },
+  {
+   "name": "mobOverlay",
+   "layers": [
+    14285,
+    14675,
+    14766
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut | tut | world61",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ],
+    [
+     "world61"
+    ]
+   ]
+  },
+  {
+   "name": "renderSettings",
+   "layers": [
+    13689,
+    14439,
+    14490
+   ],
+   "ok": true,
+   "why": "",
+   "subs": [
+    [
+     "setui"
+    ],
+    [
+     "setui"
+    ],
+    [
+     "setui"
+    ]
+   ],
+   "merged": "{const _p86=renderSettings;renderSettings=function(){const was_861={};let foc_861=null;\n  document.querySelectorAll('.tog[data-k]').forEach(b=>{was_861[b.dataset.k]=b.classList.contains('on');if(document.activeElement===b)foc_861=b.dataset.k;});\n  const r86=_p86.apply(this,arguments);\n  document.querySelectorAll('.tog[data-k]').forEach(b=>{const k=b.dataset.k;if(!(k in was_861))return;const on=b.classList.contains('on');\n    if(was_861[k]!==on){b.classList.toggle('on',was_861[k]);void b.offsetWidth;b.classList.toggle('on',on);}\n    if(foc_861===k)try{b.focus({preventScroll:true});}catch(e){}});\n  try{document.querySelectorAll('[data-settings]').forEach((b,i)=>sfxVolInject(b,'svol-'+i));}catch(e){}\n  try{document.querySelectorAll('[data-settings]').forEach(opInject);}catch(e){}return r86;};}",
+   "parts": [
+    {
+     "line": 13689,
+     "kind": "r",
+     "params": [],
+     "names": [
+      "was",
+      "foc",
+      "r"
+     ]
+    },
+    {
+     "line": 14439,
+     "kind": "r",
+     "params": [],
+     "names": [
+      "r"
+     ]
+    },
+    {
+     "line": 14490,
+     "kind": "r",
+     "params": [],
+     "names": [
+      "r"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "openMap",
+   "layers": [
+    13996,
+    14692
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut+mapdeny | tut",
+   "subs": [
+    [
+     "tut",
+     "mapdeny"
+    ],
+    [
+     "tut"
+    ]
+   ]
+  },
+  {
+   "name": "closeMap",
+   "layers": [
+    13998,
+    14694
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut+mapdeny | tut",
+   "subs": [
+    [
+     "tut",
+     "mapdeny"
+    ],
+    [
+     "tut"
+    ]
+   ]
+  },
+  {
+   "name": "tryDash",
+   "layers": [
+    14031,
+    15026
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut | skin",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "skin"
+    ]
+   ]
+  },
+  {
+   "name": "banner",
+   "layers": [
+    14035,
+    15236
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut | dev",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "dev"
+    ]
+   ]
+  },
+  {
+   "name": "renderSetScreen",
+   "layers": [
+    14438,
+    14489,
+    15095
+   ],
+   "ok": true,
+   "why": "",
+   "subs": [
+    [
+     "setui"
+    ],
+    [
+     "setui"
+    ],
+    [
+     "setui"
+    ]
+   ],
+   "merged": "{const _p86=renderSetScreen;renderSetScreen=function(){const r86=_p86.apply(this,arguments);\n  try{sfxVolInject($('#setBody'),'svol-sSet');}catch(e){}\n  try{opInject($('#setBody'));}catch(e){}\n  try{layout63();}catch(e){console.error(e);}return r86;};}",
+   "parts": [
+    {
+     "line": 14438,
+     "kind": "r",
+     "params": [],
+     "names": [
+      "r"
+     ]
+    },
+    {
+     "line": 14489,
+     "kind": "r",
+     "params": [],
+     "names": [
+      "r"
+     ]
+    },
+    {
+     "line": 15095,
+     "kind": "r",
+     "params": [],
+     "names": [
+      "r"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "tutEmit",
+   "layers": [
+    14365,
+    14697
+   ],
+   "ok": true,
+   "why": "",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ]
+   ],
+   "merged": "{const _p86=tutEmit;tutEmit=function(ev_862){const ev_861=arguments[0];if(ev_862==='jump'){try{const T=tutT();if(T&&!T.jh){T.jh=1;tutSave();}if(JH133.on)jh133Hide(true);}catch(e){}}\n  if(ev_861==='dash')TUT.lastDashAt=performance.now();\n  const r86=_p86.apply(this,arguments);return r86;};}",
+   "parts": [
+    {
+     "line": 14365,
+     "kind": "ret",
+     "params": [
+      "ev"
+     ],
+     "names": [
+      "ev"
+     ]
+    },
+    {
+     "line": 14697,
+     "kind": "ret",
+     "params": [
+      "ev"
+     ],
+     "names": [
+      "ev"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "tutMapDraw",
+   "layers": [
+    14416,
+    14699
+   ],
+   "ok": true,
+   "why": "",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ]
+   ],
+   "merged": "{const _p86=tutMapDraw;tutMapDraw=function(now_862){const now_861=arguments[0];const C_861=TUT.cur;if(C_861&&C_861.k==='jump'&&G.state==='map'&&G.mapTab==='map'&&G.mapXY&&G.player){try{const q=tutJumpPick();const M=G.mapXY,g=$('#mapC').getContext('2d');if(q){g.save();g.setTransform(DPR,0,0,DPR,0,0);\n    const sx=M.X(G.player.x),sy=M.Y(G.player.y),t=now_861/1000;g.strokeStyle='rgba(143,233,255,.55)';g.lineWidth=1.5;g.setLineDash([4,6]);g.lineDashOffset=-t*24;g.beginPath();g.moveTo(sx,sy);g.lineTo(q.px,q.py);g.stroke();g.setLineDash([]);\n    const f=(t*.6)%1;g.fillStyle='#8fe9ff';g.globalAlpha=.9;g.beginPath();g.arc(sx+(q.px-sx)*f,sy+(q.py-sy)*f,2.5,0,TAU);g.fill();g.restore();}}catch(e){}}\n  const r86=_p86.apply(this,arguments);\n  try{if(JH133.on&&G.state==='map'&&G.mapTab==='map'&&G.mapPts){const cv=$('#mapC');if(cv){const g=cv.getContext('2d'),t=now_862/1000,q=(t*.9)%1,w=cv.clientWidth,h=cv.clientHeight;\n    g.save();g.setTransform(DPR,0,0,DPR,0,0);g.strokeStyle='#ffffff';\n    for(const p of G.mapPts){if(p.px<-20||p.px>w+20||p.py<-20||p.py>h+20)continue;g.globalAlpha=(1-q)*.55;g.lineWidth=1.5;g.beginPath();g.arc(p.px,p.py,13+q*16,0,TAU);g.stroke();}\n    g.restore();}}}catch(e){}return r86;};}",
+   "parts": [
+    {
+     "line": 14416,
+     "kind": "ret",
+     "params": [
+      "now"
+     ],
+     "names": [
+      "now",
+      "C"
+     ]
+    },
+    {
+     "line": 14699,
+     "kind": "r",
+     "params": [
+      "now"
+     ],
+     "names": [
+      "now",
+      "r"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "pause",
+   "layers": [
+    14428,
+    14473,
+    15122
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut | tut | pausecard",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ],
+    [
+     "pausecard"
+    ]
+   ]
+  },
+  {
+   "name": "tutStart",
+   "layers": [
+    14623,
+    15238
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut | dev+tut",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "dev",
+     "tut"
+    ]
+   ]
+  },
+  {
+   "name": "tutTick2",
+   "layers": [
+    14659,
+    14737,
+    15312
+   ],
+   "ok": false,
+   "why": "слои разных подсистем: tut | tut | dev+tut",
+   "subs": [
+    [
+     "tut"
+    ],
+    [
+     "tut"
+    ],
+    [
+     "dev",
+     "tut"
+    ]
+   ]
+  }
+ ],
+ "sites": [
+  [
+   "{const _rs=renderSettings;renderSettings=function(){const was={};let foc=null;\n  document.querySelectorAll('.tog[data-k]').forEach(b=>{was[b.dataset.k]=b.classList.contains('on');if(document.activeElement===b)foc=b.dataset.k;});\n  const r=_rs.apply(this,arguments);\n  document.querySelectorAll('.tog[data-k]').forEach(b=>{const k=b.dataset.k;if(!(k in was))return;const on=b.classList.contains('on');\n    if(was[k]!==on){b.classList.toggle('on',was[k]);void b.offsetWidth;b.classList.toggle('on',on);}\n    if(foc===k)try{b.focus({preventScroll:true});}catch(e){}});\n  return r;};}",
+   "/* ARCH·86 · слой renderSettings 1 из 3 (строка 13689 в 1.5.25) перенесён в объединённый слой ниже */"
+  ],
+  [
+   "{const _rs3=renderSettings;renderSettings=function(){const r=_rs3.apply(this,arguments);try{document.querySelectorAll('[data-settings]').forEach((b,i)=>sfxVolInject(b,'svol-'+i));}catch(e){}return r;};}",
+   "/* ARCH·86 · слой renderSettings 2 из 3 (строка 14439 в 1.5.25) перенесён в объединённый слой ниже */"
+  ],
+  [
+   "{const _rs=renderSettings;renderSettings=function(){const r=_rs.apply(this,arguments);try{document.querySelectorAll('[data-settings]').forEach(opInject);}catch(e){}return r;};}",
+   "/* ARCH·86 · объединённый слой renderSettings: 3 слоя (строки 1.5.25: 13689, 14439, 14490) в исходном порядке исполнения */\n{const _p86=renderSettings;renderSettings=function(){const was_861={};let foc_861=null;\n  document.querySelectorAll('.tog[data-k]').forEach(b=>{was_861[b.dataset.k]=b.classList.contains('on');if(document.activeElement===b)foc_861=b.dataset.k;});\n  const r86=_p86.apply(this,arguments);\n  document.querySelectorAll('.tog[data-k]').forEach(b=>{const k=b.dataset.k;if(!(k in was_861))return;const on=b.classList.contains('on');\n    if(was_861[k]!==on){b.classList.toggle('on',was_861[k]);void b.offsetWidth;b.classList.toggle('on',on);}\n    if(foc_861===k)try{b.focus({preventScroll:true});}catch(e){}});\n  try{document.querySelectorAll('[data-settings]').forEach((b,i)=>sfxVolInject(b,'svol-'+i));}catch(e){}\n  try{document.querySelectorAll('[data-settings]').forEach(opInject);}catch(e){}return r86;};}"
+  ],
+  [
+   "{const _rs2=renderSetScreen;renderSetScreen=function(){const r=_rs2.apply(this,arguments);try{sfxVolInject($('#setBody'),'svol-sSet');}catch(e){}return r;};}",
+   "/* ARCH·86 · слой renderSetScreen 1 из 3 (строка 14438 в 1.5.25) перенесён в объединённый слой ниже */"
+  ],
+  [
+   "{const _rs=renderSetScreen;renderSetScreen=function(){const r=_rs.apply(this,arguments);try{opInject($('#setBody'));}catch(e){}return r;};}",
+   "/* ARCH·86 · слой renderSetScreen 2 из 3 (строка 14489 в 1.5.25) перенесён в объединённый слой ниже */"
+  ],
+  [
+   "{const _r=renderSetScreen;renderSetScreen=function(){const r=_r.apply(this,arguments);try{layout63();}catch(e){console.error(e);}return r;};}",
+   "/* ARCH·86 · объединённый слой renderSetScreen: 3 слоя (строки 1.5.25: 14438, 14489, 15095) в исходном порядке исполнения */\n{const _p86=renderSetScreen;renderSetScreen=function(){const r86=_p86.apply(this,arguments);\n  try{sfxVolInject($('#setBody'),'svol-sSet');}catch(e){}\n  try{opInject($('#setBody'));}catch(e){}\n  try{layout63();}catch(e){console.error(e);}return r86;};}"
+  ],
+  [
+   "{const _em=tutEmit;tutEmit=function(ev){if(ev==='dash')TUT.lastDashAt=performance.now();return _em.apply(this,arguments);};}",
+   "/* ARCH·86 · слой tutEmit 1 из 2 (строка 14365 в 1.5.25) перенесён в объединённый слой ниже */"
+  ],
+  [
+   "{const _em=tutEmit;tutEmit=function(ev){if(ev==='jump'){try{const T=tutT();if(T&&!T.jh){T.jh=1;tutSave();}if(JH133.on)jh133Hide(true);}catch(e){}}return _em.apply(this,arguments);};}",
+   "/* ARCH·86 · объединённый слой tutEmit: 2 слоя (строки 1.5.25: 14365, 14697) в исходном порядке исполнения */\n{const _p86=tutEmit;tutEmit=function(ev_862){const ev_861=arguments[0];if(ev_862==='jump'){try{const T=tutT();if(T&&!T.jh){T.jh=1;tutSave();}if(JH133.on)jh133Hide(true);}catch(e){}}\n  if(ev_861==='dash')TUT.lastDashAt=performance.now();\n  const r86=_p86.apply(this,arguments);return r86;};}"
+  ],
+  [
+   "{const _md=tutMapDraw;tutMapDraw=function(now){const C=TUT.cur;if(C&&C.k==='jump'&&G.state==='map'&&G.mapTab==='map'&&G.mapXY&&G.player){try{const q=tutJumpPick();const M=G.mapXY,g=$('#mapC').getContext('2d');if(q){g.save();g.setTransform(DPR,0,0,DPR,0,0);\n    const sx=M.X(G.player.x),sy=M.Y(G.player.y),t=now/1000;g.strokeStyle='rgba(143,233,255,.55)';g.lineWidth=1.5;g.setLineDash([4,6]);g.lineDashOffset=-t*24;g.beginPath();g.moveTo(sx,sy);g.lineTo(q.px,q.py);g.stroke();g.setLineDash([]);\n    const f=(t*.6)%1;g.fillStyle='#8fe9ff';g.globalAlpha=.9;g.beginPath();g.arc(sx+(q.px-sx)*f,sy+(q.py-sy)*f,2.5,0,TAU);g.fill();g.restore();}}catch(e){}}\n  return _md.apply(this,arguments);};}",
+   "/* ARCH·86 · слой tutMapDraw 1 из 2 (строка 14416 в 1.5.25) перенесён в объединённый слой ниже */"
+  ],
+  [
+   "{const _md=tutMapDraw;tutMapDraw=function(now){const r=_md.apply(this,arguments);\n  try{if(JH133.on&&G.state==='map'&&G.mapTab==='map'&&G.mapPts){const cv=$('#mapC');if(cv){const g=cv.getContext('2d'),t=now/1000,q=(t*.9)%1,w=cv.clientWidth,h=cv.clientHeight;\n    g.save();g.setTransform(DPR,0,0,DPR,0,0);g.strokeStyle='#ffffff';\n    for(const p of G.mapPts){if(p.px<-20||p.px>w+20||p.py<-20||p.py>h+20)continue;g.globalAlpha=(1-q)*.55;g.lineWidth=1.5;g.beginPath();g.arc(p.px,p.py,13+q*16,0,TAU);g.stroke();}\n    g.restore();}}}catch(e){}\n  return r;};}",
+   "/* ARCH·86 · объединённый слой tutMapDraw: 2 слоя (строки 1.5.25: 14416, 14699) в исходном порядке исполнения */\n{const _p86=tutMapDraw;tutMapDraw=function(now_862){const now_861=arguments[0];const C_861=TUT.cur;if(C_861&&C_861.k==='jump'&&G.state==='map'&&G.mapTab==='map'&&G.mapXY&&G.player){try{const q=tutJumpPick();const M=G.mapXY,g=$('#mapC').getContext('2d');if(q){g.save();g.setTransform(DPR,0,0,DPR,0,0);\n    const sx=M.X(G.player.x),sy=M.Y(G.player.y),t=now_861/1000;g.strokeStyle='rgba(143,233,255,.55)';g.lineWidth=1.5;g.setLineDash([4,6]);g.lineDashOffset=-t*24;g.beginPath();g.moveTo(sx,sy);g.lineTo(q.px,q.py);g.stroke();g.setLineDash([]);\n    const f=(t*.6)%1;g.fillStyle='#8fe9ff';g.globalAlpha=.9;g.beginPath();g.arc(sx+(q.px-sx)*f,sy+(q.py-sy)*f,2.5,0,TAU);g.fill();g.restore();}}catch(e){}}\n  const r86=_p86.apply(this,arguments);\n  try{if(JH133.on&&G.state==='map'&&G.mapTab==='map'&&G.mapPts){const cv=$('#mapC');if(cv){const g=cv.getContext('2d'),t=now_862/1000,q=(t*.9)%1,w=cv.clientWidth,h=cv.clientHeight;\n    g.save();g.setTransform(DPR,0,0,DPR,0,0);g.strokeStyle='#ffffff';\n    for(const p of G.mapPts){if(p.px<-20||p.px>w+20||p.py<-20||p.py>h+20)continue;g.globalAlpha=(1-q)*.55;g.lineWidth=1.5;g.beginPath();g.arc(p.px,p.py,13+q*16,0,TAU);g.stroke();}\n    g.restore();}}}catch(e){}return r86;};}"
+  ]
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "note": "Инварианты этапа 8 (ТЗ 10, 11.2). Изменение любого значения — только с причиной в journal8 и build8 lock --reason.",
+ "guards": [
+  {
+   "text": "if(typeof iso65==='function'){buildNebula=iso65(buildNebula);buildStars=iso65(buildStars);}",
+   "count": 1,
+   "why": "защита ГСЧ старого неба (стр. 16204–16209), обязательна во всех вариантах"
+  },
+  {
+   "text": "\"use strict\";",
+   "count": 1,
+   "why": "строгий режим всего скрипта"
+  },
+  {
+   "text": "/* ARCH·69 A-2 · A-3 */arch69Boot();",
+   "count": 1,
+   "why": "запуск ARCH·69"
+  },
+  {
+   "text": "/* ARCH·70 A-5 A-6 A-8 A-12 */arch70Boot();",
+   "count": 1,
+   "why": "запуск ARCH·70 — последний оператор"
+  }
+ ],
+ "groups": {
+  "cine": {
+   "js_start": "/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ CINE·PROTO 1.5.1 α «Кадр» · НАЧАЛО",
+   "js_end": "/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ CINE·PROTO 1.5.1 α «Кадр» · КОНЕЦ",
+   "css_start": "/* ▼▼▼ CINE·PROTO 1.5.1 α «Кадр» · НАЧАЛО",
+   "css_end": "/* ▲▲▲ CINE·PROTO 1.5.1 α «Кадр» · КОНЕЦ"
+  },
+  "bg": {
+   "js_start": "/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ BG·PROTO 1.5.5 α «Небо» · НАЧАЛО",
+   "js_end": "/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ BG·PROTO 1.5.5 α «Небо» · КОНЕЦ",
+   "css_start": "/* ▼▼▼ BG·PROTO 1.5.5 α «Небо» · НАЧАЛО",
+   "css_end": "/* ▲▲▲ BG·PROTO 1.5.5 α «Небо» · КОНЕЦ"
+  }
+ },
+ "storage_keys": [
+  "void_dev",
+  "void_dev_ui",
+  "void_devsnap",
+  "void_devstate",
+  "void_devworld",
+  "void_diag",
+  "void_echo100",
+  "void_endless",
+  "void_meta",
+  "void_record",
+  "void_serial85",
+  "void_settings",
+  "void_ver_seen",
+  "void_world",
+  "void_world_",
+  "void_world_bad",
+  "void_world_bad_"
+ ],
+ "math_random": 373,
+ "assets": 57,
+ "forbidden_in_js": [
+  "</script",
+  "<script",
+  "eval(",
+  "new Function",
+  "\r"
+ ],
+ "dangle_baseline": {
+  "cine": {
+   "c66Tick": [
+    152
+   ],
+   "c66Fail": [
+    152
+   ]
+  },
+  "bg": {}
+ },
+ "known_ids": {
+  "cine": "cut.cine.live"
+ },
+ "known": {
+  "cut.cine.live": {
+   "since": "1.5.14 (ARCH·74)",
+   "what": "step74 (скрипт, стр. 152) вызывает c66Tick/c66Fail без проверки typeof; без CINE·PROTO живой цикл бросает ReferenceError каждый шаг, защита ARCH·69 ставит паузу через ~0,5 с",
+   "fix": "отдельная задача после этапа 8: в стр. 178 ARCH.c66s=… добавить &&typeof c66Tick==='function' (проверено на копии), затем K-стенд и полная приёмка — меняет SHA"
+  }
+ }
+}

@@ -1,0 +1,4 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/archcheck.py", "diff", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/arch_fp_v46.json", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/kit/arch_allow_74.json"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:18:16"}
+{"violations": [["chain", "renderSetScreen", 6, 4, "состав"], ["chain", "renderSettings", 3, 1, "состав"], ["chain", "tutEmit", 2, 1, "состав"], ["chain", "tutMapDraw", 2, 1, "состав"]], "n": 4}
+
+# код выхода 1, 0 с

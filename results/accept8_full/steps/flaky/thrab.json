@@ -1,0 +1,279 @@
+{
+ "A": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html",
+ "B": "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html",
+ "reps": 2,
+ "tally": {
+  "q130:Q06@x8": {
+   "kit": {
+    "A": {
+     "OK": 0,
+     "FAIL": 2,
+     "NONE": 0
+    },
+    "B": {
+     "OK": 0,
+     "FAIL": 2,
+     "NONE": 0
+    }
+   },
+   "kit6": {
+    "A": {
+     "OK": 2,
+     "FAIL": 0,
+     "NONE": 0
+    },
+    "B": {
+     "OK": 2,
+     "FAIL": 0,
+     "NONE": 0
+    }
+   }
+  },
+  "q220:U05@x16": {
+   "kit": {
+    "A": {
+     "OK": 1,
+     "FAIL": 1,
+     "NONE": 0
+    },
+    "B": {
+     "OK": 0,
+     "FAIL": 2,
+     "NONE": 0
+    }
+   },
+   "kit6": {
+    "A": {
+     "OK": 2,
+     "FAIL": 0,
+     "NONE": 0
+    },
+    "B": {
+     "OK": 2,
+     "FAIL": 0,
+     "NONE": 0
+    }
+   }
+  },
+  "q220:U07@x16": {
+   "kit": {
+    "A": {
+     "OK": 1,
+     "FAIL": 1,
+     "NONE": 0
+    },
+    "B": {
+     "OK": 1,
+     "FAIL": 1,
+     "NONE": 0
+    }
+   },
+   "kit6": {
+    "A": {
+     "OK": 2,
+     "FAIL": 0,
+     "NONE": 0
+    },
+    "B": {
+     "OK": 2,
+     "FAIL": 0,
+     "NONE": 0
+    }
+   }
+  }
+ },
+ "rows": [
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit",
+   "build": "A",
+   "rep": 0,
+   "status": "FAIL",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 49, \"force\": true, \"done\": 49, \"lab\": \"ПРОДОЛЖИТЬ Миссия 50 · Нулевой мигENTER\", \"errs\": []}"
+  },
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit",
+   "build": "B",
+   "rep": 0,
+   "status": "FAIL",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 49, \"force\": true, \"done\": 49, \"lab\": \"ПРОДОЛЖИТЬ Миссия 50 · Нулевой мигENTER\", \"errs\": []}"
+  },
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit6",
+   "build": "A",
+   "rep": 0,
+   "status": "OK",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 0, \"force\": true, \"done\": 0, \"lab\": \"ПРОДОЛЖИТЬ Миссия 1 · ПробуждениеENTER\", \"errs\": [], \"kit6_wait_ms\": [268, 41, 540, 53]}"
+  },
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit6",
+   "build": "B",
+   "rep": 0,
+   "status": "OK",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 0, \"force\": true, \"done\": 0, \"lab\": \"ПРОДОЛЖИТЬ Миссия 1 · ПробуждениеENTER\", \"errs\": [], \"kit6_wait_ms\": [361, 137, 830, 41]}"
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit",
+   "build": "A",
+   "rep": 0,
+   "status": "FAIL",
+   "tail": " · \"EXC Page.evaluate: TypeError: Cannot read properties of undefined (reading 'pts')\\n    at eval (eval at evaluate (:311:30), <anonymous>:1:108)\\n    at async <anonymous>:337:30\""
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit",
+   "build": "B",
+   "rep": 0,
+   "status": "FAIL",
+   "tail": " · \"EXC Page.evaluate: TypeError: Cannot read properties of undefined (reading 'pts')\\n    at eval (eval at evaluate (:311:30), <anonymous>:1:108)\\n    at async <anonymous>:337:30\""
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit6",
+   "build": "A",
+   "rep": 0,
+   "status": "OK",
+   "tail": "\"on\": true, \"ii\": [1, 2, 3], \"fail\": [1, false], \"done\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"ok\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"sk\": \"ДОПУСК ПИЛОТА2/8ПОЛЁТ✓РЫВОК✓ИМПУЛЬСДЕЙСТВИЕСКЛАДКАРТАПРЫЖОКМАЯК\", \"cur\": null}"
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit6",
+   "build": "B",
+   "rep": 0,
+   "status": "OK",
+   "tail": "\"on\": true, \"ii\": [1, 2, 3], \"fail\": [1, false], \"done\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"ok\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"sk\": \"ДОПУСК ПИЛОТА2/8ПОЛЁТ✓РЫВОК✓ИМПУЛЬСДЕЙСТВИЕСКЛАДКАРТАПРЫЖОКМАЯК\", \"cur\": null}"
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit",
+   "build": "A",
+   "rep": 0,
+   "status": "FAIL",
+   "tail": " · \"EXC Page.evaluate: TypeError: Cannot read properties of undefined (reading 'pts')\\n    at eval (eval at evaluate (:311:30), <anonymous>:1:72)\\n    at async <anonymous>:337:30\""
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit",
+   "build": "B",
+   "rep": 0,
+   "status": "OK",
+   "tail": " (1.3.3) улетел от трассы — калибровка не снимается, трасса переезжает к игроку, рывок не засчитан · {\"calib\": false, \"okDash\": false, \"cur\": \"calib\", \"near\": true}"
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit6",
+   "build": "A",
+   "rep": 0,
+   "status": "OK",
+   "tail": " (1.3.3) улетел от трассы — калибровка не снимается, трасса переезжает к игроку, рывок не засчитан · {\"calib\": false, \"okDash\": false, \"cur\": \"calib\", \"near\": true}"
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit6",
+   "build": "B",
+   "rep": 0,
+   "status": "OK",
+   "tail": " (1.3.3) улетел от трассы — калибровка не снимается, трасса переезжает к игроку, рывок не засчитан · {\"calib\": false, \"okDash\": false, \"cur\": \"calib\", \"near\": true}"
+  },
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit",
+   "build": "A",
+   "rep": 1,
+   "status": "FAIL",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 49, \"force\": true, \"done\": 49, \"lab\": \"ПРОДОЛЖИТЬ Миссия 50 · Нулевой мигENTER\", \"errs\": []}"
+  },
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit",
+   "build": "B",
+   "rep": 1,
+   "status": "FAIL",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 49, \"force\": true, \"done\": 49, \"lab\": \"ПРОДОЛЖИТЬ Миссия 50 · Нулевой мигENTER\", \"errs\": []}"
+  },
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit6",
+   "build": "A",
+   "rep": 1,
+   "status": "OK",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 0, \"force\": true, \"done\": 0, \"lab\": \"ПРОДОЛЖИТЬ Миссия 1 · ПробуждениеENTER\", \"errs\": [], \"kit6_wait_ms\": [417, 116, 763, 50]}"
+  },
+  {
+   "test": "q130:Q06@x8",
+   "kit": "kit6",
+   "build": "B",
+   "rep": 1,
+   "status": "OK",
+   "tail": " новый полёт перекрывает облако — прогресс 49 не воскресает · {\"restored\": 49, \"cloudDone\": 0, \"force\": true, \"done\": 0, \"lab\": \"ПРОДОЛЖИТЬ Миссия 1 · ПробуждениеENTER\", \"errs\": [], \"kit6_wait_ms\": [188, 33, 668, 123]}"
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit",
+   "build": "A",
+   "rep": 1,
+   "status": "OK",
+   "tail": "\"on\": true, \"ii\": [1, 2, 3], \"fail\": [1, false], \"done\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"ok\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"sk\": \"ДОПУСК ПИЛОТА2/8ПОЛЁТ✓РЫВОК✓ИМПУЛЬСДЕЙСТВИЕСКЛАДКАРТАПРЫЖОКМАЯК\", \"cur\": null}"
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit",
+   "build": "B",
+   "rep": 1,
+   "status": "FAIL",
+   "tail": " · \"EXC Page.evaluate: TypeError: Cannot read properties of undefined (reading 'pts')\\n    at eval (eval at evaluate (:311:30), <anonymous>:1:108)\\n    at async <anonymous>:337:30\""
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit6",
+   "build": "A",
+   "rep": 1,
+   "status": "OK",
+   "tail": "\"on\": true, \"ii\": [1, 2, 3], \"fail\": [1, false], \"done\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"ok\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"sk\": \"ДОПУСК ПИЛОТА2/8ПОЛЁТ✓РЫВОК✓ИМПУЛЬСДЕЙСТВИЕСКЛАДКАРТАПРЫЖОКМАЯК\", \"cur\": null}"
+  },
+  {
+   "test": "q220:U05@x16",
+   "kit": "kit6",
+   "build": "B",
+   "rep": 1,
+   "status": "OK",
+   "tail": "\"on\": true, \"ii\": [1, 2, 3], \"fail\": [1, false], \"done\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"ok\": {\"dash\": 1, \"calib\": 1, \"move\": 1}, \"sk\": \"ДОПУСК ПИЛОТА2/8ПОЛЁТ✓РЫВОК✓ИМПУЛЬСДЕЙСТВИЕСКЛАДКАРТАПРЫЖОКМАЯК\", \"cur\": null}"
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit",
+   "build": "A",
+   "rep": 1,
+   "status": "OK",
+   "tail": " (1.3.3) улетел от трассы — калибровка не снимается, трасса переезжает к игроку, рывок не засчитан · {\"calib\": false, \"okDash\": false, \"cur\": \"calib\", \"near\": true}"
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit",
+   "build": "B",
+   "rep": 1,
+   "status": "FAIL",
+   "tail": " · \"EXC Page.evaluate: TypeError: Cannot read properties of undefined (reading 'pts')\\n    at eval (eval at evaluate (:311:30), <anonymous>:1:72)\\n    at async <anonymous>:337:30\""
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit6",
+   "build": "A",
+   "rep": 1,
+   "status": "OK",
+   "tail": " (1.3.3) улетел от трассы — калибровка не снимается, трасса переезжает к игроку, рывок не засчитан · {\"calib\": false, \"okDash\": false, \"cur\": \"calib\", \"near\": true}"
+  },
+  {
+   "test": "q220:U07@x16",
+   "kit": "kit6",
+   "build": "B",
+   "rep": 1,
+   "status": "OK",
+   "tail": " (1.3.3) улетел от трассы — калибровка не снимается, трасса переезжает к игроку, рывок не засчитан · {\"calib\": false, \"okDash\": false, \"cur\": \"calib\", \"near\": true}"
+  }
+ ]
+}

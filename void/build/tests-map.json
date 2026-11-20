@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "note": "Подсистема → шаги приёмки (имена шагов accept6/accept8; запуск: python3 tools8/accept8.py --steps a,b,… — частичный прогон, для выпуска не засчитывается). Карта по ТЗ этапа 8, раздел 15.1 (шаг 7). Привязка исторических наборов kit/kit6 к отдельным секторам не выводилась (нет источника, который это доказывает), поэтому сектора, враги и боссы проверяются полной регрессией reg и K-стендом, а не «своими» наборами.",
+ "always": [
+  "python3 tools8/build8.py check — покрытие, порядок, стражи, синтаксис, инициализация, висячие ссылки, актуальность индексов",
+  "python3 tools8/variants8.py — четыре варианта сборки в браузере (без bg — без ошибок; без cine — только cut.cine.live)",
+  "при смене SHA игры: k, e24, trace, arct (ГСЧ, физика, состояние против 1.5.24) — ТЗ 19.2 п. 11",
+  "перед выпуском: полная приёмка python3 tools8/accept8.py"
+ ],
+ "default": ["stands", "k", "reg"],
+ "map": {
+  "arch": ["static", "arch", "trace", "stands", "a24", "k"],
+  "core": ["gkeys", "st6", "k", "e24", "arct", "reg"],
+  "rng": ["k", "e24", "trace", "arct", "variants8 (защита неба: 0 вызовов)"],
+  "loop": ["fps", "fpsx", "shots", "perf", "k", "e24", "a24"],
+  "dev": ["stands", "st6", "reg"],
+  "player": ["k", "e24", "a24", "trace", "reg"],
+  "targeting": ["stands (aimman, prio)", "k", "trace"],
+  "screens": ["st6", "gkeys", "c5", "reg"],
+  "saves": ["save", "regsave (q71save, q73save)", "st6", "gkeys"],
+  "runlvl": ["st6", "save", "k", "reg"],
+  "settings": ["save", "shots", "fps", "reg"],
+  "audio": ["stands", "k (ГСЧ звука изолирован iso63)", "reg"],
+  "render": ["shots", "perf", "fps", "k (визуальный ГСЧ vR не влияет на игру)", "variants8"],
+  "ui": ["shots", "st6", "reg"],
+  "input": ["fpsx", "reg", "ручная проверка касаний (MANUAL_PLATFORMS.md)"],
+  "enemies": ["k", "e24", "trace", "arct", "reg"],
+  "bosses": ["k", "e24", "trace", "arct", "reg"],
+  "sectors": ["k", "e24", "arct", "reg"],
+  "mission": ["k", "e24", "st6", "reg"],
+  "world": ["k", "st6", "save", "reg"],
+  "hangar": ["save", "st6", "reg"],
+  "story": ["save", "st6", "reg"],
+  "tutorial": ["st6", "reg", "flaky (наборы обучения нестабильны под нагрузкой — сверять с реестром known6)"],
+  "opt/cine": ["variants8", "build8 check (dangle: cut.cine.live)", "shots", "reg"],
+  "opt/bg": ["variants8 (небо: 0 вызовов, K без bg = полной)", "shots", "perf"],
+  "boot": ["static", "stands", "variants8", "reg"]
+ }
+}

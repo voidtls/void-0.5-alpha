@@ -1,0 +1,177 @@
+{
+ "status": "PASS",
+ "rows": [
+  {
+   "режим": "file://",
+   "status": "PASS",
+   "detail": [
+    "меню → бой, 3 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+   ],
+   "raw": {
+    "сборка": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 3,
+     "ver": "1.5.35 α",
+     "online": true,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+     ],
+     "запросы": [
+      "file:void.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ],
+     "ошибки_игры": [],
+     "ошибок_сети": 1
+    },
+    "эталон 1.5.35": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 2.98,
+     "ver": "1.5.35 α",
+     "online": true,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+     ],
+     "запросы": [
+      "file:void_1.5.35_reference.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ]
+    }
+   }
+  },
+  {
+   "режим": "HTTP",
+   "status": "PASS",
+   "detail": [
+    "меню → бой, 3.02 с симуляции; ошибок игры 0; запросы = 1.5.35: ['http-local:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+   ],
+   "raw": {
+    "сборка": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 3.02,
+     "ver": "1.5.35 α",
+     "online": true,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+     ],
+     "запросы": [
+      "http-local:void.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ],
+     "ошибки_игры": [],
+     "ошибок_сети": 1
+    },
+    "эталон 1.5.35": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 3.03,
+     "ver": "1.5.35 α",
+     "online": true,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+     ],
+     "запросы": [
+      "http-local:void_1.5.35_reference.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ]
+    }
+   }
+  },
+  {
+   "режим": "без сети",
+   "status": "PASS",
+   "detail": [
+    "меню → бой, 3 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+   ],
+   "raw": {
+    "сборка": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 3,
+     "ver": "1.5.35 α",
+     "online": false,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+     ],
+     "запросы": [
+      "file:void.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ],
+     "ошибки_игры": [],
+     "ошибок_сети": 1
+    },
+    "эталон 1.5.35": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 2.97,
+     "ver": "1.5.35 α",
+     "online": false,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+     ],
+     "запросы": [
+      "file:void_1.5.35_reference.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ]
+    }
+   }
+  },
+  {
+   "режим": "телефон",
+   "status": "PASS",
+   "detail": [
+    "меню → бой, 3.03 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный внешний шрифт: ошибок загрузки 1 (у 1.5.35 1)"
+   ],
+   "raw": {
+    "сборка": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 3.03,
+     "ver": "1.5.35 α",
+     "online": true,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+     ],
+     "запросы": [
+      "file:void.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ],
+     "ошибки_игры": [],
+     "ошибок_сети": 1
+    },
+    "эталон 1.5.35": {
+     "menu": "menu",
+     "state": "play",
+     "simT": 3.03,
+     "ver": "1.5.35 α",
+     "online": true,
+     "trips": 0,
+     "ошибок": 1,
+     "ошибки": [
+      "CON Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+     ],
+     "запросы": [
+      "file:void_1.5.35_reference.html",
+      "ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:"
+     ]
+    }
+   }
+  }
+ ]
+}

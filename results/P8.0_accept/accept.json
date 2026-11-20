@@ -1,0 +1,188 @@
+{
+ "run": "/home/claude/VOID_stage8/results_work/P8.0_accept",
+ "full": false,
+ "code": 4,
+ "verdict": "ЧАСТИЧНЫЙ ПРОГОН: выбранные шаги PASS/KNOWN, приёмка не завершена",
+ "counts": {
+  "PASS": 6,
+  "KNOWN": 0,
+  "FAIL": 0,
+  "ERROR": 0
+ },
+ "sec": 551,
+ "started": "2026-11-17 13:27:56",
+ "tools": {
+  "tools6/a23v6.py": "339e9a2d5bb8e860",
+  "tools6/accept6.py": "b68440dead20f65f",
+  "tools6/archcheck6.py": "5dc79dd376daa47b",
+  "tools6/arct6.js": "6bf5dcf2c1da72fe",
+  "tools6/c11ab6.py": "275e2a44d6e4e1a2",
+  "tools6/c5probe.py": "64e129cc86f01267",
+  "tools6/chains6.js": "97088b567b2d3f12",
+  "tools6/flaky6.py": "83049cf226d45637",
+  "tools6/fps6.py": "8f5d4c00c5528b48",
+  "tools6/fpsx6.py": "09797ea26453d8f8",
+  "tools6/g6.js": "e53f3dc96e0c7c1b",
+  "tools6/gate27sim.py": "928097cf39db16fc",
+  "tools6/gkeys6.py": "c2e627498eb2d809",
+  "tools6/init6.js": "11238694c731ea12",
+  "tools6/m6.js": "d097fa66a5b84099",
+  "tools6/merge86.js": "c0db2819a0725695",
+  "tools6/mkkit6.py": "4bb970110d630906",
+  "tools6/mkpack6.py": "b1e867038880fbfe",
+  "tools6/mut86.py": "a7fc73f96f0e8160",
+  "tools6/own6.js": "024c5da3f2ceac1c",
+  "tools6/perf6.py": "32f4b27c04025752",
+  "tools6/rollback6.py": "474c49d369bb5c8e",
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "tools6/save6.py": "4cc1ddadca50a3a7",
+  "tools6/selftest6.py": "50cd39829a4532e3",
+  "tools6/shots6.py": "3829e4ecda21d2f3",
+  "tools6/st6.py": "5682c06ef6cc90bf",
+  "tools6/tdep6.py": "5f66e346fe079b87",
+  "tools6/thrab6.py": "80ff21eb2603adcd",
+  "tools6/trace7.py": "162b6aee3bc72d42",
+  "tools6/trace86.py": "3261107c8df905c0",
+  "tools6/w6.js": "16ff4a685d297259"
+ },
+ "python": "3.13.18",
+ "steps": [
+  {
+   "step": "env",
+   "group": "env",
+   "status": "PASS",
+   "sec": 1,
+   "detail": {
+    "python": "3.13.18",
+    "playwright": "1.63.0",
+    "node": "v22.23.4",
+    "acorn": "8.18.0",
+    "acorn-walk": "8.3.5",
+    "eslint-scope": "9.1.2",
+    "esrecurse": "4.3.0",
+    "estraverse": "5.3.0",
+    "chrome": "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome",
+    "chromium": "153.0.8010.12"
+   },
+   "logs": [
+    "steps/env/browser.log"
+   ]
+  },
+  {
+   "step": "kit",
+   "group": "kit",
+   "status": "PASS",
+   "sec": 3,
+   "detail": {
+    "файлов": 362,
+    "изменено_или_нет": [],
+    "лишние": [],
+    "mkkit6": 0
+   },
+   "logs": [
+    "steps/kit/mkkit6_check.log"
+   ]
+  },
+  {
+   "step": "build",
+   "group": "build",
+   "status": "PASS",
+   "sec": 8,
+   "detail": {
+    "шаги": {
+     "85": "1ccfbc01e1716fbc",
+     "86": "5d240a4b3c25ed3a",
+     "87": "1322deff8c5e347a",
+     "88": "0a10696778185013",
+     "89": "52e33e418ef9bdd7",
+     "89b": "984ed836fc856f93",
+     "90a": "7f155537b54a43c5",
+     "90b": "26fddb1e33937ae3",
+     "91": "8317d6ebbbde5cf4",
+     "92": "f859dc1d40f847ed",
+     "93": "b936a549366321b6"
+    },
+    "расхождения SHA": [],
+    "1.5.35 SHA": "b936a549366321b6",
+    "= builds6/void_b175.html побайтно": true
+   },
+   "logs": [
+    "steps/build/chain.log"
+   ]
+  },
+  {
+   "step": "strip",
+   "group": "build",
+   "status": "PASS",
+   "sec": 17,
+   "detail": {
+    "код выхода": {
+     "все 93…85 → 1.5.24": 0,
+     "85": 0,
+     "86": 0,
+     "87": 0,
+     "88": 0,
+     "89": 0,
+     "89b": 0,
+     "90a": 0,
+     "90b": 0,
+     "91": 0,
+     "92": 0,
+     "93": 0
+    }
+   },
+   "logs": [
+    "steps/strip/strip_all.log",
+    "steps/strip/strip_85.log",
+    "steps/strip/strip_86.log",
+    "steps/strip/strip_87.log",
+    "steps/strip/strip_88.log",
+    "steps/strip/strip_89.log",
+    "steps/strip/strip_89b.log",
+    "steps/strip/strip_90a.log",
+    "steps/strip/strip_90b.log",
+    "steps/strip/strip_91.log",
+    "steps/strip/strip_92.log",
+    "steps/strip/strip_93.log"
+   ]
+  },
+  {
+   "step": "rollback",
+   "group": "build",
+   "status": "PASS",
+   "sec": 7,
+   "detail": {
+    "rollback6": 0,
+    "= 1.5.24 побайтно": true
+   },
+   "logs": [
+    "steps/rollback/rollback.log"
+   ]
+  },
+  {
+   "step": "static",
+   "group": "static",
+   "status": "PASS",
+   "sec": 515,
+   "detail": {
+    "own6": 0,
+    "selftest6": 0,
+    "tdep6": 0,
+    "g6": "равно эталону",
+    "w6": "равно эталону",
+    "chains6": "равно эталону",
+    "init6": "равно эталону",
+    "нарушения": []
+   },
+   "logs": [
+    "steps/static/own6.log",
+    "steps/static/selftest6.log",
+    "steps/static/tdep6.log",
+    "steps/static/g6.log",
+    "steps/static/w6.log",
+    "steps/static/chains6.log",
+    "steps/static/init6.log"
+   ]
+  }
+ ]
+}

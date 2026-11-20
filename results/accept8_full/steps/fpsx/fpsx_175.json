@@ -1,0 +1,1211 @@
+{
+ "build": "void_dist.html",
+ "runs": [
+  {
+   "kind": "switch",
+   "mob": true,
+   "hz": 60,
+   "cap": 60,
+   "dur": 16,
+   "ev": [
+    {
+     "at": 4000,
+     "cap": 30
+    },
+    {
+     "at": 8000,
+     "cap": 0
+    },
+    {
+     "at": 12000,
+     "cap": 60
+    }
+   ],
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 960,
+   "q0": 1,
+   "qEnd": 0,
+   "qDrop": true,
+   "low": true,
+   "h": "237j1r",
+   "hN": 960,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "segs": [
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 16.67
+    },
+    {
+     "cap": 30,
+     "fps": 30.0,
+     "steps": 60.0,
+     "maxSteps": 2,
+     "maxIv": 33.33
+    },
+    {
+     "cap": 0,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 16.67
+    },
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 16.67
+    }
+   ],
+   "afterSwitch": [
+    {
+     "at": 4000,
+     "first": [
+      [
+       0,
+       1
+      ],
+      [
+       16.67,
+       1
+      ],
+      [
+       50,
+       2
+      ],
+      [
+       83.33,
+       2
+      ]
+     ]
+    },
+    {
+     "at": 8000,
+     "first": [
+      [
+       16.67,
+       2
+      ],
+      [
+       33.33,
+       1
+      ],
+      [
+       50,
+       1
+      ],
+      [
+       66.67,
+       1
+      ]
+     ]
+    },
+    {
+     "at": 12000,
+     "first": [
+      [
+       0,
+       1
+      ],
+      [
+       16.67,
+       1
+      ],
+      [
+       33.33,
+       1
+      ],
+      [
+       50,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "switch",
+   "mob": true,
+   "hz": 144,
+   "cap": 60,
+   "dur": 16,
+   "ev": [
+    {
+     "at": 4000,
+     "cap": 30
+    },
+    {
+     "at": 8000,
+     "cap": 0
+    },
+    {
+     "at": 12000,
+     "cap": 60
+    }
+   ],
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 960,
+   "q0": 1,
+   "qEnd": 0,
+   "qDrop": true,
+   "low": true,
+   "h": "237j1r",
+   "hN": 960,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "segs": [
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 20.83
+    },
+    {
+     "cap": 30,
+     "fps": 30.0,
+     "steps": 60.0,
+     "maxSteps": 2,
+     "maxIv": 34.72
+    },
+    {
+     "cap": 0,
+     "fps": 144.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 6.94
+    },
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 2,
+     "maxIv": 20.83
+    }
+   ],
+   "afterSwitch": [
+    {
+     "at": 4000,
+     "first": [
+      [
+       0,
+       1
+      ],
+      [
+       34.72,
+       2
+      ],
+      [
+       69.44,
+       2
+      ],
+      [
+       97.22,
+       2
+      ]
+     ]
+    },
+    {
+     "at": 8000,
+     "first": [
+      [
+       0,
+       2
+      ],
+      [
+       6.94,
+       0
+      ],
+      [
+       13.89,
+       1
+      ],
+      [
+       20.83,
+       0
+      ]
+     ]
+    },
+    {
+     "at": 12000,
+     "first": [
+      [
+       6.94,
+       0
+      ],
+      [
+       27.78,
+       2
+      ],
+      [
+       41.67,
+       1
+      ],
+      [
+       62.5,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "switch",
+   "mob": false,
+   "hz": 60,
+   "cap": 60,
+   "dur": 16,
+   "ev": [
+    {
+     "at": 4000,
+     "cap": 30
+    },
+    {
+     "at": 8000,
+     "cap": 0
+    },
+    {
+     "at": 12000,
+     "cap": 60
+    }
+   ],
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 960,
+   "q0": 2,
+   "qEnd": 2,
+   "qDrop": false,
+   "low": false,
+   "h": "1a4tgci",
+   "hN": 960,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "segs": [
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 16.67
+    },
+    {
+     "cap": 30,
+     "fps": 30.0,
+     "steps": 60.0,
+     "maxSteps": 2,
+     "maxIv": 33.33
+    },
+    {
+     "cap": 0,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 16.67
+    },
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 16.67
+    }
+   ],
+   "afterSwitch": [
+    {
+     "at": 4000,
+     "first": [
+      [
+       0,
+       1
+      ],
+      [
+       16.67,
+       1
+      ],
+      [
+       50,
+       2
+      ],
+      [
+       83.33,
+       2
+      ]
+     ]
+    },
+    {
+     "at": 8000,
+     "first": [
+      [
+       16.67,
+       2
+      ],
+      [
+       33.33,
+       1
+      ],
+      [
+       50,
+       1
+      ],
+      [
+       66.67,
+       1
+      ]
+     ]
+    },
+    {
+     "at": 12000,
+     "first": [
+      [
+       0,
+       1
+      ],
+      [
+       16.67,
+       1
+      ],
+      [
+       33.33,
+       1
+      ],
+      [
+       50,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "switch",
+   "mob": false,
+   "hz": 144,
+   "cap": 60,
+   "dur": 16,
+   "ev": [
+    {
+     "at": 4000,
+     "cap": 30
+    },
+    {
+     "at": 8000,
+     "cap": 0
+    },
+    {
+     "at": 12000,
+     "cap": 60
+    }
+   ],
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 960,
+   "q0": 2,
+   "qEnd": 2,
+   "qDrop": false,
+   "low": false,
+   "h": "1a4tgci",
+   "hN": 960,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "segs": [
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 20.83
+    },
+    {
+     "cap": 30,
+     "fps": 30.0,
+     "steps": 60.0,
+     "maxSteps": 2,
+     "maxIv": 34.72
+    },
+    {
+     "cap": 0,
+     "fps": 144.0,
+     "steps": 60.0,
+     "maxSteps": 1,
+     "maxIv": 6.94
+    },
+    {
+     "cap": 60,
+     "fps": 60.0,
+     "steps": 60.0,
+     "maxSteps": 2,
+     "maxIv": 20.83
+    }
+   ],
+   "afterSwitch": [
+    {
+     "at": 4000,
+     "first": [
+      [
+       0,
+       1
+      ],
+      [
+       34.72,
+       2
+      ],
+      [
+       69.44,
+       2
+      ],
+      [
+       97.22,
+       2
+      ]
+     ]
+    },
+    {
+     "at": 8000,
+     "first": [
+      [
+       0,
+       2
+      ],
+      [
+       6.94,
+       0
+      ],
+      [
+       13.89,
+       1
+      ],
+      [
+       20.83,
+       0
+      ]
+     ]
+    },
+    {
+     "at": 12000,
+     "first": [
+      [
+       6.94,
+       0
+      ],
+      [
+       27.78,
+       2
+      ],
+      [
+       41.67,
+       1
+      ],
+      [
+       62.5,
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 59.94,
+   "cap": 30,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7198,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "7kjhf1",
+   "hN": 7198,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 30.1,
+    "steps": 60.2,
+    "maxSteps": 3,
+    "maxIv": 33.37
+   },
+   "last10": {
+    "fps": 29.9,
+    "steps": 59.8,
+    "maxSteps": 2,
+    "maxIv": 33.37
+   },
+   "all": {
+    "fps": 29.99,
+    "steps": 59.98,
+    "maxSteps": 3,
+    "maxIv": 33.37
+   },
+   "frames": 3599
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 59.94,
+   "cap": 60,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7199,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "1kcf87n",
+   "hN": 7199,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 60.0,
+    "steps": 60.1,
+    "maxSteps": 2,
+    "maxIv": 16.68
+   },
+   "last10": {
+    "fps": 59.9,
+    "steps": 59.9,
+    "maxSteps": 1,
+    "maxIv": 16.68
+   },
+   "all": {
+    "fps": 59.93,
+    "steps": 59.99,
+    "maxSteps": 2,
+    "maxIv": 16.68
+   },
+   "frames": 7192
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 60,
+   "cap": 30,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7200,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "15nh80v",
+   "hN": 7200,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   },
+   "last10": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   },
+   "all": {
+    "fps": 29.99,
+    "steps": 59.98,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   },
+   "frames": 3600
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 60,
+   "cap": 60,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7200,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "15nh80v",
+   "hN": 7200,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 16.67
+   },
+   "last10": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 16.67
+   },
+   "all": {
+    "fps": 59.99,
+    "steps": 59.99,
+    "maxSteps": 1,
+    "maxIv": 16.67
+   },
+   "frames": 7200
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 75,
+   "cap": 30,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7198,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "7kjhf1",
+   "hN": 7198,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 40.0
+   },
+   "last10": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 40.0
+   },
+   "all": {
+    "fps": 29.99,
+    "steps": 59.98,
+    "maxSteps": 2,
+    "maxIv": 40.0
+   },
+   "frames": 3599
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 75,
+   "cap": 60,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7199,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "1kcf87n",
+   "hN": 7199,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 26.67
+   },
+   "last10": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 26.67
+   },
+   "all": {
+    "fps": 59.99,
+    "steps": 59.99,
+    "maxSteps": 2,
+    "maxIv": 26.67
+   },
+   "frames": 7199
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 144,
+   "cap": 30,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7200,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "15nh80v",
+   "hN": 7200,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 34.72
+   },
+   "last10": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 34.72
+   },
+   "all": {
+    "fps": 29.99,
+    "steps": 59.98,
+    "maxSteps": 2,
+    "maxIv": 34.72
+   },
+   "frames": 3600
+  },
+  {
+   "kind": "long",
+   "mob": true,
+   "hz": 144,
+   "cap": 60,
+   "dur": 120,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 7200,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "15nh80v",
+   "hN": 7200,
+   "h7000": "ku6e32",
+   "state": "play",
+   "errs": [],
+   "first10": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 20.83
+   },
+   "last10": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 20.83
+   },
+   "all": {
+    "fps": 59.99,
+    "steps": 59.99,
+    "maxSteps": 1,
+    "maxIv": 20.83
+   },
+   "frames": 7200
+  },
+  {
+   "kind": "bg",
+   "mob": true,
+   "hz": 60,
+   "cap": 30,
+   "dur": 12,
+   "gapAt": 4000,
+   "gap": 3000,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 541,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "10wixnr",
+   "hN": 541,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "ret": 7033.333,
+   "firstAfter": [
+    [
+     7033.333,
+     3
+    ],
+    [
+     7066.667,
+     2
+    ],
+    [
+     7100,
+     2
+    ]
+   ],
+   "sec1": {
+    "fps": 30.0,
+    "steps": 61.0,
+    "maxSteps": 3,
+    "maxIv": 33.33
+   },
+   "stepsAfter2s": 121,
+   "before": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   }
+  },
+  {
+   "kind": "bg",
+   "mob": true,
+   "hz": 60,
+   "cap": 30,
+   "dur": 39,
+   "gapAt": 4000,
+   "gap": 30000,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 539,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "116gl4k",
+   "hN": 539,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "ret": 34033.333,
+   "firstAfter": [
+    [
+     34033.333,
+     3
+    ],
+    [
+     34066.667,
+     2
+    ],
+    [
+     34100,
+     2
+    ]
+   ],
+   "sec1": {
+    "fps": 30.0,
+    "steps": 61.0,
+    "maxSteps": 3,
+    "maxIv": 33.33
+   },
+   "stepsAfter2s": 121,
+   "before": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   }
+  },
+  {
+   "kind": "bg",
+   "mob": true,
+   "hz": 60,
+   "cap": 60,
+   "dur": 12,
+   "gapAt": 4000,
+   "gap": 3000,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 542,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "ljz33i",
+   "hN": 542,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "ret": 7033.333,
+   "firstAfter": [
+    [
+     7033.333,
+     3
+    ],
+    [
+     7050,
+     1
+    ],
+    [
+     7066.667,
+     1
+    ]
+   ],
+   "sec1": {
+    "fps": 60.0,
+    "steps": 62.0,
+    "maxSteps": 3,
+    "maxIv": 16.67
+   },
+   "stepsAfter2s": 122,
+   "before": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 16.67
+   }
+  },
+  {
+   "kind": "bg",
+   "mob": true,
+   "hz": 60,
+   "cap": 60,
+   "dur": 39,
+   "gapAt": 4000,
+   "gap": 30000,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 541,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "10wixnr",
+   "hN": 541,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "ret": 34033.333,
+   "firstAfter": [
+    [
+     34033.333,
+     3
+    ],
+    [
+     34050,
+     1
+    ],
+    [
+     34066.667,
+     1
+    ]
+   ],
+   "sec1": {
+    "fps": 60.0,
+    "steps": 62.0,
+    "maxSteps": 3,
+    "maxIv": 16.67
+   },
+   "stepsAfter2s": 122,
+   "before": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 16.67
+   }
+  },
+  {
+   "kind": "bg",
+   "mob": true,
+   "hz": 60,
+   "cap": 0,
+   "dur": 12,
+   "gapAt": 4000,
+   "gap": 3000,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 542,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "ljz33i",
+   "hN": 542,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "ret": 7033.333,
+   "firstAfter": [
+    [
+     7033.333,
+     3
+    ],
+    [
+     7050,
+     1
+    ],
+    [
+     7066.667,
+     1
+    ]
+   ],
+   "sec1": {
+    "fps": 60.0,
+    "steps": 62.0,
+    "maxSteps": 3,
+    "maxIv": 16.67
+   },
+   "stepsAfter2s": 122,
+   "before": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 16.67
+   }
+  },
+  {
+   "kind": "bg",
+   "mob": true,
+   "hz": 60,
+   "cap": 0,
+   "dur": 39,
+   "gapAt": 4000,
+   "gap": 30000,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 541,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "10wixnr",
+   "hN": 541,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "ret": 34033.333,
+   "firstAfter": [
+    [
+     34033.333,
+     3
+    ],
+    [
+     34050,
+     1
+    ],
+    [
+     34066.667,
+     1
+    ]
+   ],
+   "sec1": {
+    "fps": 60.0,
+    "steps": 62.0,
+    "maxSteps": 3,
+    "maxIv": 16.67
+   },
+   "stepsAfter2s": 122,
+   "before": {
+    "fps": 60.0,
+    "steps": 60.0,
+    "maxSteps": 1,
+    "maxIv": 16.67
+   }
+  },
+  {
+   "kind": "cap30",
+   "mob": true,
+   "hz": 30,
+   "cap": 60,
+   "dur": 20,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 1198,
+   "q0": 1,
+   "qEnd": 0,
+   "qDrop": true,
+   "low": true,
+   "h": "1b3k79e",
+   "hN": 1198,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "all": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   }
+  },
+  {
+   "kind": "cap30",
+   "mob": true,
+   "hz": 30,
+   "cap": 0,
+   "dur": 20,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 1198,
+   "q0": 1,
+   "qEnd": 0,
+   "qDrop": true,
+   "low": true,
+   "h": "1b3k79e",
+   "hN": 1198,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "all": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   }
+  },
+  {
+   "kind": "cap30",
+   "mob": true,
+   "hz": 30,
+   "cap": 30,
+   "dur": 20,
+   "has": true,
+   "steps0": 0,
+   "stepsTotal": 1198,
+   "q0": 1,
+   "qEnd": 1,
+   "qDrop": false,
+   "low": false,
+   "h": "1b3k79e",
+   "hN": 1198,
+   "h7000": null,
+   "state": "play",
+   "errs": [],
+   "all": {
+    "fps": 30.0,
+    "steps": 60.0,
+    "maxSteps": 2,
+    "maxIv": 33.33
+   }
+  }
+ ],
+ "loops": {
+  "menu": {
+   "raf": 60,
+   "processed": 30,
+   "map": 0
+  },
+  "map": {
+   "raf": 60,
+   "processed": 30,
+   "map": 60,
+   "state": "map",
+   "tab": "map"
+  },
+  "world": {
+   "raf": 60,
+   "processed": 30,
+   "state": "world"
+  },
+  "errs": [],
+  "note": "настоящий rAF безголового Chromium; предел 30; телефон (эмуляция)"
+ }
+}

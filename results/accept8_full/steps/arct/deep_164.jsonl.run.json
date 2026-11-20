@@ -1,0 +1,17 @@
+{
+ "status": "COMPLETE",
+ "build": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html",
+ "buildSha": "76753e3338ab36eefe8e6e5f945428a341de27b8e0f29b4fd8235ef0ad897776",
+ "addFlags": [],
+ "jobs": 2,
+ "rows": 2,
+ "missing": [],
+ "errors": [],
+ "rc": 0,
+ "cmpExit": 1,
+ "tools": {
+  "tools6/run6.py": "c9256b1f3f575c9c",
+  "kit/t72/st74.py": "07b78132a5a576d6",
+  "tools5/cmpk5.py": "52b39b6808493965"
+ }
+}

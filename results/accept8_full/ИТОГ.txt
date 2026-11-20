@@ -1,0 +1,41 @@
+ИТОГ ПРИЁМКИ ЭТАПА 8 · модульная сборка dist/void.html (accept8 поверх accept6)
+прогон /home/claude/VOID_stage8/accept8_full
+полный; шагов 33; PASS 24, KNOWN 8, FAIL 1, ERROR 0
+
+PASS   env            1 с  {"python": "3.13.18", "playwright": "1.63.0", "node": "v22.23.4", "acorn": "8.18.0", "acorn-walk": "8.3.5", "eslint-scope": "9.1.2", "esrecurse": "4.3.0", "estraverse": "5.3.0", "chrome": "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome", "chromium": "153.0.8010.12"}
+PASS   kit            6 с  {"файлов": 362, "изменено_или_нет": [], "лишние": [], "mkkit6": 0}
+PASS   build          7 с  {"шаги": {"85": "1ccfbc01e1716fbc", "86": "5d240a4b3c25ed3a", "87": "1322deff8c5e347a", "88": "0a10696778185013", "89": "52e33e418ef9bdd7", "89b": "984ed836fc856f93", "90a": "7f155537b54a43c5", "90b": "26fddb1e33937ae3", "91": "8317d6ebbbde5cf4", "92": "f859dc1d40f847ed", "93": "b936a549366321b6"}, 
+KNOWN  b8check       70 с  {"код": 0, "статусы": {"schema": "PASS", "files": "PASS", "encoding": "PASS", "assets": "PASS", "build": "PASS", "lock": "PASS", "dist": "PASS", "coverage": "PASS", "order": "PASS", "guards": "PASS", "syntax": "PASS", "init": "PASS", "dangle": "KNOWN", "index": "PASS"}, "dangle": "cine: удалено имён
+PASS   b8self       495 с  {"код": 0, "итог": ["ИТОГ: 41 случаев, не поймано/сбой: 0"]}
+KNOWN  variants8    960 с  {"код": 0, "варианты": {"полная": "PASS", "без cine": "KNOWN", "без bg": "PASS", "без cine+bg": "KNOWN", "K: без bg против полной": "PASS"}, "KNOWN": "cut.cine.live в вариантах без cine; остальные PASS"}
+PASS   nav8          56 с  {"код": 0, "итог": {"html": 518, "script": 447, "where": 205, "layers": 229, "17.5 (10 имён)": 10}}
+PASS   rollback8     55 с  {"код": 0, "итог": [{"пункт": "1. B1 → A (regroup --undo)", "status": "PASS", "detail": "18 JS-фрагментов = снимок фазы A: True; манифест = снимок: True; сборка = 1.5.35: True"}, {"пункт": "1б. B1 → A (snap8 restore P8.4)", "status": "PASS", "detail": "совпадает со снимком P8.4"}, {"пункт": "2. теку
+PASS   offline8      42 с  {"код": 0, "итог": [{"режим": "file://", "status": "PASS", "detail": ["меню → бой, 3.03 с симуляции; ошибок игры 0; запросы = 1.5.35: ['file:void.html', 'ВНЕШНИЙ:https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Exo+2:wght@400;500;700&family=JetBrains+Mono:']; недоступный вн
+PASS   strip         16 с  {"код выхода": {"все 93…85 → 1.5.24": 0, "85": 0, "86": 0, "87": 0, "88": 0, "89": 0, "89b": 0, "90a": 0, "90b": 0, "91": 0, "92": 0, "93": 0}}
+PASS   rollback       6 с  {"rollback6": 0, "= 1.5.24 побайтно": true}
+PASS   static       474 с  {"own6": 0, "selftest6": 0, "tdep6": 0, "g6": "равно эталону", "w6": "равно эталону", "chains6": "равно эталону", "init6": "равно эталону", "нарушения": []}
+PASS   arch          12 с  {"archcheck6 v1 1.5.24": 0, "archcheck6 v2 1.5.24": 0, "archcheck6 v1 1.5.35": 0, "archcheck6 v2 1.5.35": 0, "merge86 1.5.25→1.5.26→1.5.35": 0, "merge86 1.5.24→1.5.35": 0, "исторический archcheck видит": [["chain", "renderSetScreen", 6, 4, "состав"], ["chain", "renderSettings", 3, 1, "состав"], ["ch
+PASS   trace        122 с  {"вызовов": 106, "вложенных": 67377, "вызовов слитых": 19, "A/B по полям": {"order": 0, "args": 0, "results": 0, "effects": 0, "state": 0, "visual": 0}, "A/A по полям": {"order": 0, "args": 0, "results": 0, "effects": 0, "state": 0, "visual": 0}, "мутант пойман в слитой функции": true, "мутант: расх
+KNOWN  stands        78 с  {"trace": 0, "aimman": 0, "prio": 0, "probes": 0, "boot": {"changed": 51, "new": 21, "gone": 0}, "boot vs реестр": "точно как в реестре", "известное": "stands.boot"}
+KNOWN  a24           79 с  {"trace": 0, "aimman": 0, "prio": 0, "probes": 0, "boot": {"changed": 51, "new": 21, "gone": 0}, "boot vs реестр": "точно как в реестре", "известное": "stands.boot"}
+PASS   gkeys        101 с  {"сравнения": {"A0~B0": 0, "A0~A1": 0, "B0~B1": 0, "A1~B1": 0}}
+PASS   st6           87 с  {"trans": 0, "saveid": 0}
+PASS   c5             5 с  {"ПК": {"beforeReplace": {"togHTML": 0, "cloudWinner": 0, "tutTick": 0, "toggleDevPanel": 0}, "afterLoad": {}, "afterUse": {}, "errs": []}, "тел": {"beforeReplace": {"togHTML": 0, "cloudWinner": 0, "tutTick": 0, "toggleDevPanel": 0}, "afterLoad": {}, "afterUse": {}, "errs": []}}
+PASS   save          37 с  {"сценариев": 14, "не прошли": []}
+PASS   q390          44 с  {"тестов": 7, "OK": 7, "FAIL": []}
+PASS   shots         36 с  {"снимков": 6, "строка «КАДРЫ» не помещается": [], "примечание": "снимки — эмуляция размеров в безголовом Chromium; глазами смотреть по инструкции ручной проверки"}
+KNOWN  fps          497 с  {"прогонов 1.5.35": 128, "нарушения": [], "известные": ["ТЕЛ 30 Гц предел 60 ровно: снижение качества (q 1, lowFx 1)", "ТЕЛ 30 Гц предел 0 ровно: снижение качества (q 1, lowFx 1)", "ТЕЛ 48 Гц предел 60 ровно: снижение качества (q 1, lowFx 1)", "ТЕЛ 48 Гц предел 0 ровно: снижение качества (q 1, lowFx
+KNOWN  fpsx         102 с  {"сценариев": 21, "нарушения": [], "известные": ["cap30 ТЕЛ 30 Гц предел 60: снижение качества", "cap30 ТЕЛ 30 Гц предел 0: снижение качества"], "циклы rAF (сведения)": {"menu": {"raf": 60, "processed": 30, "map": 0}, "map": {"raf": 60, "processed": 30, "map": 60, "state": "map", "tab": "map"}, "wor
+PASS   a23v          72 с  {"вариант": "предложение, в игру НЕ внесено", "сравнение (было, вариант)": [{"устр": "ТЕЛ", "Гц": 72, "предел": 30, "A-23 доля": [0.0, 1.0], "дрожание": [6.808, 0.0], "к/с": [29.98, 29.98], "h600 равен": true}, {"устр": "ТЕЛ", "Гц": 72, "предел": 60, "A-23 доля": [0.0, 1.0], "дрожание": [5.559, 0.0]
+PASS   perf         477 с  {"сводка": {"60Гц м10": {"msFrame": {"A": 3.749, "B": 3.785, "A2": 3.859, "B/A": 1.015, "B/A пары": [0.912, 1.064], "A2/A": 1.022, "A2/A пары": [0.922, 1.078]}, "p95": {"A": 1.7, "B": 2.0, "A2": 1.7, "B/A": 1.143, "B/A пары": [0.722, 1.643], "A2/A": 1.031, "A2/A пары": [0.824, 1.214]}, "p99": {"A": 
+KNOWN  k           2096 с  {"побитно": "427 из 429", "расхождения": {"z/mob/none/z50/m30": ["deep"], "z/mob/slow/z50/m30": ["deep"]}, "строк": "429", "известное": "k"}
+PASS   e24          103 с  {"побитно": "35 из 35", "расхождения": {}, "строк": "35"}
+KNOWN  arct          16 с  {"arcT: функции": ["zbFxTick"], "ветка": ["SET.fx&&!G.lowFx&&(Z.k==='fight'||Z.k==='race')&&zbPartOK()", "e&&e.alive&&Z.stun>0", "Z.arcT<=0"], "вызовы ветки": {"isMob": 1, "zbCen": 1, "vR4": 3, "vrnd4": 7, "zbRad": 1, "Math.cos": 5, "Math.sin": 5, "inView": 1, "part": 1, "zbArc": 1}, "читатели Z.fx"
+PASS   flaky        715 с  {"замедление ЦП": {"q130:Q06@x8": {"kit": {"A": {"OK": 0, "FAIL": 2, "NONE": 0}, "B": {"OK": 0, "FAIL": 2, "NONE": 0}}, "kit6": {"A": {"OK": 2, "FAIL": 0, "NONE": 0}, "B": {"OK": 2, "FAIL": 0, "NONE": 0}}}, "q220:U05@x16": {"kit": {"A": {"OK": 1, "FAIL": 1, "NONE": 0}, "B": {"OK": 0, "FAIL": 2, "NON
+PASS   regbase     2374 с  {"cmpExit (kit6 на 1.5.24 против исторического kit на 1.5.24)": 0, "источники": {"q170": "kit6/q170.py", "q130": "kit6/q130.py", "q220": "kit6/q220.py", "q310": "kit6/q310.py", "q380": "kit6/q380.py", "q370": "kit6/q370.py"}}
+FAIL   reg         4047 с  {"наборов": 30, "итог сравнения": {"new": 1, "gone": 2, "det": 0, "detver": 15, "detaa": 0, "miss": 0, "base": 29, "cand": 28}, "новые падения": [["q96", "E05"]], "ушедшие падения эталона": [["q160", "H29"], ["q350", "B13"]], "из kit6": ["q220", "q130", "q370", "q170", "q310", "q380"], "одиночно": [
+PASS   regsave       17 с  {"cmpExit": 0}
+
+KNOWN — найденное отклонение точно совпало с реестром (ref6/known6.json; для stage8 — build/invariants.json: cut.cine.live). KNOWN ≠ PASS.
+
+ПРИЁМКА НЕ ПРОЙДЕНА: есть FAIL

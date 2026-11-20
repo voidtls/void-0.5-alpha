@@ -1,0 +1,12 @@
+# {"argv": ["/usr/local/bin/python3", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/tools6/gkeys6.py", "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35/builds5/void_b164.html", "/home/claude/VOID_stage8/accept8_full/steps/build/void_dist.html", "/home/claude/VOID_stage8/accept8_full/steps/gkeys/g", "--reps", "2"], "cwd": "/home/claude/VOID_stage8/testkit_run/void-tests-1.5.35", "env": {}, "start": "2026-11-17 15:23:03"}
+A 0 {"trace-m10": {"t": 2627, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "trace-world": {"t": 2649, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "probes-m10": {"t": 2612, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}}
+B 0 {"trace-m10": {"t": 2651, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "trace-world": {"t": 2635, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "probes-m10": {"t": 2621, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}}
+A 1 {"trace-m10": {"t": 2647, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "trace-world": {"t": 2643, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "probes-m10": {"t": 2637, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}}
+B 1 {"trace-m10": {"t": 2614, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "trace-world": {"t": 2648, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}, "probes-m10": {"t": 2608, "autoClick132": 0, "state": "menu", "ctx": "running", "amb": true}}
+A0~B0 rc 0 ИТОГ: OK
+A0~A1 rc 0 ИТОГ: OK
+B0~B1 rc 0 ИТОГ: OK
+A1~B1 rc 0 ИТОГ: OK
+STATUS PASS
+
+# код выхода 0, 101 с

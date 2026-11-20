@@ -1,0 +1,917 @@
+{
+ "schema": 1,
+ "chunks": [
+  {
+   "path": "js/arch/0010-arch69-crash-guard.js",
+   "a": "00-core",
+   "from": 1,
+   "to": 25
+  },
+  {
+   "path": "js/arch/0020-arch70-rng-hud-diag.js",
+   "a": "00-core",
+   "from": 26,
+   "to": 108
+  },
+  {
+   "path": "js/rng/0030-arch71-visual-rng.js",
+   "a": "00-core",
+   "from": 109,
+   "to": 124
+  },
+  {
+   "path": "js/loop/0040-arch72-76-clock-step-interp.js",
+   "a": "00-core",
+   "from": 125,
+   "to": 229
+  },
+  {
+   "path": "js/dev/0050-arch77-frame-diag.js",
+   "a": "00-core",
+   "from": 230,
+   "to": 296
+  },
+  {
+   "path": "js/loop/0060-arch78-79-interp-accum.js",
+   "a": "00-core",
+   "from": 297,
+   "to": 319
+  },
+  {
+   "path": "js/player/0070-arch80-a24-hull.js",
+   "a": "00-core",
+   "from": 320,
+   "to": 351
+  },
+  {
+   "path": "js/arch/0080-arch81-87-stage-notes.js",
+   "a": "00-core",
+   "from": 352,
+   "to": 390
+  },
+  {
+   "path": "js/screens/0090-arch88-scr6.js",
+   "a": "00-core",
+   "from": 391,
+   "to": 398
+  },
+  {
+   "path": "js/saves/0100-arch89-saveset6.js",
+   "a": "00-core",
+   "from": 399,
+   "to": 410
+  },
+  {
+   "path": "js/runlvl/0110-arch89b-run6.js",
+   "a": "00-core",
+   "from": 411,
+   "to": 429
+  },
+  {
+   "path": "js/loop/0120-arch90a-92-fps.js",
+   "a": "00-core",
+   "from": 430,
+   "to": 477
+  },
+  {
+   "path": "js/arch/0130-arch93-perf-opt.js",
+   "a": "00-core",
+   "from": 478,
+   "to": 525
+  },
+  {
+   "path": "js/core/0140-base-flags-utils.js",
+   "a": "00-core",
+   "from": 526,
+   "to": 556
+  },
+  {
+   "path": "js/settings/0150-settings-record.js",
+   "a": "00-core",
+   "from": 557,
+   "to": 572
+  },
+  {
+   "path": "js/audio/0160-audio-synth.js",
+   "a": "00-core",
+   "from": 573,
+   "to": 614
+  },
+  {
+   "path": "js/render/0170-canvas-scale.js",
+   "a": "00-core",
+   "from": 615,
+   "to": 668
+  },
+  {
+   "path": "js/enemies/0180-threats-data.js",
+   "a": "00-core",
+   "from": 669,
+   "to": 715
+  },
+  {
+   "path": "js/sectors/0190-s3-4-data.js",
+   "a": "01-data-sectors",
+   "from": 716,
+   "to": 756
+  },
+  {
+   "path": "js/bosses/0200-s3-4-boss-data.js",
+   "a": "01-data-sectors",
+   "from": 757,
+   "to": 804
+  },
+  {
+   "path": "js/sectors/0210-s5-6-data.js",
+   "a": "01-data-sectors",
+   "from": 805,
+   "to": 915
+  },
+  {
+   "path": "js/hangar/0220-ship-beacon-modules.js",
+   "a": "01-data-sectors",
+   "from": 916,
+   "to": 949
+  },
+  {
+   "path": "js/mission/0230-missions-data.js",
+   "a": "01-data-sectors",
+   "from": 950,
+   "to": 1027
+  },
+  {
+   "path": "js/sectors/0240-s7-8-data.js",
+   "a": "01-data-sectors",
+   "from": 1028,
+   "to": 1103
+  },
+  {
+   "path": "js/bosses/0250-s7-8-boss-data.js",
+   "a": "01-data-sectors",
+   "from": 1104,
+   "to": 1134
+  },
+  {
+   "path": "js/sectors/0260-s9-10-data.js",
+   "a": "01-data-sectors",
+   "from": 1135,
+   "to": 1338
+  },
+  {
+   "path": "js/core/0270-state-g.js",
+   "a": "02-game",
+   "from": 1339,
+   "to": 1351
+  },
+  {
+   "path": "js/player/0280-player-fire.js",
+   "a": "02-game",
+   "from": 1352,
+   "to": 1522
+  },
+  {
+   "path": "js/enemies/0290-enemies-base.js",
+   "a": "02-game",
+   "from": 1523,
+   "to": 1820
+  },
+  {
+   "path": "js/bosses/0300-warden.js",
+   "a": "02-game",
+   "from": 1821,
+   "to": 1873
+  },
+  {
+   "path": "js/mission/0310-beacon-director-level-events.js",
+   "a": "02-game",
+   "from": 1874,
+   "to": 2040
+  },
+  {
+   "path": "js/bosses/0320-jammer.js",
+   "a": "02-game",
+   "from": 2041,
+   "to": 2084
+  },
+  {
+   "path": "js/mission/0330-pickups.js",
+   "a": "02-game",
+   "from": 2085,
+   "to": 2118
+  },
+  {
+   "path": "js/render/0340-effects.js",
+   "a": "02-game",
+   "from": 2119,
+   "to": 2131
+  },
+  {
+   "path": "js/mission/0350-waves-progression.js",
+   "a": "02-game",
+   "from": 2132,
+   "to": 2169
+  },
+  {
+   "path": "js/loop/0360-update-frame.js",
+   "a": "02-game",
+   "from": 2170,
+   "to": 2196
+  },
+  {
+   "path": "js/render/0370-render-base.js",
+   "a": "02-game",
+   "from": 2197,
+   "to": 2534
+  },
+  {
+   "path": "js/ui/0380-hud.js",
+   "a": "02-game",
+   "from": 2535,
+   "to": 2579
+  },
+  {
+   "path": "js/screens/0390-screens-base.js",
+   "a": "02-game",
+   "from": 2580,
+   "to": 2627
+  },
+  {
+   "path": "js/ui/0400-fullscreen-choices-codex.js",
+   "a": "03-shell",
+   "from": 2628,
+   "to": 2890
+  },
+  {
+   "path": "js/input/0410-input-touch.js",
+   "a": "03-shell",
+   "from": 2891,
+   "to": 3067
+  },
+  {
+   "path": "js/mission/0420-endless.js",
+   "a": "03-shell",
+   "from": 3068,
+   "to": 3150
+  },
+  {
+   "path": "js/dev/0430-dev-mission-select.js",
+   "a": "03-shell",
+   "from": 3151,
+   "to": 3257
+  },
+  {
+   "path": "js/world/0440-open-sector-020.js",
+   "a": "03-shell",
+   "from": 3258,
+   "to": 3262
+  },
+  {
+   "path": "js/hangar/0450-ship-skins-026.js",
+   "a": "03-shell",
+   "from": 3263,
+   "to": 3368
+  },
+  {
+   "path": "js/hangar/0460-hangar-arsenal-screens.js",
+   "a": "03-shell",
+   "from": 3369,
+   "to": 3439
+  },
+  {
+   "path": "js/world/0470-world-data-perks-mastery.js",
+   "a": "03-shell",
+   "from": 3440,
+   "to": 3534
+  },
+  {
+   "path": "js/hangar/0480-arsenal-070.js",
+   "a": "03-shell",
+   "from": 3535,
+   "to": 3628
+  },
+  {
+   "path": "js/input/0490-gamepad-touch-overlay.js",
+   "a": "03-shell",
+   "from": 3629,
+   "to": 3678
+  },
+  {
+   "path": "js/world/0500-world-enter-update.js",
+   "a": "03-shell",
+   "from": 3679,
+   "to": 3938
+  },
+  {
+   "path": "js/hangar/0510-world-workshop.js",
+   "a": "03-shell",
+   "from": 3939,
+   "to": 3975
+  },
+  {
+   "path": "js/ui/0520-sector-map.js",
+   "a": "03-shell",
+   "from": 3976,
+   "to": 4015
+  },
+  {
+   "path": "js/ui/0530-world-hud.js",
+   "a": "03-shell",
+   "from": 4016,
+   "to": 4067
+  },
+  {
+   "path": "js/render/0540-world-draw.js",
+   "a": "03-shell",
+   "from": 4068,
+   "to": 4204
+  },
+  {
+   "path": "js/saves/0550-save-code.js",
+   "a": "03-shell",
+   "from": 4205,
+   "to": 4228
+  },
+  {
+   "path": "js/saves/0560-cloud-save-100.js",
+   "a": "04-cloud",
+   "from": 4229,
+   "to": 4287
+  },
+  {
+   "path": "js/mission/0570-difficulty-mission-scaling.js",
+   "a": "04-cloud",
+   "from": 4288,
+   "to": 4422
+  },
+  {
+   "path": "js/saves/0580-sanitize-migrate.js",
+   "a": "04-cloud",
+   "from": 4423,
+   "to": 4474
+  },
+  {
+   "path": "js/mission/0590-abyss-echo-combo-charge.js",
+   "a": "04-cloud",
+   "from": 4475,
+   "to": 4547
+  },
+  {
+   "path": "js/audio/0600-ambient-034.js",
+   "a": "04-cloud",
+   "from": 4548,
+   "to": 4750
+  },
+  {
+   "path": "js/world/0610-map-rift-041.js",
+   "a": "04-cloud",
+   "from": 4751,
+   "to": 5071
+  },
+  {
+   "path": "js/story/0620-story-05.js",
+   "a": "05-story",
+   "from": 5072,
+   "to": 5389
+  },
+  {
+   "path": "js/story/0630-wrecks-053.js",
+   "a": "05-story",
+   "from": 5390,
+   "to": 5713
+  },
+  {
+   "path": "js/story/0640-chronicle-debug.js",
+   "a": "05-story",
+   "from": 5714,
+   "to": 5754
+  },
+  {
+   "path": "js/dev/0650-devworld-054.js",
+   "a": "06-devworld",
+   "from": 5755,
+   "to": 5907
+  },
+  {
+   "path": "js/sectors/0660-s3-4-mechanics.js",
+   "a": "07-sectors-3-4",
+   "from": 5908,
+   "to": 6015
+  },
+  {
+   "path": "js/sectors/0670-s3-4-boss-data-balance.js",
+   "a": "07-sectors-3-4",
+   "from": 6016,
+   "to": 6148
+  },
+  {
+   "path": "js/bosses/0680-s3-4-inventory-rim.js",
+   "a": "07-sectors-3-4",
+   "from": 6149,
+   "to": 6329
+  },
+  {
+   "path": "js/world/0690-s3-4-open-world.js",
+   "a": "07-sectors-3-4",
+   "from": 6330,
+   "to": 6883
+  },
+  {
+   "path": "js/sectors/0700-s5-6-mechanics.js",
+   "a": "08-sectors-5-6",
+   "from": 6884,
+   "to": 7200
+  },
+  {
+   "path": "js/bosses/0710-s5-6-bosses.js",
+   "a": "08-sectors-5-6",
+   "from": 7201,
+   "to": 7239
+  },
+  {
+   "path": "js/world/0720-s5-6-open-world.js",
+   "a": "08-sectors-5-6",
+   "from": 7240,
+   "to": 7332
+  },
+  {
+   "path": "js/bosses/0730-s5-6-nurse-lastword-075.js",
+   "a": "08-sectors-5-6",
+   "from": 7333,
+   "to": 7597
+  },
+  {
+   "path": "js/sectors/0740-s7-8-behavior.js",
+   "a": "09-sectors-7-8",
+   "from": 7598,
+   "to": 7749
+  },
+  {
+   "path": "js/targeting/0750-arch81-targeting.js",
+   "a": "09-sectors-7-8",
+   "from": 7750,
+   "to": 7884
+  },
+  {
+   "path": "js/world/0760-s7-8-world-draw.js",
+   "a": "09-sectors-7-8",
+   "from": 7885,
+   "to": 8064
+  },
+  {
+   "path": "js/audio/0770-s7-8-music.js",
+   "a": "09-sectors-7-8",
+   "from": 8065,
+   "to": 8092
+  },
+  {
+   "path": "js/bosses/0780-s7-8-boss-frame.js",
+   "a": "09-sectors-7-8",
+   "from": 8093,
+   "to": 8243
+  },
+  {
+   "path": "js/bosses/0790-s7-8-lekalo.js",
+   "a": "09-sectors-7-8",
+   "from": 8244,
+   "to": 8461
+  },
+  {
+   "path": "js/bosses/0800-s7-8-first-signal.js",
+   "a": "09-sectors-7-8",
+   "from": 8462,
+   "to": 8659
+  },
+  {
+   "path": "js/bosses/0810-s7-8-boss-draw-sound.js",
+   "a": "09-sectors-7-8",
+   "from": 8660,
+   "to": 8914
+  },
+  {
+   "path": "js/world/0820-s7-8-world-rewards.js",
+   "a": "09-sectors-7-8",
+   "from": 8915,
+   "to": 8979
+  },
+  {
+   "path": "js/sectors/0830-s9-frame.js",
+   "a": "10-sectors-9-10",
+   "from": 8980,
+   "to": 9148
+  },
+  {
+   "path": "js/enemies/0840-s9-enemies.js",
+   "a": "10-sectors-9-10",
+   "from": 9149,
+   "to": 9298
+  },
+  {
+   "path": "js/sectors/0850-s10-erased-shores.js",
+   "a": "10-sectors-9-10",
+   "from": 9299,
+   "to": 9591
+  },
+  {
+   "path": "js/bosses/0860-s9-heart.js",
+   "a": "10-sectors-9-10",
+   "from": 9592,
+   "to": 9753
+  },
+  {
+   "path": "js/bosses/0870-s10-shore.js",
+   "a": "10-sectors-9-10",
+   "from": 9754,
+   "to": 9948
+  },
+  {
+   "path": "js/render/0880-s9-10-draw.js",
+   "a": "10-sectors-9-10",
+   "from": 9949,
+   "to": 10131
+  },
+  {
+   "path": "js/audio/0890-s9-10-sound-music.js",
+   "a": "10-sectors-9-10",
+   "from": 10132,
+   "to": 10202
+  },
+  {
+   "path": "js/world/0900-s9-10-world-rewards.js",
+   "a": "10-sectors-9-10",
+   "from": 10203,
+   "to": 10308
+  },
+  {
+   "path": "js/sectors/0910-s9-10-common-095.js",
+   "a": "10-sectors-9-10",
+   "from": 10309,
+   "to": 10563
+  },
+  {
+   "path": "js/enemies/0920-s9-10-enemies-095.js",
+   "a": "10-sectors-9-10",
+   "from": 10564,
+   "to": 10712
+  },
+  {
+   "path": "js/mission/0930-levels-39-46.js",
+   "a": "10-sectors-9-10",
+   "from": 10713,
+   "to": 10890
+  },
+  {
+   "path": "js/bosses/0940-s9-10-boss-art.js",
+   "a": "10-sectors-9-10",
+   "from": 10891,
+   "to": 11063
+  },
+  {
+   "path": "js/world/0950-s9-10-open-world.js",
+   "a": "10-sectors-9-10",
+   "from": 11064,
+   "to": 11213
+  },
+  {
+   "path": "js/sectors/0960-s9-10-glue-polish.js",
+   "a": "10-sectors-9-10",
+   "from": 11214,
+   "to": 11360
+  },
+  {
+   "path": "js/sectors/0970-s11-zero-point.js",
+   "a": "11-sectors-11-12",
+   "from": 11361,
+   "to": 11677
+  },
+  {
+   "path": "js/bosses/0980-s12-boss50-null.js",
+   "a": "11-sectors-11-12",
+   "from": 11678,
+   "to": 12499
+  },
+  {
+   "path": "js/loop/0990-main-loop-var.js",
+   "a": "11-sectors-11-12",
+   "from": 12500,
+   "to": 12502
+  },
+  {
+   "path": "js/loop/1000-mobile-quality-frame.js",
+   "a": "12-mobile-start",
+   "from": 12503,
+   "to": 12547
+  },
+  {
+   "path": "js/ui/1010-clean-ui-110.js",
+   "a": "13-v1x",
+   "from": 12548,
+   "to": 12718
+  },
+  {
+   "path": "js/ui/1020-glass-111.js",
+   "a": "13-v1x",
+   "from": 12719,
+   "to": 12797
+  },
+  {
+   "path": "js/sectors/1030-s1-mechanics-120.js",
+   "a": "13-v1x",
+   "from": 12798,
+   "to": 12932
+  },
+  {
+   "path": "js/world/1040-post-izmoroz-121.js",
+   "a": "13-v1x",
+   "from": 12933,
+   "to": 13544
+  },
+  {
+   "path": "js/mission/1050-chase-123.js",
+   "a": "13-v1x",
+   "from": 13545,
+   "to": 13718
+  },
+  {
+   "path": "js/saves/1060-cloud-fix-123.js",
+   "a": "13-v1x",
+   "from": 13719,
+   "to": 13764
+  },
+  {
+   "path": "js/ui/1070-ui-scale-toasts-124.js",
+   "a": "13-v1x",
+   "from": 13765,
+   "to": 13845
+  },
+  {
+   "path": "js/input/1080-phone-tablet-124.js",
+   "a": "13-v1x",
+   "from": 13846,
+   "to": 13878
+  },
+  {
+   "path": "js/audio/1090-void12-recorded-music.js",
+   "a": "13-v1x",
+   "from": 13879,
+   "to": 14057
+  },
+  {
+   "path": "js/tutorial/1100-tutorial-127.js",
+   "a": "13-v1x",
+   "from": 14058,
+   "to": 14402
+  },
+  {
+   "path": "js/tutorial/1110-tutorial-128.js",
+   "a": "13-v1x",
+   "from": 14403,
+   "to": 14527
+  },
+  {
+   "path": "js/audio/1120-music-volume-128.js",
+   "a": "13-v1x",
+   "from": 14528,
+   "to": 14546
+  },
+  {
+   "path": "js/mission/1130-hp-x15-129.js",
+   "a": "13-v1x",
+   "from": 14547,
+   "to": 14554
+  },
+  {
+   "path": "js/ui/1140-menu-131.js",
+   "a": "13-v1x",
+   "from": 14555,
+   "to": 14606
+  },
+  {
+   "path": "js/tutorial/1150-check-fixes-132.js",
+   "a": "13-v1x",
+   "from": 14607,
+   "to": 14686
+  },
+  {
+   "path": "js/tutorial/1160-course-133-134.js",
+   "a": "13-v1x",
+   "from": 14687,
+   "to": 14867
+  },
+  {
+   "path": "js/ui/1170-edge-arrows-135.js",
+   "a": "13-v1x",
+   "from": 14868,
+   "to": 14884
+  },
+  {
+   "path": "js/hangar/1180-live-hulls-140.js",
+   "a": "13-v1x",
+   "from": 14885,
+   "to": 15142
+  },
+  {
+   "path": "js/settings/1190-console-141-142.js",
+   "a": "13-v1x",
+   "from": 15143,
+   "to": 15260
+  },
+  {
+   "path": "js/dev/1200-workbench-145.js",
+   "a": "13-v1x",
+   "from": 15261,
+   "to": 15688
+  },
+  {
+   "path": "js/opt/cine/1210-cine-proto-151.js",
+   "a": "14-cine-proto",
+   "from": 15689,
+   "to": 16203
+  },
+  {
+   "path": "js/rng/1220-sky-rng-guard-155.js",
+   "a": "14b-sky-rng-guard",
+   "from": 16204,
+   "to": 16209
+  },
+  {
+   "path": "js/opt/bg/1230-bg-proto-155.js",
+   "a": "15-bg-proto",
+   "from": 16210,
+   "to": 16519
+  },
+  {
+   "path": "js/boot/1240-boot.js",
+   "a": "16-boot",
+   "from": 16520,
+   "to": 16523
+  }
+ ],
+ "a_entries": {
+  "00-core": {
+   "path": "js/00-core.js",
+   "kind": "js",
+   "a": "00-core",
+   "lines": [
+    1,
+    715
+   ]
+  },
+  "01-data-sectors": {
+   "path": "js/01-data-sectors.js",
+   "kind": "js",
+   "a": "01-data-sectors",
+   "lines": [
+    716,
+    1338
+   ]
+  },
+  "02-game": {
+   "path": "js/02-game.js",
+   "kind": "js",
+   "a": "02-game",
+   "lines": [
+    1339,
+    2627
+   ]
+  },
+  "03-shell": {
+   "path": "js/03-shell.js",
+   "kind": "js",
+   "a": "03-shell",
+   "lines": [
+    2628,
+    4228
+   ]
+  },
+  "04-cloud": {
+   "path": "js/04-cloud.js",
+   "kind": "js",
+   "a": "04-cloud",
+   "lines": [
+    4229,
+    5071
+   ]
+  },
+  "05-story": {
+   "path": "js/05-story.js",
+   "kind": "js",
+   "a": "05-story",
+   "lines": [
+    5072,
+    5754
+   ]
+  },
+  "06-devworld": {
+   "path": "js/06-devworld.js",
+   "kind": "js",
+   "a": "06-devworld",
+   "lines": [
+    5755,
+    5907
+   ]
+  },
+  "07-sectors-3-4": {
+   "path": "js/07-sectors-3-4.js",
+   "kind": "js",
+   "a": "07-sectors-3-4",
+   "lines": [
+    5908,
+    6883
+   ]
+  },
+  "08-sectors-5-6": {
+   "path": "js/08-sectors-5-6.js",
+   "kind": "js",
+   "a": "08-sectors-5-6",
+   "lines": [
+    6884,
+    7597
+   ]
+  },
+  "09-sectors-7-8": {
+   "path": "js/09-sectors-7-8.js",
+   "kind": "js",
+   "a": "09-sectors-7-8",
+   "lines": [
+    7598,
+    8979
+   ]
+  },
+  "10-sectors-9-10": {
+   "path": "js/10-sectors-9-10.js",
+   "kind": "js",
+   "a": "10-sectors-9-10",
+   "lines": [
+    8980,
+    11360
+   ]
+  },
+  "11-sectors-11-12": {
+   "path": "js/11-sectors-11-12.js",
+   "kind": "js",
+   "a": "11-sectors-11-12",
+   "lines": [
+    11361,
+    12502
+   ]
+  },
+  "12-mobile-start": {
+   "path": "js/12-mobile-start.js",
+   "kind": "js",
+   "a": "12-mobile-start",
+   "lines": [
+    12503,
+    12547
+   ]
+  },
+  "13-v1x": {
+   "path": "js/13-v1x.js",
+   "kind": "js",
+   "a": "13-v1x",
+   "lines": [
+    12548,
+    15688
+   ]
+  },
+  "14-cine-proto": {
+   "path": "js/14-cine-proto.js",
+   "kind": "js",
+   "a": "14-cine-proto",
+   "lines": [
+    15689,
+    16203
+   ],
+   "group": "cine"
+  },
+  "14b-sky-rng-guard": {
+   "path": "js/14b-sky-rng-guard.js",
+   "kind": "js",
+   "a": "14b-sky-rng-guard",
+   "lines": [
+    16204,
+    16209
+   ],
+   "role": "sky-rng-guard"
+  },
+  "15-bg-proto": {
+   "path": "js/15-bg-proto.js",
+   "kind": "js",
+   "a": "15-bg-proto",
+   "lines": [
+    16210,
+    16519
+   ],
+   "group": "bg"
+  },
+  "16-boot": {
+   "path": "js/16-boot.js",
+   "kind": "js",
+   "a": "16-boot",
+   "lines": [
+    16520,
+    16523
+   ],
+   "role": "boot"
+  }
+ }
+}
